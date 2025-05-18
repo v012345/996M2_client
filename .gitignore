@@ -48,3 +48,5 @@ dev/**/*.mp3
 dev/**/*.jpg
 dev/**/*.ttf
 dev/**/*.map
+
+/digital_res_local.json

@@ -40,3 +40,11 @@
 /websockets.dll
 /zlib1.dll
 /_update.zip
+
+
+dev/**/*.png
+dev/**/*.plist
+dev/**/*.mp3
+dev/**/*.jpg
+dev/**/*.ttf
+dev/**/*.map

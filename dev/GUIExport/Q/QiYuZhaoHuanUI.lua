@@ -1,0 +1,79 @@
+local ui = {}
+local _V = function(v) return SL:GetMetaValue(v) end
+local FUNCQUEUE = {}
+local TAGOBJ = {}
+
+function ui.init(parent, __data__, __update__)
+	if __update__ then return ui.update(__data__) end
+	-- Create ImageBG
+	local ImageBG = GUI:Image_Create(parent, "ImageBG", 3.00, 0.00, "res/custom/qiyuxitong/jm/jm_26.png")
+	GUI:setAnchorPoint(ImageBG, 0.00, 0.00)
+	GUI:setTouchEnabled(ImageBG, false)
+	GUI:setTag(ImageBG, -1)
+
+	-- Create CloseLayout
+	local CloseLayout = GUI:Layout_Create(ImageBG, "CloseLayout", 555.00, 280.00, 86, 86, false)
+	GUI:setAnchorPoint(CloseLayout, 0.00, 0.00)
+	GUI:setTouchEnabled(CloseLayout, false)
+	GUI:setTag(CloseLayout, -1)
+
+	-- Create CloseButton
+	local CloseButton = GUI:Button_Create(CloseLayout, "CloseButton", 0.00, 0.00, "res/custom/public/btn_close.png")
+	GUI:Button_setTitleText(CloseButton, [[]])
+	GUI:Button_setTitleColor(CloseButton, "#ffffff")
+	GUI:Button_setTitleFontSize(CloseButton, 14)
+	GUI:Button_titleEnableOutline(CloseButton, "#000000", 1)
+	GUI:setAnchorPoint(CloseButton, 0.00, 0.00)
+	GUI:setTouchEnabled(CloseButton, true)
+	GUI:setTag(CloseButton, -1)
+
+	-- Create Button_ZhaoHuan
+	local Button_ZhaoHuan = GUI:Button_Create(ImageBG, "Button_ZhaoHuan", 334.00, 104.00, "res/custom/JuQing/btn14.png")
+	GUI:Button_setTitleText(Button_ZhaoHuan, [[]])
+	GUI:Button_setTitleColor(Button_ZhaoHuan, "#ffffff")
+	GUI:Button_setTitleFontSize(Button_ZhaoHuan, 16)
+	GUI:Button_titleEnableOutline(Button_ZhaoHuan, "#000000", 1)
+	GUI:setAnchorPoint(Button_ZhaoHuan, 0.00, 0.00)
+	GUI:setScaleX(Button_ZhaoHuan, 0.80)
+	GUI:setScaleY(Button_ZhaoHuan, 0.80)
+	GUI:setTouchEnabled(Button_ZhaoHuan, true)
+	GUI:setTag(Button_ZhaoHuan, 0)
+
+	-- Create Ask_bg
+	local Ask_bg = GUI:Image_Create(ImageBG, "Ask_bg", 162.00, 100.00, "res/custom/qiyuxitong/bg_ask.png")
+	GUI:setAnchorPoint(Ask_bg, 0.00, 0.00)
+	GUI:setTouchEnabled(Ask_bg, false)
+	GUI:setTag(Ask_bg, 0)
+	GUI:setVisible(Ask_bg, false)
+
+	-- Create Button_Yes
+	local Button_Yes = GUI:Button_Create(Ask_bg, "Button_Yes", 24.00, 36.00, "res/custom/qiyuxitong/an_yes.png")
+	GUI:Button_setTitleText(Button_Yes, [[]])
+	GUI:Button_setTitleColor(Button_Yes, "#ffffff")
+	GUI:Button_setTitleFontSize(Button_Yes, 16)
+	GUI:Button_titleEnableOutline(Button_Yes, "#000000", 1)
+	GUI:setAnchorPoint(Button_Yes, 0.00, 0.00)
+	GUI:setTouchEnabled(Button_Yes, true)
+	GUI:setTag(Button_Yes, 0)
+
+	-- Create Button_No
+	local Button_No = GUI:Button_Create(Ask_bg, "Button_No", 231.00, 36.00, "res/custom/qiyuxitong/an_no.png")
+	GUI:Button_setTitleText(Button_No, [[]])
+	GUI:Button_setTitleColor(Button_No, "#ffffff")
+	GUI:Button_setTitleFontSize(Button_No, 16)
+	GUI:Button_titleEnableOutline(Button_No, "#000000", 1)
+	GUI:setAnchorPoint(Button_No, 0.00, 0.00)
+	GUI:setTouchEnabled(Button_No, true)
+	GUI:setTag(Button_No, 0)
+
+	ui.update(__data__)
+	return ImageBG
+end
+
+function ui.update(data)
+	for _, func in pairs(FUNCQUEUE) do
+		if func then func(data) end
+	end
+end
+
+return ui

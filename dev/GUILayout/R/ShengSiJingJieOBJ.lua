@@ -1,0 +1,60 @@
+ShengSiJingJieOBJ = {}
+ShengSiJingJieOBJ.__cname = "ShengSiJingJieOBJ"
+--ShengSiJingJieOBJ.config = ssrRequireCsvCfg("cfg_ShengSiJingJie")
+ShengSiJingJieOBJ.cost = { {} }
+ShengSiJingJieOBJ.give = { { "暗黑之神宝藏", 1 }, { "大天使的神威", 1 }, { "轮回经", 1 }, { "掌控奥义", 1 } }
+-------------------------------↓↓↓ UI操作 ↓↓↓---------------------------------------
+function ShengSiJingJieOBJ:main(objcfg)
+    local parent = GUI:Win_Create(self.__cname, 0, 0, 0, 0, false, false, true, true, true, objcfg.NPCID)
+    GUI:LoadExport(parent, objcfg.UI_PATH)
+    self._parent = parent
+    self.ui = GUI:ui_delegate(parent)
+    ssrSetWidgetPosition(parent, self.ui.ImageBG, 2, 0)
+    GUI:addOnClickEvent(self.ui.ImageBG, function()
+        --ssrPrint("我是防点击穿透")
+    end)
+    GUI:setTouchEnabled(self.ui.CloseLayout, true)
+    --关闭背景
+    GUI:addOnClickEvent(self.ui.CloseLayout, function()
+        GUI:Win_Close(self._parent)
+    end)
+
+    --关闭按钮
+    GUI:addOnClickEvent(self.ui.CloseButton, function()
+        GUI:Win_Close(self._parent)
+    end)
+    -- 打开窗口缩放动画
+    GUI:Timeline_Window1(self._parent)
+    --网络消息示例
+    GUI:addOnClickEvent(self.ui.Button_1, function()
+        ssrMessage:sendmsg(ssrNetMsgCfg.ShengSiJingJie_Request1)
+    end)
+    GUI:addOnClickEvent(self.ui.Button_2, function()
+        ssrMessage:sendmsg(ssrNetMsgCfg.ShengSiJingJie_Request2)
+    end)
+    ssrAddItemListX(self.ui.Panel_1,self.give, "item_",{ spacing = 30})
+    self:UpdateUI()
+end
+
+function ShengSiJingJieOBJ:UpdateUI()
+    local count = self.count
+    local flag = self.flag
+    GUI:Text_setString(self.ui.Text_1, string.format("%d/10", count))
+    delRedPoint(self.ui.Button_1)
+    if flag == 0 and count >= 10 then
+        addRedPoint(self.ui.Button_1, 30, 5)
+    end
+    if flag == 1 then
+        addRedPoint(self.ui.Button_2, 30, 5)
+    end
+end
+
+-------------------------------↓↓↓ 网络消息 ↓↓↓---------------------------------------
+function ShengSiJingJieOBJ:SyncResponse(arg1, arg2, arg3, data)
+    self.count = arg1
+    self.flag = arg2
+    if GUI:GetWindow(nil, self.__cname) then
+        self:UpdateUI()
+    end
+end
+return ShengSiJingJieOBJ

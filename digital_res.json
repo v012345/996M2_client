@@ -8503,5 +8503,1105 @@
         "key": "dev\\anim\\effect\\sfx_50000_0_0.plist",
         "md5": "8bbace854ed71cef64290aa01157f5b3",
         "uri": "dev\\anim\\effect\\sfx_50000_0_0_8bbac.plist"
+    },
+    "dev\\anim\\effect\\sfx_50000_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50000_0_0.png",
+        "md5": "7204398717aa8e6689c755b67ee495f2",
+        "uri": "dev\\anim\\effect\\sfx_50000_0_0_72043.png"
+    },
+    "dev\\anim\\effect\\sfx_50000_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50000_0_1.plist",
+        "md5": "fe4316ba8ca82a504fc106cff39aa5ff",
+        "uri": "dev\\anim\\effect\\sfx_50000_0_1_fe431.plist"
+    },
+    "dev\\anim\\effect\\sfx_50000_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50000_0_1.png",
+        "md5": "91610d03654583101312c4edd9c114ee",
+        "uri": "dev\\anim\\effect\\sfx_50000_0_1_91610.png"
+    },
+    "dev\\anim\\effect\\sfx_50000_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50000_0_2.plist",
+        "md5": "8b7b7b242f762cc112a78951fc69f5bc",
+        "uri": "dev\\anim\\effect\\sfx_50000_0_2_8b7b7.plist"
+    },
+    "dev\\anim\\effect\\sfx_50000_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50000_0_2.png",
+        "md5": "0fe21296ebc70227b7656a9855adedde",
+        "uri": "dev\\anim\\effect\\sfx_50000_0_2_0fe21.png"
+    },
+    "dev\\anim\\effect\\sfx_50000_0_3.plist": {
+        "key": "dev\\anim\\effect\\sfx_50000_0_3.plist",
+        "md5": "3a211d484380e238c912ddf9decaa731",
+        "uri": "dev\\anim\\effect\\sfx_50000_0_3_3a211.plist"
+    },
+    "dev\\anim\\effect\\sfx_50000_0_3.png": {
+        "key": "dev\\anim\\effect\\sfx_50000_0_3.png",
+        "md5": "dbdc6b89b08535d5514c493f65b88f68",
+        "uri": "dev\\anim\\effect\\sfx_50000_0_3_dbdc6.png"
+    },
+    "dev\\anim\\effect\\sfx_50001_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50001_0.plist",
+        "md5": "601ed1ea9fa1e748f654176b5acbc06f",
+        "uri": "dev\\anim\\effect\\sfx_50001_0_601ed.plist"
+    },
+    "dev\\anim\\effect\\sfx_50001_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50001_0.png",
+        "md5": "d4c61e055469c98c081374b6a879dcea",
+        "uri": "dev\\anim\\effect\\sfx_50001_0_d4c61.png"
+    },
+    "dev\\anim\\effect\\sfx_50002_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50002_0.plist",
+        "md5": "6cd8bd226545d1f52a597abbc4afb06d",
+        "uri": "dev\\anim\\effect\\sfx_50002_0_6cd8b.plist"
+    },
+    "dev\\anim\\effect\\sfx_50002_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50002_0.png",
+        "md5": "810ad4c10fe2467fffa74cbe47faacdc",
+        "uri": "dev\\anim\\effect\\sfx_50002_0_810ad.png"
+    },
+    "dev\\anim\\effect\\sfx_50003_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50003_0.plist",
+        "md5": "e4572b6026a0da602b5f2c66800642a9",
+        "uri": "dev\\anim\\effect\\sfx_50003_0_e4572.plist"
+    },
+    "dev\\anim\\effect\\sfx_50003_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50003_0.png",
+        "md5": "8c08d1cefd1c2ad26ddcf43956e4d384",
+        "uri": "dev\\anim\\effect\\sfx_50003_0_8c08d.png"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_0.plist",
+        "md5": "900b3d147e941a16244c3f5d32ff455e",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_0_900b3.plist"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_0.png",
+        "md5": "7a1cbf488ce81a0a3383f9bbb7b37a27",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_0_7a1cb.png"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_1.plist",
+        "md5": "a1d374132fd92f2c9e475dd54791cdff",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_1_a1d37.plist"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_1.png",
+        "md5": "e70a03e0b879435afd79293a6a3ee0da",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_1_e70a0.png"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_2.plist",
+        "md5": "26ffa4e541c64bf25ea1d147b89231ab",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_2_26ffa.plist"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_2.png",
+        "md5": "6f8a82a06c43ed30ca0836e5d90a853a",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_2_6f8a8.png"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_3.plist": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_3.plist",
+        "md5": "3a19bc83eb53d65d4ed52499d8d23b92",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_3_3a19b.plist"
+    },
+    "dev\\anim\\effect\\sfx_50004_0_3.png": {
+        "key": "dev\\anim\\effect\\sfx_50004_0_3.png",
+        "md5": "fcd20cfdfb91a4edf013bad82d9d5685",
+        "uri": "dev\\anim\\effect\\sfx_50004_0_3_fcd20.png"
+    },
+    "dev\\anim\\effect\\sfx_50005_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50005_0.plist",
+        "md5": "59e40e400f727e4c2de3f2adeced378e",
+        "uri": "dev\\anim\\effect\\sfx_50005_0_59e40.plist"
+    },
+    "dev\\anim\\effect\\sfx_50005_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50005_0.png",
+        "md5": "ba8087124199845d52a872382a60a904",
+        "uri": "dev\\anim\\effect\\sfx_50005_0_ba808.png"
+    },
+    "dev\\anim\\effect\\sfx_50006_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50006_0.plist",
+        "md5": "ddcd15ae3f1cb8af6e213de803ab405f",
+        "uri": "dev\\anim\\effect\\sfx_50006_0_ddcd1.plist"
+    },
+    "dev\\anim\\effect\\sfx_50006_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50006_0.png",
+        "md5": "316888ebb2881357887e582306701dcc",
+        "uri": "dev\\anim\\effect\\sfx_50006_0_31688.png"
+    },
+    "dev\\anim\\effect\\sfx_50007_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50007_0.plist",
+        "md5": "13ac9351a68cdde0604b7a013bef6a79",
+        "uri": "dev\\anim\\effect\\sfx_50007_0_13ac9.plist"
+    },
+    "dev\\anim\\effect\\sfx_50007_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50007_0.png",
+        "md5": "bf737f6ad1d928727def6fbabecc348b",
+        "uri": "dev\\anim\\effect\\sfx_50007_0_bf737.png"
+    },
+    "dev\\anim\\effect\\sfx_50008_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50008_0.plist",
+        "md5": "15003988ca44b5fe8cbfc65c9c55c7b1",
+        "uri": "dev\\anim\\effect\\sfx_50008_0_15003.plist"
+    },
+    "dev\\anim\\effect\\sfx_50008_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50008_0.png",
+        "md5": "a75c57677300a020dc7bc61f1c9ea90d",
+        "uri": "dev\\anim\\effect\\sfx_50008_0_a75c5.png"
+    },
+    "dev\\anim\\effect\\sfx_50009_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50009_0.plist",
+        "md5": "c9595eda11e9cd814657e063a1a4a830",
+        "uri": "dev\\anim\\effect\\sfx_50009_0_c9595.plist"
+    },
+    "dev\\anim\\effect\\sfx_50009_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50009_0.png",
+        "md5": "29a7ff8ecc3cd45b670c1d42c1e8c613",
+        "uri": "dev\\anim\\effect\\sfx_50009_0_29a7f.png"
+    },
+    "dev\\anim\\effect\\sfx_50010_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50010_0.plist",
+        "md5": "7a90043669b7ee6480eef091c958bfc2",
+        "uri": "dev\\anim\\effect\\sfx_50010_0_7a900.plist"
+    },
+    "dev\\anim\\effect\\sfx_50010_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50010_0.png",
+        "md5": "b682b94373d623b818a79b05b0c60c42",
+        "uri": "dev\\anim\\effect\\sfx_50010_0_b682b.png"
+    },
+    "dev\\anim\\effect\\sfx_50011_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50011_0.plist",
+        "md5": "4e9674e121370fd691575b3676ff8101",
+        "uri": "dev\\anim\\effect\\sfx_50011_0_4e967.plist"
+    },
+    "dev\\anim\\effect\\sfx_50011_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50011_0.png",
+        "md5": "52d0d9c85eda68c28984a781f631ae81",
+        "uri": "dev\\anim\\effect\\sfx_50011_0_52d0d.png"
+    },
+    "dev\\anim\\effect\\sfx_50012_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50012_0.plist",
+        "md5": "3a73c46de2807b82eac25c5da98f1d06",
+        "uri": "dev\\anim\\effect\\sfx_50012_0_3a73c.plist"
+    },
+    "dev\\anim\\effect\\sfx_50012_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50012_0.png",
+        "md5": "650211d81f5d900239e95ae5cf202687",
+        "uri": "dev\\anim\\effect\\sfx_50012_0_65021.png"
+    },
+    "dev\\anim\\effect\\sfx_50013_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50013_0.plist",
+        "md5": "faa5adcc7af765a8aaf5201832500e74",
+        "uri": "dev\\anim\\effect\\sfx_50013_0_faa5a.plist"
+    },
+    "dev\\anim\\effect\\sfx_50013_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50013_0.png",
+        "md5": "685e1c5e6043fa626cccb2e163aece33",
+        "uri": "dev\\anim\\effect\\sfx_50013_0_685e1.png"
+    },
+    "dev\\anim\\effect\\sfx_50014_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50014_0_0.plist",
+        "md5": "4982156c034d2789b88d0609c61b3ed9",
+        "uri": "dev\\anim\\effect\\sfx_50014_0_0_49821.plist"
+    },
+    "dev\\anim\\effect\\sfx_50014_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50014_0_0.png",
+        "md5": "d717c3f279326b1e88e34529380d9d99",
+        "uri": "dev\\anim\\effect\\sfx_50014_0_0_d717c.png"
+    },
+    "dev\\anim\\effect\\sfx_50014_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50014_0_1.plist",
+        "md5": "fda8718e26baa293b93de7c3d74fa2e1",
+        "uri": "dev\\anim\\effect\\sfx_50014_0_1_fda87.plist"
+    },
+    "dev\\anim\\effect\\sfx_50014_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50014_0_1.png",
+        "md5": "4fc32f963d978e4b526db540204f1552",
+        "uri": "dev\\anim\\effect\\sfx_50014_0_1_4fc32.png"
+    },
+    "dev\\anim\\effect\\sfx_50015_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50015_0_0.plist",
+        "md5": "07cb8cff447da985bfc6f5988eac9031",
+        "uri": "dev\\anim\\effect\\sfx_50015_0_0_07cb8.plist"
+    },
+    "dev\\anim\\effect\\sfx_50015_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50015_0_0.png",
+        "md5": "3074632a039ec86ea5f3539d9cf6e967",
+        "uri": "dev\\anim\\effect\\sfx_50015_0_0_30746.png"
+    },
+    "dev\\anim\\effect\\sfx_50015_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50015_0_1.plist",
+        "md5": "f4fe953a442e1c0548fa83e1a4eb2ca8",
+        "uri": "dev\\anim\\effect\\sfx_50015_0_1_f4fe9.plist"
+    },
+    "dev\\anim\\effect\\sfx_50015_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50015_0_1.png",
+        "md5": "40ce5598ac0a7e3ae85d46ebf1fab5cf",
+        "uri": "dev\\anim\\effect\\sfx_50015_0_1_40ce5.png"
+    },
+    "dev\\anim\\effect\\sfx_50015_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50015_0_2.plist",
+        "md5": "e2ee285dbf52734f9a26658ecd59407e",
+        "uri": "dev\\anim\\effect\\sfx_50015_0_2_e2ee2.plist"
+    },
+    "dev\\anim\\effect\\sfx_50015_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50015_0_2.png",
+        "md5": "1a797ca0beaec5e741601adf9069cf6e",
+        "uri": "dev\\anim\\effect\\sfx_50015_0_2_1a797.png"
+    },
+    "dev\\anim\\effect\\sfx_50016_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50016_0_0.plist",
+        "md5": "9f062b16e524c544feb84b14766ba6a8",
+        "uri": "dev\\anim\\effect\\sfx_50016_0_0_9f062.plist"
+    },
+    "dev\\anim\\effect\\sfx_50016_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50016_0_0.png",
+        "md5": "69a840857ce5f81f7f4063374250186b",
+        "uri": "dev\\anim\\effect\\sfx_50016_0_0_69a84.png"
+    },
+    "dev\\anim\\effect\\sfx_50016_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50016_0_1.plist",
+        "md5": "ae566f8daba3def5b292e41faed213f8",
+        "uri": "dev\\anim\\effect\\sfx_50016_0_1_ae566.plist"
+    },
+    "dev\\anim\\effect\\sfx_50016_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50016_0_1.png",
+        "md5": "ac834cecd2161da7a046b895d8b84a68",
+        "uri": "dev\\anim\\effect\\sfx_50016_0_1_ac834.png"
+    },
+    "dev\\anim\\effect\\sfx_50017_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50017_0_0.plist",
+        "md5": "11a6982b548e8124b64163f8142c0853",
+        "uri": "dev\\anim\\effect\\sfx_50017_0_0_11a69.plist"
+    },
+    "dev\\anim\\effect\\sfx_50017_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50017_0_0.png",
+        "md5": "53eb06a407b93ed2f871bee7aea8caa4",
+        "uri": "dev\\anim\\effect\\sfx_50017_0_0_53eb0.png"
+    },
+    "dev\\anim\\effect\\sfx_50017_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50017_0_1.plist",
+        "md5": "c9169c8f61ec49fe2908e8c6867fe7bf",
+        "uri": "dev\\anim\\effect\\sfx_50017_0_1_c9169.plist"
+    },
+    "dev\\anim\\effect\\sfx_50017_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50017_0_1.png",
+        "md5": "27c475f3feccfc4a78dd2929ce181759",
+        "uri": "dev\\anim\\effect\\sfx_50017_0_1_27c47.png"
+    },
+    "dev\\anim\\effect\\sfx_50017_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50017_0_2.plist",
+        "md5": "78f78019352f1454fce665bd56dcb8a8",
+        "uri": "dev\\anim\\effect\\sfx_50017_0_2_78f78.plist"
+    },
+    "dev\\anim\\effect\\sfx_50017_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50017_0_2.png",
+        "md5": "a54cf0953cd00aed7770982f7d201e8e",
+        "uri": "dev\\anim\\effect\\sfx_50017_0_2_a54cf.png"
+    },
+    "dev\\anim\\effect\\sfx_50018_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50018_0_0.plist",
+        "md5": "1a97b35ac37d741cc2f47c04b114bbd8",
+        "uri": "dev\\anim\\effect\\sfx_50018_0_0_1a97b.plist"
+    },
+    "dev\\anim\\effect\\sfx_50018_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50018_0_0.png",
+        "md5": "ffcdcdcebcabe7ccd47110cf87a4ee5d",
+        "uri": "dev\\anim\\effect\\sfx_50018_0_0_ffcdc.png"
+    },
+    "dev\\anim\\effect\\sfx_50018_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50018_0_1.plist",
+        "md5": "cb829447397dbe201aea61df0ee4e8a1",
+        "uri": "dev\\anim\\effect\\sfx_50018_0_1_cb829.plist"
+    },
+    "dev\\anim\\effect\\sfx_50018_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50018_0_1.png",
+        "md5": "afe588576f77dbb981ae1c5dce619d61",
+        "uri": "dev\\anim\\effect\\sfx_50018_0_1_afe58.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_0.plist",
+        "md5": "c4dcb9a15bd046f77c954b4b3932c8f0",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_0_c4dcb.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_0.png",
+        "md5": "05973bff674be61cdc484eb1155551b9",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_0_05973.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_1.plist",
+        "md5": "8ca179f0e6b3d68fb4613f3585e626af",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_1_8ca17.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_1.png",
+        "md5": "c65a00c2b113e618b5e3dafaf4e7abad",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_1_c65a0.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_2.plist",
+        "md5": "dc8f93c8d2a9c7a7f2e4d6b3657d9286",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_2_dc8f9.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_2.png",
+        "md5": "7cbfdf12d52c08da973e45da8ec20c62",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_2_7cbfd.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_3.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_3.plist",
+        "md5": "ca940f248ef1d5b4d584d8f22abd3d40",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_3_ca940.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_3.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_3.png",
+        "md5": "9d93c103b66a85f0922bc69ea499bfbc",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_3_9d93c.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_4.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_4.plist",
+        "md5": "4fc4a8d7c866a71f2f2a6a7fcbe61d66",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_4_4fc4a.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_4.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_4.png",
+        "md5": "2b4b2df91fe85507f71746392e37e186",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_4_2b4b2.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_5.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_5.plist",
+        "md5": "c46fcb7dbb8d197b6b637d35fad929d8",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_5_c46fc.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_5.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_5.png",
+        "md5": "601345922acb942afbb8d592f3bb5fc5",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_5_60134.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_6.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_6.plist",
+        "md5": "6395b4f86705565f3176060f104bace1",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_6_6395b.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_6.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_6.png",
+        "md5": "435696d574ffa2def7a1e36c59eb55ee",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_6_43569.png"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_7.plist": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_7.plist",
+        "md5": "fcc5e060bfd6cdea761b2f18547a6277",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_7_fcc5e.plist"
+    },
+    "dev\\anim\\effect\\sfx_50019_0_7.png": {
+        "key": "dev\\anim\\effect\\sfx_50019_0_7.png",
+        "md5": "fcf1d7dcebba4ed6b854d660451240ef",
+        "uri": "dev\\anim\\effect\\sfx_50019_0_7_fcf1d.png"
+    },
+    "dev\\anim\\effect\\sfx_50020_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50020_0.plist",
+        "md5": "ebefc6036976faae24fe8c94449f72c6",
+        "uri": "dev\\anim\\effect\\sfx_50020_0_ebefc.plist"
+    },
+    "dev\\anim\\effect\\sfx_50020_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50020_0.png",
+        "md5": "945a03aa04dce39d17eaaf02f997ded8",
+        "uri": "dev\\anim\\effect\\sfx_50020_0_945a0.png"
+    },
+    "dev\\anim\\effect\\sfx_50021_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50021_0_0.plist",
+        "md5": "db272782e5ff97933cef4254fe69109c",
+        "uri": "dev\\anim\\effect\\sfx_50021_0_0_db272.plist"
+    },
+    "dev\\anim\\effect\\sfx_50021_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50021_0_0.png",
+        "md5": "84837dfb87cca056ed10d37f1127840b",
+        "uri": "dev\\anim\\effect\\sfx_50021_0_0_84837.png"
+    },
+    "dev\\anim\\effect\\sfx_50021_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50021_0_1.plist",
+        "md5": "e3910be2d284c76574e0f1b149c6d2b9",
+        "uri": "dev\\anim\\effect\\sfx_50021_0_1_e3910.plist"
+    },
+    "dev\\anim\\effect\\sfx_50021_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50021_0_1.png",
+        "md5": "1ec9185b99b555e8d3d020ef3c78c3c1",
+        "uri": "dev\\anim\\effect\\sfx_50021_0_1_1ec91.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_0.plist",
+        "md5": "ea2eecabc624b6a8a066fa3b9047abf0",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_0_ea2ee.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_0.png",
+        "md5": "dcfae76c76a5ce73aab6fa3c0d338c86",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_0_dcfae.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_1.plist",
+        "md5": "6a3662455a6ce49112d2613906ef8070",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_1_6a366.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_1.png",
+        "md5": "d5d23dbbd6b8ded8e4cfc11b7e40cd07",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_1_d5d23.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_2.plist",
+        "md5": "bdd63423901a5d4c4dd82a83efa38dfd",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_2_bdd63.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_2.png",
+        "md5": "78f4b3511b2c3146fb2ac1697bb58114",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_2_78f4b.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_3.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_3.plist",
+        "md5": "0581862d1ed37d57e19dfba4fa71b568",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_3_05818.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_3.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_3.png",
+        "md5": "6d5105ff91ea7772cc8ca5352830c956",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_3_6d510.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_4.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_4.plist",
+        "md5": "79244090939c66b528e58e50045cf813",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_4_79244.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_4.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_4.png",
+        "md5": "c0dcc9e29423ca5ec477ee6ce927c6be",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_4_c0dcc.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_5.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_5.plist",
+        "md5": "3920ed7162b010971bcd6cd3cab4c747",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_5_3920e.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_5.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_5.png",
+        "md5": "b828d348afd164a02f01865740589b33",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_5_b828d.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_6.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_6.plist",
+        "md5": "bb25a547bf6f48e3d23e6c4a1bb8bd9c",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_6_bb25a.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_6.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_6.png",
+        "md5": "81996f98a60d8979707b84cf383da038",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_6_81996.png"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_7.plist": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_7.plist",
+        "md5": "fc7466c93e91dd049dafae7cc4c9dfff",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_7_fc746.plist"
+    },
+    "dev\\anim\\effect\\sfx_50022_0_7.png": {
+        "key": "dev\\anim\\effect\\sfx_50022_0_7.png",
+        "md5": "266993600ce64c9704da6d595ee493c9",
+        "uri": "dev\\anim\\effect\\sfx_50022_0_7_26699.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_0.plist",
+        "md5": "e76a686373e53348ad5f01d447740891",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_0_e76a6.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_0.png",
+        "md5": "e5090ab1f65e6c45b96aaa8a08efbdf4",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_0_e5090.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_1.plist",
+        "md5": "b6928d2100fd5f9093fd69ddbc364f03",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_1_b6928.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_1.png",
+        "md5": "25b4f0f56e9cb0922f6b34b6503da9ff",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_1_25b4f.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_2.plist",
+        "md5": "b393506cc6c7a159485aea2622f0c4e5",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_2_b3935.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_2.png",
+        "md5": "4563ed2961e0d3c5aec064b2a64dab39",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_2_4563e.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_3.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_3.plist",
+        "md5": "f9ee6188e181159e82ce78b42e80a783",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_3_f9ee6.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_3.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_3.png",
+        "md5": "243f4e24ab3267ef71c94293251fe5c7",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_3_243f4.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_4.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_4.plist",
+        "md5": "aaa675c60ded4b582532aefcfb26dbfe",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_4_aaa67.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_4.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_4.png",
+        "md5": "ccf6cd29b1f09b43b777867d09336dd0",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_4_ccf6c.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_5.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_5.plist",
+        "md5": "006c505a9abd734e1022ab44daa0cdbf",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_5_006c5.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_5.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_5.png",
+        "md5": "fc971639cd56cf1fe48c247d633d4dfa",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_5_fc971.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_6.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_6.plist",
+        "md5": "0bfb0bf5115f0aac1e961296ddea36c7",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_6_0bfb0.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_6.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_6.png",
+        "md5": "626ef665cec7577a3d60d31555b4ada2",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_6_626ef.png"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_7.plist": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_7.plist",
+        "md5": "4c210ab1e875f4f3948fff63bce5dc49",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_7_4c210.plist"
+    },
+    "dev\\anim\\effect\\sfx_50023_0_7.png": {
+        "key": "dev\\anim\\effect\\sfx_50023_0_7.png",
+        "md5": "fedf4b6deb8613338b57b2d7cccc2720",
+        "uri": "dev\\anim\\effect\\sfx_50023_0_7_fedf4.png"
+    },
+    "dev\\anim\\effect\\sfx_50024_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50024_0_0.plist",
+        "md5": "88b752a98a285b8fb2ba3f099b437bac",
+        "uri": "dev\\anim\\effect\\sfx_50024_0_0_88b75.plist"
+    },
+    "dev\\anim\\effect\\sfx_50024_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50024_0_0.png",
+        "md5": "ac7c72a27b26a4c50616246ee427b5f1",
+        "uri": "dev\\anim\\effect\\sfx_50024_0_0_ac7c7.png"
+    },
+    "dev\\anim\\effect\\sfx_50024_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50024_0_1.plist",
+        "md5": "d18aa166576e74f23dfdd0142d1cfbfa",
+        "uri": "dev\\anim\\effect\\sfx_50024_0_1_d18aa.plist"
+    },
+    "dev\\anim\\effect\\sfx_50024_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50024_0_1.png",
+        "md5": "c96fd8c958f7d476ccdebb805a9405c1",
+        "uri": "dev\\anim\\effect\\sfx_50024_0_1_c96fd.png"
+    },
+    "dev\\anim\\effect\\sfx_50025_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50025_0_0.plist",
+        "md5": "b708f0edac31d44115fef34a8ae1e9a1",
+        "uri": "dev\\anim\\effect\\sfx_50025_0_0_b708f.plist"
+    },
+    "dev\\anim\\effect\\sfx_50025_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50025_0_0.png",
+        "md5": "bafb45648185342ae2bbfad1934c65a2",
+        "uri": "dev\\anim\\effect\\sfx_50025_0_0_bafb4.png"
+    },
+    "dev\\anim\\effect\\sfx_50025_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50025_0_1.plist",
+        "md5": "352bcbd10c964b6d86ecdad73f538645",
+        "uri": "dev\\anim\\effect\\sfx_50025_0_1_352bc.plist"
+    },
+    "dev\\anim\\effect\\sfx_50025_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50025_0_1.png",
+        "md5": "122248441dd314c35175c8ca963bef48",
+        "uri": "dev\\anim\\effect\\sfx_50025_0_1_12224.png"
+    },
+    "dev\\anim\\effect\\sfx_50026_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50026_0_0.plist",
+        "md5": "64e24bdd5c9c79ea5f8e7ae185a281ff",
+        "uri": "dev\\anim\\effect\\sfx_50026_0_0_64e24.plist"
+    },
+    "dev\\anim\\effect\\sfx_50026_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50026_0_0.png",
+        "md5": "f515f6573712d7430965caa3be68378c",
+        "uri": "dev\\anim\\effect\\sfx_50026_0_0_f515f.png"
+    },
+    "dev\\anim\\effect\\sfx_50026_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50026_0_1.plist",
+        "md5": "19e095fad04274dee6db158040212d9b",
+        "uri": "dev\\anim\\effect\\sfx_50026_0_1_19e09.plist"
+    },
+    "dev\\anim\\effect\\sfx_50026_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50026_0_1.png",
+        "md5": "6dbce0d12fcdd5864ef088e4e520496f",
+        "uri": "dev\\anim\\effect\\sfx_50026_0_1_6dbce.png"
+    },
+    "dev\\anim\\effect\\sfx_50027_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50027_0.plist",
+        "md5": "384f2f96f79d32b9956631b3b9ff73ad",
+        "uri": "dev\\anim\\effect\\sfx_50027_0_384f2.plist"
+    },
+    "dev\\anim\\effect\\sfx_50027_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50027_0.png",
+        "md5": "2abd8e7f18af70b97716baa826dc4a6c",
+        "uri": "dev\\anim\\effect\\sfx_50027_0_2abd8.png"
+    },
+    "dev\\anim\\effect\\sfx_50028_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50028_0_0.plist",
+        "md5": "c3a471ca56c0096845836df92049afe4",
+        "uri": "dev\\anim\\effect\\sfx_50028_0_0_c3a47.plist"
+    },
+    "dev\\anim\\effect\\sfx_50028_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50028_0_0.png",
+        "md5": "bd0efcde2967ccd9544650cc1e4e329b",
+        "uri": "dev\\anim\\effect\\sfx_50028_0_0_bd0ef.png"
+    },
+    "dev\\anim\\effect\\sfx_50028_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50028_0_1.plist",
+        "md5": "e83a338cde15f1a9fdeab7fddf450a94",
+        "uri": "dev\\anim\\effect\\sfx_50028_0_1_e83a3.plist"
+    },
+    "dev\\anim\\effect\\sfx_50028_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50028_0_1.png",
+        "md5": "b1f84f7446016068e2235074a8f0f5e6",
+        "uri": "dev\\anim\\effect\\sfx_50028_0_1_b1f84.png"
+    },
+    "dev\\anim\\effect\\sfx_50029_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50029_0.plist",
+        "md5": "c5f919cade2777d1e1d94dbe74407e8e",
+        "uri": "dev\\anim\\effect\\sfx_50029_0_c5f91.plist"
+    },
+    "dev\\anim\\effect\\sfx_50029_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50029_0.png",
+        "md5": "958b54281dffabaa80883db9fc77e8da",
+        "uri": "dev\\anim\\effect\\sfx_50029_0_958b5.png"
+    },
+    "dev\\anim\\effect\\sfx_50030_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50030_0.plist",
+        "md5": "2de647c55535e3442df6c30ac0b5af8a",
+        "uri": "dev\\anim\\effect\\sfx_50030_0_2de64.plist"
+    },
+    "dev\\anim\\effect\\sfx_50030_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50030_0.png",
+        "md5": "be1704ff25ceaffa59c6646be1429b63",
+        "uri": "dev\\anim\\effect\\sfx_50030_0_be170.png"
+    },
+    "dev\\anim\\effect\\sfx_50031_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50031_0.plist",
+        "md5": "8f3c8d8dbab6986b9de83c00ccf283da",
+        "uri": "dev\\anim\\effect\\sfx_50031_0_8f3c8.plist"
+    },
+    "dev\\anim\\effect\\sfx_50031_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50031_0.png",
+        "md5": "5e87b0c8f29ff1ab81f0cd348ad73a31",
+        "uri": "dev\\anim\\effect\\sfx_50031_0_5e87b.png"
+    },
+    "dev\\anim\\effect\\sfx_50032_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50032_0_0.plist",
+        "md5": "9c4e8bb8278f7dcf9c0d2a10fd22f9ba",
+        "uri": "dev\\anim\\effect\\sfx_50032_0_0_9c4e8.plist"
+    },
+    "dev\\anim\\effect\\sfx_50032_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50032_0_0.png",
+        "md5": "f847818151c2d59dcf1d513be9e20728",
+        "uri": "dev\\anim\\effect\\sfx_50032_0_0_f8478.png"
+    },
+    "dev\\anim\\effect\\sfx_50032_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50032_0_1.plist",
+        "md5": "197dc0895cc28315133186582d67bb67",
+        "uri": "dev\\anim\\effect\\sfx_50032_0_1_197dc.plist"
+    },
+    "dev\\anim\\effect\\sfx_50032_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50032_0_1.png",
+        "md5": "fcd291e41f1d8a33c446ce9eac7d27cf",
+        "uri": "dev\\anim\\effect\\sfx_50032_0_1_fcd29.png"
+    },
+    "dev\\anim\\effect\\sfx_50033_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50033_0.plist",
+        "md5": "9ff6d6e214b1dbd11b71791151de7fed",
+        "uri": "dev\\anim\\effect\\sfx_50033_0_9ff6d.plist"
+    },
+    "dev\\anim\\effect\\sfx_50033_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50033_0.png",
+        "md5": "c16a7518bdc9ed9f77cf973d9a8bdf3e",
+        "uri": "dev\\anim\\effect\\sfx_50033_0_c16a7.png"
+    },
+    "dev\\anim\\effect\\sfx_50034_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50034_0_0.plist",
+        "md5": "664796fe4db5d773377a81eaaa7c910a",
+        "uri": "dev\\anim\\effect\\sfx_50034_0_0_66479.plist"
+    },
+    "dev\\anim\\effect\\sfx_50034_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50034_0_0.png",
+        "md5": "25ca99b7ca5576a8324f5aa1634b1b5a",
+        "uri": "dev\\anim\\effect\\sfx_50034_0_0_25ca9.png"
+    },
+    "dev\\anim\\effect\\sfx_50034_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50034_0_1.plist",
+        "md5": "0cc623dedd9ae42e6a6c61fcf801637c",
+        "uri": "dev\\anim\\effect\\sfx_50034_0_1_0cc62.plist"
+    },
+    "dev\\anim\\effect\\sfx_50034_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50034_0_1.png",
+        "md5": "095a37f8207231980f852ffb1f7adafc",
+        "uri": "dev\\anim\\effect\\sfx_50034_0_1_095a3.png"
+    },
+    "dev\\anim\\effect\\sfx_50035_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50035_0.plist",
+        "md5": "64c597c17b724d6f01b6d8e67446b49f",
+        "uri": "dev\\anim\\effect\\sfx_50035_0_64c59.plist"
+    },
+    "dev\\anim\\effect\\sfx_50035_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50035_0.png",
+        "md5": "94a585c73137ee2912076332f5bdfc87",
+        "uri": "dev\\anim\\effect\\sfx_50035_0_94a58.png"
+    },
+    "dev\\anim\\effect\\sfx_50036_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50036_0.plist",
+        "md5": "0d6665e7cb21635b55be54c5a44b70a7",
+        "uri": "dev\\anim\\effect\\sfx_50036_0_0d666.plist"
+    },
+    "dev\\anim\\effect\\sfx_50036_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50036_0.png",
+        "md5": "bad6e0fbbf977439b61140a058333096",
+        "uri": "dev\\anim\\effect\\sfx_50036_0_bad6e.png"
+    },
+    "dev\\anim\\effect\\sfx_50037_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50037_0.plist",
+        "md5": "d47330f40c6ba7a8cd462ee150a53c88",
+        "uri": "dev\\anim\\effect\\sfx_50037_0_d4733.plist"
+    },
+    "dev\\anim\\effect\\sfx_50037_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50037_0.png",
+        "md5": "4b58f8b641c9fcb6cd969974c6e20228",
+        "uri": "dev\\anim\\effect\\sfx_50037_0_4b58f.png"
+    },
+    "dev\\anim\\effect\\sfx_50038_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50038_0.plist",
+        "md5": "163a57f6e5b320ece6e69149d290b6a2",
+        "uri": "dev\\anim\\effect\\sfx_50038_0_163a5.plist"
+    },
+    "dev\\anim\\effect\\sfx_50038_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50038_0.png",
+        "md5": "ddc91eee4541a59972a4b4a452999986",
+        "uri": "dev\\anim\\effect\\sfx_50038_0_ddc91.png"
+    },
+    "dev\\anim\\effect\\sfx_50039_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50039_0.plist",
+        "md5": "e74e43b79398a0064264f69d9799bc91",
+        "uri": "dev\\anim\\effect\\sfx_50039_0_e74e4.plist"
+    },
+    "dev\\anim\\effect\\sfx_50039_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50039_0.png",
+        "md5": "0772483689bc61ff5f029016ba50d33b",
+        "uri": "dev\\anim\\effect\\sfx_50039_0_07724.png"
+    },
+    "dev\\anim\\effect\\sfx_50040_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50040_0.plist",
+        "md5": "fbd2c5c779e4a89bb486ac2c324d7b0e",
+        "uri": "dev\\anim\\effect\\sfx_50040_0_fbd2c.plist"
+    },
+    "dev\\anim\\effect\\sfx_50040_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50040_0.png",
+        "md5": "10df9af70ae4f247264cb728a8e43475",
+        "uri": "dev\\anim\\effect\\sfx_50040_0_10df9.png"
+    },
+    "dev\\anim\\effect\\sfx_50041_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50041_0.plist",
+        "md5": "46ff1cf47b5eb57ebd09bf2be17ef37d",
+        "uri": "dev\\anim\\effect\\sfx_50041_0_46ff1.plist"
+    },
+    "dev\\anim\\effect\\sfx_50041_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50041_0.png",
+        "md5": "e63f79f0d84125e8ed587896e98efb9c",
+        "uri": "dev\\anim\\effect\\sfx_50041_0_e63f7.png"
+    },
+    "dev\\anim\\effect\\sfx_50042_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50042_0.plist",
+        "md5": "081ba8aebfe233a7e5e02d2b628825b9",
+        "uri": "dev\\anim\\effect\\sfx_50042_0_081ba.plist"
+    },
+    "dev\\anim\\effect\\sfx_50042_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50042_0.png",
+        "md5": "f48b1b1a8ff18edefd55e16a24af1b8d",
+        "uri": "dev\\anim\\effect\\sfx_50042_0_f48b1.png"
+    },
+    "dev\\anim\\effect\\sfx_50043_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50043_0.plist",
+        "md5": "93d82b885af76d0b28a37e290d015af6",
+        "uri": "dev\\anim\\effect\\sfx_50043_0_93d82.plist"
+    },
+    "dev\\anim\\effect\\sfx_50043_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50043_0.png",
+        "md5": "c05bd484e7e47d7f7408898f21ef0f0c",
+        "uri": "dev\\anim\\effect\\sfx_50043_0_c05bd.png"
+    },
+    "dev\\anim\\effect\\sfx_50044_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50044_0.plist",
+        "md5": "64efd08df4534306d6bd65d88b529aee",
+        "uri": "dev\\anim\\effect\\sfx_50044_0_64efd.plist"
+    },
+    "dev\\anim\\effect\\sfx_50044_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50044_0.png",
+        "md5": "716007d6db56e0b4dc5538165d9ce786",
+        "uri": "dev\\anim\\effect\\sfx_50044_0_71600.png"
+    },
+    "dev\\anim\\effect\\sfx_50045_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50045_0.plist",
+        "md5": "8139f9ff5516b4ced6c0a8b74bfce4bc",
+        "uri": "dev\\anim\\effect\\sfx_50045_0_8139f.plist"
+    },
+    "dev\\anim\\effect\\sfx_50045_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50045_0.png",
+        "md5": "00d12b8a0a4c91987e981509143e44f8",
+        "uri": "dev\\anim\\effect\\sfx_50045_0_00d12.png"
+    },
+    "dev\\anim\\effect\\sfx_50046_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50046_0.plist",
+        "md5": "b13aa7346ef6245afbdb9a91eb8e0672",
+        "uri": "dev\\anim\\effect\\sfx_50046_0_b13aa.plist"
+    },
+    "dev\\anim\\effect\\sfx_50046_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50046_0.png",
+        "md5": "953e96447ae105a9649888b044e6f85b",
+        "uri": "dev\\anim\\effect\\sfx_50046_0_953e9.png"
+    },
+    "dev\\anim\\effect\\sfx_50047_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50047_0.plist",
+        "md5": "94ff7df0f91a6b04ff49d9309732bf37",
+        "uri": "dev\\anim\\effect\\sfx_50047_0_94ff7.plist"
+    },
+    "dev\\anim\\effect\\sfx_50047_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50047_0.png",
+        "md5": "20f7f68c1653830fd171f6d67c361015",
+        "uri": "dev\\anim\\effect\\sfx_50047_0_20f7f.png"
+    },
+    "dev\\anim\\effect\\sfx_50048_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50048_0.plist",
+        "md5": "bd4f33f6ad825c9b26ec68b3838cd8a4",
+        "uri": "dev\\anim\\effect\\sfx_50048_0_bd4f3.plist"
+    },
+    "dev\\anim\\effect\\sfx_50048_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50048_0.png",
+        "md5": "93678d1ddf9cdcbbb579e0b578463213",
+        "uri": "dev\\anim\\effect\\sfx_50048_0_93678.png"
+    },
+    "dev\\anim\\effect\\sfx_50049_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50049_0.plist",
+        "md5": "7494afb3ca2bcfc957eb1e9776e8fc2c",
+        "uri": "dev\\anim\\effect\\sfx_50049_0_7494a.plist"
+    },
+    "dev\\anim\\effect\\sfx_50049_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50049_0.png",
+        "md5": "6f37def014d853ca187ba41e021326d4",
+        "uri": "dev\\anim\\effect\\sfx_50049_0_6f37d.png"
+    },
+    "dev\\anim\\effect\\sfx_50050_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50050_0.plist",
+        "md5": "007355b0ffd976a4857f4719a822bc6d",
+        "uri": "dev\\anim\\effect\\sfx_50050_0_00735.plist"
+    },
+    "dev\\anim\\effect\\sfx_50050_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50050_0.png",
+        "md5": "483a3997e9b5b028566165c22b2c435a",
+        "uri": "dev\\anim\\effect\\sfx_50050_0_483a3.png"
+    },
+    "dev\\anim\\effect\\sfx_50051_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50051_0.plist",
+        "md5": "bf20d89c60c5b02fb07099cda0c0bd4c",
+        "uri": "dev\\anim\\effect\\sfx_50051_0_bf20d.plist"
+    },
+    "dev\\anim\\effect\\sfx_50051_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50051_0.png",
+        "md5": "7fc1cf9d363c9bc8a2b7860a63904d0c",
+        "uri": "dev\\anim\\effect\\sfx_50051_0_7fc1c.png"
+    },
+    "dev\\anim\\effect\\sfx_50052_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50052_0.plist",
+        "md5": "b17ee8509503340760c4ae043e411344",
+        "uri": "dev\\anim\\effect\\sfx_50052_0_b17ee.plist"
+    },
+    "dev\\anim\\effect\\sfx_50052_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50052_0.png",
+        "md5": "a8a973eb1a7d4ef35939552d98dc433c",
+        "uri": "dev\\anim\\effect\\sfx_50052_0_a8a97.png"
+    },
+    "dev\\anim\\effect\\sfx_50053_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50053_0.plist",
+        "md5": "5a97b310af3fe8729234f3e6fe9d5346",
+        "uri": "dev\\anim\\effect\\sfx_50053_0_5a97b.plist"
+    },
+    "dev\\anim\\effect\\sfx_50053_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50053_0.png",
+        "md5": "d0c8c4b5b81638c9be2be08d449d70e0",
+        "uri": "dev\\anim\\effect\\sfx_50053_0_d0c8c.png"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_0.plist",
+        "md5": "91065596487ab64dd2917065a917fc74",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_0_91065.plist"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_0.png",
+        "md5": "73d097efa315e61fe8d63fe6bf5409b8",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_0_73d09.png"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_1.plist",
+        "md5": "904d9e699421d03fca94acf68cb144b8",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_1_904d9.plist"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_1.png",
+        "md5": "20f0097561e9c9b26a65a57c63eb5d99",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_1_20f00.png"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_2.plist": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_2.plist",
+        "md5": "94dffc74d0832dc4bed2c7b541cc4578",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_2_94dff.plist"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_2.png": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_2.png",
+        "md5": "10fa319dcac98e4aed19262696eabb02",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_2_10fa3.png"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_3.plist": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_3.plist",
+        "md5": "3af8bbf422940e30d52b20a9566faa7e",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_3_3af8b.plist"
+    },
+    "dev\\anim\\effect\\sfx_50054_0_3.png": {
+        "key": "dev\\anim\\effect\\sfx_50054_0_3.png",
+        "md5": "9ce76a9f8a77d2ac4e28c3f8fd14f545",
+        "uri": "dev\\anim\\effect\\sfx_50054_0_3_9ce76.png"
+    },
+    "dev\\anim\\effect\\sfx_50055_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50055_0.plist",
+        "md5": "c808c2b231a33dce89cb93f961fd48a9",
+        "uri": "dev\\anim\\effect\\sfx_50055_0_c808c.plist"
+    },
+    "dev\\anim\\effect\\sfx_50055_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50055_0.png",
+        "md5": "61a40057050b30dedfaf8d6a8558e519",
+        "uri": "dev\\anim\\effect\\sfx_50055_0_61a40.png"
+    },
+    "dev\\anim\\effect\\sfx_50056_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50056_0.plist",
+        "md5": "175e6a7ffc44c0d7de86d441bcb80929",
+        "uri": "dev\\anim\\effect\\sfx_50056_0_175e6.plist"
+    },
+    "dev\\anim\\effect\\sfx_50056_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50056_0.png",
+        "md5": "ca444efc445e62b0a52fb02a51de207f",
+        "uri": "dev\\anim\\effect\\sfx_50056_0_ca444.png"
+    },
+    "dev\\anim\\effect\\sfx_50057_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50057_0_0.plist",
+        "md5": "dad3532f49e0143e8899e83866192bd6",
+        "uri": "dev\\anim\\effect\\sfx_50057_0_0_dad35.plist"
+    },
+    "dev\\anim\\effect\\sfx_50057_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50057_0_0.png",
+        "md5": "847e2af3ddd6ae05f008067f8cef2fa0",
+        "uri": "dev\\anim\\effect\\sfx_50057_0_0_847e2.png"
+    },
+    "dev\\anim\\effect\\sfx_50057_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50057_0_1.plist",
+        "md5": "cb1fd80c7d566fc12e22e1c59a51876e",
+        "uri": "dev\\anim\\effect\\sfx_50057_0_1_cb1fd.plist"
+    },
+    "dev\\anim\\effect\\sfx_50057_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50057_0_1.png",
+        "md5": "6cd5ca039b21a1ad90f320d0751543a7",
+        "uri": "dev\\anim\\effect\\sfx_50057_0_1_6cd5c.png"
+    },
+    "dev\\anim\\effect\\sfx_50058_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50058_0.plist",
+        "md5": "891e84292434dd05f242a9ae28d6ba29",
+        "uri": "dev\\anim\\effect\\sfx_50058_0_891e8.plist"
+    },
+    "dev\\anim\\effect\\sfx_50058_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50058_0.png",
+        "md5": "e9d4bd36439e12b67f7900fd4f64a578",
+        "uri": "dev\\anim\\effect\\sfx_50058_0_e9d4b.png"
+    },
+    "dev\\anim\\effect\\sfx_50059_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50059_0.plist",
+        "md5": "9175ff98ed0318ef8d1a7fbda26a8249",
+        "uri": "dev\\anim\\effect\\sfx_50059_0_9175f.plist"
+    },
+    "dev\\anim\\effect\\sfx_50059_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50059_0.png",
+        "md5": "85bd5411fb0916c9d147a853d5dac0c8",
+        "uri": "dev\\anim\\effect\\sfx_50059_0_85bd5.png"
+    },
+    "dev\\anim\\effect\\sfx_50060_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50060_0.plist",
+        "md5": "c004b4c9fa13a470d7137704dc477d59",
+        "uri": "dev\\anim\\effect\\sfx_50060_0_c004b.plist"
+    },
+    "dev\\anim\\effect\\sfx_50060_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50060_0.png",
+        "md5": "d8c8dfe2a0507decb5f1d0a087b99f6e",
+        "uri": "dev\\anim\\effect\\sfx_50060_0_d8c8d.png"
+    },
+    "dev\\anim\\effect\\sfx_50061_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50061_0.plist",
+        "md5": "3913e1534fddaeec3f3af104124c1ef6",
+        "uri": "dev\\anim\\effect\\sfx_50061_0_3913e.plist"
+    },
+    "dev\\anim\\effect\\sfx_50061_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50061_0.png",
+        "md5": "46e30231340155df275de5023b60dbb1",
+        "uri": "dev\\anim\\effect\\sfx_50061_0_46e30.png"
+    },
+    "dev\\anim\\effect\\sfx_50062_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50062_0.plist",
+        "md5": "516b2776f6138f6ac3d01a307bce598e",
+        "uri": "dev\\anim\\effect\\sfx_50062_0_516b2.plist"
+    },
+    "dev\\anim\\effect\\sfx_50062_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50062_0.png",
+        "md5": "5233d616dd082dfd6427cb11b512655c",
+        "uri": "dev\\anim\\effect\\sfx_50062_0_5233d.png"
+    },
+    "dev\\anim\\effect\\sfx_50063_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50063_0_0.plist",
+        "md5": "2218d8878f1d6d83061be7e72e02e5e7",
+        "uri": "dev\\anim\\effect\\sfx_50063_0_0_2218d.plist"
+    },
+    "dev\\anim\\effect\\sfx_50063_0_0.png": {
+        "key": "dev\\anim\\effect\\sfx_50063_0_0.png",
+        "md5": "1a82efbd4e8432c1d6561343e4463631",
+        "uri": "dev\\anim\\effect\\sfx_50063_0_0_1a82e.png"
+    },
+    "dev\\anim\\effect\\sfx_50063_0_1.plist": {
+        "key": "dev\\anim\\effect\\sfx_50063_0_1.plist",
+        "md5": "e871e973dfd6e8f19c3026d5a5efb8da",
+        "uri": "dev\\anim\\effect\\sfx_50063_0_1_e871e.plist"
+    },
+    "dev\\anim\\effect\\sfx_50063_0_1.png": {
+        "key": "dev\\anim\\effect\\sfx_50063_0_1.png",
+        "md5": "0d01caab5d637ec3fe1f65ea1ccfbc88",
+        "uri": "dev\\anim\\effect\\sfx_50063_0_1_0d01c.png"
+    },
+    "dev\\anim\\effect\\sfx_50064_0_0.plist": {
+        "key": "dev\\anim\\effect\\sfx_50064_0_0.plist",
+        "md5": "c746db4d287f065db66b4bc103a1d291",
+        "uri": "dev\\anim\\effect\\sfx_50064_0_0_c746d.plist"
     }
 }

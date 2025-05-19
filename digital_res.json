@@ -15403,5 +15403,805 @@
         "key": "dev\\anim\\monster\\monster_12045_0_7.plist",
         "md5": "9dab87d167b96a0cb63440a6256c5678",
         "uri": "dev\\anim\\monster\\monster_12045_0_7_9dab8.plist"
+    },
+    "dev\\anim\\monster\\monster_12045_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12045_0_7.png",
+        "md5": "1e6e9f800c6d167d7a42336a94d0c9b9",
+        "uri": "dev\\anim\\monster\\monster_12045_0_7_1e6e9.png"
+    },
+    "dev\\anim\\monster\\monster_12046_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12046_0_0.plist",
+        "md5": "62979f918a6d7f399e00afab0ceb54b2",
+        "uri": "dev\\anim\\monster\\monster_12046_0_0_62979.plist"
+    },
+    "dev\\anim\\monster\\monster_12046_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12046_0_0.png",
+        "md5": "7924e40bc92aa37d4da4e77311fe5e77",
+        "uri": "dev\\anim\\monster\\monster_12046_0_0_7924e.png"
+    },
+    "dev\\anim\\monster\\monster_12046_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12046_0_1.plist",
+        "md5": "4f435a4e4eba47b894908a7c47ca96cd",
+        "uri": "dev\\anim\\monster\\monster_12046_0_1_4f435.plist"
+    },
+    "dev\\anim\\monster\\monster_12046_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12046_0_1.png",
+        "md5": "02994539acb82a013a68b9a44fcd1251",
+        "uri": "dev\\anim\\monster\\monster_12046_0_1_02994.png"
+    },
+    "dev\\anim\\monster\\monster_12046_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12046_0_2.plist",
+        "md5": "df311d2832ae7150cba0c858d6fe9e2e",
+        "uri": "dev\\anim\\monster\\monster_12046_0_2_df311.plist"
+    },
+    "dev\\anim\\monster\\monster_12046_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12046_0_2.png",
+        "md5": "0365552774c0dbf1a0853a36ef055e25",
+        "uri": "dev\\anim\\monster\\monster_12046_0_2_03655.png"
+    },
+    "dev\\anim\\monster\\monster_12046_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12046_0_4.plist",
+        "md5": "28d136d9264206c1c336ccd49868d6b4",
+        "uri": "dev\\anim\\monster\\monster_12046_0_4_28d13.plist"
+    },
+    "dev\\anim\\monster\\monster_12046_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12046_0_4.png",
+        "md5": "c879221584bbb59c07771f999277a1aa",
+        "uri": "dev\\anim\\monster\\monster_12046_0_4_c8792.png"
+    },
+    "dev\\anim\\monster\\monster_12046_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12046_0_7.plist",
+        "md5": "15be3d947aab97b233225fb3a57a8e58",
+        "uri": "dev\\anim\\monster\\monster_12046_0_7_15be3.plist"
+    },
+    "dev\\anim\\monster\\monster_12046_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12046_0_7.png",
+        "md5": "0658b2637f518d5cb1b312899ca43442",
+        "uri": "dev\\anim\\monster\\monster_12046_0_7_0658b.png"
+    },
+    "dev\\anim\\monster\\monster_12047_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12047_0_0.plist",
+        "md5": "3f579bd1d74814731d96580f62874931",
+        "uri": "dev\\anim\\monster\\monster_12047_0_0_3f579.plist"
+    },
+    "dev\\anim\\monster\\monster_12047_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12047_0_0.png",
+        "md5": "104ebd3b679fd1fc4271e28eca57a3f4",
+        "uri": "dev\\anim\\monster\\monster_12047_0_0_104eb.png"
+    },
+    "dev\\anim\\monster\\monster_12047_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12047_0_1.plist",
+        "md5": "076e7c9d8356a72ddd05892baea8d61c",
+        "uri": "dev\\anim\\monster\\monster_12047_0_1_076e7.plist"
+    },
+    "dev\\anim\\monster\\monster_12047_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12047_0_1.png",
+        "md5": "99dfd241cf137b44f846c637b570e3b5",
+        "uri": "dev\\anim\\monster\\monster_12047_0_1_99dfd.png"
+    },
+    "dev\\anim\\monster\\monster_12047_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12047_0_2.plist",
+        "md5": "71f406d3fdb7ad2b19bb91ceb10f4d32",
+        "uri": "dev\\anim\\monster\\monster_12047_0_2_71f40.plist"
+    },
+    "dev\\anim\\monster\\monster_12047_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12047_0_2.png",
+        "md5": "5b89027b130885040b6f062db5b952e3",
+        "uri": "dev\\anim\\monster\\monster_12047_0_2_5b890.png"
+    },
+    "dev\\anim\\monster\\monster_12047_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12047_0_4.plist",
+        "md5": "f8968e670a635e7c8fbc86ee1a67ab19",
+        "uri": "dev\\anim\\monster\\monster_12047_0_4_f8968.plist"
+    },
+    "dev\\anim\\monster\\monster_12047_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12047_0_4.png",
+        "md5": "eea5dfa54e3acfeb24aa8a1bef386990",
+        "uri": "dev\\anim\\monster\\monster_12047_0_4_eea5d.png"
+    },
+    "dev\\anim\\monster\\monster_12047_0_6.plist": {
+        "key": "dev\\anim\\monster\\monster_12047_0_6.plist",
+        "md5": "e3a3c72c31b4eab876d6af97652c1cc8",
+        "uri": "dev\\anim\\monster\\monster_12047_0_6_e3a3c.plist"
+    },
+    "dev\\anim\\monster\\monster_12047_0_6.png": {
+        "key": "dev\\anim\\monster\\monster_12047_0_6.png",
+        "md5": "460e48b83a409e669fd3e8bd12f0be45",
+        "uri": "dev\\anim\\monster\\monster_12047_0_6_460e4.png"
+    },
+    "dev\\anim\\monster\\monster_12047_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12047_0_7.plist",
+        "md5": "956f8a4352fa79d60941592c6cde26e7",
+        "uri": "dev\\anim\\monster\\monster_12047_0_7_956f8.plist"
+    },
+    "dev\\anim\\monster\\monster_12047_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12047_0_7.png",
+        "md5": "a730e66d19bcc7247bcef33c60321500",
+        "uri": "dev\\anim\\monster\\monster_12047_0_7_a730e.png"
+    },
+    "dev\\anim\\monster\\monster_12048_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12048_0_0.plist",
+        "md5": "b65f855e0ac7849410fa7c3545cd1ea5",
+        "uri": "dev\\anim\\monster\\monster_12048_0_0_b65f8.plist"
+    },
+    "dev\\anim\\monster\\monster_12048_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12048_0_0.png",
+        "md5": "998647ee89b5b9e94994699cb0816b60",
+        "uri": "dev\\anim\\monster\\monster_12048_0_0_99864.png"
+    },
+    "dev\\anim\\monster\\monster_12048_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12048_0_1.plist",
+        "md5": "ca19c64e05148102f39c7faf27094aff",
+        "uri": "dev\\anim\\monster\\monster_12048_0_1_ca19c.plist"
+    },
+    "dev\\anim\\monster\\monster_12048_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12048_0_1.png",
+        "md5": "42eb727aaf5e94aff0d8ee63b289104b",
+        "uri": "dev\\anim\\monster\\monster_12048_0_1_42eb7.png"
+    },
+    "dev\\anim\\monster\\monster_12048_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12048_0_2.plist",
+        "md5": "006ec467ee27768c2be6e051d89a0b59",
+        "uri": "dev\\anim\\monster\\monster_12048_0_2_006ec.plist"
+    },
+    "dev\\anim\\monster\\monster_12048_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12048_0_2.png",
+        "md5": "ae5c421d1cb03b165765548448dd4ffe",
+        "uri": "dev\\anim\\monster\\monster_12048_0_2_ae5c4.png"
+    },
+    "dev\\anim\\monster\\monster_12048_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12048_0_4.plist",
+        "md5": "5525be61dd48cc7e5c534f67b27a4ec2",
+        "uri": "dev\\anim\\monster\\monster_12048_0_4_5525b.plist"
+    },
+    "dev\\anim\\monster\\monster_12048_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12048_0_4.png",
+        "md5": "44f5c4003c34d54b567750a19f70d97b",
+        "uri": "dev\\anim\\monster\\monster_12048_0_4_44f5c.png"
+    },
+    "dev\\anim\\monster\\monster_12048_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12048_0_7.plist",
+        "md5": "c3f01e14bc6d069deaa9d0017b0b8c1f",
+        "uri": "dev\\anim\\monster\\monster_12048_0_7_c3f01.plist"
+    },
+    "dev\\anim\\monster\\monster_12048_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12048_0_7.png",
+        "md5": "82e4e17cecde1b0177df1390cae9a33f",
+        "uri": "dev\\anim\\monster\\monster_12048_0_7_82e4e.png"
+    },
+    "dev\\anim\\monster\\monster_12049_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12049_0_0.plist",
+        "md5": "f419747aec7a8dc2e81f7e8b5326c17c",
+        "uri": "dev\\anim\\monster\\monster_12049_0_0_f4197.plist"
+    },
+    "dev\\anim\\monster\\monster_12049_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12049_0_0.png",
+        "md5": "e1ff9d0f8ee6b9ed0fabae4af91adf88",
+        "uri": "dev\\anim\\monster\\monster_12049_0_0_e1ff9.png"
+    },
+    "dev\\anim\\monster\\monster_12049_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12049_0_1.plist",
+        "md5": "47ee8fd8a8beee15ff7724cef44c5792",
+        "uri": "dev\\anim\\monster\\monster_12049_0_1_47ee8.plist"
+    },
+    "dev\\anim\\monster\\monster_12049_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12049_0_1.png",
+        "md5": "13a6c89bb117694ebdb1b5e1c37345be",
+        "uri": "dev\\anim\\monster\\monster_12049_0_1_13a6c.png"
+    },
+    "dev\\anim\\monster\\monster_12049_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12049_0_2.plist",
+        "md5": "77675b2bb809e4ad4c9bc914efbe29c6",
+        "uri": "dev\\anim\\monster\\monster_12049_0_2_77675.plist"
+    },
+    "dev\\anim\\monster\\monster_12049_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12049_0_2.png",
+        "md5": "8f1beb22572f49cc456052cb7e833731",
+        "uri": "dev\\anim\\monster\\monster_12049_0_2_8f1be.png"
+    },
+    "dev\\anim\\monster\\monster_12049_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12049_0_4.plist",
+        "md5": "c25b8b8659e86be8646f7aff5b11cdce",
+        "uri": "dev\\anim\\monster\\monster_12049_0_4_c25b8.plist"
+    },
+    "dev\\anim\\monster\\monster_12049_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12049_0_4.png",
+        "md5": "1f02da292a508339a9e0ee2904469731",
+        "uri": "dev\\anim\\monster\\monster_12049_0_4_1f02d.png"
+    },
+    "dev\\anim\\monster\\monster_12049_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12049_0_7.plist",
+        "md5": "8eaf4e3028d2cee6d1133c0e001a6e1c",
+        "uri": "dev\\anim\\monster\\monster_12049_0_7_8eaf4.plist"
+    },
+    "dev\\anim\\monster\\monster_12049_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12049_0_7.png",
+        "md5": "3bcf5509d59f4a8c6c767259a1afb8c0",
+        "uri": "dev\\anim\\monster\\monster_12049_0_7_3bcf5.png"
+    },
+    "dev\\anim\\monster\\monster_12050_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12050_0_0.plist",
+        "md5": "3ad6ebbfcb58c06902f39e2f42eff123",
+        "uri": "dev\\anim\\monster\\monster_12050_0_0_3ad6e.plist"
+    },
+    "dev\\anim\\monster\\monster_12050_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12050_0_0.png",
+        "md5": "e0ea3a111361c4caaf5ece571b92d6a3",
+        "uri": "dev\\anim\\monster\\monster_12050_0_0_e0ea3.png"
+    },
+    "dev\\anim\\monster\\monster_12050_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12050_0_1.plist",
+        "md5": "9f3a0b3caf55e5879c52dd96d197d4dd",
+        "uri": "dev\\anim\\monster\\monster_12050_0_1_9f3a0.plist"
+    },
+    "dev\\anim\\monster\\monster_12050_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12050_0_1.png",
+        "md5": "3000f04d15bffe32dc529f5781a90a67",
+        "uri": "dev\\anim\\monster\\monster_12050_0_1_3000f.png"
+    },
+    "dev\\anim\\monster\\monster_12050_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12050_0_2.plist",
+        "md5": "d93e27adec8e041fb21f82a2a5471483",
+        "uri": "dev\\anim\\monster\\monster_12050_0_2_d93e2.plist"
+    },
+    "dev\\anim\\monster\\monster_12050_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12050_0_2.png",
+        "md5": "a5d2e97fbc7a6f4331bf8605f34706d5",
+        "uri": "dev\\anim\\monster\\monster_12050_0_2_a5d2e.png"
+    },
+    "dev\\anim\\monster\\monster_12050_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12050_0_4.plist",
+        "md5": "2d4b70cb91bc85c34f0ee62d43a9d88a",
+        "uri": "dev\\anim\\monster\\monster_12050_0_4_2d4b7.plist"
+    },
+    "dev\\anim\\monster\\monster_12050_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12050_0_4.png",
+        "md5": "14e6e74bef73cb65bc9aa9e4efc3ec7a",
+        "uri": "dev\\anim\\monster\\monster_12050_0_4_14e6e.png"
+    },
+    "dev\\anim\\monster\\monster_12050_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12050_0_7.plist",
+        "md5": "957ab71d3f9a4c66cb515c974ed32094",
+        "uri": "dev\\anim\\monster\\monster_12050_0_7_957ab.plist"
+    },
+    "dev\\anim\\monster\\monster_12050_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12050_0_7.png",
+        "md5": "170c14d66463e18f0a465f8cea3c0a67",
+        "uri": "dev\\anim\\monster\\monster_12050_0_7_170c1.png"
+    },
+    "dev\\anim\\monster\\monster_12051_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12051_0_0.plist",
+        "md5": "fea6556110f4ad5b4a5d3e43f0e88485",
+        "uri": "dev\\anim\\monster\\monster_12051_0_0_fea65.plist"
+    },
+    "dev\\anim\\monster\\monster_12051_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12051_0_0.png",
+        "md5": "ddb0b80b4476e04595e2b465748a3d33",
+        "uri": "dev\\anim\\monster\\monster_12051_0_0_ddb0b.png"
+    },
+    "dev\\anim\\monster\\monster_12051_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12051_0_1.plist",
+        "md5": "cd0a48adc9d2c9f83801a40fa40912f8",
+        "uri": "dev\\anim\\monster\\monster_12051_0_1_cd0a4.plist"
+    },
+    "dev\\anim\\monster\\monster_12051_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12051_0_1.png",
+        "md5": "ca4b6e253f2172a53a96684f7b00e4a1",
+        "uri": "dev\\anim\\monster\\monster_12051_0_1_ca4b6.png"
+    },
+    "dev\\anim\\monster\\monster_12051_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12051_0_2.plist",
+        "md5": "8d4f8bf1aa5150dd3ad3a291ebf1514c",
+        "uri": "dev\\anim\\monster\\monster_12051_0_2_8d4f8.plist"
+    },
+    "dev\\anim\\monster\\monster_12051_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12051_0_2.png",
+        "md5": "cfec8d5d27ce6f397838a7936b0c409a",
+        "uri": "dev\\anim\\monster\\monster_12051_0_2_cfec8.png"
+    },
+    "dev\\anim\\monster\\monster_12051_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12051_0_4.plist",
+        "md5": "fc022599a942ba21cab86320306bfff1",
+        "uri": "dev\\anim\\monster\\monster_12051_0_4_fc022.plist"
+    },
+    "dev\\anim\\monster\\monster_12051_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12051_0_4.png",
+        "md5": "4f0bda9cb2a1a693145ce012406a85a7",
+        "uri": "dev\\anim\\monster\\monster_12051_0_4_4f0bd.png"
+    },
+    "dev\\anim\\monster\\monster_12051_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12051_0_7.plist",
+        "md5": "8ae04dc53e2654ce48cd28646f12fe0c",
+        "uri": "dev\\anim\\monster\\monster_12051_0_7_8ae04.plist"
+    },
+    "dev\\anim\\monster\\monster_12051_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12051_0_7.png",
+        "md5": "d2d58b47f60c4eae3c1a4ac4e7111e33",
+        "uri": "dev\\anim\\monster\\monster_12051_0_7_d2d58.png"
+    },
+    "dev\\anim\\monster\\monster_12052_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12052_0_0.plist",
+        "md5": "e83191bc059a10dd91c3d6db954c81e4",
+        "uri": "dev\\anim\\monster\\monster_12052_0_0_e8319.plist"
+    },
+    "dev\\anim\\monster\\monster_12052_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12052_0_0.png",
+        "md5": "c9a5a7ee4cddc066edbb3ea71b8c8ee6",
+        "uri": "dev\\anim\\monster\\monster_12052_0_0_c9a5a.png"
+    },
+    "dev\\anim\\monster\\monster_12052_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12052_0_1.plist",
+        "md5": "ffba265d5e905bd5312806cdbf997a3b",
+        "uri": "dev\\anim\\monster\\monster_12052_0_1_ffba2.plist"
+    },
+    "dev\\anim\\monster\\monster_12052_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12052_0_1.png",
+        "md5": "6f7c6d946c9b386c7f499ed059b06219",
+        "uri": "dev\\anim\\monster\\monster_12052_0_1_6f7c6.png"
+    },
+    "dev\\anim\\monster\\monster_12052_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12052_0_2.plist",
+        "md5": "5506d2f4821bfbf98214b4dcad9b93a0",
+        "uri": "dev\\anim\\monster\\monster_12052_0_2_5506d.plist"
+    },
+    "dev\\anim\\monster\\monster_12052_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12052_0_2.png",
+        "md5": "58bf7d6308f2cb251fb736a4c1cb9385",
+        "uri": "dev\\anim\\monster\\monster_12052_0_2_58bf7.png"
+    },
+    "dev\\anim\\monster\\monster_12052_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12052_0_4.plist",
+        "md5": "79414b1fe06e483be070da249259b362",
+        "uri": "dev\\anim\\monster\\monster_12052_0_4_79414.plist"
+    },
+    "dev\\anim\\monster\\monster_12052_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12052_0_4.png",
+        "md5": "c94b0338e5003339df352b30d118af35",
+        "uri": "dev\\anim\\monster\\monster_12052_0_4_c94b0.png"
+    },
+    "dev\\anim\\monster\\monster_12052_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12052_0_7.plist",
+        "md5": "e5c8f5392bda9450b5b95bfdf01589fb",
+        "uri": "dev\\anim\\monster\\monster_12052_0_7_e5c8f.plist"
+    },
+    "dev\\anim\\monster\\monster_12052_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12052_0_7.png",
+        "md5": "d70c0e95f0ad35c7fc2ddd6b9bb8d8a0",
+        "uri": "dev\\anim\\monster\\monster_12052_0_7_d70c0.png"
+    },
+    "dev\\anim\\monster\\monster_12053_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12053_0_0.plist",
+        "md5": "e3b5ed42635e93fe545e8d4e9270e814",
+        "uri": "dev\\anim\\monster\\monster_12053_0_0_e3b5e.plist"
+    },
+    "dev\\anim\\monster\\monster_12053_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12053_0_0.png",
+        "md5": "0f994bffe34a66047dd89af1b74fcf81",
+        "uri": "dev\\anim\\monster\\monster_12053_0_0_0f994.png"
+    },
+    "dev\\anim\\monster\\monster_12053_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12053_0_1.plist",
+        "md5": "572fd2531b814a35076231c99976df0e",
+        "uri": "dev\\anim\\monster\\monster_12053_0_1_572fd.plist"
+    },
+    "dev\\anim\\monster\\monster_12053_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12053_0_1.png",
+        "md5": "2cf0deafe2332f6adfbed16b5507af7c",
+        "uri": "dev\\anim\\monster\\monster_12053_0_1_2cf0d.png"
+    },
+    "dev\\anim\\monster\\monster_12053_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12053_0_2.plist",
+        "md5": "517f1c0beee954164c851c6a0b7196e4",
+        "uri": "dev\\anim\\monster\\monster_12053_0_2_517f1.plist"
+    },
+    "dev\\anim\\monster\\monster_12053_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12053_0_2.png",
+        "md5": "5d81e3fb37fd66651d4ef15bc08d6d8d",
+        "uri": "dev\\anim\\monster\\monster_12053_0_2_5d81e.png"
+    },
+    "dev\\anim\\monster\\monster_12053_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12053_0_4.plist",
+        "md5": "9a78b5dd498dee5b93c255341b18ce49",
+        "uri": "dev\\anim\\monster\\monster_12053_0_4_9a78b.plist"
+    },
+    "dev\\anim\\monster\\monster_12053_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12053_0_4.png",
+        "md5": "f18f1029e81dfe9149d9c990152e7bab",
+        "uri": "dev\\anim\\monster\\monster_12053_0_4_f18f1.png"
+    },
+    "dev\\anim\\monster\\monster_12053_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12053_0_7.plist",
+        "md5": "0177e866403ca680463b56de6028bd64",
+        "uri": "dev\\anim\\monster\\monster_12053_0_7_0177e.plist"
+    },
+    "dev\\anim\\monster\\monster_12053_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12053_0_7.png",
+        "md5": "2469777c640f08160041d7b87326b5d0",
+        "uri": "dev\\anim\\monster\\monster_12053_0_7_24697.png"
+    },
+    "dev\\anim\\monster\\monster_12054_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12054_0_0.plist",
+        "md5": "a89ccb366914f9c2677321365bb1adaf",
+        "uri": "dev\\anim\\monster\\monster_12054_0_0_a89cc.plist"
+    },
+    "dev\\anim\\monster\\monster_12054_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12054_0_0.png",
+        "md5": "21e54e19bf1552340a905b8bcb66edcf",
+        "uri": "dev\\anim\\monster\\monster_12054_0_0_21e54.png"
+    },
+    "dev\\anim\\monster\\monster_12054_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12054_0_1.plist",
+        "md5": "de0303a56dd12b45ac304927b4c6ef62",
+        "uri": "dev\\anim\\monster\\monster_12054_0_1_de030.plist"
+    },
+    "dev\\anim\\monster\\monster_12054_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12054_0_1.png",
+        "md5": "6d592ac36f900c5e9eca1b9ba8aa18f5",
+        "uri": "dev\\anim\\monster\\monster_12054_0_1_6d592.png"
+    },
+    "dev\\anim\\monster\\monster_12054_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12054_0_2.plist",
+        "md5": "b1b6b5b7f32edb4735c1c60320acb31f",
+        "uri": "dev\\anim\\monster\\monster_12054_0_2_b1b6b.plist"
+    },
+    "dev\\anim\\monster\\monster_12054_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12054_0_2.png",
+        "md5": "26795f44f81be7fcf817863cc3efe87c",
+        "uri": "dev\\anim\\monster\\monster_12054_0_2_26795.png"
+    },
+    "dev\\anim\\monster\\monster_12054_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12054_0_4.plist",
+        "md5": "9d128fc38b2bb319ca9b4290676b57eb",
+        "uri": "dev\\anim\\monster\\monster_12054_0_4_9d128.plist"
+    },
+    "dev\\anim\\monster\\monster_12054_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12054_0_4.png",
+        "md5": "77788946688e6cc244f8f0dcf673363e",
+        "uri": "dev\\anim\\monster\\monster_12054_0_4_77788.png"
+    },
+    "dev\\anim\\monster\\monster_12054_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12054_0_7.plist",
+        "md5": "07b64d95a7fb59eb6a0ad63d8484afca",
+        "uri": "dev\\anim\\monster\\monster_12054_0_7_07b64.plist"
+    },
+    "dev\\anim\\monster\\monster_12054_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12054_0_7.png",
+        "md5": "5bf32d149b0f7311fc90ca6b26d3029e",
+        "uri": "dev\\anim\\monster\\monster_12054_0_7_5bf32.png"
+    },
+    "dev\\anim\\monster\\monster_12055_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12055_0_0.plist",
+        "md5": "970977ef982850bd6af689b27d39d79d",
+        "uri": "dev\\anim\\monster\\monster_12055_0_0_97097.plist"
+    },
+    "dev\\anim\\monster\\monster_12055_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12055_0_0.png",
+        "md5": "f36a3d61c6dc0bd6ae8889257dec4df2",
+        "uri": "dev\\anim\\monster\\monster_12055_0_0_f36a3.png"
+    },
+    "dev\\anim\\monster\\monster_12055_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12055_0_1.plist",
+        "md5": "29b61f3c1deaa5d5a4ceb45c50cb2e97",
+        "uri": "dev\\anim\\monster\\monster_12055_0_1_29b61.plist"
+    },
+    "dev\\anim\\monster\\monster_12055_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12055_0_1.png",
+        "md5": "2520dbcaa77fa1e69b639bf00f8ec971",
+        "uri": "dev\\anim\\monster\\monster_12055_0_1_2520d.png"
+    },
+    "dev\\anim\\monster\\monster_12055_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12055_0_2.plist",
+        "md5": "1514d18a0cf57cc84962ca2e53214bc9",
+        "uri": "dev\\anim\\monster\\monster_12055_0_2_1514d.plist"
+    },
+    "dev\\anim\\monster\\monster_12055_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12055_0_2.png",
+        "md5": "d196416bad471fa31ce902e3a29c0a02",
+        "uri": "dev\\anim\\monster\\monster_12055_0_2_d1964.png"
+    },
+    "dev\\anim\\monster\\monster_12055_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12055_0_4.plist",
+        "md5": "1a89dc1a32ab8b55cb4e93aeef1780e7",
+        "uri": "dev\\anim\\monster\\monster_12055_0_4_1a89d.plist"
+    },
+    "dev\\anim\\monster\\monster_12055_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12055_0_4.png",
+        "md5": "06e5bc86dad440703106587ed845453e",
+        "uri": "dev\\anim\\monster\\monster_12055_0_4_06e5b.png"
+    },
+    "dev\\anim\\monster\\monster_12055_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12055_0_7.plist",
+        "md5": "8e4f77e846bad3b2d8bad19088354f78",
+        "uri": "dev\\anim\\monster\\monster_12055_0_7_8e4f7.plist"
+    },
+    "dev\\anim\\monster\\monster_12055_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12055_0_7.png",
+        "md5": "17aa42ce6dba216aa87a2cf27bc8ac59",
+        "uri": "dev\\anim\\monster\\monster_12055_0_7_17aa4.png"
+    },
+    "dev\\anim\\monster\\monster_12056_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12056_0_0.plist",
+        "md5": "737f987ba73ca3e6f516218f8c71f604",
+        "uri": "dev\\anim\\monster\\monster_12056_0_0_737f9.plist"
+    },
+    "dev\\anim\\monster\\monster_12056_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12056_0_0.png",
+        "md5": "1c1818851f807fc733dd493433ef882f",
+        "uri": "dev\\anim\\monster\\monster_12056_0_0_1c181.png"
+    },
+    "dev\\anim\\monster\\monster_12056_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12056_0_1.plist",
+        "md5": "909d0a8fbcb0721b2e575e70b05524ea",
+        "uri": "dev\\anim\\monster\\monster_12056_0_1_909d0.plist"
+    },
+    "dev\\anim\\monster\\monster_12056_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12056_0_1.png",
+        "md5": "d67cfc1d7c69e41dbcd5de040f2df078",
+        "uri": "dev\\anim\\monster\\monster_12056_0_1_d67cf.png"
+    },
+    "dev\\anim\\monster\\monster_12056_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12056_0_2.plist",
+        "md5": "5830e8f507a47b2027b88141bf794b16",
+        "uri": "dev\\anim\\monster\\monster_12056_0_2_5830e.plist"
+    },
+    "dev\\anim\\monster\\monster_12056_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12056_0_2.png",
+        "md5": "62ec40e4b8b7c6b9d0f886456b1e0224",
+        "uri": "dev\\anim\\monster\\monster_12056_0_2_62ec4.png"
+    },
+    "dev\\anim\\monster\\monster_12056_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12056_0_7.plist",
+        "md5": "2d84bd2986665eab067918bd0b731c8d",
+        "uri": "dev\\anim\\monster\\monster_12056_0_7_2d84b.plist"
+    },
+    "dev\\anim\\monster\\monster_12056_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12056_0_7.png",
+        "md5": "0c9542c91eff28922c274173aaa34e91",
+        "uri": "dev\\anim\\monster\\monster_12056_0_7_0c954.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_0_0.plist",
+        "md5": "8adf568e0fea95f77c5cc6480a9884f3",
+        "uri": "dev\\anim\\monster\\monster_12057_0_0_0_8adf5.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_0_0.png",
+        "md5": "bdefa23cab5c87d2d5f1103f9243c857",
+        "uri": "dev\\anim\\monster\\monster_12057_0_0_0_bdefa.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_0_1.plist",
+        "md5": "039345c7d8d931d24d0741dedbb7008f",
+        "uri": "dev\\anim\\monster\\monster_12057_0_0_1_03934.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_0_1.png",
+        "md5": "1dc49032aea3a803bc3f24f510333d0c",
+        "uri": "dev\\anim\\monster\\monster_12057_0_0_1_1dc49.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_1_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_1_0.plist",
+        "md5": "84aacf7a79e6c4ad7f7f61f4c3089191",
+        "uri": "dev\\anim\\monster\\monster_12057_0_1_0_84aac.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_1_0.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_1_0.png",
+        "md5": "cfef2307103711854bc299655746b9cd",
+        "uri": "dev\\anim\\monster\\monster_12057_0_1_0_cfef2.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_1_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_1_1.plist",
+        "md5": "7c8a1777306f1828ab2f9ae83e95948a",
+        "uri": "dev\\anim\\monster\\monster_12057_0_1_1_7c8a1.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_1_1.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_1_1.png",
+        "md5": "5393f61269d2a3b75e7f8a69cfe24686",
+        "uri": "dev\\anim\\monster\\monster_12057_0_1_1_5393f.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_2_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_2_0.plist",
+        "md5": "ceae5835e1e959ee0bb71f903bd1e5d9",
+        "uri": "dev\\anim\\monster\\monster_12057_0_2_0_ceae5.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_2_0.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_2_0.png",
+        "md5": "4e4106cd14b076a829c6dfd31ee30394",
+        "uri": "dev\\anim\\monster\\monster_12057_0_2_0_4e410.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_2_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_2_1.plist",
+        "md5": "48e08dac596e1e1c9e5fd71db7b6a174",
+        "uri": "dev\\anim\\monster\\monster_12057_0_2_1_48e08.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_2_1.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_2_1.png",
+        "md5": "c0e37688aaaad4be13e3b6af5a11b2c8",
+        "uri": "dev\\anim\\monster\\monster_12057_0_2_1_c0e37.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_4_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_4_0.plist",
+        "md5": "16957e23f70faee34a2e08d0f911ec69",
+        "uri": "dev\\anim\\monster\\monster_12057_0_4_0_16957.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_4_0.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_4_0.png",
+        "md5": "066eebc2954675f2ce99c7145cf59210",
+        "uri": "dev\\anim\\monster\\monster_12057_0_4_0_066ee.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_4_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_4_1.plist",
+        "md5": "7191307a997a464c50677f32cc745cf5",
+        "uri": "dev\\anim\\monster\\monster_12057_0_4_1_71913.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_4_1.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_4_1.png",
+        "md5": "066eebc2954675f2ce99c7145cf59210",
+        "uri": "dev\\anim\\monster\\monster_12057_0_4_1_066ee.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_7_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_7_0.plist",
+        "md5": "e9e7387668b65670b43fc3546bcf2d55",
+        "uri": "dev\\anim\\monster\\monster_12057_0_7_0_e9e73.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_7_0.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_7_0.png",
+        "md5": "4dacf8fb29faab55652c305f601b7d45",
+        "uri": "dev\\anim\\monster\\monster_12057_0_7_0_4dacf.png"
+    },
+    "dev\\anim\\monster\\monster_12057_0_7_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12057_0_7_1.plist",
+        "md5": "20b46819584f4121ace2e19fe31b3f0e",
+        "uri": "dev\\anim\\monster\\monster_12057_0_7_1_20b46.plist"
+    },
+    "dev\\anim\\monster\\monster_12057_0_7_1.png": {
+        "key": "dev\\anim\\monster\\monster_12057_0_7_1.png",
+        "md5": "0acd88b5d137a2d57eabff6ed133f52b",
+        "uri": "dev\\anim\\monster\\monster_12057_0_7_1_0acd8.png"
+    },
+    "dev\\anim\\monster\\monster_12058_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12058_0_0.plist",
+        "md5": "e987794a06f2f833730e4df05b21c494",
+        "uri": "dev\\anim\\monster\\monster_12058_0_0_e9877.plist"
+    },
+    "dev\\anim\\monster\\monster_12058_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12058_0_0.png",
+        "md5": "9ba62aba01dcf1121121e58ac349c6fc",
+        "uri": "dev\\anim\\monster\\monster_12058_0_0_9ba62.png"
+    },
+    "dev\\anim\\monster\\monster_12058_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12058_0_1.plist",
+        "md5": "fa220be0815d945c3095f055dbf52f15",
+        "uri": "dev\\anim\\monster\\monster_12058_0_1_fa220.plist"
+    },
+    "dev\\anim\\monster\\monster_12058_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12058_0_1.png",
+        "md5": "a33b0edbb7677362405533642febc9b1",
+        "uri": "dev\\anim\\monster\\monster_12058_0_1_a33b0.png"
+    },
+    "dev\\anim\\monster\\monster_12058_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12058_0_2.plist",
+        "md5": "91e218d63aab10ca95b2f88f131edd64",
+        "uri": "dev\\anim\\monster\\monster_12058_0_2_91e21.plist"
+    },
+    "dev\\anim\\monster\\monster_12058_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12058_0_2.png",
+        "md5": "378a17b3b3a80bb49e82c8e8e6577dca",
+        "uri": "dev\\anim\\monster\\monster_12058_0_2_378a1.png"
+    },
+    "dev\\anim\\monster\\monster_12058_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12058_0_7.plist",
+        "md5": "2a25d7c0a0693fe2a013fb5d9698ae69",
+        "uri": "dev\\anim\\monster\\monster_12058_0_7_2a25d.plist"
+    },
+    "dev\\anim\\monster\\monster_12058_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12058_0_7.png",
+        "md5": "cccbc6d096fa5bae194dc57479cb3dd4",
+        "uri": "dev\\anim\\monster\\monster_12058_0_7_cccbc.png"
+    },
+    "dev\\anim\\monster\\monster_12059_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12059_0_0.plist",
+        "md5": "983dd91e79cfa79a90f37ef1b8d20630",
+        "uri": "dev\\anim\\monster\\monster_12059_0_0_983dd.plist"
+    },
+    "dev\\anim\\monster\\monster_12059_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12059_0_0.png",
+        "md5": "8f3ca7eca64170f608f0ddd0dc311b33",
+        "uri": "dev\\anim\\monster\\monster_12059_0_0_8f3ca.png"
+    },
+    "dev\\anim\\monster\\monster_12059_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12059_0_1.plist",
+        "md5": "ba8c4e2ab6babceebfbe84be5b2a7876",
+        "uri": "dev\\anim\\monster\\monster_12059_0_1_ba8c4.plist"
+    },
+    "dev\\anim\\monster\\monster_12059_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12059_0_1.png",
+        "md5": "52c9b86c46aad89f8d91bbbdffc4d813",
+        "uri": "dev\\anim\\monster\\monster_12059_0_1_52c9b.png"
+    },
+    "dev\\anim\\monster\\monster_12059_0_2.plist": {
+        "key": "dev\\anim\\monster\\monster_12059_0_2.plist",
+        "md5": "de48cf45f20f329a9978d31edb07ab09",
+        "uri": "dev\\anim\\monster\\monster_12059_0_2_de48c.plist"
+    },
+    "dev\\anim\\monster\\monster_12059_0_2.png": {
+        "key": "dev\\anim\\monster\\monster_12059_0_2.png",
+        "md5": "d0ec70d8d58371c2aa259dc66501978a",
+        "uri": "dev\\anim\\monster\\monster_12059_0_2_d0ec7.png"
+    },
+    "dev\\anim\\monster\\monster_12059_0_4.plist": {
+        "key": "dev\\anim\\monster\\monster_12059_0_4.plist",
+        "md5": "f9525a0009641dac319d2559a05df5af",
+        "uri": "dev\\anim\\monster\\monster_12059_0_4_f9525.plist"
+    },
+    "dev\\anim\\monster\\monster_12059_0_4.png": {
+        "key": "dev\\anim\\monster\\monster_12059_0_4.png",
+        "md5": "412d8b99c49da2e0ea110b64d367996f",
+        "uri": "dev\\anim\\monster\\monster_12059_0_4_412d8.png"
+    },
+    "dev\\anim\\monster\\monster_12059_0_7.plist": {
+        "key": "dev\\anim\\monster\\monster_12059_0_7.plist",
+        "md5": "94d8a8f91cfb03910af77db1e78e7007",
+        "uri": "dev\\anim\\monster\\monster_12059_0_7_94d8a.plist"
+    },
+    "dev\\anim\\monster\\monster_12059_0_7.png": {
+        "key": "dev\\anim\\monster\\monster_12059_0_7.png",
+        "md5": "b0300332e19b16195eacb23206c290fe",
+        "uri": "dev\\anim\\monster\\monster_12059_0_7_b0300.png"
+    },
+    "dev\\anim\\monster\\monster_12060_0_0_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12060_0_0_0.plist",
+        "md5": "29ad341a76e20d29d5169a597fb26ed2",
+        "uri": "dev\\anim\\monster\\monster_12060_0_0_0_29ad3.plist"
+    },
+    "dev\\anim\\monster\\monster_12060_0_0_0.png": {
+        "key": "dev\\anim\\monster\\monster_12060_0_0_0.png",
+        "md5": "ef197d4354a92d0d5ccacc3d94aed290",
+        "uri": "dev\\anim\\monster\\monster_12060_0_0_0_ef197.png"
+    },
+    "dev\\anim\\monster\\monster_12060_0_0_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12060_0_0_1.plist",
+        "md5": "76851c34223aec26e6daf5bb9b1a03a3",
+        "uri": "dev\\anim\\monster\\monster_12060_0_0_1_76851.plist"
+    },
+    "dev\\anim\\monster\\monster_12060_0_0_1.png": {
+        "key": "dev\\anim\\monster\\monster_12060_0_0_1.png",
+        "md5": "8088823a6737f3239bb909a6ea96415c",
+        "uri": "dev\\anim\\monster\\monster_12060_0_0_1_80888.png"
+    },
+    "dev\\anim\\monster\\monster_12060_0_1_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12060_0_1_0.plist",
+        "md5": "1f9d55a2edc1a9281937baf2ffe0dfb9",
+        "uri": "dev\\anim\\monster\\monster_12060_0_1_0_1f9d5.plist"
+    },
+    "dev\\anim\\monster\\monster_12060_0_1_0.png": {
+        "key": "dev\\anim\\monster\\monster_12060_0_1_0.png",
+        "md5": "cc3db1086d25ac5f067f83675c1928b8",
+        "uri": "dev\\anim\\monster\\monster_12060_0_1_0_cc3db.png"
+    },
+    "dev\\anim\\monster\\monster_12060_0_1_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12060_0_1_1.plist",
+        "md5": "7a0e53fdd76dcf686a4dcafd792f52c5",
+        "uri": "dev\\anim\\monster\\monster_12060_0_1_1_7a0e5.plist"
+    },
+    "dev\\anim\\monster\\monster_12060_0_1_1.png": {
+        "key": "dev\\anim\\monster\\monster_12060_0_1_1.png",
+        "md5": "6a43d2d6e0145b10dd6817cf44eb0da9",
+        "uri": "dev\\anim\\monster\\monster_12060_0_1_1_6a43d.png"
+    },
+    "dev\\anim\\monster\\monster_12060_0_2_0.plist": {
+        "key": "dev\\anim\\monster\\monster_12060_0_2_0.plist",
+        "md5": "642583886c7826ffc0920db19d456860",
+        "uri": "dev\\anim\\monster\\monster_12060_0_2_0_64258.plist"
+    },
+    "dev\\anim\\monster\\monster_12060_0_2_0.png": {
+        "key": "dev\\anim\\monster\\monster_12060_0_2_0.png",
+        "md5": "5533468641e62c355bf1d8f4ad7105f3",
+        "uri": "dev\\anim\\monster\\monster_12060_0_2_0_55334.png"
+    },
+    "dev\\anim\\monster\\monster_12060_0_2_1.plist": {
+        "key": "dev\\anim\\monster\\monster_12060_0_2_1.plist",
+        "md5": "d586c3af4b74276d12a8cf4e5b25a642",
+        "uri": "dev\\anim\\monster\\monster_12060_0_2_1_d586c.plist"
     }
 }

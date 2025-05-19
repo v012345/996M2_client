@@ -50,3 +50,4 @@ dev/**/*.ttf
 dev/**/*.map
 
 /digital_res_local.json
+/digital_res_time.json

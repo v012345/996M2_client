@@ -1,5 +1,28 @@
-/cache
-/mod_launcher
+# 忽略 cache 及其子目录中所有内容
+/cache/**
+
+# 不忽略 cache 本身（关键）
+!/cache/
+
+# 不忽略所有子目录（关键）
+!/cache/**/
+
+# 不忽略 .lua 文件
+!/cache/**/*.lua
+
+# 忽略 cache 及其子目录中所有内容
+/mod_launcher/**
+
+# 不忽略 cache 本身（关键）
+!/mod_launcher/
+
+# 不忽略所有子目录（关键）
+!/mod_launcher/**/
+
+# 不忽略 .lua 文件
+!/mod_launcher/**/*.lua
+
+
 /avcodec-58.dll
 /avdevice-58.dll
 /avfilter-7.dll

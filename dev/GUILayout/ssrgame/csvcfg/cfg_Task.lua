@@ -1,21 +1,176 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		taskCategory = 1,
+		isYinDao = 1,
+		npcId = 1000,
+		nextTask = 2,
+		nextStartschedule = 1,
+		taskType = 4,
+		taskFlag = 100,
+		map = "起源村",
+		loginUpdata = 0,
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
+		taskCategory = 1,
+		taskNeed = {
+			[1] = 5,
+			[2] = 5,
+		},
+		isYinDao = 1,
+		recordVar = {
+			[1] = "U65",
+			[2] = "U66",
+		},
+		npcId = 1001,
+		nextTask = 3,
+		nextStartschedule = 1,
+		taskType = 2,
+		monster = {
+			[1] = "狂怒的蜘蛛",
+			[2] = "暴躁的毒蛇",
+		},
+		taskFlag = 101,
+		map = "起源村",
+		loginUpdata = 0,
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
+		taskCategory = 1,
+		taskNeed = {
+			[1] = 5,
+		},
+		isYinDao = 1,
+		recordVar = {
+			[1] = "U67",
+		},
+		npcId = 1002,
+		nextTask = 4,
+		nextStartschedule = 0,
+		taskType = 5,
+		monster = {
+			[1] = "清毒莲",
+		},
+		taskFlag = 102,
+		map = "起源村",
+		loginUpdata = 0,
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
+		taskCategory = 1,
+		taskNeed = {
+			[1] = 20,
+		},
+		isYinDao = 1,
+		recordVar = {
+			[1] = "U59",
+		},
+		npcId = 1003,
+		nextTask = 5,
+		nextStartschedule = 0,
+		taskType = 2,
+		monster = {
+			[1] = "腐化的稻草人",
+			[2] = "腐化的钉耙猫",
+		},
+		taskFlag = 103,
+		map = "起源村",
+		loginUpdata = 0,
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
+		taskCategory = 1,
+		taskNeed = {
+			[1] = 5,
+			[2] = 5,
+		},
+		isYinDao = 1,
+		recordVar = {
+			[1] = "U59",
+			[2] = "U60",
+		},
+		npcId = 1004,
+		items = {
+			[1] = "通灵花粉",
+			[2] = "净化晶矿",
+		},
+		nextTask = 6,
+		nextStartschedule = 0,
+		taskType = 5,
+		taskFlag = 104,
+		map = "起源村",
+		loginUpdata = 0,
 	},
-	[6] = {
+	[6] = { 
+		xls_id = 6,
+		taskCategory = 1,
+		taskNeed = {
+			[1] = 10,
+			[2] = 1,
+		},
+		isYinDao = 1,
+		recordVar = {
+			[1] = "U59",
+			[2] = "U60",
+		},
+		npcId = 1005,
+		nextTask = 7,
+		nextStartschedule = 0,
+		taskType = 2,
+		monster = {
+			[1] = "古神祭祀",
+			[2] = "古神·阿古斯",
+			[3] = "古神·阿古斯·本体",
+		},
+		taskFlag = 105,
+		map = "起源村",
+		loginUpdata = 0,
 	},
-	[7] = {
+	[7] = { 
+		xls_id = 7,
+		taskCategory = 1,
+		taskNeed = {
+			[1] = 20,
+		},
+		isYinDao = 1,
+		recordVar = {
+			[1] = "U59",
+		},
+		npcId = 1005,
+		nextTask = 8,
+		nextStartschedule = 0,
+		taskType = 2,
+		taskFlag = 106,
+		map = "野兽之森",
+		loginUpdata = 0,
 	},
-	[8] = {
+	[8] = { 
+		xls_id = 8,
+		taskCategory = 1,
+		taskNeed = {
+			[1] = 20,
+		},
+		isYinDao = 1,
+		recordVar = {
+			[1] = "U59",
+		},
+		npcId = 1005,
+		nextTask = 8,
+		nextStartschedule = 0,
+		taskType = 1,
+		taskFlag = 106,
+		map = "野兽之森",
+		loginUpdata = 0,
 	},
-	[200] = {
+	[200] = { 
+		xls_id = 200,
+		taskCategory = 2,
+		items = {
+			[1] = "超级护身符",
+		},
+		taskType = 3,
+		loginUpdata = 1,
 	},
 }
 return config

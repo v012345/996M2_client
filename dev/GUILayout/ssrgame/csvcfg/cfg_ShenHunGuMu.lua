@@ -1,17 +1,73 @@
-local config = {
-	[1] = {
+local config = { 
+	[7] = { 
+		xls_id = 7,
+		y = 35,
+		x = 33,
+		num = 1,
+		mapID = "龙骸遗迹",
+		range = 1,
+		color = 247,
+		value = "◆◆◆神魂龙骸◆◆◆",
 	},
-	[2] = {
+	[1] = { 
+		xls_id = 1,
+		y = 99,
+		x = 94,
+		num = 99,
+		mapID = "神魂古墓",
+		range = 100,
+		color = 255,
+		value = "天·元神",
 	},
-	[3] = {
+	[2] = { 
+		xls_id = 2,
+		y = 99,
+		x = 94,
+		num = 99,
+		mapID = "神魂古墓",
+		range = 100,
+		color = 255,
+		value = "人·阳神",
 	},
-	[4] = {
+	[3] = { 
+		xls_id = 3,
+		y = 99,
+		x = 94,
+		num = 99,
+		mapID = "神魂古墓",
+		range = 100,
+		color = 255,
+		value = "地·阴神",
 	},
-	[5] = {
+	[4] = { 
+		xls_id = 4,
+		y = 23,
+		x = 78,
+		num = 1,
+		mapID = "神魂古墓",
+		range = 1,
+		color = 247,
+		value = "◆◆◆天帝魂主◆◆◆",
 	},
-	[6] = {
+	[5] = { 
+		xls_id = 5,
+		y = 124,
+		x = 70,
+		num = 1,
+		mapID = "神魂古墓",
+		range = 1,
+		color = 247,
+		value = "◆◆◆人帝魂主◆◆◆",
 	},
-	[7] = {
+	[6] = { 
+		xls_id = 6,
+		y = 115,
+		x = 173,
+		num = 1,
+		mapID = "神魂古墓",
+		range = 1,
+		color = 247,
+		value = "◆◆◆地帝魂主◆◆◆",
 	},
 }
 return config

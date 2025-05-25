@@ -1,5 +1,7 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		AllAttr = 10,
 		Title = "哈法西斯挑战者Lv1",
 		Cost = {
 			[1] = {
@@ -19,11 +21,12 @@ local config = {
 				[2] = 2,
 			},
 		},
-		Attr = 100,
 		HpAndMp = 28888,
-		AllAttr = 10,
+		Attr = 100,
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
+		AllAttr = 15,
 		Title = "哈法西斯挑战者Lv2",
 		Cost = {
 			[1] = {
@@ -43,11 +46,12 @@ local config = {
 				[2] = 4,
 			},
 		},
-		Attr = 150,
 		HpAndMp = 48888,
-		AllAttr = 15,
+		Attr = 150,
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
+		AllAttr = 20,
 		Title = "哈法西斯挑战者Lv3",
 		Cost = {
 			[1] = {
@@ -67,11 +71,12 @@ local config = {
 				[2] = 8,
 			},
 		},
-		Attr = 200,
 		HpAndMp = 68888,
-		AllAttr = 20,
+		Attr = 200,
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
+		AllAttr = 25,
 		Title = "哈法西斯挑战者Lv4",
 		Cost = {
 			[1] = {
@@ -91,11 +96,12 @@ local config = {
 				[2] = 12,
 			},
 		},
-		Attr = 300,
 		HpAndMp = 108888,
-		AllAttr = 25,
+		Attr = 300,
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
+		AllAttr = 30,
 		Title = "哈法西斯挑战者Lv5",
 		Cost = {
 			[1] = {
@@ -115,9 +121,8 @@ local config = {
 				[2] = 16,
 			},
 		},
-		Attr = 488,
 		HpAndMp = 158888,
-		AllAttr = 30,
+		Attr = 488,
 	},
 }
 return config

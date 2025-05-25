@@ -1,7 +1,13 @@
-local config = {
-	[1] = {
-		unlockLevel = 321,
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		currDesc = "当前：入世·一重",
+		showCost = {
+			[1] = {
+				[1] = "造化结晶",
+				[2] = 28,
+			},
+		},
 		desc = "将道术的 <font color='#00ff00' size='16' >2.5%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -23,16 +29,18 @@ local config = {
 				[2] = 28,
 			},
 		},
+		perNum = 0.025,
+		unlockLevel = 321,
+	},
+	[2] = { 
+		xls_id = 2,
+		currDesc = "当前：入世·二重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 28,
+				[2] = 48,
 			},
 		},
-	},
-	[2] = {
-		unlockLevel = 322,
-		currDesc = "当前：入世·二重",
 		desc = "将道术的 <font color='#00ff00' size='16' >5%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -54,16 +62,18 @@ local config = {
 				[2] = 48,
 			},
 		},
+		perNum = 0.05,
+		unlockLevel = 322,
+	},
+	[3] = { 
+		xls_id = 3,
+		currDesc = "当前：入世·三重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 48,
+				[2] = 68,
 			},
 		},
-	},
-	[3] = {
-		unlockLevel = 323,
-		currDesc = "当前：入世·三重",
 		desc = "将道术的 <font color='#00ff00' size='16' >7.5%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -85,16 +95,18 @@ local config = {
 				[2] = 68,
 			},
 		},
+		perNum = 0.075,
+		unlockLevel = 323,
+	},
+	[4] = { 
+		xls_id = 4,
+		currDesc = "当前：入世·四重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 68,
+				[2] = 88,
 			},
 		},
-	},
-	[4] = {
-		unlockLevel = 324,
-		currDesc = "当前：入世·四重",
 		desc = "将道术的 <font color='#00ff00' size='16' >10%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -116,16 +128,18 @@ local config = {
 				[2] = 88,
 			},
 		},
+		perNum = 0.1,
+		unlockLevel = 324,
+	},
+	[5] = { 
+		xls_id = 5,
+		currDesc = "当前：入世·五重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 88,
+				[2] = 108,
 			},
 		},
-	},
-	[5] = {
-		unlockLevel = 325,
-		currDesc = "当前：入世·五重",
 		desc = "将道术的 <font color='#00ff00' size='16' >12.5%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -147,16 +161,18 @@ local config = {
 				[2] = 108,
 			},
 		},
+		perNum = 0.125,
+		unlockLevel = 325,
+	},
+	[6] = { 
+		xls_id = 6,
+		currDesc = "当前：入世·六重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 108,
+				[2] = 128,
 			},
 		},
-	},
-	[6] = {
-		unlockLevel = 326,
-		currDesc = "当前：入世·六重",
 		desc = "将道术的 <font color='#00ff00' size='16' >15%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -178,16 +194,18 @@ local config = {
 				[2] = 128,
 			},
 		},
+		perNum = 0.15,
+		unlockLevel = 326,
+	},
+	[7] = { 
+		xls_id = 7,
+		currDesc = "当前：入世·七重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 128,
+				[2] = 148,
 			},
 		},
-	},
-	[7] = {
-		unlockLevel = 327,
-		currDesc = "当前：入世·七重",
 		desc = "将道术的 <font color='#00ff00' size='16' >17.5%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -209,16 +227,18 @@ local config = {
 				[2] = 148,
 			},
 		},
+		perNum = 0.175,
+		unlockLevel = 327,
+	},
+	[8] = { 
+		xls_id = 8,
+		currDesc = "当前：入世·八重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 148,
+				[2] = 168,
 			},
 		},
-	},
-	[8] = {
-		unlockLevel = 328,
-		currDesc = "当前：入世·八重",
 		desc = "将道术的 <font color='#00ff00' size='16' >20%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -240,16 +260,18 @@ local config = {
 				[2] = 168,
 			},
 		},
+		perNum = 0.2,
+		unlockLevel = 328,
+	},
+	[9] = { 
+		xls_id = 9,
+		currDesc = "当前：入世·九重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 168,
+				[2] = 188,
 			},
 		},
-	},
-	[9] = {
-		unlockLevel = 329,
-		currDesc = "当前：入世·九重",
 		desc = "将道术的 <font color='#00ff00' size='16' >22.5%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -271,16 +293,18 @@ local config = {
 				[2] = 188,
 			},
 		},
+		perNum = 0.225,
+		unlockLevel = 329,
+	},
+	[10] = { 
+		xls_id = 10,
+		currDesc = "当前：入世·十重",
 		showCost = {
 			[1] = {
 				[1] = "造化结晶",
-				[2] = 188,
+				[2] = 200,
 			},
 		},
-	},
-	[10] = {
-		unlockLevel = 330,
-		currDesc = "当前：入世·十重",
 		desc = "将道术的 <font color='#00ff00' size='16' >25%</font> 转化为攻击",
 		cost1 = {
 			[1] = {
@@ -302,12 +326,8 @@ local config = {
 				[2] = 200,
 			},
 		},
-		showCost = {
-			[1] = {
-				[1] = "造化结晶",
-				[2] = 200,
-			},
-		},
+		perNum = 0.25,
+		unlockLevel = 330,
 	},
 }
 return config

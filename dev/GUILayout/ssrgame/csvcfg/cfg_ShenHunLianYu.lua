@@ -1,51 +1,8 @@
-local config = {
-	[1] = {
-		mobName = "天启至尊[炼狱]",
-		mapID = "神魂炼狱1层",
-		point = 10,
-		showTiaoJian = "开启狂暴 等级280级",
-		diaoLuoShow = {
-			[1] = {
-				[1] = "神魂碎片",
-				[2] = 1,
-			},
-			[2] = {
-				[1] = "1元充值红包",
-				[2] = 1,
-			},
-			[3] = {
-				[1] = "孤影流觞",
-				[2] = 1,
-			},
-			[4] = {
-				[1] = "降星者",
-				[2] = 1,
-			},
-			[5] = {
-				[1] = "永恒凛冬",
-				[2] = 1,
-			},
-			[6] = {
-				[1] = "金色黎明的圣物箱",
-				[2] = 1,
-			},
-			[7] = {
-				[1] = "暮潮",
-				[2] = 1,
-			},
-			[8] = {
-				[1] = "一缕神念",
-				[2] = 1,
-			},
-		},
-		weaponID = 30088,
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		clothID = 40026,
-	},
-	[2] = {
-		mobName = "双星至尊[炼狱]",
-		mapID = "神魂炼狱2层",
-		point = 20,
-		showTiaoJian = "开启狂暴 等级300级",
+		mobName = "天启至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -80,14 +37,16 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30019,
+		showTiaoJian = "开启狂暴 等级280级",
+		point = 10,
+		tiaoJian1 = 280,
+		mapID = "神魂炼狱1层",
+		weaponID = 30088,
+	},
+	[2] = { 
+		xls_id = 2,
 		clothID = 40047,
-	},
-	[3] = {
-		mobName = "三魂至尊[炼狱]",
-		mapID = "神魂炼狱3层",
-		point = 30,
-		showTiaoJian = "开启狂暴 等级320级",
+		mobName = "双星至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -122,14 +81,16 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30010,
+		showTiaoJian = "开启狂暴 等级300级",
+		point = 20,
+		tiaoJian1 = 300,
+		mapID = "神魂炼狱2层",
+		weaponID = 30019,
+	},
+	[3] = { 
+		xls_id = 3,
 		clothID = 40050,
-	},
-	[4] = {
-		mobName = "四玄至尊[炼狱]",
-		mapID = "神魂炼狱4层",
-		point = 40,
-		showTiaoJian = "开启狂暴 等级325级 战斗力3000w",
+		mobName = "三魂至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -164,14 +125,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30053,
+		showTiaoJian = "开启狂暴 等级320级",
+		point = 30,
+		tiaoJian1 = 320,
+		mapID = "神魂炼狱3层",
+		weaponID = 30010,
+	},
+	[4] = { 
+		xls_id = 4,
 		clothID = 40075,
-	},
-	[5] = {
-		mobName = "五岳至尊[炼狱]",
-		mapID = "神魂炼狱5层",
-		point = 50,
-		showTiaoJian = "开启狂暴 等级330级 战斗力5000w",
+		tiaoJian2 = 30000000,
+		mobName = "四玄至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -206,14 +170,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30090,
+		showTiaoJian = "开启狂暴 等级325级 战斗力3000w",
+		point = 40,
+		tiaoJian1 = 325,
+		mapID = "神魂炼狱4层",
+		weaponID = 30053,
+	},
+	[5] = { 
+		xls_id = 5,
 		clothID = 40057,
-	},
-	[6] = {
-		mobName = "六合至尊[炼狱]",
-		mapID = "神魂炼狱6层",
-		point = 80,
-		showTiaoJian = "开启狂暴 等级335级 战斗力8000w",
+		tiaoJian2 = 50000000,
+		mobName = "五岳至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -248,14 +215,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30067,
+		showTiaoJian = "开启狂暴 等级330级 战斗力5000w",
+		point = 50,
+		tiaoJian1 = 330,
+		mapID = "神魂炼狱5层",
+		weaponID = 30090,
+	},
+	[6] = { 
+		xls_id = 6,
 		clothID = 40025,
-	},
-	[7] = {
-		mobName = "七星至尊[炼狱]",
-		mapID = "神魂炼狱7层",
-		point = 120,
-		showTiaoJian = "开启狂暴 等级340级 战斗力12000w",
+		tiaoJian2 = 80000000,
+		mobName = "六合至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -290,14 +260,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30064,
+		showTiaoJian = "开启狂暴 等级335级 战斗力8000w",
+		point = 80,
+		tiaoJian1 = 335,
+		mapID = "神魂炼狱6层",
+		weaponID = 30067,
+	},
+	[7] = { 
+		xls_id = 7,
 		clothID = 40023,
-	},
-	[8] = {
-		mobName = "八荒至尊[炼狱]",
-		mapID = "神魂炼狱8层",
-		point = 160,
-		showTiaoJian = "开启狂暴 等级345级 战斗力16000w",
+		tiaoJian2 = 120000000,
+		mobName = "七星至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -332,14 +305,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30048,
+		showTiaoJian = "开启狂暴 等级340级 战斗力12000w",
+		point = 120,
+		tiaoJian1 = 340,
+		mapID = "神魂炼狱7层",
+		weaponID = 30064,
+	},
+	[8] = { 
+		xls_id = 8,
 		clothID = 40001,
-	},
-	[9] = {
-		mobName = "九曜至尊[炼狱]",
-		mapID = "神魂炼狱9层",
-		point = 200,
-		showTiaoJian = "开启狂暴 等级350级 战斗力20000w",
+		tiaoJian2 = 160000000,
+		mobName = "八荒至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -374,14 +350,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30025,
+		showTiaoJian = "开启狂暴 等级345级 战斗力16000w",
+		point = 160,
+		tiaoJian1 = 345,
+		mapID = "神魂炼狱8层",
+		weaponID = 30048,
+	},
+	[9] = { 
+		xls_id = 9,
 		clothID = 40042,
-	},
-	[10] = {
-		mobName = "十都至尊[炼狱]",
-		mapID = "神魂炼狱10层",
-		point = 240,
-		showTiaoJian = "开启狂暴 等级355级 战斗力30000w",
+		tiaoJian2 = 200000000,
+		mobName = "九曜至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -416,14 +395,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30044,
+		showTiaoJian = "开启狂暴 等级350级 战斗力20000w",
+		point = 200,
+		tiaoJian1 = 350,
+		mapID = "神魂炼狱9层",
+		weaponID = 30025,
+	},
+	[10] = { 
+		xls_id = 10,
 		clothID = 40016,
-	},
-	[11] = {
-		mobName = "百威至尊[炼狱]",
-		mapID = "神魂炼狱11层",
-		point = 280,
-		showTiaoJian = "开启狂暴 等级360级 战斗力40000w",
+		tiaoJian2 = 300000000,
+		mobName = "十都至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -458,14 +440,17 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30099,
+		showTiaoJian = "开启狂暴 等级355级 战斗力30000w",
+		point = 240,
+		tiaoJian1 = 355,
+		mapID = "神魂炼狱10层",
+		weaponID = 30044,
+	},
+	[11] = { 
+		xls_id = 11,
 		clothID = 40055,
-	},
-	[12] = {
-		mobName = "千煞至尊[炼狱]",
-		mapID = "神魂炼狱12层",
-		point = 320,
-		showTiaoJian = "开启狂暴 等级365级 战斗力50000w",
+		tiaoJian2 = 400000000,
+		mobName = "百威至尊[炼狱]",
 		diaoLuoShow = {
 			[1] = {
 				[1] = "神魂碎片",
@@ -500,8 +485,56 @@ local config = {
 				[2] = 1,
 			},
 		},
-		weaponID = 30008,
+		showTiaoJian = "开启狂暴 等级360级 战斗力40000w",
+		point = 280,
+		tiaoJian1 = 360,
+		mapID = "神魂炼狱11层",
+		weaponID = 30099,
+	},
+	[12] = { 
+		xls_id = 12,
 		clothID = 40098,
+		tiaoJian2 = 500000000,
+		mobName = "千煞至尊[炼狱]",
+		diaoLuoShow = {
+			[1] = {
+				[1] = "神魂碎片",
+				[2] = 1,
+			},
+			[2] = {
+				[1] = "1元充值红包",
+				[2] = 1,
+			},
+			[3] = {
+				[1] = "孤影流觞",
+				[2] = 1,
+			},
+			[4] = {
+				[1] = "降星者",
+				[2] = 1,
+			},
+			[5] = {
+				[1] = "永恒凛冬",
+				[2] = 1,
+			},
+			[6] = {
+				[1] = "金色黎明的圣物箱",
+				[2] = 1,
+			},
+			[7] = {
+				[1] = "暮潮",
+				[2] = 1,
+			},
+			[8] = {
+				[1] = "一缕神念",
+				[2] = 1,
+			},
+		},
+		showTiaoJian = "开启狂暴 等级365级 战斗力50000w",
+		point = 320,
+		tiaoJian1 = 365,
+		mapID = "神魂炼狱12层",
+		weaponID = 30008,
 	},
 }
 return config

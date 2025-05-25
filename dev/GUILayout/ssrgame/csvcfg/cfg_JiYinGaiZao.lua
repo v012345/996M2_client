@@ -1,80 +1,180 @@
-local config = {
-	["攻转道"] = {
-		LooksShow1 = "攻击",
-		LooksShow2 = "道术",
-	},
-	["攻转魔"] = {
-		LooksShow1 = "攻击",
-		LooksShow2 = "魔法",
-	},
-	["道转攻"] = {
-		LooksShow1 = "道术",
-		LooksShow2 = "攻击",
-	},
-	["道转魔"] = {
-		LooksShow1 = "道术",
-		LooksShow2 = "魔法",
-	},
-	["魔转攻"] = {
-		LooksShow1 = "魔法",
-		LooksShow2 = "攻击",
-	},
-	["魔转道"] = {
-		LooksShow1 = "魔法",
-		LooksShow2 = "道术",
-	},
-	["红转蓝"] = {
-		LooksShow1 = "Hp",
-		LooksShow2 = "Mp",
-	},
-	["蓝转红"] = {
-		LooksShow1 = "Mp",
+local config = { 
+	["蓝转红"] = { 
+		xls_id = "蓝转红",
+		AttrNum = 2000,
+		LooksNum = 47,
 		LooksShow2 = "Hp",
+		AddNum = 1,
+		LooksShow1 = "Mp",
+		DecNum = 2,
 	},
-	["攻击元素"] = {
-		LooksShow1 = "[攻击元素]增加+15%上限",
+	["魔转道"] = { 
+		xls_id = "魔转道",
+		AttrNum = 50,
+		LooksNum = 45,
+		LooksShow2 = "道术",
+		AddNum = 8,
+		LooksShow1 = "魔法",
+		DecNum = 6,
 	},
-	["魔法元素"] = {
-		LooksShow1 = "[魔法元素]增加+15%上限",
-	},
-	["道术元素"] = {
-		LooksShow1 = "[道术元素]增加+15%上限",
-	},
-	["物防加成"] = {
+	["物防加成"] = { 
+		xls_id = "物防加成",
+		AttrNum = 15,
+		LooksNum = 51,
+		AddNum = 213,
 		LooksShow1 = "[物防加成]增加+15%上限",
 	},
-	["魔防加成"] = {
-		LooksShow1 = "[魔防加成]增加+15%上限",
-	},
-	["血量加成"] = {
-		LooksShow1 = "[血量加成]增加+15%上限",
-	},
-	["蓝量加成"] = {
-		LooksShow1 = "[蓝量加成]增加+15%上限",
-	},
-	["攻击伤害"] = {
-		LooksShow1 = "[攻击伤害]增加+15%上限",
-	},
-	["物伤减免"] = {
-		LooksShow1 = "[物伤减免]增加+15%上限",
-	},
-	["魔法减免"] = {
-		LooksShow1 = "[魔法减免]增加+15%上限",
-	},
-	["连爆概率"] = {
-		LooksShow1 = "[连爆概率]增加+5%上限",
-	},
-	["打怪増伤"] = {
+	["打怪増伤"] = { 
+		xls_id = "打怪増伤",
+		AttrNum = 1500,
+		LooksNum = 59,
+		AddNum = 75,
 		LooksShow1 = "[打怪増伤]增加+15%上限",
 	},
-	["受怪减伤"] = {
+	["物伤减免"] = { 
+		xls_id = "物伤减免",
+		AttrNum = 15,
+		LooksNum = 56,
+		AddNum = 26,
+		LooksShow1 = "[物伤减免]增加+15%上限",
+	},
+	["攻转魔"] = { 
+		xls_id = "攻转魔",
+		AttrNum = 50,
+		LooksNum = 41,
+		LooksShow2 = "魔法",
+		AddNum = 6,
+		LooksShow1 = "攻击",
+		DecNum = 4,
+	},
+	["魔法元素"] = { 
+		xls_id = "魔法元素",
+		AttrNum = 15,
+		LooksNum = 49,
+		AddNum = 211,
+		LooksShow1 = "[魔法元素]增加+15%上限",
+	},
+	["道转攻"] = { 
+		xls_id = "道转攻",
+		AttrNum = 50,
+		LooksNum = 42,
+		LooksShow2 = "攻击",
+		AddNum = 4,
+		LooksShow1 = "道术",
+		DecNum = 8,
+	},
+	["魔转攻"] = { 
+		xls_id = "魔转攻",
+		AttrNum = 50,
+		LooksNum = 44,
+		LooksShow2 = "攻击",
+		AddNum = 4,
+		LooksShow1 = "魔法",
+		DecNum = 6,
+	},
+	["受怪减伤"] = { 
+		xls_id = "受怪减伤",
+		AttrNum = 1500,
+		LooksNum = 60,
+		AddNum = 82,
 		LooksShow1 = "[受怪减伤]增加+15%上限",
 	},
-	["暴击概率"] = {
+	["攻击伤害"] = { 
+		xls_id = "攻击伤害",
+		AttrNum = 15,
+		LooksNum = 55,
+		AddNum = 25,
+		LooksShow1 = "[攻击伤害]增加+15%上限",
+	},
+	["暴击概率"] = { 
+		xls_id = "暴击概率",
+		AttrNum = 15,
+		LooksNum = 61,
+		AddNum = 21,
 		LooksShow1 = "[暴击概率]增加+15%上限",
 	},
-	["暴击抵抗"] = {
+	["道转魔"] = { 
+		xls_id = "道转魔",
+		AttrNum = 50,
+		LooksNum = 43,
+		LooksShow2 = "魔法",
+		AddNum = 6,
+		LooksShow1 = "道术",
+		DecNum = 8,
+	},
+	["连爆概率"] = { 
+		xls_id = "连爆概率",
+		AttrNum = 5,
+		LooksNum = 58,
+		AddNum = 226,
+		LooksShow1 = "[连爆概率]增加+5%上限",
+	},
+	["道术元素"] = { 
+		xls_id = "道术元素",
+		AttrNum = 15,
+		LooksNum = 50,
+		AddNum = 212,
+		LooksShow1 = "[道术元素]增加+15%上限",
+	},
+	["魔防加成"] = { 
+		xls_id = "魔防加成",
+		AttrNum = 15,
+		LooksNum = 52,
+		AddNum = 214,
+		LooksShow1 = "[魔防加成]增加+15%上限",
+	},
+	["血量加成"] = { 
+		xls_id = "血量加成",
+		AttrNum = 15,
+		LooksNum = 53,
+		AddNum = 208,
+		LooksShow1 = "[血量加成]增加+15%上限",
+	},
+	["暴击抵抗"] = { 
+		xls_id = "暴击抵抗",
+		AttrNum = 15,
+		LooksNum = 62,
+		AddNum = 24,
 		LooksShow1 = "[暴击抵抗]增加+15%上限",
+	},
+	["魔法减免"] = { 
+		xls_id = "魔法减免",
+		AttrNum = 15,
+		LooksNum = 57,
+		AddNum = 27,
+		LooksShow1 = "[魔法减免]增加+15%上限",
+	},
+	["攻击元素"] = { 
+		xls_id = "攻击元素",
+		AttrNum = 15,
+		LooksNum = 48,
+		AddNum = 210,
+		LooksShow1 = "[攻击元素]增加+15%上限",
+	},
+	["红转蓝"] = { 
+		xls_id = "红转蓝",
+		AttrNum = 2000,
+		LooksNum = 46,
+		LooksShow2 = "Mp",
+		AddNum = 2,
+		LooksShow1 = "Hp",
+		DecNum = 1,
+	},
+	["蓝量加成"] = { 
+		xls_id = "蓝量加成",
+		AttrNum = 15,
+		LooksNum = 54,
+		AddNum = 209,
+		LooksShow1 = "[蓝量加成]增加+15%上限",
+	},
+	["攻转道"] = { 
+		xls_id = "攻转道",
+		AttrNum = 50,
+		LooksNum = 40,
+		LooksShow2 = "道术",
+		AddNum = 8,
+		LooksShow1 = "攻击",
+		DecNum = 4,
 	},
 }
 return config

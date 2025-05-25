@@ -1,63 +1,184 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		max = 10,
+		attrColor = 251,
+		randomNum = 50,
+		ransjstr = {
+			[1] = "攻击上限#16",
+			[2] = "魔法上限#14",
+			[3] = "道术上限#14",
+			[4] = "血量上限#14",
+			[5] = "蓝量上限#14",
+			[6] = "物防上限#14",
+			[7] = "魔防上限#14",
+		},
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
 		max = 10,
+		attrColor = 251,
+		randomNum = 40,
+		ransjstr = {
+			[1] = "攻击上限#16",
+			[2] = "魔法上限#14",
+			[3] = "道术上限#14",
+			[4] = "血量上限#14",
+			[5] = "蓝量上限#14",
+			[6] = "物防上限#14",
+			[7] = "魔防上限#14",
+		},
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
 		max = 10,
+		attrColor = 251,
+		randomNum = 30,
+		ransjstr = {
+			[1] = "攻击上限#14",
+			[2] = "魔法上限#14",
+			[3] = "道术上限#14",
+			[4] = "血量上限#14",
+			[5] = "蓝量上限#14",
+			[6] = "物防上限#15",
+			[7] = "魔防上限#15",
+		},
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
 		max = 10,
+		attrColor = 251,
+		randomNum = 20,
+		ransjstr = {
+			[1] = "攻击上限#14",
+			[2] = "魔法上限#14",
+			[3] = "道术上限#14",
+			[4] = "血量上限#14",
+			[5] = "蓝量上限#14",
+			[6] = "物防上限#15",
+			[7] = "魔防上限#15",
+		},
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
 		max = 10,
+		attrColor = 251,
+		randomNum = 10,
+		ransjstr = {
+			[1] = "攻速增加#8",
+			[2] = "鞭尸概率#8",
+			[3] = "奇遇概率#8",
+			[4] = "攻击加成#8",
+			[5] = "魔法加成#17",
+			[6] = "道术加成#17",
+			[7] = "血量加成#17",
+			[8] = "蓝量加成#17",
+		},
 	},
-	["攻击上限"] = {
-		max = 300,
-	},
-	["魔法上限"] = {
-		max = 300,
-	},
-	["道术上限"] = {
-		max = 300,
-	},
-	["血量上限"] = {
-		max = 3000,
-	},
-	["蓝量上限"] = {
-		max = 3000,
-	},
-	["物防上限"] = {
+	["魔防上限"] = { 
+		xls_id = "魔防上限",
 		max = 500,
+		attrId = 69,
+		realAttrId = 12,
+		isAttrPercent = 0,
 	},
-	["魔防上限"] = {
+	["道术加成"] = { 
+		xls_id = "道术加成",
+		max = 5,
+		attrId = 75,
+		realAttrId = 8,
+		isAttrPercent = 1,
+	},
+	["道术上限"] = { 
+		xls_id = "道术上限",
+		max = 300,
+		attrId = 65,
+		realAttrId = 8,
+		isAttrPercent = 0,
+	},
+	["血量上限"] = { 
+		xls_id = "血量上限",
+		max = 3000,
+		attrId = 66,
+		realAttrId = 1,
+		isAttrPercent = 0,
+	},
+	["奇遇概率"] = { 
+		xls_id = "奇遇概率",
+		max = 2,
+		attrId = 72,
+		realAttrId = 175,
+		isAttrPercent = 0,
+	},
+	["物防上限"] = { 
+		xls_id = "物防上限",
 		max = 500,
+		attrId = 68,
+		realAttrId = 10,
+		isAttrPercent = 0,
 	},
-	["攻速增加"] = {
+	["魔法加成"] = { 
+		xls_id = "魔法加成",
 		max = 5,
+		attrId = 74,
+		realAttrId = 6,
+		isAttrPercent = 1,
 	},
-	["鞭尸概率"] = {
+	["蓝量加成"] = { 
+		xls_id = "蓝量加成",
+		max = 5,
+		attrId = 77,
+		realAttrId = 2,
+		isAttrPercent = 1,
+	},
+	["攻速增加"] = { 
+		xls_id = "攻速增加",
+		max = 5,
+		attrId = 70,
+		realAttrId = 232,
+		isAttrPercent = 1,
+	},
+	["血量加成"] = { 
+		xls_id = "血量加成",
+		max = 5,
+		attrId = 76,
+		realAttrId = 1,
+		isAttrPercent = 1,
+	},
+	["鞭尸概率"] = { 
+		xls_id = "鞭尸概率",
 		max = 2,
+		attrId = 71,
+		realAttrId = 201,
+		isAttrPercent = 0,
 	},
-	["奇遇概率"] = {
-		max = 2,
-	},
-	["攻击加成"] = {
+	["攻击加成"] = { 
+		xls_id = "攻击加成",
 		max = 5,
+		attrId = 73,
+		realAttrId = 4,
+		isAttrPercent = 1,
 	},
-	["魔法加成"] = {
-		max = 5,
+	["攻击上限"] = { 
+		xls_id = "攻击上限",
+		max = 300,
+		attrId = 63,
+		realAttrId = 4,
+		isAttrPercent = 0,
 	},
-	["道术加成"] = {
-		max = 5,
+	["蓝量上限"] = { 
+		xls_id = "蓝量上限",
+		max = 3000,
+		attrId = 67,
+		realAttrId = 2,
+		isAttrPercent = 0,
 	},
-	["血量加成"] = {
-		max = 5,
-	},
-	["蓝量加成"] = {
-		max = 5,
+	["魔法上限"] = { 
+		xls_id = "魔法上限",
+		max = 300,
+		attrId = 64,
+		realAttrId = 6,
+		isAttrPercent = 0,
 	},
 }
 return config

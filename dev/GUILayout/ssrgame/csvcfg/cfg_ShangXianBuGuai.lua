@@ -1,17 +1,80 @@
-local config = {
-	[1] = {
+local config = { 
+	[7] = { 
+		xls_id = 7,
+		x = 25,
+		map = "起源村",
+		color = 250,
+		minNum = 40,
+		num = 25,
+		name = "净化晶矿",
+		range = 15,
+		y = 83,
 	},
-	[2] = {
+	[1] = { 
+		xls_id = 1,
+		x = 104,
+		map = "起源村",
+		color = 255,
+		minNum = 10,
+		num = 20,
+		name = "暴躁的毒蛇",
+		range = 9,
+		y = 219,
 	},
-	[3] = {
+	[2] = { 
+		xls_id = 2,
+		x = 104,
+		map = "起源村",
+		color = 255,
+		minNum = 10,
+		num = 20,
+		name = "狂怒的蜘蛛",
+		range = 9,
+		y = 219,
 	},
-	[4] = {
+	[3] = { 
+		xls_id = 3,
+		x = 96,
+		map = "起源村",
+		color = 250,
+		minNum = 20,
+		num = 30,
+		name = "清毒莲",
+		range = 8,
+		y = 168,
 	},
-	[5] = {
+	[4] = { 
+		xls_id = 4,
+		x = 44,
+		map = "起源村",
+		color = 255,
+		minNum = 15,
+		num = 20,
+		name = "腐化的稻草人",
+		range = 10,
+		y = 175,
 	},
-	[6] = {
+	[5] = { 
+		xls_id = 5,
+		x = 44,
+		map = "起源村",
+		color = 255,
+		minNum = 15,
+		num = 20,
+		name = "腐化的钉耙猫",
+		range = 10,
+		y = 175,
 	},
-	[7] = {
+	[6] = { 
+		xls_id = 6,
+		x = 25,
+		map = "起源村",
+		color = 255,
+		minNum = 120,
+		num = 30,
+		name = "通灵花妖",
+		range = 15,
+		y = 83,
 	},
 }
 return config

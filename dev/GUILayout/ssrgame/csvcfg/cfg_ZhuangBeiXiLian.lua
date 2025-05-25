@@ -1,231 +1,391 @@
-local config = {
-	[1] = {
-		realAttrId = 22,
-		isAttrPercent = 1,
-		random1 = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		where = {
 			[1] = 1,
-			[2] = 5,
+			[2] = 3,
 		},
 		random2 = {
 			[1] = 1,
 			[2] = 4,
 		},
-	},
-	[2] = {
-		realAttrId = 200,
-		isAttrPercent = 0,
+		attrColor = 0,
 		random1 = {
-			[1] = 300,
-			[2] = 1000,
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 600,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 12,
+		realAttrId = 22,
+		isAttrPercent = 1,
+	},
+	[2] = { 
+		xls_id = 2,
+		where = {
+			[1] = 1,
+			[2] = 3,
 		},
 		random2 = {
 			[1] = 300,
 			[2] = 500,
 		},
-	},
-	[3] = {
-		realAttrId = 75,
-		isAttrPercent = 1,
+		attrColor = 0,
 		random1 = {
+			[1] = 300,
+			[2] = 1000,
+		},
+		weight = 1200,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 13,
+		realAttrId = 200,
+		isAttrPercent = 0,
+	},
+	[3] = { 
+		xls_id = 3,
+		where = {
 			[1] = 1,
-			[2] = 5,
+			[2] = 3,
 		},
 		random2 = {
 			[1] = 1,
 			[2] = 3,
 		},
-	},
-	[4] = {
-		realAttrId = 160,
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 750,
+		attrType = 0,
+		systmeIsAttrPercent = 1,
+		attrId = 9,
+		realAttrId = 75,
 		isAttrPercent = 1,
+	},
+	[4] = { 
+		xls_id = 4,
+		where = {
+			[1] = 1,
+			[2] = 3,
+		},
+		random2 = {
+			[1] = 1,
+			[2] = 10,
+		},
+		attrColor = 0,
 		random1 = {
 			[1] = 6,
 			[2] = 10,
 		},
+		weight = 1600,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 14,
+		realAttrId = 160,
+		isAttrPercent = 1,
+	},
+	[5] = { 
+		xls_id = 5,
+		where = {
+			[1] = 1,
+			[2] = 3,
+		},
 		random2 = {
 			[1] = 1,
-			[2] = 10,
+			[2] = 4,
 		},
-	},
-	[5] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 950,
+		attrType = 0,
+		systmeIsAttrPercent = 1,
+		attrId = 15,
 		realAttrId = 76,
 		isAttrPercent = 1,
+	},
+	[6] = { 
+		xls_id = 6,
+		where = 1,
+		random2 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		attrColor = 0,
 		random1 = {
 			[1] = 1,
 			[2] = 5,
 		},
-		random2 = {
-			[1] = 1,
-			[2] = 4,
-		},
-	},
-	[6] = {
+		weight = 1000,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 16,
 		realAttrId = 163,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
-		},
+	},
+	[7] = { 
+		xls_id = 7,
+		where = 1,
 		random2 = {
 			[1] = 1,
 			[2] = 5,
 		},
-	},
-	[7] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 1000,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 17,
 		realAttrId = 164,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
-		},
+	},
+	[8] = { 
+		xls_id = 8,
+		where = 1,
 		random2 = {
 			[1] = 1,
 			[2] = 5,
 		},
-	},
-	[8] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 800,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 18,
 		realAttrId = 165,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
-		},
+	},
+	[9] = { 
+		xls_id = 9,
+		where = 1,
 		random2 = {
 			[1] = 1,
 			[2] = 5,
 		},
-	},
-	[9] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 800,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 19,
 		realAttrId = 166,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
+	},
+	[10] = { 
+		xls_id = 10,
+		where = {
+			[1] = 2,
+			[2] = 3,
 		},
 		random2 = {
 			[1] = 1,
-			[2] = 5,
+			[2] = 4,
 		},
-	},
-	[10] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 4,
+		},
+		weight = 150,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 20,
 		realAttrId = 26,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 4,
+	},
+	[11] = { 
+		xls_id = 11,
+		where = {
+			[1] = 2,
+			[2] = 3,
 		},
 		random2 = {
-			[1] = 1,
-			[2] = 4,
+			[1] = 4,
+			[2] = 10,
 		},
-	},
-	[11] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 4,
+			[2] = 10,
+		},
+		weight = 1200,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 24,
 		realAttrId = 161,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 4,
-			[2] = 10,
+	},
+	[12] = { 
+		xls_id = 12,
+		where = {
+			[1] = 2,
+			[2] = 3,
 		},
 		random2 = {
-			[1] = 4,
-			[2] = 10,
+			[1] = 1,
+			[2] = 4,
 		},
-	},
-	[12] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 4,
+		},
+		weight = 750,
+		attrType = 0,
+		systmeIsAttrPercent = 1,
+		attrId = 22,
 		realAttrId = 77,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 4,
-		},
-		random2 = {
-			[1] = 1,
-			[2] = 4,
-		},
 	},
-	[13] = {
-		realAttrId = 201,
-		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 4,
+	[13] = { 
+		xls_id = 13,
+		where = {
+			[1] = 2,
+			[2] = 3,
 		},
 		random2 = {
 			[1] = 1,
 			[2] = 3,
 		},
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 4,
+		},
+		weight = 500,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 23,
+		realAttrId = 201,
+		isAttrPercent = 1,
 	},
-	[14] = {
+	[14] = { 
+		xls_id = 14,
+		where = 2,
+		random2 = {
+			[1] = 4,
+			[2] = 15,
+		},
+		attrColor = 0,
+		random1 = {
+			[1] = 4,
+			[2] = 15,
+		},
+		weight = 950,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 21,
 		realAttrId = 162,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 4,
-			[2] = 15,
-		},
-		random2 = {
-			[1] = 4,
-			[2] = 15,
-		},
 	},
-	[15] = {
+	[15] = { 
+		xls_id = 15,
+		where = 2,
+		random2 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 1000,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 25,
 		realAttrId = 167,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
-		},
+	},
+	[16] = { 
+		xls_id = 16,
+		where = 2,
 		random2 = {
 			[1] = 1,
 			[2] = 5,
 		},
-	},
-	[16] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 1000,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 26,
 		realAttrId = 168,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
-		},
+	},
+	[17] = { 
+		xls_id = 17,
+		where = 2,
 		random2 = {
 			[1] = 1,
 			[2] = 5,
 		},
-	},
-	[17] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 800,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 27,
 		realAttrId = 169,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
-		},
+	},
+	[18] = { 
+		xls_id = 18,
+		where = 2,
 		random2 = {
 			[1] = 1,
 			[2] = 5,
 		},
-	},
-	[18] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 5,
+		},
+		weight = 800,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 28,
 		realAttrId = 170,
 		isAttrPercent = 1,
-		random1 = {
-			[1] = 1,
-			[2] = 5,
-		},
+	},
+	[19] = { 
+		xls_id = 19,
+		where = 3,
 		random2 = {
 			[1] = 1,
-			[2] = 5,
+			[2] = 2,
 		},
-	},
-	[19] = {
+		attrColor = 0,
+		random1 = {
+			[1] = 1,
+			[2] = 2,
+		},
+		weight = 200,
+		attrType = 0,
+		systmeIsAttrPercent = 0,
+		attrId = 29,
 		realAttrId = 202,
 		isAttrPercent = 0,
-		random1 = {
-			[1] = 1,
-			[2] = 2,
-		},
-		random2 = {
-			[1] = 1,
-			[2] = 2,
-		},
 	},
 }
 return config

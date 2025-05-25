@@ -1,575 +1,1563 @@
-local config = {
-	["审判之刃"] = {
-	},
-	["天崩地裂斩"] = {
-	},
-	["神·暴风"] = {
-	},
-	["圣·暴风"] = {
-	},
-	["血杀"] = {
-	},
-	["梦回"] = {
-	},
-	["千年"] = {
-	},
-	["转瞬"] = {
-	},
-	["轮回"] = {
-	},
-	["碧血"] = {
-	},
-	["妖异"] = {
-	},
-	["流光淬火剣[饮血]"] = {
-	},
-	["流光剣[综合之力]"] = {
-	},
-	["傀儡の隐"] = {
-	},
-	["电·刀[感知]"] = {
-	},
-	["光·蛇[腾焰]"] = {
-	},
-	["焰·冰[闪耀]"] = {
-	},
-	["天劫之怒★★★★"] = {
-	},
-	["魔戒·骷髅王(A)"] = {
-	},
-	["魔戒·骷髅王(S)"] = {
-	},
-	["魔戒·骷髅王(SR)"] = {
-	},
-	["魔戒·骷髅王(SSR)"] = {
-	},
-	["魔戒·骷髅王(SSSR)"] = {
-	},
-	["天地·之威"] = {
-	},
-	["西海岸的运转核心"] = {
-	},
-	["遗忘的赤炎吊坠"] = {
-	},
-	["天神指环"] = {
-	},
-	["暗·影之翼"] = {
-	},
-	["审判之魂"] = {
-	},
-	["撒旦の镯"] = {
-	},
-	["黑莲项坠"] = {
-	},
-	["小妖魔吊坠♀"] = {
-	},
-	["转换套装"] = {
-	},
-	["卧龙战靴"] = {
-	},
-	["三魂四魄「元素」"] = {
-	},
-	["〈古龙·意志〉"] = {
-	},
-	["〈古龙·之力〉"] = {
-	},
-	["太虚古龙领域[完全体]"] = {
-	},
-	["被封印的剑灵(A)"] = {
-	},
-	["被封印的剑灵(S)"] = {
-	},
-	["被封印的剑灵(SR)"] = {
-	},
-	["被封印的剑灵(SSR)"] = {
-	},
-	["被封印的剑灵(SSSR)"] = {
-	},
-	["藏地の聚光剑"] = {
-	},
-	["忍者面具"] = {
-	},
-	["426"] = {
-	},
-	["夜色杀手披风"] = {
-	},
-	["月光印记"] = {
-	},
-	["新月之冠"] = {
-	},
-	["殇日剑·终结"] = {
-	},
-	["上忍之隐"] = {
-	},
-	["千年之光"] = {
-	},
-	["咏叹沉沦[男]"] = {
-	},
-	["〈御风·斩浪〉"] = {
-	},
-	["神龙帝国的运转核心"] = {
-	},
-	["魔刃·噬魂(A)"] = {
-	},
-	["魔刃·噬魂(S)"] = {
-	},
-	["魔刃·噬魂(SR)"] = {
-	},
-	["魔刃·噬魂(SSR)"] = {
-	},
-	["魔刃·噬魂(SSSR)"] = {
-	},
-	["帝国の神龙(幼年期)"] = {
-	},
-	["帝国の神龙(成长期)"] = {
-	},
-	["帝国の神龙(成熟期)"] = {
-	},
-	["帝国の神龙(完全体)"] = {
-	},
-	["帝国の神龙(究极体)"] = {
-	},
-	["血色之影"] = {
-	},
-	["血界"] = {
-	},
-	["往生之手"] = {
-	},
-	["天机"] = {
-	},
-	["狂兽之护"] = {
-	},
-	["云履"] = {
-	},
-	["怪兽面具"] = {
-	},
-	["寂梦霜魂"] = {
-	},
-	["水晶之恋"] = {
-	},
-	["透明手镯"] = {
-	},
-	["孤月天轮"] = {
-	},
-	["万雷"] = {
-	},
-	["神兵·雷神之威"] = {
-	},
-	["「掌控雷电」"] = {
-	},
-	["508"] = {
-	},
-	["预言者"] = {
-	},
-	["死亡之戒"] = {
-	},
-	["黄泉"] = {
-	},
-	["野火之握"] = {
-	},
-	["夜魂之殇"] = {
-	},
-	["暗夜潜行者"] = {
-	},
-	["源火禁锢"] = {
-	},
-	["死神代言人"] = {
-	},
-	["死神降临"] = {
-	},
-	["苦修者的秘籍"] = {
-	},
-	["暗黑之神宝藏"] = {
-	},
-	["鬼魅之踪"] = {
-	},
-	["鸣封之刃·永恒"] = {
-	},
-	["离火"] = {
-	},
-	["生命幻想"] = {
-	},
-	["远古吊坠"] = {
-	},
-	["深渊之行"] = {
-	},
-	["鬼画符(A)"] = {
-	},
-	["鬼画符(S)"] = {
-	},
-	["鬼画符(SR)"] = {
-	},
-	["鬼画符(SSR)"] = {
-	},
-	["鬼画符(SSSR)"] = {
-	},
-	["天下霸唱"] = {
-	},
-	["寂梦"] = {
-	},
-	["离人愁"] = {
-	},
-	["千年结"] = {
-	},
-	["灵魂之逐"] = {
-	},
-	["生死簿"] = {
-	},
-	["幽冥之环"] = {
-	},
-	["无言恐惧"] = {
-	},
-	["暗影之缚"] = {
-	},
-	["纯阴之体"] = {
-	},
-	["586"] = {
-	},
-	["旧人归"] = {
-	},
-	["黄泉之风"] = {
-	},
-	["闪耀·漆黑之影"] = {
-	},
-	["天恕"] = {
-	},
-	["玄阴〃吊坠"] = {
-	},
-	["轮回经"] = {
-	},
-	["大天使的神威"] = {
-	},
-	["夜魔之绕"] = {
-	},
-	["夜幽面具★★★"] = {
-	},
-	["归墟万物"] = {
-	},
-	["无名手环"] = {
-	},
-	["602"] = {
-	},
-	["鬼焰寒甲(精)"] = {
-	},
-	["⊙墟魂千幻⊙"] = {
-	},
-	["赤木之瞳"] = {
-	},
-	["阴煞血幡"] = {
-	},
-	["死亡之环"] = {
-	},
-	["天火之靴"] = {
-	},
-	["勾魂夺魄"] = {
-	},
-	["悲鸣之焰"] = {
-	},
-	["鬼面裁决"] = {
-	},
-	["灵魂枷锁"] = {
-	},
-	["掌控奥义"] = {
-	},
-	["浮生"] = {
-	},
-	["金色黎明的圣物箱"] = {
-	},
-	["永恒凛冬"] = {
-	},
-	["降星者"] = {
-	},
-	["孤影流觞"] = {
-	},
-	["无尽的华尔兹"] = {
-	},
-	["勿忘我"] = {
-	},
-	["强化+9999"] = {
-	},
-	["给你马一拳"] = {
-	},
-	["【传承】秩序腰带"] = {
-	},
-	["【传承】神威战靴"] = {
-	},
-	["■龙之叹息■"] = {
-	},
-	["【噬魂】王之孤影"] = {
-	},
-	["罗盘玫瑰"] = {
-	},
-	["断头台"] = {
-	},
-	["天魔心脏★★★"] = {
-	},
-	["寒霜之握"] = {
-	},
-	["夜幽之玉"] = {
-	},
-	["明昼吊坠"] = {
-	},
-	["寒冬之冠(神圣)"] = {
-	},
-	["龙魂之力"] = {
-	},
-	["天空的引路人"] = {
-	},
-	["神谕之盔"] = {
-	},
-	["撕裂者面具"] = {
-	},
-	["屠龙者之刃"] = {
-	},
-	["本源之力"] = {
-	},
-	["自然之力·元素披风"] = {
-	},
-	["矮人头盔"] = {
-	},
-	["血色之眼"] = {
-	},
-	["时光的沙漏"] = {
-	},
-	["燃烧の地狱轮盘"] = {
-	},
-	["堕落的黑曜战靴"] = {
-	},
-	["克苏恩之眼"] = {
-	},
-	["颠倒罪人之戒"] = {
-	},
-	["黑暗限界"] = {
-	},
-	["格萨拉克·地渊之声"] = {
-	},
-	["远行的召唤"] = {
-	},
-	["689"] = {
-	},
-	["血魔护臂MAX"] = {
-	},
-	["无尽愤怒"] = {
-	},
-	["【暗影】咒印之铠"] = {
-	},
-	["≮神拳≯"] = {
-	},
-	["噩梦之首★★"] = {
-	},
-	["一剑开天门"] = {
-	},
-	["◆影杀阵◆"] = {
-	},
-	["追殺者"] = {
-	},
-	["·聖裁降臨SSS·"] = {
-	},
-	["死亡ゅ封印"] = {
-	},
-	["-燃霜之握-"] = {
-	},
-	["冰河之心"] = {
-	},
-	["魔焰·炽无尽"] = {
-	},
-	["死亡假面"] = {
-	},
-	["燃魂吊坠"] = {
-	},
-	["黑月·之泪"] = {
-	},
-	["混沌之影"] = {
-	},
-	["·破碎裂痕·"] = {
-	},
-	["死亡射线"] = {
-	},
-	["千山破"] = {
-	},
-	["真·霸主战甲SSS"] = {
-	},
-	["古核武·变异基因体"] = {
-	},
-	["古核武·生化基因体"] = {
-	},
-	["罪恶审判×"] = {
-	},
-	["悲鸣之泣"] = {
-	},
-	["深渊的亵渎☆☆"] = {
-	},
-	["赤焰结晶"] = {
-	},
-	["名刀⊙观世正宗"] = {
-	},
-	["封龙劍メ驱逐之刃"] = {
-	},
-	["安晓的右眼"] = {
-	},
-	["安晓的左眼"] = {
-	},
-	["异空：千年之光"] = {
-	},
-	["蚀月镜"] = {
-	},
-	["狂怒护手"] = {
-	},
-	["狂意之怒"] = {
-	},
-	["魔渊面具"] = {
-	},
-	["「无情」"] = {
-	},
-	["咆哮之意"] = {
-	},
-	["抉择"] = {
-	},
-	["天殇之痕"] = {
-	},
-	["时间锁"] = {
-	},
-	["轮回沙漏"] = {
-	},
-	["失落空间"] = {
-	},
-	["法师拳套"] = {
-	},
-	["半兽人之心"] = {
-	},
-	["天启星魂"] = {
-	},
-	["戰場之靴"] = {
-	},
-	["灵魂洗礼"] = {
-	},
-	["命运的轮转"] = {
-	},
-	["起源·无尽幻境"] = {
-	},
-	["厄运代言人"] = {
-	},
-	["时间之轮·聚变"] = {
-	},
-	["龙之力·不灭光剑!"] = {
-	},
-	["黄昏落幕ぁ"] = {
-	},
-	["毁灭·魔化天使[吞噬]"] = {
-	},
-	["老村长的怀表"] = {
-	},
-	["守夜人之徽"] = {
-	},
-	["驭风者·离殇"] = {
-	},
-	["【聖】·天空之翼"] = {
-	},
-	["边界山谷的运转核心"] = {
-	},
-	["拥抱黑暗吧"] = {
-	},
-	["酆都的运转核心"] = {
-	},
-	["黑暗之触"] = {
-	},
-	["【镇压】血色结界"] = {
-	},
-	["活着！"] = {
-	},
-	["“破晓之眼”"] = {
-	},
-	["桓龙：另一个时空"] = {
-	},
-	["哈法西斯之心"] = {
-	},
-	["「穿梭」时间轮转"] = {
-	},
-	["信念支柱"] = {
-	},
-	["星瀚之力"] = {
-	},
-	["蓝色恶魔之眼"] = {
-	},
-	["【EX级】哀霜之触"] = {
-	},
-	["【EX级】冰火之羽"] = {
-	},
-	["[龍器]灭世骸骨"] = {
-	},
-	["自己摸的鱼"] = {
-	},
-	["天元之奕·冰霜凝视"] = {
-	},
-	["天妖现世·荡魔逆仙"] = {
-	},
-	["魔化的眼罩"] = {
-	},
-	["梦魇头冠"] = {
-	},
-	["彩蝶吊坠"] = {
-	},
-	["魔兽之爪"] = {
-	},
-	["白骨之镰"] = {
-	},
-	["终结者"] = {
-	},
-	["收割者"] = {
-	},
-	["漩涡"] = {
-	},
-	["天之剑·碎月"] = {
-	},
-	["龍族图腾ゞ"] = {
-	},
-	["星光"] = {
-	},
-	["天雷之环"] = {
-	},
-	["麒麟心"] = {
-	},
-	["芭蕉扇"] = {
-	},
-	["琥珀净瓶"] = {
-	},
-	["群星之怒★★★"] = {
-	},
-	["夜风·不败剑意"] = {
-	},
-	["星辉的祷告乀"] = {
-	},
-	["新月领域△核心"] = {
-	},
-	["幕轮"] = {
-	},
-	["狂魔·永夜"] = {
-	},
-	["无序的凝视"] = {
-	},
-	["刺·束缚之隐"] = {
-	},
-	["『神耀』"] = {
-	},
-	["原初■混乱■"] = {
-	},
-	["光辉之怒·鸩"] = {
-	},
-	["星辉·猎杀狩命"] = {
-	},
-	["◆黑洞◆"] = {
-	},
-	["万法面具"] = {
-	},
-	["960"] = {
-	},
-	["962"] = {
-	},
-	["迎新雪人"] = {
-	},
-	["生灵·屠杀"] = {
-	},
-	["太古龍神·镇魂神武"] = {
+local config = { 
+	["龙魂之力"] = { 
+		xls_id = "龙魂之力",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3009,
+	},
+	["燃烧の地狱轮盘"] = { 
+		xls_id = "燃烧の地狱轮盘",
+	},
+	["幽冥之环"] = { 
+		xls_id = "幽冥之环",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1007,
+	},
+	["「掌控雷电」"] = { 
+		xls_id = "「掌控雷电」",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1005,
+	},
+	["流光淬火剣[饮血]"] = { 
+		xls_id = "流光淬火剣[饮血]",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1000,
+	},
+	["三魂四魄「元素」"] = { 
+		xls_id = "三魂四魄「元素」",
+	},
+	["血色之影"] = { 
+		xls_id = "血色之影",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3016,
+	},
+	["死亡ゅ封印"] = { 
+		xls_id = "死亡ゅ封印",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2019,
+	},
+	["·聖裁降臨SSS·"] = { 
+		xls_id = "·聖裁降臨SSS·",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5008,
+	},
+	["死亡之环"] = { 
+		xls_id = "死亡之环",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 63,
+	},
+	["魔戒·骷髅王(SR)"] = { 
+		xls_id = "魔戒·骷髅王(SR)",
+		isAttack = 0,
+		otherType = 1,
+		otherValue = 6,
+	},
+	["守夜人之徽"] = { 
+		xls_id = "守夜人之徽",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3014,
+	},
+	["死神降临"] = { 
+		xls_id = "死神降临",
+	},
+	["漩涡"] = { 
+		xls_id = "漩涡",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6015,
+	},
+	["苦修者的秘籍"] = { 
+		xls_id = "苦修者的秘籍",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4013,
+	},
+	["透明手镯"] = { 
+		xls_id = "透明手镯",
+	},
+	["暗黑之神宝藏"] = { 
+		xls_id = "暗黑之神宝藏",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 21,
+	},
+	["新月之冠"] = { 
+		xls_id = "新月之冠",
+	},
+	["天地·之威"] = { 
+		xls_id = "天地·之威",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["浮生"] = { 
+		xls_id = "浮生",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["轮回"] = { 
+		xls_id = "轮回",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["死亡假面"] = { 
+		xls_id = "死亡假面",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2020,
+	},
+	["黑暗之触"] = { 
+		xls_id = "黑暗之触",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2031,
+	},
+	["夜风·不败剑意"] = { 
+		xls_id = "夜风·不败剑意",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4038,
+	},
+	["天神指环"] = { 
+		xls_id = "天神指环",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3000,
+	},
+	["原初■混乱■"] = { 
+		xls_id = "原初■混乱■",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10017,
+	},
+	["魔刃·噬魂(A)"] = { 
+		xls_id = "魔刃·噬魂(A)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 6020,
+	},
+	["咆哮之意"] = { 
+		xls_id = "咆哮之意",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3010,
+	},
+	["天火之靴"] = { 
+		xls_id = "天火之靴",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10002,
+	},
+	["狂兽之护"] = { 
+		xls_id = "狂兽之护",
+	},
+	["西海岸的运转核心"] = { 
+		xls_id = "西海岸的运转核心",
+	},
+	["【镇压】血色结界"] = { 
+		xls_id = "【镇压】血色结界",
+		isAttack = 1,
+		attackType = 11,
+		buffId = 11002,
+	},
+	["狂怒护手"] = { 
+		xls_id = "狂怒护手",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 10,
+	},
+	["一剑开天门"] = { 
+		xls_id = "一剑开天门",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4023,
+	},
+	["野火之握"] = { 
+		xls_id = "野火之握",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5003,
+	},
+	["异空：千年之光"] = { 
+		xls_id = "异空：千年之光",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 27,
+	},
+	["琥珀净瓶"] = { 
+		xls_id = "琥珀净瓶",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2035,
+	},
+	["自己摸的鱼"] = { 
+		xls_id = "自己摸的鱼",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["收割者"] = { 
+		xls_id = "收割者",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6017,
+	},
+	["天启星魂"] = { 
+		xls_id = "天启星魂",
+	},
+	["圣·暴风"] = { 
+		xls_id = "圣·暴风",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["夜魔之绕"] = { 
+		xls_id = "夜魔之绕",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2007,
+	},
+	["魔刃·噬魂(SSR)"] = { 
+		xls_id = "魔刃·噬魂(SSR)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 6023,
+	},
+	["太古龍神·镇魂神武"] = { 
+		xls_id = "太古龍神·镇魂神武",
+		isAttack = 1,
+		attackType = 11,
+		buffId = 11005,
+	},
+	["天魔心脏★★★"] = { 
+		xls_id = "天魔心脏★★★",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2011,
+	},
+	["960"] = { 
+		xls_id = 960,
+		isAttack = 1,
+		otherType = 8,
+		attackType = 6,
+		buffId = 6019,
+	},
+	["天妖现世·荡魔逆仙"] = { 
+		xls_id = "天妖现世·荡魔逆仙",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5009,
+	},
+	["夜魂之殇"] = { 
+		xls_id = "夜魂之殇",
+		isAttack = 1,
+		attackType = 7,
+		buffId = 7002,
+	},
+	["悲鸣之焰"] = { 
+		xls_id = "悲鸣之焰",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4017,
+	},
+	["勾魂夺魄"] = { 
+		xls_id = "勾魂夺魄",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4016,
+	},
+	["活着！"] = { 
+		xls_id = "活着！",
+		isAttack = 1,
+		attackType = 11,
+		buffId = 11003,
+	},
+	["【噬魂】王之孤影"] = { 
+		xls_id = "【噬魂】王之孤影",
+	},
+	["〈古龙·意志〉"] = { 
+		xls_id = "〈古龙·意志〉",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5001,
+	},
+	["夜色杀手披风"] = { 
+		xls_id = "夜色杀手披风",
+		isAttack = 1,
+		attackType = 8,
+		buffId = 8000,
+	},
+	["堕落的黑曜战靴"] = { 
+		xls_id = "堕落的黑曜战靴",
+	},
+	["【暗影】咒印之铠"] = { 
+		xls_id = "【暗影】咒印之铠",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10006,
+	},
+	["死亡射线"] = { 
+		xls_id = "死亡射线",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2021,
+	},
+	["鬼画符(SR)"] = { 
+		xls_id = "鬼画符(SR)",
+		isAttack = 0,
+		otherType = 4,
+		otherValue = 3,
+	},
+	["魔渊面具"] = { 
+		xls_id = "魔渊面具",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4025,
+	},
+	["遗忘的赤炎吊坠"] = { 
+		xls_id = "遗忘的赤炎吊坠",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1003,
+	},
+	["帝国の神龙(完全体)"] = { 
+		xls_id = "帝国の神龙(完全体)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4009,
+	},
+	["「穿梭」时间轮转"] = { 
+		xls_id = "「穿梭」时间轮转",
+	},
+	["魔戒·骷髅王(A)"] = { 
+		xls_id = "魔戒·骷髅王(A)",
+		isAttack = 0,
+		otherType = 1,
+		otherValue = 2,
+	},
+	["掌控奥义"] = { 
+		xls_id = "掌控奥义",
+		isAttack = 0,
+		otherType = 4,
+		otherValue = 3,
+	},
+	["安晓的左眼"] = { 
+		xls_id = "安晓的左眼",
+	},
+	["古核武·生化基因体"] = { 
+		xls_id = "古核武·生化基因体",
+		isAttack = 1,
+		attackType = 7,
+		buffId = 7005,
+	},
+	["星辉的祷告乀"] = { 
+		xls_id = "星辉的祷告乀",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10016,
+	},
+	["电·刀[感知]"] = { 
+		xls_id = "电·刀[感知]",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6001,
+	},
+	["信念支柱"] = { 
+		xls_id = "信念支柱",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4026,
+	},
+	["芭蕉扇"] = { 
+		xls_id = "芭蕉扇",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2034,
+	},
+	["旧人归"] = { 
+		xls_id = "旧人归",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4014,
+	},
+	["586"] = { 
+		xls_id = 586,
+		isAttack = 0,
+		otherType = 8,
+		otherValue = 7,
+	},
+	["魔戒·骷髅王(SSSR)"] = { 
+		xls_id = "魔戒·骷髅王(SSSR)",
+		isAttack = 0,
+		otherType = 1,
+		otherValue = 20,
+	},
+	["962"] = { 
+		xls_id = 962,
+		isAttack = 1,
+		otherType = 8,
+		attackType = 8,
+		buffId = 8003,
+	},
+	["撒旦の镯"] = { 
+		xls_id = "撒旦の镯",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1004,
+	},
+	["太虚古龙领域[完全体]"] = { 
+		xls_id = "太虚古龙领域[完全体]",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4000,
+	},
+	["天之剑·碎月"] = { 
+		xls_id = "天之剑·碎月",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4035,
+	},
+	["光辉之怒·鸩"] = { 
+		xls_id = "光辉之怒·鸩",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3018,
+	},
+	["厄运代言人"] = { 
+		xls_id = "厄运代言人",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3012,
+	},
+	["颠倒罪人之戒"] = { 
+		xls_id = "颠倒罪人之戒",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2015,
+	},
+	["508"] = { 
+		xls_id = 508,
+		isAttack = 0,
+		otherType = 8,
+		otherValue = 7,
+	},
+	["千年结"] = { 
+		xls_id = "千年结",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2004,
+	},
+	["远古吊坠"] = { 
+		xls_id = "远古吊坠",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2002,
+	},
+	["【EX级】冰火之羽"] = { 
+		xls_id = "【EX级】冰火之羽",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 37,
+	},
+	["审判之刃"] = { 
+		xls_id = "审判之刃",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["【传承】秩序腰带"] = { 
+		xls_id = "【传承】秩序腰带",
+	},
+	["自然之力·元素披风"] = { 
+		xls_id = "自然之力·元素披风",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10005,
+	},
+	["怪兽面具"] = { 
+		xls_id = "怪兽面具",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6006,
+	},
+	["天恕"] = { 
+		xls_id = "天恕",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4015,
+	},
+	["【聖】·天空之翼"] = { 
+		xls_id = "【聖】·天空之翼",
+		isAttack = 0,
+		otherType = 7,
+	},
+	["本源之力"] = { 
+		xls_id = "本源之力",
+	},
+	["转换套装"] = { 
+		xls_id = "转换套装",
+	},
+	["鬼魅之踪"] = { 
+		xls_id = "鬼魅之踪",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3005,
+	},
+	["天机"] = { 
+		xls_id = "天机",
+		isAttack = 1,
+		attackType = 7,
+		buffId = 7004,
+	},
+	["真·霸主战甲SSS"] = { 
+		xls_id = "真·霸主战甲SSS",
+	},
+	["鬼面裁决"] = { 
+		xls_id = "鬼面裁决",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4018,
+	},
+	["灵魂枷锁"] = { 
+		xls_id = "灵魂枷锁",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10012,
+	},
+	["抉择"] = { 
+		xls_id = "抉择",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2026,
+	},
+	["毁灭·魔化天使[吞噬]"] = { 
+		xls_id = "毁灭·魔化天使[吞噬]",
+	},
+	["撕裂者面具"] = { 
+		xls_id = "撕裂者面具",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2012,
+	},
+	["水晶之恋"] = { 
+		xls_id = "水晶之恋",
+		isAttack = 0,
+		otherType = 7,
+	},
+	["时间之轮·聚变"] = { 
+		xls_id = "时间之轮·聚变",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5005,
+	},
+	["审判之魂"] = { 
+		xls_id = "审判之魂",
+		isAttack = 1,
+		attackType = 7,
+		buffId = 7001,
+	},
+	["暗·影之翼"] = { 
+		xls_id = "暗·影之翼",
+		isAttack = 1,
+		attackType = 7,
+		buffId = 7000,
+	},
+	["无尽的华尔兹"] = { 
+		xls_id = "无尽的华尔兹",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4019,
+	},
+	["龙之力·不灭光剑!"] = { 
+		xls_id = "龙之力·不灭光剑!",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4040,
+	},
+	["“破晓之眼”"] = { 
+		xls_id = "“破晓之眼”",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5007,
+	},
+	["魔化的眼罩"] = { 
+		xls_id = "魔化的眼罩",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2033,
+	},
+	["天殇之痕"] = { 
+		xls_id = "天殇之痕",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2027,
+	},
+	["天下霸唱"] = { 
+		xls_id = "天下霸唱",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3006,
+	},
+	["『神耀』"] = { 
+		xls_id = "『神耀』",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5011,
+	},
+	["驭风者·离殇"] = { 
+		xls_id = "驭风者·离殇",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6013,
+	},
+	["魔刃·噬魂(S)"] = { 
+		xls_id = "魔刃·噬魂(S)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 6021,
+	},
+	["◆黑洞◆"] = { 
+		xls_id = "◆黑洞◆",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2038,
+	},
+	["生命幻想"] = { 
+		xls_id = "生命幻想",
+	},
+	["刺·束缚之隐"] = { 
+		xls_id = "刺·束缚之隐",
+		isAttack = 1,
+		attackType = 8,
+		buffId = 8002,
+	},
+	["黄昏落幕ぁ"] = { 
+		xls_id = "黄昏落幕ぁ",
+	},
+	["魔戒·骷髅王(SSR)"] = { 
+		xls_id = "魔戒·骷髅王(SSR)",
+		isAttack = 0,
+		otherType = 1,
+		otherValue = 8,
+	},
+	["星辉·猎杀狩命"] = { 
+		xls_id = "星辉·猎杀狩命",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2037,
+	},
+	["夜幽面具★★★"] = { 
+		xls_id = "夜幽面具★★★",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2008,
+	},
+	["夜幽之玉"] = { 
+		xls_id = "夜幽之玉",
+		isAttack = 0,
+		otherType = 7,
+	},
+	["深渊之行"] = { 
+		xls_id = "深渊之行",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 22,
+	},
+	["天崩地裂斩"] = { 
+		xls_id = "天崩地裂斩",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["古核武·变异基因体"] = { 
+		xls_id = "古核武·变异基因体",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4031,
+	},
+	["彩蝶吊坠"] = { 
+		xls_id = "彩蝶吊坠",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6016,
+	},
+	["〈古龙·之力〉"] = { 
+		xls_id = "〈古龙·之力〉",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6003,
+	},
+	["⊙墟魂千幻⊙"] = { 
+		xls_id = "⊙墟魂千幻⊙",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2009,
+	},
+	["追殺者"] = { 
+		xls_id = "追殺者",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2018,
+	},
+	["归墟万物"] = { 
+		xls_id = "归墟万物",
+	},
+	["无尽愤怒"] = { 
+		xls_id = "无尽愤怒",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6014,
+	},
+	["法师拳套"] = { 
+		xls_id = "法师拳套",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3011,
+	},
+	["给你马一拳"] = { 
+		xls_id = "给你马一拳",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2010,
+	},
+	["酆都的运转核心"] = { 
+		xls_id = "酆都的运转核心",
+	},
+	["神·暴风"] = { 
+		xls_id = "神·暴风",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["天雷之环"] = { 
+		xls_id = "天雷之环",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10014,
+	},
+	["·破碎裂痕·"] = { 
+		xls_id = "·破碎裂痕·",
+	},
+	["被封印的剑灵(SSR)"] = { 
+		xls_id = "被封印的剑灵(SSR)",
+	},
+	["失落空间"] = { 
+		xls_id = "失落空间",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1013,
+	},
+	["死神代言人"] = { 
+		xls_id = "死神代言人",
+	},
+	["帝国の神龙(幼年期)"] = { 
+		xls_id = "帝国の神龙(幼年期)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4006,
+	},
+	["云履"] = { 
+		xls_id = "云履",
+	},
+	["死亡之戒"] = { 
+		xls_id = "死亡之戒",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5002,
+	},
+	["〈御风·斩浪〉"] = { 
+		xls_id = "〈御风·斩浪〉",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3001,
+	},
+	["魔刃·噬魂(SSSR)"] = { 
+		xls_id = "魔刃·噬魂(SSSR)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 6024,
+	},
+	["帝国の神龙(成熟期)"] = { 
+		xls_id = "帝国の神龙(成熟期)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4008,
+	},
+	["【EX级】哀霜之触"] = { 
+		xls_id = "【EX级】哀霜之触",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4028,
+	},
+	["噩梦之首★★"] = { 
+		xls_id = "噩梦之首★★",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5004,
+	},
+	["【传承】神威战靴"] = { 
+		xls_id = "【传承】神威战靴",
+	},
+	["纯阴之体"] = { 
+		xls_id = "纯阴之体",
+	},
+	["断头台"] = { 
+		xls_id = "断头台",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6009,
+	},
+	["鬼画符(S)"] = { 
+		xls_id = "鬼画符(S)",
+		isAttack = 0,
+		otherType = 4,
+		otherValue = 2,
+	},
+	["寂梦"] = { 
+		xls_id = "寂梦",
+		isAttack = 1,
+		attackType = 11,
+		buffId = 11001,
+	},
+	["血杀"] = { 
+		xls_id = "血杀",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["光·蛇[腾焰]"] = { 
+		xls_id = "光·蛇[腾焰]",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6001,
+	},
+	["鬼画符(SSSR)"] = { 
+		xls_id = "鬼画符(SSSR)",
+		isAttack = 0,
+		otherType = 4,
+		otherValue = 5,
+	},
+	["鬼画符(SSR)"] = { 
+		xls_id = "鬼画符(SSR)",
+		isAttack = 0,
+		otherType = 4,
+		otherValue = 4,
+	},
+	["神龙帝国的运转核心"] = { 
+		xls_id = "神龙帝国的运转核心",
+	},
+	["转瞬"] = { 
+		xls_id = "转瞬",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["无言恐惧"] = { 
+		xls_id = "无言恐惧",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2005,
+	},
+	["被封印的剑灵(SSSR)"] = { 
+		xls_id = "被封印的剑灵(SSSR)",
+	},
+	["源火禁锢"] = { 
+		xls_id = "源火禁锢",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2001,
+	},
+	["矮人头盔"] = { 
+		xls_id = "矮人头盔",
+	},
+	["冰河之心"] = { 
+		xls_id = "冰河之心",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1014,
+	},
+	["「无情」"] = { 
+		xls_id = "「无情」",
+	},
+	["黑莲项坠"] = { 
+		xls_id = "黑莲项坠",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6002,
+	},
+	["◆影杀阵◆"] = { 
+		xls_id = "◆影杀阵◆",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2017,
+	},
+	["帝国の神龙(成长期)"] = { 
+		xls_id = "帝国の神龙(成长期)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4007,
+	},
+	["寂梦霜魂"] = { 
+		xls_id = "寂梦霜魂",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6007,
+	},
+	["神兵·雷神之威"] = { 
+		xls_id = "神兵·雷神之威",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4011,
+	},
+	["名刀⊙观世正宗"] = { 
+		xls_id = "名刀⊙观世正宗",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6012,
+	},
+	["悲鸣之泣"] = { 
+		xls_id = "悲鸣之泣",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4032,
+	},
+	["千年"] = { 
+		xls_id = "千年",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["焰·冰[闪耀]"] = { 
+		xls_id = "焰·冰[闪耀]",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6001,
+	},
+	["时光的沙漏"] = { 
+		xls_id = "时光的沙漏",
+	},
+	["克苏恩之眼"] = { 
+		xls_id = "克苏恩之眼",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2014,
+	},
+	["卧龙战靴"] = { 
+		xls_id = "卧龙战靴",
+	},
+	["黑暗限界"] = { 
+		xls_id = "黑暗限界",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2016,
+	},
+	["灵魂洗礼"] = { 
+		xls_id = "灵魂洗礼",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2028,
+	},
+	["老村长的怀表"] = { 
+		xls_id = "老村长的怀表",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3013,
+	},
+	["流光剣[综合之力]"] = { 
+		xls_id = "流光剣[综合之力]",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1001,
+	},
+	["-燃霜之握-"] = { 
+		xls_id = "-燃霜之握-",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["傀儡の隐"] = { 
+		xls_id = "傀儡の隐",
+	},
+	["离人愁"] = { 
+		xls_id = "离人愁",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2003,
+	},
+	["暗夜潜行者"] = { 
+		xls_id = "暗夜潜行者",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2000,
+	},
+	["鬼画符(A)"] = { 
+		xls_id = "鬼画符(A)",
+		isAttack = 0,
+		otherType = 4,
+		otherValue = 1,
+	},
+	["梦魇头冠"] = { 
+		xls_id = "梦魇头冠",
+	},
+	["血色之眼"] = { 
+		xls_id = "血色之眼",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2013,
+	},
+	["千年之光"] = { 
+		xls_id = "千年之光",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["天空的引路人"] = { 
+		xls_id = "天空的引路人",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4021,
+	},
+	["生死簿"] = { 
+		xls_id = "生死簿",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 24,
+	},
+	["≮神拳≯"] = { 
+		xls_id = "≮神拳≯",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6011,
+	},
+	["碧血"] = { 
+		xls_id = "碧血",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["安晓的右眼"] = { 
+		xls_id = "安晓的右眼",
+	},
+	["蚀月镜"] = { 
+		xls_id = "蚀月镜",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1012,
+	},
+	["星光"] = { 
+		xls_id = "星光",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4036,
+	},
+	["黄泉"] = { 
+		xls_id = "黄泉",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3004,
+	},
+	["混沌之影"] = { 
+		xls_id = "混沌之影",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10007,
+	},
+	["藏地の聚光剑"] = { 
+		xls_id = "藏地の聚光剑",
+	},
+	["鸣封之刃·永恒"] = { 
+		xls_id = "鸣封之刃·永恒",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6008,
+	},
+	["明昼吊坠"] = { 
+		xls_id = "明昼吊坠",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["被封印的剑灵(S)"] = { 
+		xls_id = "被封印的剑灵(S)",
+	},
+	["屠龙者之刃"] = { 
+		xls_id = "屠龙者之刃",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6010,
+	},
+	["幕轮"] = { 
+		xls_id = "幕轮",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 10,
+	},
+	["星瀚之力"] = { 
+		xls_id = "星瀚之力",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4027,
+	},
+	["闪耀·漆黑之影"] = { 
+		xls_id = "闪耀·漆黑之影",
+	},
+	["麒麟心"] = { 
+		xls_id = "麒麟心",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10015,
+	},
+	["天劫之怒★★★★"] = { 
+		xls_id = "天劫之怒★★★★",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1002,
+	},
+	["魔戒·骷髅王(S)"] = { 
+		xls_id = "魔戒·骷髅王(S)",
+		isAttack = 0,
+		otherType = 1,
+		otherValue = 4,
+	},
+	["远行的召唤"] = { 
+		xls_id = "远行的召唤",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 26,
+	},
+	["魔兽之爪"] = { 
+		xls_id = "魔兽之爪",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1017,
+	},
+	["阴煞血幡"] = { 
+		xls_id = "阴煞血幡",
+	},
+	["426"] = { 
+		xls_id = 426,
+		isAttack = 1,
+		otherType = 8,
+		attackType = 2,
+		buffId = 2032,
+	},
+	["[龍器]灭世骸骨"] = { 
+		xls_id = "[龍器]灭世骸骨",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4033,
+	},
+	["灵魂之逐"] = { 
+		xls_id = "灵魂之逐",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 23,
+	},
+	["月光印记"] = { 
+		xls_id = "月光印记",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6004,
+	},
+	["天元之奕·冰霜凝视"] = { 
+		xls_id = "天元之奕·冰霜凝视",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4034,
+	},
+	["龍族图腾ゞ"] = { 
+		xls_id = "龍族图腾ゞ",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10013,
+	},
+	["预言者"] = { 
+		xls_id = "预言者",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3003,
+	},
+	["赤焰结晶"] = { 
+		xls_id = "赤焰结晶",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2025,
+	},
+	["半兽人之心"] = { 
+		xls_id = "半兽人之心",
+	},
+	["千山破"] = { 
+		xls_id = "千山破",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2022,
+	},
+	["无序的凝视"] = { 
+		xls_id = "无序的凝视",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1019,
+	},
+	["永恒凛冬"] = { 
+		xls_id = "永恒凛冬",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1015,
+	},
+	["寒霜之握"] = { 
+		xls_id = "寒霜之握",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4020,
+	},
+	["终结者"] = { 
+		xls_id = "终结者",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4037,
+	},
+	["新月领域△核心"] = { 
+		xls_id = "新月领域△核心",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5010,
+	},
+	["边界山谷的运转核心"] = { 
+		xls_id = "边界山谷的运转核心",
+		buffId = "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ",
+	},
+	["万法面具"] = { 
+		xls_id = "万法面具",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4039,
+	},
+	["轮回经"] = { 
+		xls_id = "轮回经",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["孤月天轮"] = { 
+		xls_id = "孤月天轮",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10011,
+	},
+	["生灵·屠杀"] = { 
+		xls_id = "生灵·屠杀",
+		isAttack = 1,
+		attackType = 11,
+		buffId = 11004,
+	},
+	["暗影之缚"] = { 
+		xls_id = "暗影之缚",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 25,
+	},
+	["大天使的神威"] = { 
+		xls_id = "大天使的神威",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3007,
+	},
+	["轮回沙漏"] = { 
+		xls_id = "轮回沙漏",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10009,
+	},
+	["迎新雪人"] = { 
+		xls_id = "迎新雪人",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3019,
+	},
+	["强化+9999"] = { 
+		xls_id = "强化+9999",
+	},
+	["689"] = { 
+		xls_id = 689,
+		isAttack = 0,
+		otherType = 8,
+		otherValue = 7,
+	},
+	["鬼焰寒甲(精)"] = { 
+		xls_id = "鬼焰寒甲(精)",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10001,
+	},
+	["罗盘玫瑰"] = { 
+		xls_id = "罗盘玫瑰",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3008,
+	},
+	["无名手环"] = { 
+		xls_id = "无名手环",
+	},
+	["深渊的亵渎☆☆"] = { 
+		xls_id = "深渊的亵渎☆☆",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2024,
+	},
+	["罪恶审判×"] = { 
+		xls_id = "罪恶审判×",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2023,
+	},
+	["血魔护臂MAX"] = { 
+		xls_id = "血魔护臂MAX",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1011,
+	},
+	["拥抱黑暗吧"] = { 
+		xls_id = "拥抱黑暗吧",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2030,
+	},
+	["桓龙：另一个时空"] = { 
+		xls_id = "桓龙：另一个时空",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 35,
+	},
+	["玄阴〃吊坠"] = { 
+		xls_id = "玄阴〃吊坠",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2006,
+	},
+	["哈法西斯之心"] = { 
+		xls_id = "哈法西斯之心",
+	},
+	["金色黎明的圣物箱"] = { 
+		xls_id = "金色黎明的圣物箱",
+	},
+	["燃魂吊坠"] = { 
+		xls_id = "燃魂吊坠",
+	},
+	["狂魔·永夜"] = { 
+		xls_id = "狂魔·永夜",
+		isAttack = 1,
+		attackType = 8,
+		buffId = 8001,
+	},
+	["格萨拉克·地渊之声"] = { 
+		xls_id = "格萨拉克·地渊之声",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4022,
+	},
+	["小妖魔吊坠♀"] = { 
+		xls_id = "小妖魔吊坠♀",
+		isAttack = 1,
+		attackType = 5,
+		buffId = 5000,
+	},
+	["孤影流觞"] = { 
+		xls_id = "孤影流觞",
+		isAttack = 0,
+		otherType = 4,
+		otherValue = 5,
+	},
+	["白骨之镰"] = { 
+		xls_id = "白骨之镰",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3017,
+	},
+	["殇日剑·终结"] = { 
+		xls_id = "殇日剑·终结",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6005,
+	},
+	["降星者"] = { 
+		xls_id = "降星者",
+	},
+	["勿忘我"] = { 
+		xls_id = "勿忘我",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1018,
+	},
+	["万雷"] = { 
+		xls_id = "万雷",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3002,
+	},
+	["封龙劍メ驱逐之刃"] = { 
+		xls_id = "封龙劍メ驱逐之刃",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4024,
+	},
+	["602"] = { 
+		xls_id = 602,
+		isAttack = 0,
+		otherType = 8,
+		attackType = 4,
+		buffId = 4030,
+	},
+	["赤木之瞳"] = { 
+		xls_id = "赤木之瞳",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1009,
+	},
+	["离火"] = { 
+		xls_id = "离火",
+		isAttack = 1,
+		attackType = 1,
+		buffId = 1006,
+	},
+	["神谕之盔"] = { 
+		xls_id = "神谕之盔",
+	},
+	["狂意之怒"] = { 
+		xls_id = "狂意之怒",
+		isAttack = 1,
+		otherType = 7,
+		attackType = 7,
+		buffId = 7006,
+	},
+	["魔焰·炽无尽"] = { 
+		xls_id = "魔焰·炽无尽",
+	},
+	["帝国の神龙(究极体)"] = { 
+		xls_id = "帝国の神龙(究极体)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4010,
+	},
+	["梦回"] = { 
+		xls_id = "梦回",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["黑月·之泪"] = { 
+		xls_id = "黑月·之泪",
+	},
+	["寒冬之冠(神圣)"] = { 
+		xls_id = "寒冬之冠(神圣)",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10004,
+	},
+	["忍者面具"] = { 
+		xls_id = "忍者面具",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 4029,
+	},
+	["上忍之隐"] = { 
+		xls_id = "上忍之隐",
+		isAttack = 0,
+		otherType = 6,
+		otherValue = 20,
+	},
+	["妖异"] = { 
+		xls_id = "妖异",
+		isAttack = 1,
+		attackType = 6,
+		buffId = 6000,
+	},
+	["黄泉之风"] = { 
+		xls_id = "黄泉之风",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["命运的轮转"] = { 
+		xls_id = "命运的轮转",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2029,
+	},
+	["起源·无尽幻境"] = { 
+		xls_id = "起源·无尽幻境",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["戰場之靴"] = { 
+		xls_id = "戰場之靴",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10010,
+	},
+	["■龙之叹息■"] = { 
+		xls_id = "■龙之叹息■",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10003,
+	},
+	["咏叹沉沦[男]"] = { 
+		xls_id = "咏叹沉沦[男]",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10000,
+	},
+	["被封印的剑灵(A)"] = { 
+		xls_id = "被封印的剑灵(A)",
+	},
+	["往生之手"] = { 
+		xls_id = "往生之手",
+		isAttack = 1,
+		attackType = 11,
+		buffId = 11000,
+	},
+	["魔刃·噬魂(SR)"] = { 
+		xls_id = "魔刃·噬魂(SR)",
+		isAttack = 1,
+		attackType = 4,
+		buffId = 6022,
+	},
+	["蓝色恶魔之眼"] = { 
+		xls_id = "蓝色恶魔之眼",
+		isAttack = 1,
+		attackType = 3,
+		buffId = 3015,
+	},
+	["被封印的剑灵(SR)"] = { 
+		xls_id = "被封印的剑灵(SR)",
+	},
+	["群星之怒★★★"] = { 
+		xls_id = "群星之怒★★★",
+		isAttack = 1,
+		attackType = 2,
+		buffId = 2036,
+	},
+	["血界"] = { 
+		xls_id = "血界",
+		isAttack = 0,
+		otherType = 3,
+		otherValue = 5,
+	},
+	["时间锁"] = { 
+		xls_id = "时间锁",
+		isAttack = 1,
+		attackType = 10,
+		buffId = 10008,
 	},
 }
 return config

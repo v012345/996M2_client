@@ -1,7 +1,8 @@
-local config = {
-	[0] = {
-		equip = "空",
+local config = { 
+	[0] = { 
+		xls_id = 0,
 		give = "杀戮刻印Lv.1",
+		equip = "空",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -12,7 +13,6 @@ local config = {
 				[2] = 5,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "未佩戴",
@@ -49,10 +49,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[1] = {
-		equip = "杀戮刻印Lv.1",
+	[1] = { 
+		xls_id = 1,
 		give = "杀戮刻印Lv.2",
+		equip = "杀戮刻印Lv.1",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -63,7 +65,6 @@ local config = {
 				[2] = 10,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+1%",
@@ -100,10 +101,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[2] = {
-		equip = "杀戮刻印Lv.2",
+	[2] = { 
+		xls_id = 2,
 		give = "杀戮刻印Lv.3",
+		equip = "杀戮刻印Lv.2",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -114,7 +117,6 @@ local config = {
 				[2] = 30,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+3%",
@@ -151,10 +153,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[3] = {
-		equip = "杀戮刻印Lv.3",
+	[3] = { 
+		xls_id = 3,
 		give = "杀戮刻印Lv.4",
+		equip = "杀戮刻印Lv.3",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -165,7 +169,6 @@ local config = {
 				[2] = 60,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+5%",
@@ -202,10 +205,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[4] = {
-		equip = "杀戮刻印Lv.4",
+	[4] = { 
+		xls_id = 4,
 		give = "杀戮刻印Lv.5",
+		equip = "杀戮刻印Lv.4",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -216,7 +221,6 @@ local config = {
 				[2] = 100,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+7%",
@@ -253,10 +257,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[5] = {
-		equip = "杀戮刻印Lv.5",
+	[5] = { 
+		xls_id = 5,
 		give = "杀戮刻印Lv.6",
+		equip = "杀戮刻印Lv.5",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -267,7 +273,6 @@ local config = {
 				[2] = 160,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+10%",
@@ -304,10 +309,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[6] = {
-		equip = "杀戮刻印Lv.6",
+	[6] = { 
+		xls_id = 6,
 		give = "杀戮刻印Lv.7",
+		equip = "杀戮刻印Lv.6",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -318,7 +325,6 @@ local config = {
 				[2] = 240,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+14%",
@@ -355,10 +361,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[7] = {
-		equip = "杀戮刻印Lv.7",
+	[7] = { 
+		xls_id = 7,
 		give = "杀戮刻印Lv.8",
+		equip = "杀戮刻印Lv.7",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -369,7 +377,6 @@ local config = {
 				[2] = 330,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+18%",
@@ -406,10 +413,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[8] = {
-		equip = "杀戮刻印Lv.8",
+	[8] = { 
+		xls_id = 8,
 		give = "杀戮刻印Lv.9",
+		equip = "杀戮刻印Lv.8",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -420,7 +429,6 @@ local config = {
 				[2] = 440,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+22%",
@@ -457,10 +465,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[9] = {
-		equip = "杀戮刻印Lv.9",
+	[9] = { 
+		xls_id = 9,
 		give = "杀戮刻印Lv.10",
+		equip = "杀戮刻印Lv.9",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -471,7 +481,6 @@ local config = {
 				[2] = 660,
 			},
 		},
-		dalu = 1,
 		currAttr = {
 			[1] = {
 				[1] = "+26%",
@@ -508,10 +517,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 1,
 	},
-	[10] = {
-		equip = "杀戮刻印Lv.10",
+	[10] = { 
+		xls_id = 10,
 		give = "杀戮刻印Lv.11",
+		equip = "杀戮刻印Lv.10",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -522,7 +533,6 @@ local config = {
 				[2] = 880,
 			},
 		},
-		dalu = 2,
 		currAttr = {
 			[1] = {
 				[1] = "+30%",
@@ -559,10 +569,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 2,
 	},
-	[11] = {
-		equip = "杀戮刻印Lv.11",
+	[11] = { 
+		xls_id = 11,
 		give = "杀戮刻印Lv.12",
+		equip = "杀戮刻印Lv.11",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -573,7 +585,6 @@ local config = {
 				[2] = 1080,
 			},
 		},
-		dalu = 2,
 		currAttr = {
 			[1] = {
 				[1] = "+35%",
@@ -610,10 +621,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 2,
 	},
-	[12] = {
-		equip = "杀戮刻印Lv.12",
+	[12] = { 
+		xls_id = 12,
 		give = "杀戮刻印Lv.13",
+		equip = "杀戮刻印Lv.12",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -624,7 +637,6 @@ local config = {
 				[2] = 1280,
 			},
 		},
-		dalu = 2,
 		currAttr = {
 			[1] = {
 				[1] = "+40%",
@@ -661,10 +673,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 2,
 	},
-	[13] = {
-		equip = "杀戮刻印Lv.13",
+	[13] = { 
+		xls_id = 13,
 		give = "杀戮刻印Lv.14",
+		equip = "杀戮刻印Lv.13",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -675,7 +689,6 @@ local config = {
 				[2] = 1480,
 			},
 		},
-		dalu = 2,
 		currAttr = {
 			[1] = {
 				[1] = "+46%",
@@ -712,10 +725,12 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 2,
 	},
-	[14] = {
-		equip = "杀戮刻印Lv.14",
+	[14] = { 
+		xls_id = 14,
 		give = "杀戮刻印Lv.15",
+		equip = "杀戮刻印Lv.14",
 		cost = {
 			[1] = {
 				[1] = "元宝",
@@ -726,7 +741,6 @@ local config = {
 				[2] = 1680,
 			},
 		},
-		dalu = 2,
 		currAttr = {
 			[1] = {
 				[1] = "+52%",
@@ -763,6 +777,7 @@ local config = {
 				[2] = "#FF0000",
 			},
 		},
+		dalu = 2,
 	},
 }
 return config

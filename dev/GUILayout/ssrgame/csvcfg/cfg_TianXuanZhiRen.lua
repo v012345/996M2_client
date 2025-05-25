@@ -1,93 +1,103 @@
-local config = {
-	[1] = {
+local config = { 
+	[1] = { 
+		xls_id = 1,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 120,
 			},
 		},
-		bgColor = "#C0C0C0",
 	},
-	[2] = {
+	[2] = { 
+		xls_id = 2,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 100,
 			},
 		},
-		bgColor = "#2D2929",
 	},
-	[3] = {
+	[3] = { 
+		xls_id = 3,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 80,
 			},
 		},
-		bgColor = "#C0C0C0",
 	},
-	[4] = {
+	[4] = { 
+		xls_id = 4,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 70,
 			},
 		},
-		bgColor = "#2D2929",
 	},
-	[5] = {
+	[5] = { 
+		xls_id = 5,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 60,
 			},
 		},
-		bgColor = "#C0C0C0",
 	},
-	[6] = {
+	[6] = { 
+		xls_id = 6,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 50,
 			},
 		},
-		bgColor = "#2D2929",
 	},
-	[7] = {
+	[7] = { 
+		xls_id = 7,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 40,
 			},
 		},
-		bgColor = "#C0C0C0",
 	},
-	[8] = {
+	[8] = { 
+		xls_id = 8,
+		bgColor = "#2D2929",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 30,
 			},
 		},
-		bgColor = "#2D2929",
 	},
-	[9] = {
+	[9] = { 
+		xls_id = 9,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 20,
 			},
 		},
-		bgColor = "#C0C0C0",
 	},
-	[10] = {
+	[10] = { 
+		xls_id = 10,
+		bgColor = "#C0C0C0",
 		reward = {
 			[1] = {
 				[1] = "1元充值红包",
 				[2] = 10,
 			},
 		},
-		bgColor = "#C0C0C0",
 	},
 }
 return config

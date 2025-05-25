@@ -1,7 +1,6 @@
-local config = {
-	[1] = {
-		name = "封印护符",
-		type = 1,
+local config = { 
+	[1] = { 
+		xls_id = 1,
 		cost = {
 			[1] = {
 				[1] = "封印护符",
@@ -13,6 +12,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -23,10 +24,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "封印护符",
 	},
-	[2] = {
-		name = "镇虚碑",
-		type = 1,
+	[2] = { 
+		xls_id = 2,
 		cost = {
 			[1] = {
 				[1] = "镇虚碑",
@@ -38,6 +39,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -48,10 +51,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "镇虚碑",
 	},
-	[3] = {
-		name = "灾厄之鸦",
-		type = 1,
+	[3] = { 
+		xls_id = 3,
 		cost = {
 			[1] = {
 				[1] = "灾厄之鸦",
@@ -63,6 +66,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -73,10 +78,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "灾厄之鸦",
 	},
-	[4] = {
-		name = "封禁之卷",
-		type = 1,
+	[4] = { 
+		xls_id = 4,
 		cost = {
 			[1] = {
 				[1] = "封禁之卷",
@@ -88,6 +93,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -98,10 +105,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "封禁之卷",
 	},
-	[5] = {
-		name = "源导体",
-		type = 1,
+	[5] = { 
+		xls_id = 5,
 		cost = {
 			[1] = {
 				[1] = "源导体",
@@ -113,6 +120,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -123,10 +132,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "源导体",
 	},
-	[6] = {
-		name = "瑶光",
-		type = 1,
+	[6] = { 
+		xls_id = 6,
 		cost = {
 			[1] = {
 				[1] = "瑶光",
@@ -138,6 +147,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -148,10 +159,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "瑶光",
 	},
-	[7] = {
-		name = "真视之眼",
-		type = 1,
+	[7] = { 
+		xls_id = 7,
 		cost = {
 			[1] = {
 				[1] = "真视之眼",
@@ -163,6 +174,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -173,10 +186,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "真视之眼",
 	},
-	[8] = {
-		name = "雷卷风",
-		type = 1,
+	[8] = { 
+		xls_id = 8,
 		cost = {
 			[1] = {
 				[1] = "雷卷风",
@@ -188,6 +201,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -198,10 +213,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = "雷卷风",
 	},
-	[9] = {
-		name = " ",
-		type = 1,
+	[9] = { 
+		xls_id = 9,
 		cost = {
 			[1] = {
 				[1] = "蔚蓝之心",
@@ -213,6 +228,8 @@ local config = {
 			},
 		},
 		start = "★",
+		random = 35,
+		type = 1,
 		attr = {
 			[1] = {
 				[1] = 171,
@@ -223,10 +240,10 @@ local config = {
 				[2] = 666,
 			},
 		},
+		name = " ",
 	},
-	[10] = {
-		name = "鲜血封腾",
-		type = 2,
+	[10] = { 
+		xls_id = 10,
 		cost = {
 			[1] = {
 				[1] = "鲜血封腾",
@@ -238,6 +255,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -252,10 +271,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "鲜血封腾",
 	},
-	[11] = {
-		name = "未央",
-		type = 2,
+	[11] = { 
+		xls_id = 11,
 		cost = {
 			[1] = {
 				[1] = "未央",
@@ -267,6 +286,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -281,10 +302,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "未央",
 	},
-	[12] = {
-		name = "湿婆怨",
-		type = 2,
+	[12] = { 
+		xls_id = 12,
 		cost = {
 			[1] = {
 				[1] = "湿婆怨",
@@ -296,6 +317,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -310,10 +333,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "湿婆怨",
 	},
-	[13] = {
-		name = "断魄刀",
-		type = 2,
+	[13] = { 
+		xls_id = 13,
 		cost = {
 			[1] = {
 				[1] = "断魄刀",
@@ -325,6 +348,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -339,10 +364,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "断魄刀",
 	},
-	[14] = {
-		name = "回天玉",
-		type = 2,
+	[14] = { 
+		xls_id = 14,
 		cost = {
 			[1] = {
 				[1] = "回天玉",
@@ -354,6 +379,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -368,10 +395,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "回天玉",
 	},
-	[15] = {
-		name = "诡丝",
-		type = 2,
+	[15] = { 
+		xls_id = 15,
 		cost = {
 			[1] = {
 				[1] = "诡丝",
@@ -383,6 +410,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -397,10 +426,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "诡丝",
 	},
-	[16] = {
-		name = "潮汐手套",
-		type = 2,
+	[16] = { 
+		xls_id = 16,
 		cost = {
 			[1] = {
 				[1] = "潮汐手套",
@@ -412,6 +441,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -426,10 +457,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "潮汐手套",
 	},
-	[17] = {
-		name = "叹息之墙",
-		type = 2,
+	[17] = { 
+		xls_id = 17,
 		cost = {
 			[1] = {
 				[1] = "叹息之墙",
@@ -441,6 +472,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -455,10 +488,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "叹息之墙",
 	},
-	[18] = {
-		name = "火魔瓶",
-		type = 2,
+	[18] = { 
+		xls_id = 18,
 		cost = {
 			[1] = {
 				[1] = "火魔瓶",
@@ -470,6 +503,8 @@ local config = {
 			},
 		},
 		start = "★★",
+		random = 30,
+		type = 2,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -484,10 +519,10 @@ local config = {
 				[2] = 300,
 			},
 		},
+		name = "火魔瓶",
 	},
-	[19] = {
-		name = "挽歌",
-		type = 3,
+	[19] = { 
+		xls_id = 19,
 		cost = {
 			[1] = {
 				[1] = "挽歌",
@@ -499,16 +534,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "挽歌",
 	},
-	[20] = {
-		name = "祈渊",
-		type = 3,
+	[20] = { 
+		xls_id = 20,
 		cost = {
 			[1] = {
 				[1] = "祈渊",
@@ -520,16 +557,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "祈渊",
 	},
-	[21] = {
-		name = "转命珠",
-		type = 3,
+	[21] = { 
+		xls_id = 21,
 		cost = {
 			[1] = {
 				[1] = "转命珠",
@@ -541,16 +580,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "转命珠",
 	},
-	[22] = {
-		name = "梦境耳语",
-		type = 3,
+	[22] = { 
+		xls_id = 22,
 		cost = {
 			[1] = {
 				[1] = "梦境耳语",
@@ -562,16 +603,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "梦境耳语",
 	},
-	[23] = {
-		name = "进化之心",
-		type = 3,
+	[23] = { 
+		xls_id = 23,
 		cost = {
 			[1] = {
 				[1] = "进化之心",
@@ -583,16 +626,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "进化之心",
 	},
-	[24] = {
-		name = "藏山",
-		type = 3,
+	[24] = { 
+		xls_id = 24,
 		cost = {
 			[1] = {
 				[1] = "藏山",
@@ -604,16 +649,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "藏山",
 	},
-	[25] = {
-		name = "暗夜者之斧",
-		type = 3,
+	[25] = { 
+		xls_id = 25,
 		cost = {
 			[1] = {
 				[1] = "暗夜者之斧",
@@ -625,16 +672,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "暗夜者之斧",
 	},
-	[26] = {
-		name = "炼金术士之杖",
-		type = 3,
+	[26] = { 
+		xls_id = 26,
 		cost = {
 			[1] = {
 				[1] = "炼金术士之杖",
@@ -646,16 +695,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "炼金术士之杖",
 	},
-	[27] = {
-		name = "无用宝石",
-		type = 3,
+	[27] = { 
+		xls_id = 27,
 		cost = {
 			[1] = {
 				[1] = "无用宝石",
@@ -667,16 +718,18 @@ local config = {
 			},
 		},
 		start = "★★★",
+		random = 25,
+		type = 3,
 		attr = {
 			[1] = {
 				[1] = 75,
 				[2] = 200,
 			},
 		},
+		name = "无用宝石",
 	},
-	[28] = {
-		name = "光辉之刃",
-		type = 4,
+	[28] = { 
+		xls_id = 28,
 		cost = {
 			[1] = {
 				[1] = "光辉之刃",
@@ -688,6 +741,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -698,10 +753,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "光辉之刃",
 	},
-	[29] = {
-		name = "恶魔杀手",
-		type = 4,
+	[29] = { 
+		xls_id = 29,
 		cost = {
 			[1] = {
 				[1] = "恶魔杀手",
@@ -713,6 +768,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -723,10 +780,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "恶魔杀手",
 	},
-	[30] = {
-		name = "净土科技之刃",
-		type = 4,
+	[30] = { 
+		xls_id = 30,
 		cost = {
 			[1] = {
 				[1] = "净土科技之刃",
@@ -738,6 +795,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -748,10 +807,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "净土科技之刃",
 	},
-	[31] = {
-		name = "希拉娜之矛",
-		type = 4,
+	[31] = { 
+		xls_id = 31,
 		cost = {
 			[1] = {
 				[1] = "希拉娜之矛",
@@ -763,6 +822,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -773,10 +834,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "希拉娜之矛",
 	},
-	[32] = {
-		name = "守护大天使",
-		type = 4,
+	[32] = { 
+		xls_id = 32,
 		cost = {
 			[1] = {
 				[1] = "守护大天使",
@@ -788,6 +849,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -798,10 +861,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "守护大天使",
 	},
-	[33] = {
-		name = "福佑吸血剑",
-		type = 4,
+	[33] = { 
+		xls_id = 33,
 		cost = {
 			[1] = {
 				[1] = "福佑吸血剑",
@@ -813,6 +876,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -823,10 +888,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "福佑吸血剑",
 	},
-	[34] = {
-		name = "基克的调和",
-		type = 4,
+	[34] = { 
+		xls_id = 34,
 		cost = {
 			[1] = {
 				[1] = "基克的调和",
@@ -838,6 +903,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -848,10 +915,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "基克的调和",
 	},
-	[35] = {
-		name = "天顶锋刃",
-		type = 4,
+	[35] = { 
+		xls_id = 35,
 		cost = {
 			[1] = {
 				[1] = "天顶锋刃",
@@ -863,6 +930,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -873,10 +942,10 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "天顶锋刃",
 	},
-	[36] = {
-		name = "泰坦的誓言",
-		type = 4,
+	[36] = { 
+		xls_id = 36,
 		cost = {
 			[1] = {
 				[1] = "泰坦的誓言",
@@ -888,6 +957,8 @@ local config = {
 			},
 		},
 		start = "★★★★",
+		random = 20,
+		type = 4,
 		attr = {
 			[1] = {
 				[1] = 1,
@@ -898,6 +969,7 @@ local config = {
 				[2] = 2,
 			},
 		},
+		name = "泰坦的誓言",
 	},
 }
 return config

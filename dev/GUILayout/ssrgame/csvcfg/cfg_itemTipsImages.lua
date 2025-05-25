@@ -1,6743 +1,8361 @@
-local config = {
-	["泡点"] = {
-	},
-	["荣誉值"] = {
-	},
-	["游戏点"] = {
-	},
-	["充值点"] = {
-	},
-	["RMB点"] = {
-	},
-	["PK点"] = {
-	},
-	["积分"] = {
-	},
-	["声望"] = {
-	},
-	["消费点"] = {
-	},
-	["赤金点"] = {
-	},
-	["新游戏点"] = {
-	},
-	["小飞鞋"] = {
-	},
-	["绑定灵符"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "HuoBi",
-	},
-	["修仙值"] = {
-	},
-	["累计充值"] = {
-	},
-	["单笔充值"] = {
-	},
-	["大米"] = {
-	},
-	["主城传送石"] = {
-	},
-	["随机传送石"] = {
-	},
-	["坐标记录石"] = {
-	},
-	["速效治疗药"] = {
-	},
-	["圣城的接引石"] = {
-	},
-	["骑士之心"] = {
-	},
-	["沃玛号角"] = {
-	},
-	["属性还原卷"] = {
-	},
-	["红名清洗卷"] = {
-	},
-	["超级祝福油"] = {
-	},
-	["幸运福袋"] = {
-	},
-	["修复神水"] = {
-	},
-	["高级神器盲盒"] = {
-	},
-	["神秘专属盲盒"] = {
-	},
-	["地藏王的藏宝图"] = {
-	},
-	["金手指"] = {
-	},
-	["天地本源"] = {
-	},
-	["境界丹"] = {
-	},
-	["魔法盾"] = {
-	},
-	["护体神盾"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["无主的宝箱"] = {
-	},
-	["神秘古董箱"] = {
-	},
-	["备用触发6"] = {
-	},
-	["胜利旗帜"] = {
-	},
-	["牛马公测红包"] = {
-	},
-	["牛马福利红包"] = {
-	},
-	["时空穿梭者卷轴"] = {
-	},
-	["神秘!EX级铸造卷"] = {
-	},
-	["五级星石"] = {
-	},
-	["六级星石"] = {
-	},
-	["七级星石"] = {
-	},
-	["八级星石"] = {
-	},
-	["给我震"] = {
-	},
-	["炽热双刃"] = {
-	},
-	["走火入魔"] = {
-	},
-	["成双成对"] = {
-	},
-	["孤勇者"] = {
-	},
-	["福星转世"] = {
-	},
-	["成长学"] = {
-	},
-	["女儿红"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["竹叶青"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["寒潭香"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金茎露"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["秋露白"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["焚天石"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["天工之锤"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["幻灵水晶"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["灵石"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["书页"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["精元"] = {
-	},
-	["修仙丹"] = {
-	},
-	["法宝核心"] = {
-	},
-	["小妖精魄"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["破碎的魔法阵"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["地下城门票111"] = {
-	},
-	["淬火石"] = {
-	},
-	["时空门票"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["王的宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["王的钥匙"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["超级护身符"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["魔龙骨"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["魔龙牙"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["神之头颅"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["异界神石"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["蚩尤之角"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["透骨草"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["千年人参"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["真视秘籍"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["地苦胆"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["阴阳仙草"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["紫背天葵"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["元神丹"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["火龙之心"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["神龙之心"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["伏魔令"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["10W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["20W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["50W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["100W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["200W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["500W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["1000W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["2000W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["5000W经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["1亿经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["2亿经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["5亿经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["10亿经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["20亿经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["40亿经验卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["5元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["10元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["20元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["50元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["100元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["200元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["500元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["1000元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["2000元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["5000元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["10000元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["20000元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["50000元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["100000元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["50万元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["100万元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["500万元宝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金币红包(小)"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金币红包(中)"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金币红包(大)"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["灵符红包(小)"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["灵符红包(中)"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["灵符红包(大)"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金条"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金砖"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金盒"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["金箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["魔剑碎片"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["黄金叶"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["毒蜘蛛牙齿"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["幸运果实"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["绿宝石矿"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["紫水晶矿"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["玉水晶"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["红蛇果"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["勋章之心"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["骰子"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["木料"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["佛牌"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["筹码"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["时装碎片"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["赤月恶魔油"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["药剂师的信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["聚宝盆[封印]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["蕴含魔力的白骨"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["西海岸的秘密"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["赤炎石碎片1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["安菲翁の魂魄"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["卧龙笔记111"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["古龙之翼的秘密1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["古龙的传承"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["被封印的剑灵"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["剑灵之谜"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["边界山谷的秘密"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["远古传承的秘密[上]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["远古传承的秘密[下]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["被封印的棺材"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["幽暗的古神之像"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["神龙帝国的秘密"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["漆黑的刀"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["龙蛋?"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["外来人"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["时空游侠称号卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["时空旅人称号卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["含有神圣气息的龙鳞"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["飘荡的灵魂"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["天劫？？"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["尘封的暗黑吊坠"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["酆都的秘密"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["一团杂乱的纸"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["一支笔"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["未干的血迹.."] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["黑色收纳盒"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["阴"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["阳"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["生命的意义"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["重生之我基本无敌1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["猪脑过载"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["封印护符"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["镇虚碑"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["灾厄之鸦"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["封禁之卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["源导体"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["瑶光"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["真视之眼"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["雷卷风"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["蔚蓝之心"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["鲜血封腾"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["未央"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["湿婆怨"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["断魄刀"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["回天玉"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["诡丝"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["潮汐手套"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["叹息之墙"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["火魔瓶"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["挽歌"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["祈渊"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["转命珠"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["梦境耳语"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["进化之心"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["藏山"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["暗夜者之斧"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["炼金术士之杖"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["无用宝石"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["光辉之刃"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["恶魔杀手"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["净土科技之刃"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["希拉娜之矛"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["守护大天使"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["福佑吸血剑"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["基克的调和"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["天顶锋刃"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["泰坦的誓言"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["摸鱼达人(称号卷)"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["点石成金"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["发财咯！"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["花到上头"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["默默发育"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["拿来吧你！"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["清晰头脑"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["要死咯！"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["卓尔不群"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["复苏之风-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["复苏之风-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["复苏之风-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["雷霆过载-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["雷霆过载-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["雷霆过载-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["琳琅满目-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["琳琅满目-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["琳琅满目-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["龙之宝藏-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["龙之宝藏-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["龙之宝藏-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["嗜血-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["嗜血-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["嗜血-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["铁布衫-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["铁布衫-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["铁布衫-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["好事成双-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["好事成双-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["好事成双-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["暂未激活仙术？"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["暂未激活奇遇？"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["GM的百宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["爆爆爆！"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["鸿运当头"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["前进之路"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["全能选手"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["圣物之袋"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["天胡开局"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["王之面纱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["未来战士"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["一夜暴富"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["永动机"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["诅咒之冠"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["龙神学院"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["精打细算"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["终身进修"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["大哥罩我"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["灵魂虹吸"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["以下克上"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["生存之道"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["短兵利刃"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["左右互搏"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["泰坦之劲-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["泰坦之劲-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["泰坦之劲-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["百战不殆"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["福星-1"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["福星-2"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["福星-3"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["龙之子"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["怒不可遏"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["钱多势众"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["神学院"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["摧枯拉朽"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["不动如山"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["超级加倍"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["合区超人"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["新区战神"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["穿梭时空的秘密"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["初出茅庐称号卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["未穿戴"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["神魔·大成[称号]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["神魔·完美[称号]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["牛马特权[称号]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["我不是酒神[称号]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["冥魂引渡人[称号]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["造化晶石"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["转运金丹"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["造化精华"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["转运之尘"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["一念花尘"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["二元归灵珠"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["三生仙灵藤"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["四象轮转魂"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["五行聚灵丹"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["六道轮回尘"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七星生灵草"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["八荒复苏珠"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["九转回天丹"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["十界返生丹"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["白银宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["黄金宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["钻石宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["至尊宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["10元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["30元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["50元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["68元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["100元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["128元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["198元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["328元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["648元真充"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["阴阳魂石"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["幽冥残魂"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["巨龙的祝福[切割]"] = {
-	},
-	["邪恶秘籍[技能]"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "jineng",
-	},
-	["狗策划的手机[切割]"] = {
-	},
-	["狗策划的手机[爆率]"] = {
-	},
-	["狗策划的手机[经验]"] = {
-	},
-	["技术大神的电脑[攻速]"] = {
-	},
-	["技术大神的电脑[移速]"] = {
-	},
-	["技术大神的电脑[伤害]"] = {
-	},
-	["GM的老舅[切割]"] = {
-	},
-	["GM的老舅[爆率]"] = {
-	},
-	["美女出浴[暴击]"] = {
-	},
-	["美女出浴[血量]"] = {
-	},
-	["如来神掌[切怪神级]"] = {
-	},
-	["Exp[5000W]"] = {
-	},
-	["腐化符文[经验]"] = {
-	},
-	["神圣契约"] = {
-	},
-	["恶魔契约"] = {
-	},
-	["诅咒的宝箱"] = {
-	},
-	["天界的恩赐"] = {
-	},
-	["天界的降罚"] = {
-	},
-	["清毒莲"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["净化晶矿"] = {
+local config = { 
+	["焚天石"] = { 
+		xls_id = "焚天石",
 		bg = "XuanTianZhiCheng",
 	},
-	["通灵花粉"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["开天斩"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["逐日剑法"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["龙骨刀"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["龙骨甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["辰星战刃"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["辰星战甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["辰星战盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["辰星战链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
+	["拥抱黑暗吧"] = { 
+		xls_id = "拥抱黑暗吧",
 		rightIcon = "Xianglian",
-	},
-	["辰星战镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["辰星战戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["古月彻地斩"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["古月战狂甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["古月战狂盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["古月战狂链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["古月战狂镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["古月战狂戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["青天怒斩"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["青天战幻甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["青天战幻盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["青天战幻链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["青天战幻镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["青天战幻戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["凌风七色刃"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["凌风战影甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["凌风战兽盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["凌风战挂坠"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["凌风战虎镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["凌风战虎戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["冥海圣刃"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["冥海圣武甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["冥海圣武盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["冥海圣武链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["冥海圣武镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["冥海圣武戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["冥海圣武带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["冥海圣武靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["苍月圣狂斩"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["苍月圣魂甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["苍月圣魂盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["苍月圣魂链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["苍月圣魂镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["苍月圣魂戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["苍月圣魂带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["苍月圣魂靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["吟龍圣者剑"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["吟龍圣甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["吟龍圣盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["吟龍圣链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["吟龍圣镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["吟龍圣戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["吟龍圣带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["吟龍圣靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["殘魂必殺刃"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["殘魂必殺甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["殘魂神盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["殘魂神链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["殘魂神镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["殘魂神戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["殘魂神带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["殘魂神靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["黄金霸王斩"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["黄金锁子甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["黄金幽灵盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["黄金冥王链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["黄金银河护手"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["黄金瞬影戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["黄金腰带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["黄金靴子"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["霸者神兵"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["狂王披风"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["震天头盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["震天铃铛"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["震天护手"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["震天圣戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["震天腰带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["震天靴子"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["审判之刃"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["天使羽衣"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["天使宝冠"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["天使如意链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["天使旭日手"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["天使圣戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["天使腰带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["天使神靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["天崩地裂斩"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["毁天灭地甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["毁灭の面罩"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["毁灭の项链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["毁灭の亡镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["毁灭の影戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["毁灭の腰带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["毁灭の灵靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["神·暴风"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["神·战甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["神·魔王盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["神·皎洁月"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["神·毁灭镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["神·创世指"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["神·主宰仙带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["神·破灭神靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["圣·暴风"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["圣·战甲"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["圣·破九天"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["圣·飞仙链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["圣·灭苍穹"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["圣·毁苍生"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["圣·皇天带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["圣·皇天靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["血杀"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["雄霸"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["荒古·盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["荒古·链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["荒古·镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["荒古·戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["荒古·带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["荒古·靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["梦回"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["心梦碎光"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["遗尘·盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["遗尘·链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["遗尘·镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["遗尘·戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["遗尘·带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["遗尘·靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["千年"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["深蓝传说"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["灭世·盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["灭世·链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["灭世·手"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["灭世·戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["灭世·带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["灭世·靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["转瞬"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["深蓝之恋"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["降龍·盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["降龍·链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["降龍·镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["降龍·指"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["降龍·带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["降龍·靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["轮回"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["万里追云"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["圣罗痴情·盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["圣罗痴情·链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["圣罗痴情·镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["圣罗痴情·戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["圣罗痴情·带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["圣罗痴情·靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["碧血"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["金丝羽灵"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["苦罗痴心·盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["苦罗痴心·链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["苦罗痴心·镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["苦罗痴心·戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["苦罗痴心·带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["苦罗痴心·靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["妖异"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Wuqi",
-	},
-	["碎梦涵光"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yifu",
-	},
-	["金罗痴梦·盔"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Toukui",
-	},
-	["金罗痴梦·链"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xianglian",
-	},
-	["金罗痴梦·镯"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shouzhuo",
-	},
-	["金罗痴梦·戒"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Jiezhi",
-	},
-	["金罗痴梦·带"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Yaodai",
-	},
-	["金罗痴梦·靴"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "PuTong-3",
-		rightIcon = "Xiezi",
-	},
-	["力量护臂(精)"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["魔血护手(力)"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["雄浑『链』"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["【鬼仙链】"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["太虚≤链≥"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["╋残空╋"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Jiezhi",
-	},
-	["魔曲『戒』"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Jiezhi",
-	},
-	["≮幽灵漫步≯"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Toukui",
-	},
-	["『乾坤腰』"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Yaodai",
-	},
-	["『帝皇靴』"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xiezi",
-	},
-	["流光淬火剣[戮兽]"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Wuqi",
-	},
-	["流光淬火剣[饮血]"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Wuqi",
-	},
-	["流光淬火剣[天殇]"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Wuqi",
-	},
-	["流光剣[综合之力]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Wuqi",
-	},
-	["流光淬火衣[男]"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Yifu",
-	},
-	["流光锦绣衣[男]"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Yifu",
-	},
-	["流光幻彩衣[男]"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Yifu",
-	},
-	["流光·庇护[男]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Yifu",
-	},
-	["神王の拳I"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["神王の拳II"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["神王の拳III"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["神王の拳IV"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["吸血蚊虫"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["≤吸血蝙蝠≥"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["死亡凋零"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["≤死亡救赎≥"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["光明坠落"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["≤光明不朽≥"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xianglian",
-	},
-	["【神灭】"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Yaodai",
-	},
-	["【淡然】"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Xiezi",
-	},
-	["精灵の翔"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Toukui",
-	},
-	["傀儡の隐"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Jiezhi",
-	},
-	["凤凰の飞"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Jiezhi",
-	},
-	["◆妖皇◆腕"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["疾風·镯"] = {
-		bg = "gaojishenqi",
-		leftIcon = "ShenQi",
-		rightIcon = "Shouzhuo",
-	},
-	["电·刀[感知]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Wuqi",
-	},
-	["光·蛇[腾焰]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Wuqi",
-	},
-	["焰·冰[闪耀]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Wuqi",
-	},
-	["天劫之怒★★★★"] = {
-		bg = "chuanshiyiwu",
 		leftIcon = "chuanshiyiwu",
-		rightIcon = "Wuqi",
-	},
-	["电·遇[男]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Yifu",
-	},
-	["光·炎[男]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Yifu",
-	},
-	["冰·殇[男]"] = {
-		bg = "teshushenqi",
-		leftIcon = "teshushenqi",
-		rightIcon = "Yifu",
-	},
-	["魔戒·骷髅王(A)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao1",
-	},
-	["魔戒·骷髅王(S)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao1",
-	},
-	["魔戒·骷髅王(SR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao1",
-	},
-	["魔戒·骷髅王(SSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao1",
-	},
-	["魔戒·骷髅王(SSSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao1",
-	},
-	["天地·之威"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["天道甲·仙"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["仙器·残火(精)"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["仙器·神翼(精)"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["西海岸的运转核心"] = {
-		rightIcon = "Yuwaiqiwu",
-	},
-	["遗忘的赤炎吊坠"] = {
 		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Shizhuangxianglian",
 	},
-	["修炼手镯[秘纹]"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
+	["血牛达人Lv3"] = { 
+		xls_id = "血牛达人Lv3",
+		rightIcon = "ChengHao",
 	},
-	["修炼指环[秘纹]"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
+	["圣灵壁垒+5"] = { 
+		xls_id = "圣灵壁垒+5",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["红玫瑰[奇缘]"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
+	["无敌圣者"] = { 
+		xls_id = "无敌圣者",
+		rightIcon = "ChengHao",
+	},
+	["木料"] = { 
+		xls_id = "木料",
+		bg = "XuanTianZhiCheng",
+	},
+	["のの夏日ろ浪花のの(女)"] = { 
+		xls_id = "のの夏日ろ浪花のの(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["沙城之主"] = { 
+		xls_id = "沙城之主",
+		rightIcon = "ChengHao",
+	},
+	["先天高手"] = { 
+		xls_id = "先天高手",
+		rightIcon = "ChengHao",
+	},
+	["觉醒九重天"] = { 
+		xls_id = "觉醒九重天",
+		rightIcon = "ChengHao",
+	},
+	["守夜人之魂[幽冥]"] = { 
+		xls_id = "守夜人之魂[幽冥]",
 		rightIcon = "Zhenbao1",
-	},
-	["白玫瑰[奇缘]"] = {
-		bg = "shenshengshishi",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao2",
+		bg = "baihusandalu",
 	},
-	["炼狱"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
+	["七宝玲珑塔"] = { 
+		xls_id = "七宝玲珑塔",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["幽·踏青天"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
+	["三魂手镯[魂]"] = { 
+		xls_id = "三魂手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
 	},
-	["风魔王冠"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
+	["积分"] = { 
+		xls_id = "积分",
 	},
-	["天神指环"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["暗·影之翼"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["圣之·毁灭"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["审判之魂"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["撒旦の镯"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
+	["〈御·风〉"] = { 
+		xls_id = "〈御·风〉",
 		rightIcon = "Shouzhuo",
-	},
-	["噬生凝视"] = {
-		bg = "shenshengshishi",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao5",
-	},
-	["黑莲项坠"] = {
 		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
 	},
-	["漩涡"] = {
-		bg = "shenshengshishi",
+	["钢铁之躯Lv14"] = { 
+		xls_id = "钢铁之躯Lv14",
+		rightIcon = "ChengHao",
+	},
+	["天龙人之戒"] = { 
+		xls_id = "天龙人之戒",
+		rightIcon = "Jiezhi",
 		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["噬魂☆"] = { 
+		xls_id = "噬魂☆",
+		rightIcon = "Zhenbao1",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["牛马工牌"] = { 
+		xls_id = "牛马工牌",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["铁布衫-3"] = { 
+		xls_id = "铁布衫-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["★★星魂永燃★★"] = { 
+		xls_id = "★★星魂永燃★★",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["黄泉之风"] = { 
+		xls_id = "黄泉之风",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["龙·之心+7"] = { 
+		xls_id = "龙·之心+7",
 		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["—冥炎—"] = {
-		bg = "shenshengshishi",
+	["〈斩·浪〉"] = { 
+		xls_id = "〈斩·浪〉",
+		rightIcon = "Shouzhuo",
 		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["のの夏日ろ浪花のの"] = { 
+		xls_id = "のの夏日ろ浪花のの",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["≮八卦≯"] = { 
+		xls_id = "≮八卦≯",
+		rightIcon = "ChengHao",
+	},
+	["骑士手镯[时装]"] = { 
+		xls_id = "骑士手镯[时装]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["默默发育"] = { 
+		xls_id = "默默发育",
+		bg = "XuanTianZhiCheng",
+	},
+	["八荒恺甲[魂]"] = { 
+		xls_id = "八荒恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["灵魂之逐"] = { 
+		xls_id = "灵魂之逐",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["荒古·戒"] = { 
+		xls_id = "荒古·戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["碧波三花曈"] = { 
+		xls_id = "碧波三花曈",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["【锦衣卫】"] = { 
+		xls_id = "【锦衣卫】",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["星辉仙器[会心]"] = { 
+		xls_id = "星辉仙器[会心]",
 		rightIcon = "Zhenbao6",
+		leftIcon = "PuTong-3",
+		bg = "putong",
 	},
-	["小妖魔吊坠♀"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
+	["圣罗痴情·镯"] = { 
+		xls_id = "圣罗痴情·镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["邪恶秘籍"] = { 
+		xls_id = "邪恶秘籍",
+		rightIcon = "ChengHao",
+	},
+	["复苏之风-2"] = { 
+		xls_id = "复苏之风-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["〝断情メ歌〞"] = { 
+		xls_id = "〝断情メ歌〞",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["血牛达人Lv14"] = { 
+		xls_id = "血牛达人Lv14",
+		rightIcon = "ChengHao",
+	},
+	["吾為天帝·镇杀世間一切敌[时装]"] = { 
+		xls_id = "吾為天帝·镇杀世間一切敌[时装]",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "wuwan",
+	},
+	["古月战狂链"] = { 
+		xls_id = "古月战狂链",
 		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["怒焰护腕[秘纹]"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["怒焰魔戒[秘纹]"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["转换充能[上]"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shoushi3",
-	},
-	["转换充能[下]"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao4",
-	},
-	["〈御·风〉"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["御风·之力"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["〈斩·浪〉"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["卧龙战靴"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["三魂四魄「元素」"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Jiezhi",
-	},
-	["≮轻·语≯"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao7",
-	},
-	["天之剑·碎月"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["〈古龙·意志〉"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["〈古龙·之力〉"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["太虚古龙领域[完全体]"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Guanghuan",
-	},
-	["被封印的剑灵(A)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["被封印的剑灵(S)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["被封印的剑灵(SR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["被封印的剑灵(SSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["被封印的剑灵(SSSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["藏地の聚光剑"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shoushi2",
-	},
-	["忍者面具"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["赤炎龙王之心"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shoushi3",
-	},
-	["龍族图腾ゞ"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["魔族之靴「传承」"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxiezi",
-	},
-	["魔族腰带「传承」"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["沾染血迹的面具1"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["夜色杀手披风"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["月光印记"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["月光手环"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["新月之冠"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["「镜·芒」"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao8",
-	},
-	["殇日剑·终结"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["上忍之隐"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["九冥赤炎"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["魔族指环"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["断空之痕"] = {
-		bg = "shenshengshishi",
-		leftIcon = "xiyouzhuanshu",
+	["流光岁月"] = { 
+		xls_id = "流光岁月",
 		rightIcon = "Yaodai",
-	},
-	["千年之光"] = {
-		bg = "shenshengshishi",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
+		bg = "jiedalu",
 	},
-	["咏叹沉沦[男]"] = {
-		bg = "chuanshiyiwu",
+	["斗转星移[精]+2"] = { 
+		xls_id = "斗转星移[精]+2",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["复苏之风-3"] = { 
+		xls_id = "复苏之风-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["漆黑的刀"] = { 
+		xls_id = "漆黑的刀",
+		bg = "XuanTianZhiCheng",
+	},
+	["活着！"] = { 
+		xls_id = "活着！",
+		rightIcon = "Xiezi",
 		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yifu",
-	},
-	["〈御风·斩浪〉"] = {
 		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Shouzhuo",
 	},
-	["魔刃·噬魂(A)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao2",
-	},
-	["魔刃·噬魂(S)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao2",
-	},
-	["魔刃·噬魂(SR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao2",
-	},
-	["魔刃·噬魂(SSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao2",
-	},
-	["魔刃·噬魂(SSSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao2",
-	},
-	["帝国の神龙(幼年期)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Shoushi3",
-	},
-	["帝国の神龙(成长期)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Shoushi3",
-	},
-	["帝国の神龙(成熟期)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Shoushi3",
-	},
-	["帝国の神龙(完全体)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Shoushi3",
-	},
-	["帝国の神龙(究极体)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Shoushi3",
-	},
-	["魔牙面具[蛮荒]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["魔牙吊坠[蛮荒]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["绿色项链[时装]"] = { 
+		xls_id = "绿色项链[时装]",
 		rightIcon = "Shizhuangxianglian",
+		leftIcon = "PuTong-3",
+		bg = "putong",
 	},
-	["魔牙护手[蛮荒]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["魔牙之戒[蛮荒]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["血色之影"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["血界"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["往生之手"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["怨念挂珠"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["武之法则"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["天机"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["御天机"] = { 
+		xls_id = "御天机",
 		rightIcon = "Yifu",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
 	},
-	["白玉心"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao5",
+	["钢铁之躯Lv4"] = { 
+		xls_id = "钢铁之躯Lv4",
+		rightIcon = "ChengHao",
 	},
-	["狂兽之护"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["野蛮"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shoushi4",
-	},
-	["云履"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["戰場之靴"] = { 
+		xls_id = "戰場之靴",
 		rightIcon = "Xiezi",
-	},
-	["怪兽面具"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Douli",
-	},
-	["寂梦霜魂"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Jiezhi",
-	},
-	["红莲腰带[白羽]"] = {
-		bg = "baihusandalu",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangyaodai",
+		bg = "poxiaozhijing",
 	},
-	["红莲战靴[白羽]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxiezi",
+	["魔龙牙"] = { 
+		xls_id = "魔龙牙",
+		bg = "XuanTianZhiCheng",
 	},
-	["红莲护手[白羽]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
+	["钢铁之躯Lv1"] = { 
+		xls_id = "钢铁之躯Lv1",
+		rightIcon = "ChengHao",
 	},
-	["红莲战戒[白羽]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["水晶之恋"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["透明手镯"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["宿命"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["地爆天星"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shoushi5",
-	},
-	["孤月天轮"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["远古之龙魂魄1"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["万雷"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["星光"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao7",
-	},
-	["天雷之环"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["≤死亡救赎≥"] = { 
+		xls_id = "≤死亡救赎≥",
 		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
 	},
-	["闪电结界"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao8",
+	["削铁如泥Lv5"] = { 
+		xls_id = "削铁如泥Lv5",
+		rightIcon = "ChengHao",
 	},
-	["神兵·雷神之威"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["龙之力·不灭光剑!"] = { 
+		xls_id = "龙之力·不灭光剑!",
 		rightIcon = "Wuqi",
-	},
-	["「掌控雷电」"] = {
-		bg = "fenghuang",
 		leftIcon = "shenshengshishi",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["守夜人之魂[幽冥]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao1",
-	},
-	["守夜人之魄[幽冥]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao2",
-	},
-	["幽冥铭文"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["预言者"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["死亡之戒"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["黄泉"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["野火之握"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["天煞符"] = {
 		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Mabi",
 	},
-	["夜魂之殇"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Shouzhuo",
-	},
-	["黑暗的真理[精]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shoushi3",
-	},
-	["黑暗的谏言[精]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao4",
-	},
-	["灵魂面具"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["【镇压】血色结界"] = { 
+		xls_id = "【镇压】血色结界",
 		rightIcon = "Toukui",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
 	},
-	["暗夜潜行者"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["叹息之墙"] = { 
+		xls_id = "叹息之墙",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv20"] = { 
+		xls_id = "血牛达人Lv20",
+		rightIcon = "ChengHao",
+	},
+	["万法面具"] = { 
+		xls_id = "万法面具",
 		rightIcon = "Douli",
-	},
-	["源火禁锢"] = {
-		bg = "baihusandalu",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
+		bg = "xinyueshenyu",
 	},
-	["死神代言人"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
+	["修罗破军[称号]"] = { 
+		xls_id = "修罗破军[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "hundunlingbao",
+	},
+	["苍月圣魂甲"] = { 
+		xls_id = "苍月圣魂甲",
 		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["死神降临"] = {
-		bg = "baihusandalu",
+	["深渊的亵渎☆☆"] = { 
+		xls_id = "深渊的亵渎☆☆",
+		rightIcon = "Douli",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
+		bg = "TaiYangShengCheng",
 	},
-	["苦修者的秘籍"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
+	["三魂恺甲[魂]"] = { 
+		xls_id = "三魂恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
 	},
-	["暗黑之神宝藏"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
+	["杀戮刻印Lv.11"] = { 
+		xls_id = "杀戮刻印Lv.11",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["妖泣"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
+	["六合之刃[魂]"] = { 
+		xls_id = "六合之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
 	},
-	["至阴"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
+	["50万元宝"] = { 
+		xls_id = "50万元宝",
+		bg = "XuanTianZhiCheng",
 	},
-	["鬼魅之踪"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Xiezi",
-	},
-	["鸣封之刃·永恒"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["离火"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["冥日之戒"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["生命幻想"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Toukui",
-	},
-	["远古吊坠"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["深渊之行"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["暗月挽歌"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["鬼画符(A)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao4",
-	},
-	["鬼画符(S)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao4",
-	},
-	["鬼画符(SR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao4",
-	},
-	["鬼画符(SSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao4",
-	},
-	["鬼画符(SSSR)"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao4",
-	},
-	["荒火魔盔[惊梦]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["荒火魔链[惊梦]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["荒火手镯[惊梦]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["荒火魔戒[惊梦]"] = {
-		bg = "baihusandalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["天下霸唱"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["寂梦"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["哭丧棒"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao5",
-	},
-	["离人愁"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["勾魂索"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
+	["重生十字架"] = { 
+		xls_id = "重生十字架",
 		rightIcon = "Zhenbao6",
-	},
-	["千年结"] = {
-		bg = "qita",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
+		bg = "jiedalu",
 	},
-	["灵魂之逐"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["生死簿"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["贤者腰带[伏魔]"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["贤者战靴[伏魔]"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxiezi",
-	},
-	["幽冥之环"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
+	["小妖魔吊坠♀"] = { 
+		xls_id = "小妖魔吊坠♀",
 		rightIcon = "Xianglian",
-	},
-	["亡灵庇护"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["冥河之邀"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["无言恐惧"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["暗影之缚"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["冥火之拥"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao7",
-	},
-	["鬼影重重"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao8",
-	},
-	["纯阴之体"] = {
-		bg = "fenghuang",
 		leftIcon = "shenshengshishi",
-		rightIcon = "Shizhuangtoukui",
+		bg = "fenghuang",
 	},
-	["贤者手镯[伏魔]"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
+	["永动机"] = { 
+		xls_id = "永动机",
+		bg = "XuanTianZhiCheng",
 	},
-	["贤者戒指[伏魔]"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
+	["暗夜者之斧"] = { 
+		xls_id = "暗夜者之斧",
+		bg = "XuanTianZhiCheng",
 	},
-	["旧人归"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
+	["龙之宝藏-3"] = { 
+		xls_id = "龙之宝藏-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["黄泉之风"] = {
-		bg = "qita",
+	["七魄·非毒"] = { 
+		xls_id = "七魄·非毒",
+		bg = "XuanTianZhiCheng",
+	},
+	["腐化メ虚伪"] = { 
+		xls_id = "腐化メ虚伪",
+		rightIcon = "Beibaoshenqi",
 		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["古月战狂戒"] = { 
+		xls_id = "古月战狂戒",
 		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["望穿眼"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shoushi3",
-	},
-	["闪耀·漆黑之影"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["归无期"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao4",
-	},
-	["天恕"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
+	["黄金霸王斩"] = { 
+		xls_id = "黄金霸王斩",
 		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["玄阴〃吊坠"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Xianglian",
-	},
-	["轮回经"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["大天使的神威"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["夜魔之绕"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["夜幽面具★★★"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["归墟万物"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["无名手环"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["死亡笔记(上)"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao1",
-	},
-	["死亡笔记(下)"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao2",
-	},
-	["鬼焰寒甲(精)"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["⊙墟魂千幻⊙"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Guanghuan",
-	},
-	["赤木之瞳"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["阴煞血幡"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["死亡之环"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["天火之靴"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["勾魂夺魄"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["悲鸣之焰"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["鬼面裁决"] = {
-		bg = "qita",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["灵魂枷锁"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Douli",
-	},
-	["掌控奥义"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["大元素使之手"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Shouzhuo",
-	},
-	["浮生"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["一缕神念"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
+	["血饮雷霆·束缚之力"] = { 
+		xls_id = "血饮雷霆·束缚之力",
 		rightIcon = "Shoushi1",
+		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
 	},
-	["暮潮"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shoushi2",
-	},
-	["金色黎明的圣物箱"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shoushi3",
-	},
-	["永恒凛冬"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shoushi4",
-	},
-	["降星者"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shoushi5",
-	},
-	["孤影流觞"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shoushi6",
-	},
-	["无尽的华尔兹"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao7",
-	},
-	["勿忘我"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao8",
-	},
-	["强化+9999"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao9",
-	},
-	["给你马一拳"] = {
-		bg = "longzhihunqi",
-		leftIcon = "longzhihunqi",
-		rightIcon = "Zhenbao10",
-	},
-	["【传承】秩序腰带"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yaodai",
-	},
-	["【传承】神威战靴"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Xiezi",
-	},
-	["■龙之叹息■"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Fuhuo",
-	},
-	["【噬魂】王之孤影"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Jiezhi",
-	},
-	["旅者之誓"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["流光岁月"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["罗盘玫瑰"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["断头台"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["天魔心脏★★★"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Jiezhi",
-	},
-	["寒霜之握"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["夜幽之玉"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["明昼吊坠"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["寒冬之冠(神圣)"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
+	["鬼灵面容"] = { 
+		xls_id = "鬼灵面容",
 		rightIcon = "Toukui",
-	},
-	["龙魂之力"] = {
-		bg = "jiedalu",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
+		bg = "xiyouzhuanshu",
 	},
-	["天空的引路人"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
+	["阴"] = { 
+		xls_id = "阴",
+		bg = "XuanTianZhiCheng",
 	},
-	["神谕之盔"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
+	["「穿梭」时间轮转"] = { 
+		xls_id = "「穿梭」时间轮转",
+		rightIcon = "Chuansong",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
 	},
-	["撕裂者面具"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["屠龙者之刃"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["本源之力"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["元素种子"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["自然之力·元素披风"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["矮人头盔"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["血色之眼"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
+	["血色之眼"] = { 
+		xls_id = "血色之眼",
 		rightIcon = "Xianglian",
-	},
-	["时光的沙漏"] = {
-		bg = "jiedalu",
 		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["龙·之心+2"] = { 
+		xls_id = "龙·之心+2",
 		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["火焰之魂环"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
+	["伤害增幅Lv16"] = { 
+		xls_id = "伤害增幅Lv16",
+		rightIcon = "ChengHao",
 	},
-	["燃烧の地狱轮盘"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["烈焰之径"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
+	["堕落的黑曜战靴"] = { 
+		xls_id = "堕落的黑曜战靴",
 		rightIcon = "Xiezi",
-	},
-	["堕落的黑曜战靴"] = {
-		bg = "fenghuang",
 		leftIcon = "shenshengshishi",
-		rightIcon = "Xiezi",
-	},
-	["克苏恩之眼"] = {
 		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Xianglian",
 	},
-	["颠倒罪人之戒"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["黑暗限界"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["拉卡诺斯之泪1"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["格萨拉克·地渊之声"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["恶之根源"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["狂暴之角1"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["远行的召唤"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["永恆之石1"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["风之低语"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao1",
-	},
-	["风之高歌"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
+	["天谴☆"] = { 
+		xls_id = "天谴☆",
 		rightIcon = "Zhenbao2",
+		leftIcon = "PuTong-3",
+		bg = "putong",
 	},
-	["征服者之力"] = {
-		bg = "jiedalu",
+	["亡灵吊坠"] = { 
+		xls_id = "亡灵吊坠",
+		rightIcon = "Shizhuangxianglian",
 		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["归无期"] = { 
+		xls_id = "归无期",
+		rightIcon = "Zhenbao4",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["【EX级】低语"] = { 
+		xls_id = "【EX级】低语",
+		rightIcon = "Shalukeyin",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["七级星石"] = { 
+		xls_id = "七级星石",
+	},
+	["198元真充"] = { 
+		xls_id = "198元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["蚩尤之角"] = { 
+		xls_id = "蚩尤之角",
+		bg = "XuanTianZhiCheng",
+	},
+	["★妖影暗刺★(女)"] = { 
+		xls_id = "★妖影暗刺★(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["六合项链[魂]"] = { 
+		xls_id = "六合项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["伤害增幅Lv2"] = { 
+		xls_id = "伤害增幅Lv2",
+		rightIcon = "ChengHao",
+	},
+	["初出茅庐"] = { 
+		xls_id = "初出茅庐",
+		rightIcon = "ChengHao",
+	},
+	["無上生霊″魂灭生"] = { 
+		xls_id = "無上生霊″魂灭生",
+		rightIcon = "Fuhuo",
+		leftIcon = "chuanshiyiwu",
+		bg = "xinyueshenyu",
+	},
+	["湿婆怨"] = { 
+		xls_id = "湿婆怨",
+		bg = "XuanTianZhiCheng",
+	},
+	["月光钻石"] = { 
+		xls_id = "月光钻石",
+		rightIcon = "Shoushi4",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["霸者神兵"] = { 
+		xls_id = "霸者神兵",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["三魂项链[魂]"] = { 
+		xls_id = "三魂项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["圣灵壁垒+2"] = { 
+		xls_id = "圣灵壁垒+2",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["千年结"] = { 
+		xls_id = "千年结",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["震天头盔"] = { 
+		xls_id = "震天头盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["千年人参"] = { 
+		xls_id = "千年人参",
+		bg = "XuanTianZhiCheng",
+	},
+	["▲▲水鏡太極▲▲"] = { 
+		xls_id = "▲▲水鏡太極▲▲",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["王的宝箱"] = { 
+		xls_id = "王的宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["三魂四魄「元素」"] = { 
+		xls_id = "三魂四魄「元素」",
+		rightIcon = "Jiezhi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["浮生"] = { 
+		xls_id = "浮生",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["心梦碎光"] = { 
+		xls_id = "心梦碎光",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["封禁之卷"] = { 
+		xls_id = "封禁之卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["〝回魂〞"] = { 
+		xls_id = "〝回魂〞",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["八荒手镯[魂]"] = { 
+		xls_id = "八荒手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["提将印信"] = { 
+		xls_id = "提将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["凌风战影甲"] = { 
+		xls_id = "凌风战影甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["远古吊坠"] = { 
+		xls_id = "远古吊坠",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["100000元宝"] = { 
+		xls_id = "100000元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv7"] = { 
+		xls_id = "血牛达人Lv7",
+		rightIcon = "ChengHao",
+	},
+	["被封印的剑灵(S)"] = { 
+		xls_id = "被封印的剑灵(S)",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["伏魔令"] = { 
+		xls_id = "伏魔令",
+		bg = "XuanTianZhiCheng",
+	},
+	["燃烧の地狱轮盘"] = { 
+		xls_id = "燃烧の地狱轮盘",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["魔戒·骷髅王(SSR)"] = { 
+		xls_id = "魔戒·骷髅王(SSR)",
+		rightIcon = "Zhenbao1",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["全满大佬"] = { 
+		xls_id = "全满大佬",
+		rightIcon = "ChengHao",
+	},
+	["降龍·指"] = { 
+		xls_id = "降龍·指",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙·之心+3"] = { 
+		xls_id = "龙·之心+3",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["技术大神的电脑[伤害]"] = { 
+		xls_id = "技术大神的电脑[伤害]",
+	},
+	["削铁如泥Lv19"] = { 
+		xls_id = "削铁如泥Lv19",
+		rightIcon = "ChengHao",
+	},
+	["卧龙笔记111"] = { 
+		xls_id = "卧龙笔记111",
+		bg = "XuanTianZhiCheng",
+	},
+	["自然之力·元素披风"] = { 
+		xls_id = "自然之力·元素披风",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["赤木之瞳"] = { 
+		xls_id = "赤木之瞳",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["致命一击Lv19"] = { 
+		xls_id = "致命一击Lv19",
+		rightIcon = "ChengHao",
+	},
+	["六合指环[魂]"] = { 
+		xls_id = "六合指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["七星手镯[魂]"] = { 
+		xls_id = "七星手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["圣之·毁灭"] = { 
+		xls_id = "圣之·毁灭",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["天殇之痕"] = { 
+		xls_id = "天殇之痕",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["消费点"] = { 
+		xls_id = "消费点",
+	},
+	["手办兑换卷"] = { 
+		xls_id = "手办兑换卷",
+		bg = "shengdan",
+	},
+	["夜魔之绕"] = { 
+		xls_id = "夜魔之绕",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["神之头颅"] = { 
+		xls_id = "神之头颅",
+		bg = "XuanTianZhiCheng",
+	},
+	["殘魂神靴"] = { 
+		xls_id = "殘魂神靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["白玫瑰[奇缘]"] = { 
+		xls_id = "白玫瑰[奇缘]",
+		rightIcon = "Zhenbao2",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["风月腰带[魂生]"] = { 
+		xls_id = "风月腰带[魂生]",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["遗忘的赤炎吊坠"] = { 
+		xls_id = "遗忘的赤炎吊坠",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["转换充能[下]"] = { 
+		xls_id = "转换充能[下]",
+		rightIcon = "Zhenbao4",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["速效治疗药"] = { 
+		xls_id = "速效治疗药",
+	},
+	["魔王神油"] = { 
+		xls_id = "魔王神油",
+		rightIcon = "Shoushi5",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["踏雪№傲寒霜(女)"] = { 
+		xls_id = "踏雪№傲寒霜(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["强化+9999"] = { 
+		xls_id = "强化+9999",
+		rightIcon = "Zhenbao9",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["鬼画符(SSSR)"] = { 
+		xls_id = "鬼画符(SSSR)",
+		rightIcon = "Zhenbao4",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["妖异"] = { 
+		xls_id = "妖异",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["神兵·雷神之威"] = { 
+		xls_id = "神兵·雷神之威",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["神·守护+9"] = { 
+		xls_id = "神·守护+9",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["觉醒八重天"] = { 
+		xls_id = "觉醒八重天",
+		rightIcon = "ChengHao",
+	},
+	["【EX级】冰火之羽"] = { 
+		xls_id = "【EX级】冰火之羽",
+		rightIcon = "Zhenbao1",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["燃魂吊坠"] = { 
+		xls_id = "燃魂吊坠",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["血牛达人Lv5"] = { 
+		xls_id = "血牛达人Lv5",
+		rightIcon = "ChengHao",
+	},
+	["蔚蓝之心"] = { 
+		xls_id = "蔚蓝之心",
+		bg = "XuanTianZhiCheng",
+	},
+	["钻石宝箱"] = { 
+		xls_id = "钻石宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["[龍器]灭世骸骨"] = { 
+		xls_id = "[龍器]灭世骸骨",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["ζ聖●法相天地ζ"] = { 
+		xls_id = "ζ聖●法相天地ζ",
+		rightIcon = "ShizhuangFaXiang",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["削铁如泥Lv8"] = { 
+		xls_id = "削铁如泥Lv8",
+		rightIcon = "ChengHao",
+	},
+	["高危禁物使"] = { 
+		xls_id = "高危禁物使",
+		rightIcon = "ChengHao",
+	},
+	["破魔斗笠+8"] = { 
+		xls_id = "破魔斗笠+8",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["四玄恺甲[魂]"] = { 
+		xls_id = "四玄恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["太虚古龙领域[完全体]"] = { 
+		xls_id = "太虚古龙领域[完全体]",
+		rightIcon = "Guanghuan",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["毁灭·魔化天使[永恆]"] = { 
+		xls_id = "毁灭·魔化天使[永恆]",
+		rightIcon = "Dunpai",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["天使神靴"] = { 
+		xls_id = "天使神靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["钢铁之躯Lv7"] = { 
+		xls_id = "钢铁之躯Lv7",
+		rightIcon = "ChengHao",
+	},
+	["红蛇果"] = { 
+		xls_id = "红蛇果",
+		bg = "XuanTianZhiCheng",
+	},
+	["真·霸主战甲SSS"] = { 
+		xls_id = "真·霸主战甲SSS",
+		rightIcon = "Yifu",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["无序战盔"] = { 
+		xls_id = "无序战盔",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["无面恐惧"] = { 
+		xls_id = "无面恐惧",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["脱将印信"] = { 
+		xls_id = "脱将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["神魔·完美"] = { 
+		xls_id = "神魔·完美",
+		rightIcon = "ChengHao",
+	},
+	["苦罗痴心·链"] = { 
+		xls_id = "苦罗痴心·链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["1000W经验卷"] = { 
+		xls_id = "1000W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔刃·噬魂(SSSR)"] = { 
+		xls_id = "魔刃·噬魂(SSSR)",
+		rightIcon = "Zhenbao2",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["5000W经验卷"] = { 
+		xls_id = "5000W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙族雕石[三阶觉醒]"] = { 
+		xls_id = "龙族雕石[三阶觉醒]",
+		rightIcon = "Diaowen",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["68元真充"] = { 
+		xls_id = "68元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·皎洁月"] = { 
+		xls_id = "神·皎洁月",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["月夜战神的认可[称号卷]"] = { 
+		xls_id = "月夜战神的认可[称号卷]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["冥海圣武链"] = { 
+		xls_id = "冥海圣武链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙族雕石[四阶觉醒]"] = { 
+		xls_id = "龙族雕石[四阶觉醒]",
+		rightIcon = "Diaowen",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["[傳奇]防护者"] = { 
+		xls_id = "[傳奇]防护者",
+		rightIcon = "Dunpai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["双星恺甲[魂]"] = { 
+		xls_id = "双星恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["灾厄之鸦"] = { 
+		xls_id = "灾厄之鸦",
+		bg = "XuanTianZhiCheng",
+	},
+	["纯阴之体"] = { 
+		xls_id = "纯阴之体",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["福星-3"] = { 
+		xls_id = "福星-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["降龍·盔"] = { 
+		xls_id = "降龍·盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["卐卐提魂锁卐卐"] = { 
+		xls_id = "卐卐提魂锁卐卐",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["五岳项链[魂]"] = { 
+		xls_id = "五岳项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["骰子"] = { 
+		xls_id = "骰子",
+		bg = "XuanTianZhiCheng",
+	},
+	["吟龍圣靴"] = { 
+		xls_id = "吟龍圣靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["边关守护者lv9"] = { 
+		xls_id = "边关守护者lv9",
+		rightIcon = "ChengHao",
+	},
+	["斗转星移[精]+1"] = { 
+		xls_id = "斗转星移[精]+1",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["黄昏落幕ぁ"] = { 
+		xls_id = "黄昏落幕ぁ",
+		rightIcon = "Yifu",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["致命一击Lv4"] = { 
+		xls_id = "致命一击Lv4",
+		rightIcon = "ChengHao",
+	},
+	["圣诞老人徽章"] = { 
+		xls_id = "圣诞老人徽章",
+		bg = "shengdan",
+	},
+	["『畸变』"] = { 
+		xls_id = "『畸变』",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["圣灵壁垒+9"] = { 
+		xls_id = "圣灵壁垒+9",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["【鬼仙链】"] = { 
+		xls_id = "【鬼仙链】",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["拉卡诺斯之泪1"] = { 
+		xls_id = "拉卡诺斯之泪1",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["生存之道"] = { 
+		xls_id = "生存之道",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·守护+10"] = { 
+		xls_id = "神·守护+10",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["≮神拳≯"] = { 
+		xls_id = "≮神拳≯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["疾风刻印Lv.3"] = { 
+		xls_id = "疾风刻印Lv.3",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["50元宝"] = { 
+		xls_id = "50元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["「掌控雷电」"] = { 
+		xls_id = "「掌控雷电」",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["钢铁之躯Lv8"] = { 
+		xls_id = "钢铁之躯Lv8",
+		rightIcon = "ChengHao",
+	},
+	["烈焰之径"] = { 
+		xls_id = "烈焰之径",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["圣城的接引石"] = { 
+		xls_id = "圣城的接引石",
+	},
+	["神之■庇护"] = { 
+		xls_id = "神之■庇护",
+		rightIcon = "Zhenbao9",
+		leftIcon = "chuanshiyiwu",
+		bg = "xinyueshenyu",
+	},
+	["鬼面裁决"] = { 
+		xls_id = "鬼面裁决",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["暗黑之神宝藏"] = { 
+		xls_id = "暗黑之神宝藏",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["大米"] = { 
+		xls_id = "大米",
+	},
+	["求婚戒指"] = { 
+		xls_id = "求婚戒指",
+		rightIcon = "Jiezhi",
+	},
+	["杀戮刻印Lv.7"] = { 
+		xls_id = "杀戮刻印Lv.7",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["琳琅满目-1"] = { 
+		xls_id = "琳琅满目-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["天雷之环"] = { 
+		xls_id = "天雷之环",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["星辉仙器[命格]"] = { 
+		xls_id = "星辉仙器[命格]",
+		rightIcon = "Zhenbao9",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["武林新丁"] = { 
+		xls_id = "武林新丁",
+		rightIcon = "ChengHao",
+	},
+	["剑仙[时装]"] = { 
+		xls_id = "剑仙[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["伤害增幅Lv8"] = { 
+		xls_id = "伤害增幅Lv8",
+		rightIcon = "ChengHao",
+	},
+	["金罗痴梦·戒"] = { 
+		xls_id = "金罗痴梦·戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["策划挖的坑"] = { 
+		xls_id = "策划挖的坑",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["星辉·猎杀狩命"] = { 
+		xls_id = "星辉·猎杀狩命",
+		rightIcon = "Mabi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["星辰神器[契约]"] = { 
+		xls_id = "星辰神器[契约]",
+		rightIcon = "Zhenbao7",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["天启星魂"] = { 
+		xls_id = "天启星魂",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["金手指"] = { 
+		xls_id = "金手指",
+	},
+	["神·魔王盔"] = { 
+		xls_id = "神·魔王盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["沙城捐献"] = { 
+		xls_id = "沙城捐献",
+		rightIcon = "ChengHao",
+	},
+	["新月领域△核心"] = { 
+		xls_id = "新月领域△核心",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "chuanshiyiwu",
+		bg = "xinyueshenyu",
+	},
+	["圣·破九天"] = { 
+		xls_id = "圣·破九天",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["九转回天丹"] = { 
+		xls_id = "九转回天丹",
+		bg = "XuanTianZhiCheng",
+	},
+	["幽鬼[时装]"] = { 
+		xls_id = "幽鬼[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["时间锁"] = { 
+		xls_id = "时间锁",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["灵魂虹吸"] = { 
+		xls_id = "灵魂虹吸",
+		bg = "XuanTianZhiCheng",
+	},
+	["『帝皇靴』"] = { 
+		xls_id = "『帝皇靴』",
+		rightIcon = "Xiezi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["伤害增幅Lv15"] = { 
+		xls_id = "伤害增幅Lv15",
+		rightIcon = "ChengHao",
+	},
+	["断魄刀"] = { 
+		xls_id = "断魄刀",
+		bg = "XuanTianZhiCheng",
+	},
+	["凌绝天音铃"] = { 
+		xls_id = "凌绝天音铃",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["沾染血迹的面具1"] = { 
+		xls_id = "沾染血迹的面具1",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["恢复光环"] = { 
+		xls_id = "恢复光环",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["梦回"] = { 
+		xls_id = "梦回",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["死亡笔记(上)"] = { 
+		xls_id = "死亡笔记(上)",
+		rightIcon = "Zhenbao1",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["疾风刻印Lv.2"] = { 
+		xls_id = "疾风刻印Lv.2",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["离人愁"] = { 
+		xls_id = "离人愁",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["八级星石"] = { 
+		xls_id = "八级星石",
+	},
+	["金盒"] = { 
+		xls_id = "金盒",
+		bg = "XuanTianZhiCheng",
+	},
+	["古月战狂盔"] = { 
+		xls_id = "古月战狂盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["赤月恶魔油"] = { 
+		xls_id = "赤月恶魔油",
+		bg = "XuanTianZhiCheng",
+	},
+	["时空游侠"] = { 
+		xls_id = "时空游侠",
+		rightIcon = "ChengHao",
+	},
+	["风月鞋子[魂生]"] = { 
+		xls_id = "风月鞋子[魂生]",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["火炎焱燚[时装]"] = { 
+		xls_id = "火炎焱燚[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["新游戏点"] = { 
+		xls_id = "新游戏点",
+	},
+	["≮至尊≯"] = { 
+		xls_id = "≮至尊≯",
+		rightIcon = "ChengHao",
+	},
+	["精魄碎片"] = { 
+		xls_id = "精魄碎片",
+		rightIcon = "Cailiao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["梦魇头冠"] = { 
+		xls_id = "梦魇头冠",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["魔刃·噬魂(SSR)"] = { 
+		xls_id = "魔刃·噬魂(SSR)",
+		rightIcon = "Zhenbao2",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["杀戮刻印Lv.13"] = { 
+		xls_id = "杀戮刻印Lv.13",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["灭世·戒"] = { 
+		xls_id = "灭世·戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["【聖】·天空之翼"] = { 
+		xls_id = "【聖】·天空之翼",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["名刀⊙观世正宗"] = { 
+		xls_id = "名刀⊙观世正宗",
+		rightIcon = "Wuqi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["魔王领域·无异刀锋"] = { 
+		xls_id = "魔王领域·无异刀锋",
+		rightIcon = "Xianglian",
+		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
+	},
+	["四玄指环[魂]"] = { 
+		xls_id = "四玄指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["伤害增幅Lv6"] = { 
+		xls_id = "伤害增幅Lv6",
+		rightIcon = "ChengHao",
+	},
+	["时空游侠称号卷"] = { 
+		xls_id = "时空游侠称号卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["孤月天轮"] = { 
+		xls_id = "孤月天轮",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["钢铁之躯Lv2"] = { 
+		xls_id = "钢铁之躯Lv2",
+		rightIcon = "ChengHao",
+	},
+	["凌风战挂坠"] = { 
+		xls_id = "凌风战挂坠",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["削铁如泥Lv3"] = { 
+		xls_id = "削铁如泥Lv3",
+		rightIcon = "ChengHao",
+	},
+	["通灵神眼"] = { 
+		xls_id = "通灵神眼",
+		rightIcon = "ChengHao",
+	},
+	["十都手镯[魂]"] = { 
+		xls_id = "十都手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["雷霆过载-1"] = { 
+		xls_id = "雷霆过载-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["造化精华"] = { 
+		xls_id = "造化精华",
+		bg = "XuanTianZhiCheng",
+	},
+	["天下共主[称号卷]"] = { 
+		xls_id = "天下共主[称号卷]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["卐卐正道鏡卐卐"] = { 
+		xls_id = "卐卐正道鏡卐卐",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["震天圣戒"] = { 
+		xls_id = "震天圣戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["金罗痴梦·盔"] = { 
+		xls_id = "金罗痴梦·盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["夜色杀手披风"] = { 
+		xls_id = "夜色杀手披风",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["六道轮回尘"] = { 
+		xls_id = "六道轮回尘",
+		bg = "XuanTianZhiCheng",
+	},
+	["黄金锁子甲"] = { 
+		xls_id = "黄金锁子甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["神圣契约"] = { 
+		xls_id = "神圣契约",
+	},
+	["光·炎[男]"] = { 
+		xls_id = "光·炎[男]",
+		rightIcon = "Yifu",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["辰星战盔"] = { 
+		xls_id = "辰星战盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["哨兵之首"] = { 
+		xls_id = "哨兵之首",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["骑士之心"] = { 
+		xls_id = "骑士之心",
+	},
+	["吟龍圣戒"] = { 
+		xls_id = "吟龍圣戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["寒潭香"] = { 
+		xls_id = "寒潭香",
+		bg = "XuanTianZhiCheng",
+	},
+	["自己摸的鱼"] = { 
+		xls_id = "自己摸的鱼",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["龙·之心+9"] = { 
+		xls_id = "龙·之心+9",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["斗转星移[精]+3"] = { 
+		xls_id = "斗转星移[精]+3",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["毁灭の灵靴"] = { 
+		xls_id = "毁灭の灵靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["破魔斗笠+7"] = { 
+		xls_id = "破魔斗笠+7",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["金罗痴梦·带"] = { 
+		xls_id = "金罗痴梦·带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["幕轮"] = { 
+		xls_id = "幕轮",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["神·守护+8"] = { 
+		xls_id = "神·守护+8",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["遗尘·盔"] = { 
+		xls_id = "遗尘·盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["七魄·吞贼"] = { 
+		xls_id = "七魄·吞贼",
+		bg = "XuanTianZhiCheng",
+	},
+	["边关守护者lv3"] = { 
+		xls_id = "边关守护者lv3",
+		rightIcon = "ChengHao",
+	},
+	["天地·之威"] = { 
+		xls_id = "天地·之威",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["破碎的魔法阵"] = { 
+		xls_id = "破碎的魔法阵",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv8"] = { 
+		xls_id = "血牛达人Lv8",
+		rightIcon = "ChengHao",
+	},
+	["阴阳仙草"] = { 
+		xls_id = "阴阳仙草",
+		bg = "XuanTianZhiCheng",
+	},
+	["未时灵魂灯"] = { 
+		xls_id = "未时灵魂灯",
+		rightIcon = "ChengHao",
+	},
+	["50W经验卷"] = { 
+		xls_id = "50W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["未来战士"] = { 
+		xls_id = "未来战士",
+		bg = "XuanTianZhiCheng",
+	},
+	["一支笔"] = { 
+		xls_id = "一支笔",
+		bg = "XuanTianZhiCheng",
+	},
+	["20W经验卷"] = { 
+		xls_id = "20W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["10W经验卷"] = { 
+		xls_id = "10W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["万里追云"] = { 
+		xls_id = "万里追云",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["心有琉璃"] = { 
+		xls_id = "心有琉璃",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["殘魂神盔"] = { 
+		xls_id = "殘魂神盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["白骨之刺"] = { 
+		xls_id = "白骨之刺",
+		rightIcon = "Zhenbao5",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["醉月手镯[魂灭]"] = { 
+		xls_id = "醉月手镯[魂灭]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["血奴印记"] = { 
+		xls_id = "血奴印记",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["厄运代言人"] = { 
+		xls_id = "厄运代言人",
+		rightIcon = "Xianglian",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["血牛达人Lv1"] = { 
+		xls_id = "血牛达人Lv1",
+		rightIcon = "ChengHao",
+	},
+	["荒火魔戒[惊梦]"] = { 
+		xls_id = "荒火魔戒[惊梦]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["子时旧魂灯"] = { 
+		xls_id = "子时旧魂灯",
+		rightIcon = "ChengHao",
+	},
+	["100元真充"] = { 
+		xls_id = "100元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["血界"] = { 
+		xls_id = "血界",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["天道甲·仙"] = { 
+		xls_id = "天道甲·仙",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["透明手镯"] = { 
+		xls_id = "透明手镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["边关守护者lv2"] = { 
+		xls_id = "边关守护者lv2",
+		rightIcon = "ChengHao",
+	},
+	["辰星战甲"] = { 
+		xls_id = "辰星战甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["〈御风·斩浪〉"] = { 
+		xls_id = "〈御风·斩浪〉",
+		rightIcon = "Shouzhuo",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["[SSSSS·聖]黄金斗士(女)"] = { 
+		xls_id = "[SSSSS·聖]黄金斗士(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["伤害增幅Lv12"] = { 
+		xls_id = "伤害增幅Lv12",
+		rightIcon = "ChengHao",
+	},
+	["鬼画符(S)"] = { 
+		xls_id = "鬼画符(S)",
+		rightIcon = "Zhenbao4",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["挽歌"] = { 
+		xls_id = "挽歌",
+		bg = "XuanTianZhiCheng",
+	},
+	["白骨之镰"] = { 
+		xls_id = "白骨之镰",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["40亿经验卷"] = { 
+		xls_id = "40亿经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["20亿经验卷"] = { 
+		xls_id = "20亿经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["哈法西斯挑战者Lv5"] = { 
+		xls_id = "哈法西斯挑战者Lv5",
+		rightIcon = "ChengHao",
+	},
+	["魔剑碎片"] = { 
+		xls_id = "魔剑碎片",
+		bg = "XuanTianZhiCheng",
+	},
+	["禁墟：黑王斩滅"] = { 
+		xls_id = "禁墟：黑王斩滅",
+		rightIcon = "ChengHao",
+	},
+	["50元真充"] = { 
+		xls_id = "50元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv7"] = { 
+		xls_id = "致命一击Lv7",
+		rightIcon = "ChengHao",
+	},
+	["神·守护"] = { 
+		xls_id = "神·守护",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["10元真充"] = { 
+		xls_id = "10元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["10亿经验卷"] = { 
+		xls_id = "10亿经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["30元真充"] = { 
+		xls_id = "30元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv20"] = { 
+		xls_id = "致命一击Lv20",
+		rightIcon = "ChengHao",
+	},
+	["天元之奕·冰霜凝视"] = { 
+		xls_id = "天元之奕·冰霜凝视",
+		rightIcon = "Yaodai",
+		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
+	},
+	["〓楼兰⊙君主〓(女)"] = { 
+		xls_id = "〓楼兰⊙君主〓(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["寂梦"] = { 
+		xls_id = "寂梦",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["吟龍圣带"] = { 
+		xls_id = "吟龍圣带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["破魔斗笠+10"] = { 
+		xls_id = "破魔斗笠+10",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["圣·皇天靴"] = { 
+		xls_id = "圣·皇天靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["避魂靴[时装]"] = { 
+		xls_id = "避魂靴[时装]",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["魔焰·炽无尽"] = { 
+		xls_id = "魔焰·炽无尽",
+		rightIcon = "Jiezhi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["无用宝石"] = { 
+		xls_id = "无用宝石",
+		bg = "XuanTianZhiCheng",
+	},
+	["陆地神仙"] = { 
+		xls_id = "陆地神仙",
+		rightIcon = "ChengHao",
+	},
+	["黄泉"] = { 
+		xls_id = "黄泉",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["雄霸"] = { 
+		xls_id = "雄霸",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv10"] = { 
+		xls_id = "致命一击Lv10",
+		rightIcon = "ChengHao",
+	},
+	["328元真充"] = { 
+		xls_id = "328元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["冥海圣武甲"] = { 
+		xls_id = "冥海圣武甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["单笔充值"] = { 
+		xls_id = "单笔充值",
+	},
+	["潜龙阴阳石"] = { 
+		xls_id = "潜龙阴阳石",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["打工皇帝[称号]"] = { 
+		xls_id = "打工皇帝[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["黑暗限界"] = { 
+		xls_id = "黑暗限界",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["荣誉值"] = { 
+		xls_id = "荣誉值",
+	},
+	["削铁如泥Lv11"] = { 
+		xls_id = "削铁如泥Lv11",
+		rightIcon = "ChengHao",
+	},
+	["双星天师"] = { 
+		xls_id = "双星天师",
+		rightIcon = "ChengHao",
+	},
+	["血杀之誓[时装]"] = { 
+		xls_id = "血杀之誓[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["苦罗痴心·靴"] = { 
+		xls_id = "苦罗痴心·靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["冰河之心"] = { 
+		xls_id = "冰河之心",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["魔王水晶"] = { 
+		xls_id = "魔王水晶",
+		rightIcon = "Shoushi6",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["六级星石"] = { 
+		xls_id = "六级星石",
+	},
+	["破魔斗笠+4"] = { 
+		xls_id = "破魔斗笠+4",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["恶魔之角"] = { 
+		xls_id = "恶魔之角",
+		rightIcon = "Shoushi3",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["「绝代风华」(女)"] = { 
+		xls_id = "「绝代风华」(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["圣诞小姐[时装]"] = { 
+		xls_id = "圣诞小姐[时装]",
+		bg = "shengdan",
+	},
+	["牛马手办一对"] = { 
+		xls_id = "牛马手办一对",
+		bg = "shengdan",
+	},
+	["死神手套[时装]"] = { 
+		xls_id = "死神手套[时装]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["鸿运当头"] = { 
+		xls_id = "鸿运当头",
+		bg = "XuanTianZhiCheng",
+	},
+	["【噬魂】王之孤影"] = { 
+		xls_id = "【噬魂】王之孤影",
+		rightIcon = "Jiezhi",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["冰霜☆"] = { 
+		xls_id = "冰霜☆",
+		rightIcon = "Zhenbao1",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["铁腰带[时装]"] = { 
+		xls_id = "铁腰带[时装]",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["潮汐手套"] = { 
+		xls_id = "潮汐手套",
+		bg = "XuanTianZhiCheng",
+	},
+	["精元"] = { 
+		xls_id = "精元",
+	},
+	["幻·火莲魔童·哪吒"] = { 
+		xls_id = "幻·火莲魔童·哪吒",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["震天靴子"] = { 
+		xls_id = "震天靴子",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["本源之力"] = { 
+		xls_id = "本源之力",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["十方天帝印"] = { 
+		xls_id = "十方天帝印",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["铁布衫-1"] = { 
+		xls_id = "铁布衫-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["鬼魅之宗·七煞灭魂"] = { 
+		xls_id = "鬼魅之宗·七煞灭魂",
+		rightIcon = "Shoushi3",
+		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
+	},
+	["罗刹☆"] = { 
+		xls_id = "罗刹☆",
+		rightIcon = "Zhenbao1",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["殘魂神戒"] = { 
+		xls_id = "殘魂神戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["撒旦の镯"] = { 
+		xls_id = "撒旦の镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["炼狱"] = { 
+		xls_id = "炼狱",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["-燃霜之握-"] = { 
+		xls_id = "-燃霜之握-",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["遗尘·镯"] = { 
+		xls_id = "遗尘·镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["500万元宝"] = { 
+		xls_id = "500万元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["死亡一指"] = { 
+		xls_id = "死亡一指",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["血色残刃"] = { 
+		xls_id = "血色残刃",
+		bg = "XuanTianZhiCheng",
+	},
+	["暗影之行[时装]"] = { 
+		xls_id = "暗影之行[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["苍月圣魂戒"] = { 
+		xls_id = "苍月圣魂戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["重生之我基本无敌1"] = { 
+		xls_id = "重生之我基本无敌1",
+		bg = "XuanTianZhiCheng",
+	},
+	["祈渊"] = { 
+		xls_id = "祈渊",
+		bg = "XuanTianZhiCheng",
+	},
+	["安晓的左眼"] = { 
+		xls_id = "安晓的左眼",
+		rightIcon = "Toukui",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["天启指环[魂]"] = { 
+		xls_id = "天启指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["戌时幡魂灯"] = { 
+		xls_id = "戌时幡魂灯",
+		rightIcon = "ChengHao",
+	},
+	["永恆之石1"] = { 
+		xls_id = "永恆之石1",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["·天魔之冠·破天·"] = { 
+		xls_id = "·天魔之冠·破天·",
+		rightIcon = "Douli",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["八荒项链[魂]"] = { 
+		xls_id = "八荒项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["恶境征伐者[称号]"] = { 
+		xls_id = "恶境征伐者[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["清晰头脑"] = { 
+		xls_id = "清晰头脑",
+		bg = "XuanTianZhiCheng",
+	},
+	["西海岸的运转核心"] = { 
+		xls_id = "西海岸的运转核心",
+		rightIcon = "Yuwaiqiwu",
+	},
+	["荒火魔链[惊梦]"] = { 
+		xls_id = "荒火魔链[惊梦]",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["觉醒四重天"] = { 
+		xls_id = "觉醒四重天",
+		rightIcon = "ChengHao",
+	},
+	["黑莲项坠"] = { 
+		xls_id = "黑莲项坠",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["殇日剑·终结"] = { 
+		xls_id = "殇日剑·终结",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["太古龍神·镇魂神武"] = { 
+		xls_id = "太古龍神·镇魂神武",
+		rightIcon = "Zhenbao8",
+		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
+	},
+	["荒古·镯"] = { 
+		xls_id = "荒古·镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["万年古棺"] = { 
+		xls_id = "万年古棺",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["玄秘宗师"] = { 
+		xls_id = "玄秘宗师",
+		rightIcon = "ChengHao",
+	},
+	["冥海圣武镯"] = { 
+		xls_id = "冥海圣武镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["天下共主宝箱"] = { 
+		xls_id = "天下共主宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["毁灭の亡镯"] = { 
+		xls_id = "毁灭の亡镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["冠名大哥[称号]"] = { 
+		xls_id = "冠名大哥[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "guanming",
+	},
+	["星图残卷"] = { 
+		xls_id = "星图残卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["时空门票"] = { 
+		xls_id = "时空门票",
+		bg = "XuanTianZhiCheng",
+	},
+	["降魔杵"] = { 
+		xls_id = "降魔杵",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["死亡假面"] = { 
+		xls_id = "死亡假面",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["荒古·带"] = { 
+		xls_id = "荒古·带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["半月弯刀[技能]"] = { 
+		xls_id = "半月弯刀[技能]",
+		rightIcon = "jineng",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["残生☆"] = { 
+		xls_id = "残生☆",
+		rightIcon = "Zhenbao2",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["荒火魔盔[惊梦]"] = { 
+		xls_id = "荒火魔盔[惊梦]",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["魔罗之卵"] = { 
+		xls_id = "魔罗之卵",
+		rightIcon = "Shoushi1",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["赤金罗刹[时装]"] = { 
+		xls_id = "赤金罗刹[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["树妖统领·木之虫巢"] = { 
+		xls_id = "树妖统领·木之虫巢",
+		rightIcon = "Shoushi2",
+		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
+	},
+	["王的钥匙"] = { 
+		xls_id = "王的钥匙",
+		bg = "XuanTianZhiCheng",
+	},
+	["透骨草"] = { 
+		xls_id = "透骨草",
+		bg = "XuanTianZhiCheng",
+	},
+	["步步高升[足迹]"] = { 
+		xls_id = "步步高升[足迹]",
+		bg = "shengdan",
+	},
+	["摸鱼达人(称号卷)"] = { 
+		xls_id = "摸鱼达人(称号卷)",
+		bg = "XuanTianZhiCheng",
+	},
+	["神墟：唯一正解"] = { 
+		xls_id = "神墟：唯一正解",
+		rightIcon = "ChengHao",
+	},
+	["无尽的华尔兹"] = { 
+		xls_id = "无尽的华尔兹",
+		rightIcon = "Zhenbao7",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["幸运福袋"] = { 
+		xls_id = "幸运福袋",
+	},
+	["混天八卦炉"] = { 
+		xls_id = "混天八卦炉",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["钱多势众"] = { 
+		xls_id = "钱多势众",
+		bg = "XuanTianZhiCheng",
+	},
+	["嗜血-2"] = { 
+		xls_id = "嗜血-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["荒古·盔"] = { 
+		xls_id = "荒古·盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["预言者"] = { 
+		xls_id = "预言者",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["技术大神的电脑[攻速]"] = { 
+		xls_id = "技术大神的电脑[攻速]",
+	},
+	["20000元宝"] = { 
+		xls_id = "20000元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["10000元宝"] = { 
+		xls_id = "10000元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["镇虚碑"] = { 
+		xls_id = "镇虚碑",
+		bg = "XuanTianZhiCheng",
+	},
+	["凌风战虎镯"] = { 
+		xls_id = "凌风战虎镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["鬼影重重"] = { 
+		xls_id = "鬼影重重",
+		rightIcon = "Zhenbao8",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["50000元宝"] = { 
+		xls_id = "50000元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["大佛舍利"] = { 
+		xls_id = "大佛舍利",
+		rightIcon = "Shoushi3",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["不死之花"] = { 
+		xls_id = "不死之花",
+		rightIcon = "Shoushi5",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["斗转星移[精]+4"] = { 
+		xls_id = "斗转星移[精]+4",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["§镇海之王§"] = { 
+		xls_id = "§镇海之王§",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["十都指环[魂]"] = { 
+		xls_id = "十都指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["≮惊世≯"] = { 
+		xls_id = "≮惊世≯",
+		rightIcon = "ChengHao",
+	},
+	["五行聚灵丹"] = { 
+		xls_id = "五行聚灵丹",
+		bg = "XuanTianZhiCheng",
+	},
+	["进化之心"] = { 
+		xls_id = "进化之心",
+		bg = "XuanTianZhiCheng",
+	},
+	["〈古龙·意志〉"] = { 
+		xls_id = "〈古龙·意志〉",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["五岳恺甲[魂]"] = { 
+		xls_id = "五岳恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["破晓英雄[称号]"] = { 
+		xls_id = "破晓英雄[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["神王の拳I"] = { 
+		xls_id = "神王の拳I",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["鬼画符(A)"] = { 
+		xls_id = "鬼画符(A)",
+		rightIcon = "Zhenbao4",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["鬼画符(SR)"] = { 
+		xls_id = "鬼画符(SR)",
+		rightIcon = "Zhenbao4",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["幽冥铭文"] = { 
+		xls_id = "幽冥铭文",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["≮凌绝≯"] = { 
+		xls_id = "≮凌绝≯",
+		rightIcon = "ChengHao",
+	},
+	["毒蜘蛛牙齿"] = { 
+		xls_id = "毒蜘蛛牙齿",
+		bg = "XuanTianZhiCheng",
+	},
+	["吟龍圣者剑"] = { 
+		xls_id = "吟龍圣者剑",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["苦罗痴心·盔"] = { 
+		xls_id = "苦罗痴心·盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["三魂头盔[魂]"] = { 
+		xls_id = "三魂头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["基克的调和"] = { 
+		xls_id = "基克的调和",
+		bg = "XuanTianZhiCheng",
+	},
+	["≮天界ヾ守护≯(女)"] = { 
+		xls_id = "≮天界ヾ守护≯(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["毁灭の面罩"] = { 
+		xls_id = "毁灭の面罩",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["金箱"] = { 
+		xls_id = "金箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["赤炎石碎片1"] = { 
+		xls_id = "赤炎石碎片1",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣罗痴情·靴"] = { 
+		xls_id = "圣罗痴情·靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["噬伤之力"] = { 
+		xls_id = "噬伤之力",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["神龙帝国的秘密"] = { 
+		xls_id = "神龙帝国的秘密",
+		bg = "XuanTianZhiCheng",
+	},
+	["殘魂神镯"] = { 
+		xls_id = "殘魂神镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["卯时天魂灯"] = { 
+		xls_id = "卯时天魂灯",
+		rightIcon = "ChengHao",
+	},
+	["苦罗痴心·镯"] = { 
+		xls_id = "苦罗痴心·镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv9"] = { 
+		xls_id = "血牛达人Lv9",
+		rightIcon = "ChengHao",
+	},
+	["万妖指环"] = { 
+		xls_id = "万妖指环",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["以下克上"] = { 
+		xls_id = "以下克上",
+		bg = "XuanTianZhiCheng",
+	},
+	["同事划的水"] = { 
+		xls_id = "同事划的水",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["无名手环"] = { 
+		xls_id = "无名手环",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["好事成双-2"] = { 
+		xls_id = "好事成双-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["鲜血封腾"] = { 
+		xls_id = "鲜血封腾",
+		bg = "XuanTianZhiCheng",
+	},
+	["银翼[时装]"] = { 
+		xls_id = "银翼[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["江湖侠客"] = { 
+		xls_id = "江湖侠客",
+		rightIcon = "ChengHao",
+	},
+	["修仙丹"] = { 
+		xls_id = "修仙丹",
+	},
+	["星火法器[刺痛]"] = { 
+		xls_id = "星火法器[刺痛]",
+		rightIcon = "Zhenbao5",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["魔龙骨"] = { 
+		xls_id = "魔龙骨",
+		bg = "XuanTianZhiCheng",
+	},
+	["金罗痴梦·镯"] = { 
+		xls_id = "金罗痴梦·镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["不灭之魂宝箱"] = { 
+		xls_id = "不灭之魂宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["648元真充"] = { 
+		xls_id = "648元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["焰·冰[闪耀]"] = { 
+		xls_id = "焰·冰[闪耀]",
+		rightIcon = "Wuqi",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["我不是酒神"] = { 
+		xls_id = "我不是酒神",
+		rightIcon = "ChengHao",
+	},
+	["龙族雕石[五阶觉醒]"] = { 
+		xls_id = "龙族雕石[五阶觉醒]",
+		rightIcon = "Diaowen",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["藏山"] = { 
+		xls_id = "藏山",
+		bg = "XuanTianZhiCheng",
+	},
+	["禁墟：无相"] = { 
+		xls_id = "禁墟：无相",
+		rightIcon = "ChengHao",
+	},
+	["源导体"] = { 
+		xls_id = "源导体",
+		bg = "XuanTianZhiCheng",
+	},
+	["福佑吸血剑"] = { 
+		xls_id = "福佑吸血剑",
+		bg = "XuanTianZhiCheng",
+	},
+	["电·遇[男]"] = { 
+		xls_id = "电·遇[男]",
+		rightIcon = "Yifu",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["元素种子"] = { 
+		xls_id = "元素种子",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["毁灭の影戒"] = { 
+		xls_id = "毁灭の影戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["黄金瞬影戒"] = { 
+		xls_id = "黄金瞬影戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["书页"] = { 
+		xls_id = "书页",
+		bg = "XuanTianZhiCheng",
+	},
+	["金丝羽灵"] = { 
+		xls_id = "金丝羽灵",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["二元归灵珠"] = { 
+		xls_id = "二元归灵珠",
+		bg = "XuanTianZhiCheng",
+	},
+	["削铁如泥Lv2"] = { 
+		xls_id = "削铁如泥Lv2",
+		rightIcon = "ChengHao",
+	},
+	["星辰仙器[命格]"] = { 
+		xls_id = "星辰仙器[命格]",
+		rightIcon = "Zhenbao10",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["黑铁头盔[时装]"] = { 
+		xls_id = "黑铁头盔[时装]",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["魔刃·噬魂(A)"] = { 
+		xls_id = "魔刃·噬魂(A)",
+		rightIcon = "Zhenbao2",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["敬天圣骑[时装]"] = { 
+		xls_id = "敬天圣骑[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["远古传承的秘密[下]"] = { 
+		xls_id = "远古传承的秘密[下]",
+		bg = "XuanTianZhiCheng",
+	},
+	["恶之根源"] = { 
+		xls_id = "恶之根源",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["强力戒指[洪荒]"] = { 
+		xls_id = "强力戒指[洪荒]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["『神耀』"] = { 
+		xls_id = "『神耀』",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["神·守护+2"] = { 
+		xls_id = "神·守护+2",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["金罗痴梦·靴"] = { 
+		xls_id = "金罗痴梦·靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["雷卷风"] = { 
+		xls_id = "雷卷风",
+		bg = "XuanTianZhiCheng",
+	},
+	["恶鬼战神[时装]"] = { 
+		xls_id = "恶鬼战神[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔牙面具[蛮荒]"] = { 
+		xls_id = "魔牙面具[蛮荒]",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["[無盡]死神之盾"] = { 
+		xls_id = "[無盡]死神之盾",
+		rightIcon = "Dunpai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["牛马特权[称号]"] = { 
+		xls_id = "牛马特权[称号]",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔法盾[技能]"] = { 
+		xls_id = "魔法盾[技能]",
+		rightIcon = "jineng",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["混沌之影"] = { 
+		xls_id = "混沌之影",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["轮回沙漏"] = { 
+		xls_id = "轮回沙漏",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["5亿经验卷"] = { 
+		xls_id = "5亿经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["伤害增幅Lv9"] = { 
+		xls_id = "伤害增幅Lv9",
+		rightIcon = "ChengHao",
+	},
+	["削铁如泥Lv13"] = { 
+		xls_id = "削铁如泥Lv13",
+		rightIcon = "ChengHao",
+	},
+	["2亿经验卷"] = { 
+		xls_id = "2亿经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["1亿经验卷"] = { 
+		xls_id = "1亿经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["矮人头盔"] = { 
+		xls_id = "矮人头盔",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["美女出浴[暴击]"] = { 
+		xls_id = "美女出浴[暴击]",
+	},
+	["狗策划的手机[爆率]"] = { 
+		xls_id = "狗策划的手机[爆率]",
+	},
+	["好事成双-3"] = { 
+		xls_id = "好事成双-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["百战不殆"] = { 
+		xls_id = "百战不殆",
+		bg = "XuanTianZhiCheng",
+	},
+	["腐化符文[经验]"] = { 
+		xls_id = "腐化符文[经验]",
+	},
+	["觉醒七重天"] = { 
+		xls_id = "觉醒七重天",
+		rightIcon = "ChengHao",
+	},
+	["独孤求败"] = { 
+		xls_id = "独孤求败",
+		rightIcon = "ChengHao",
+	},
+	["伤害增幅Lv3"] = { 
+		xls_id = "伤害增幅Lv3",
+		rightIcon = "ChengHao",
+	},
+	["转换充能[上]"] = { 
+		xls_id = "转换充能[上]",
+		rightIcon = "Shoushi3",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["伤害增幅Lv4"] = { 
+		xls_id = "伤害增幅Lv4",
+		rightIcon = "ChengHao",
+	},
+	["七魄·尸狗"] = { 
+		xls_id = "七魄·尸狗",
+		bg = "XuanTianZhiCheng",
+	},
+	["破魔斗笠+9"] = { 
+		xls_id = "破魔斗笠+9",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["天选之人[资格]"] = { 
+		xls_id = "天选之人[资格]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["瑶光"] = { 
+		xls_id = "瑶光",
+		bg = "XuanTianZhiCheng",
+	},
+	["不动如山"] = { 
+		xls_id = "不动如山",
+		bg = "XuanTianZhiCheng",
+	},
+	["腐化メ恐惧"] = { 
+		xls_id = "腐化メ恐惧",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["清毒莲"] = { 
+		xls_id = "清毒莲",
+		bg = "XuanTianZhiCheng",
+	},
+	["哈法西斯挑战者Lv2"] = { 
+		xls_id = "哈法西斯挑战者Lv2",
+		rightIcon = "ChengHao",
+	},
+	["除将印信"] = { 
+		xls_id = "除将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["金砖"] = { 
+		xls_id = "金砖",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙骨甲"] = { 
+		xls_id = "龙骨甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["净化晶矿"] = { 
+		xls_id = "净化晶矿",
+		bg = "XuanTianZhiCheng",
+	},
+	["药剂师的信"] = { 
+		xls_id = "药剂师的信",
+		bg = "XuanTianZhiCheng",
+	},
+	["青天战幻甲"] = { 
+		xls_id = "青天战幻甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["命运的轮转"] = { 
+		xls_id = "命运的轮转",
+		rightIcon = "Shouzhuo",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["冥海圣武带"] = { 
+		xls_id = "冥海圣武带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["吟龍圣甲"] = { 
+		xls_id = "吟龍圣甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv15"] = { 
+		xls_id = "血牛达人Lv15",
+		rightIcon = "ChengHao",
+	},
+	["殘魂必殺甲"] = { 
+		xls_id = "殘魂必殺甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["黄金冥王链"] = { 
+		xls_id = "黄金冥王链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["万雷"] = { 
+		xls_id = "万雷",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["点石成金"] = { 
+		xls_id = "点石成金",
+		bg = "XuanTianZhiCheng",
+	},
+	["初心手镯"] = { 
+		xls_id = "初心手镯",
+		rightIcon = "Shoushi1",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["封龙劍メ驱逐之刃"] = { 
+		xls_id = "封龙劍メ驱逐之刃",
+		rightIcon = "Wuqi",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["⊙墟魂千幻⊙"] = { 
+		xls_id = "⊙墟魂千幻⊙",
+		rightIcon = "Guanghuan",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["〈古龙·之力〉"] = { 
+		xls_id = "〈古龙·之力〉",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["元宝"] = { 
+		xls_id = "元宝",
+		rightIcon = "HuoBi",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["天使宝冠"] = { 
+		xls_id = "天使宝冠",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["天使旭日手"] = { 
+		xls_id = "天使旭日手",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["恢复光环+3"] = { 
+		xls_id = "恢复光环+3",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["圣诞先生[时装]"] = { 
+		xls_id = "圣诞先生[时装]",
+		bg = "shengdan",
+	},
+	["古核武·变异基因体"] = { 
+		xls_id = "古核武·变异基因体",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["八荒之刃[魂]"] = { 
+		xls_id = "八荒之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["技术大神的电脑[移速]"] = { 
+		xls_id = "技术大神的电脑[移速]",
+	},
+	["星辉法器[刺痛]"] = { 
+		xls_id = "星辉法器[刺痛]",
+		rightIcon = "Zhenbao6",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["毁灭の项链"] = { 
+		xls_id = "毁灭の项链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["Exp[5000W]"] = { 
+		xls_id = "Exp[5000W]",
+	},
+	["境界丹"] = { 
+		xls_id = "境界丹",
+	},
+	["神·守护+7"] = { 
+		xls_id = "神·守护+7",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["正将印信"] = { 
+		xls_id = "正将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·创世指"] = { 
+		xls_id = "神·创世指",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["申时鸣魂灯"] = { 
+		xls_id = "申时鸣魂灯",
+		rightIcon = "ChengHao",
+	},
+	["爆爆爆！"] = { 
+		xls_id = "爆爆爆！",
+		bg = "XuanTianZhiCheng",
+	},
+	["千年"] = { 
+		xls_id = "千年",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["神魔·大成[称号]"] = { 
+		xls_id = "神魔·大成[称号]",
+		bg = "XuanTianZhiCheng",
+	},
+	["四象天方盘"] = { 
+		xls_id = "四象天方盘",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["星火法器[重伤]"] = { 
+		xls_id = "星火法器[重伤]",
+		rightIcon = "Zhenbao8",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["杀戮刻印Lv.14"] = { 
+		xls_id = "杀戮刻印Lv.14",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["星辉神器[轮盘]"] = { 
+		xls_id = "星辉神器[轮盘]",
+		rightIcon = "Zhenbao9",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["毁天灭地甲"] = { 
+		xls_id = "毁天灭地甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣罗痴情·盔"] = { 
+		xls_id = "圣罗痴情·盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣罗痴情·带"] = { 
+		xls_id = "圣罗痴情·带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["双星项链[魂]"] = { 
+		xls_id = "双星项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["绑定金币"] = { 
+		xls_id = "绑定金币",
+		rightIcon = "HuoBi",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["殘魂神带"] = { 
+		xls_id = "殘魂神带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["阴阳魂石"] = { 
+		xls_id = "阴阳魂石",
+		bg = "XuanTianZhiCheng",
+	},
+	["赤炎龙王之心"] = { 
+		xls_id = "赤炎龙王之心",
+		rightIcon = "Shoushi3",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["神·战甲"] = { 
+		xls_id = "神·战甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["七魄·除秽"] = { 
+		xls_id = "七魄·除秽",
+		bg = "XuanTianZhiCheng",
+	},
+	["碎梦涵光"] = { 
+		xls_id = "碎梦涵光",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["御空翔云翎"] = { 
+		xls_id = "御空翔云翎",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["神王の拳II"] = { 
+		xls_id = "神王の拳II",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["ζ法相天地ζ"] = { 
+		xls_id = "ζ法相天地ζ",
+		rightIcon = "ShizhuangFaXiang",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["⊙赤凰·修罗⊙"] = { 
+		xls_id = "⊙赤凰·修罗⊙",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["遗尘·链"] = { 
+		xls_id = "遗尘·链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["遗尘·靴"] = { 
+		xls_id = "遗尘·靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["钢铁之躯Lv11"] = { 
+		xls_id = "钢铁之躯Lv11",
+		rightIcon = "ChengHao",
+	},
+	["128元真充"] = { 
+		xls_id = "128元真充",
+		bg = "XuanTianZhiCheng",
+	},
+	["≮幽灵漫步≯"] = { 
+		xls_id = "≮幽灵漫步≯",
+		rightIcon = "Toukui",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["死亡凋零"] = { 
+		xls_id = "死亡凋零",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["◆影杀阵◆"] = { 
+		xls_id = "◆影杀阵◆",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["「无情」"] = { 
+		xls_id = "「无情」",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["狩魂の血镰使(女)"] = { 
+		xls_id = "狩魂の血镰使(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["踏雪№傲寒霜"] = { 
+		xls_id = "踏雪№傲寒霜",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["未干的血迹.."] = { 
+		xls_id = "未干的血迹..",
+		bg = "XuanTianZhiCheng",
+	},
+	["嗜血-3"] = { 
+		xls_id = "嗜血-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv17"] = { 
+		xls_id = "血牛达人Lv17",
+		rightIcon = "ChengHao",
+	},
+	["碧血"] = { 
+		xls_id = "碧血",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙·之心"] = { 
+		xls_id = "龙·之心",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["修复神水"] = { 
+		xls_id = "修复神水",
+	},
+	["天劫之怒★★★★"] = { 
+		xls_id = "天劫之怒★★★★",
+		rightIcon = "Wuqi",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["圣灵壁垒+4"] = { 
+		xls_id = "圣灵壁垒+4",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["三魂之刃[魂]"] = { 
+		xls_id = "三魂之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["金币红包(中)"] = { 
+		xls_id = "金币红包(中)",
+		bg = "XuanTianZhiCheng",
+	},
+	["杀戮刻印Lv.15"] = { 
+		xls_id = "杀戮刻印Lv.15",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["天顶锋刃"] = { 
+		xls_id = "天顶锋刃",
+		bg = "XuanTianZhiCheng",
+	},
+	["冰·殇[男]"] = { 
+		xls_id = "冰·殇[男]",
+		rightIcon = "Yifu",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["被封印的棺材"] = { 
+		xls_id = "被封印的棺材",
+		bg = "XuanTianZhiCheng",
+	},
+	["地爆天星"] = { 
+		xls_id = "地爆天星",
+		rightIcon = "Shoushi5",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["武林高手"] = { 
+		xls_id = "武林高手",
+		rightIcon = "ChengHao",
+	},
+	["削铁如泥Lv20"] = { 
+		xls_id = "削铁如泥Lv20",
+		rightIcon = "ChengHao",
+	},
+	["10元宝"] = { 
+		xls_id = "10元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv17"] = { 
+		xls_id = "致命一击Lv17",
+		rightIcon = "ChengHao",
+	},
+	["20元宝"] = { 
+		xls_id = "20元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["千年之光"] = { 
+		xls_id = "千年之光",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["魔戒·骷髅王(A)"] = { 
+		xls_id = "魔戒·骷髅王(A)",
+		rightIcon = "Zhenbao1",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["远古传承的秘密[上]"] = { 
+		xls_id = "远古传承的秘密[上]",
+		bg = "XuanTianZhiCheng",
+	},
+	["天工之锤"] = { 
+		xls_id = "天工之锤",
+		bg = "XuanTianZhiCheng",
+	},
+	["苍月圣魂链"] = { 
+		xls_id = "苍月圣魂链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["斗转星移[精]+10"] = { 
+		xls_id = "斗转星移[精]+10",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["圣·灭苍穹"] = { 
+		xls_id = "圣·灭苍穹",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["主城传送石"] = { 
+		xls_id = "主城传送石",
+	},
+	["醉月戒指[魂灭]"] = { 
+		xls_id = "醉月戒指[魂灭]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["天火之靴"] = { 
+		xls_id = "天火之靴",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["失落空间"] = { 
+		xls_id = "失落空间",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["神·破灭神靴"] = { 
+		xls_id = "神·破灭神靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["夜明珠"] = { 
+		xls_id = "夜明珠",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["紫背天葵"] = { 
+		xls_id = "紫背天葵",
+		bg = "XuanTianZhiCheng",
+	},
+	["灵符红包(大)"] = { 
+		xls_id = "灵符红包(大)",
+		bg = "XuanTianZhiCheng",
+	},
+	["寂梦霜魂"] = { 
+		xls_id = "寂梦霜魂",
+		rightIcon = "Jiezhi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["反将印信"] = { 
+		xls_id = "反将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["一气化三清"] = { 
+		xls_id = "一气化三清",
+		rightIcon = "ChengHao",
+	},
+	["死亡射线"] = { 
+		xls_id = "死亡射线",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["被封印的剑灵(A)"] = { 
+		xls_id = "被封印的剑灵(A)",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["时空旅人称号卷"] = { 
+		xls_id = "时空旅人称号卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["杀戮刻印Lv.10"] = { 
+		xls_id = "杀戮刻印Lv.10",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["哥布林头盔[愤怒]"] = { 
+		xls_id = "哥布林头盔[愤怒]",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["怒焰魔戒[秘纹]"] = { 
+		xls_id = "怒焰魔戒[秘纹]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["卧龙战靴"] = { 
+		xls_id = "卧龙战靴",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["致命一击Lv9"] = { 
+		xls_id = "致命一击Lv9",
+		rightIcon = "ChengHao",
+	},
+	["杀戮刻印Lv.8"] = { 
+		xls_id = "杀戮刻印Lv.8",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["飘荡的灵魂"] = { 
+		xls_id = "飘荡的灵魂",
+		bg = "XuanTianZhiCheng",
+	},
+	["冥火之拥"] = { 
+		xls_id = "冥火之拥",
+		rightIcon = "Zhenbao7",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["致命一击Lv14"] = { 
+		xls_id = "致命一击Lv14",
+		rightIcon = "ChengHao",
+	},
+	["冥日之戒"] = { 
+		xls_id = "冥日之戒",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["流光淬火剣[饮血]"] = { 
+		xls_id = "流光淬火剣[饮血]",
+		rightIcon = "Wuqi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["泰坦之劲-2"] = { 
+		xls_id = "泰坦之劲-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["雏凤呼风盏"] = { 
+		xls_id = "雏凤呼风盏",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["野蛮"] = { 
+		xls_id = "野蛮",
+		rightIcon = "Shoushi4",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["被封印的剑灵(SSR)"] = { 
+		xls_id = "被封印的剑灵(SSR)",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["【暗影】咒印之铠"] = { 
+		xls_id = "【暗影】咒印之铠",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["龙·之心+10"] = { 
+		xls_id = "龙·之心+10",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["沃玛号角"] = { 
+		xls_id = "沃玛号角",
+	},
+	["风息☆"] = { 
+		xls_id = "风息☆",
+		rightIcon = "Shoushi3",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["通灵花粉"] = { 
+		xls_id = "通灵花粉",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv13"] = { 
+		xls_id = "致命一击Lv13",
+		rightIcon = "ChengHao",
+	},
+	["拿来吧你！"] = { 
+		xls_id = "拿来吧你！",
+		bg = "XuanTianZhiCheng",
+	},
+	["削铁如泥Lv17"] = { 
+		xls_id = "削铁如泥Lv17",
+		rightIcon = "ChengHao",
+	},
+	["红莲腰带[白羽]"] = { 
+		xls_id = "红莲腰带[白羽]",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["金色黎明的圣物箱"] = { 
+		xls_id = "金色黎明的圣物箱",
+		rightIcon = "Shoushi3",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["哈法西斯挑战者Lv1"] = { 
+		xls_id = "哈法西斯挑战者Lv1",
+		rightIcon = "ChengHao",
+	},
+	["终身进修"] = { 
+		xls_id = "终身进修",
+		bg = "XuanTianZhiCheng",
+	},
+	["转瞬"] = { 
+		xls_id = "转瞬",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["流光淬火衣[男]"] = { 
+		xls_id = "流光淬火衣[男]",
+		rightIcon = "Yifu",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["藏地の聚光剑"] = { 
+		xls_id = "藏地の聚光剑",
+		rightIcon = "Shoushi2",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["九宫龙皇钟"] = { 
+		xls_id = "九宫龙皇钟",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["神秘!EX级铸造卷"] = { 
+		xls_id = "神秘!EX级铸造卷",
+	},
+	["龍族图腾ゞ"] = { 
+		xls_id = "龍族图腾ゞ",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["终结者"] = { 
+		xls_id = "终结者",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["致命一击Lv2"] = { 
+		xls_id = "致命一击Lv2",
+		rightIcon = "ChengHao",
+	},
+	["灭世·盔"] = { 
+		xls_id = "灭世·盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["炎袭☆"] = { 
+		xls_id = "炎袭☆",
+		rightIcon = "Zhenbao2",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["星光"] = { 
+		xls_id = "星光",
+		rightIcon = "Zhenbao7",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["被封印的剑灵(SR)"] = { 
+		xls_id = "被封印的剑灵(SR)",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["削铁如泥Lv6"] = { 
+		xls_id = "削铁如泥Lv6",
+		rightIcon = "ChengHao",
+	},
+	["九曜恺甲[魂]"] = { 
+		xls_id = "九曜恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["星辰仙器[会心]"] = { 
+		xls_id = "星辰仙器[会心]",
+		rightIcon = "Zhenbao7",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["领导甩的锅"] = { 
+		xls_id = "领导甩的锅",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["辰时泉魂灯"] = { 
+		xls_id = "辰时泉魂灯",
+		rightIcon = "ChengHao",
+	},
+	["充值点"] = { 
+		xls_id = "充值点",
+	},
+	["帝国の神龙(成长期)"] = { 
+		xls_id = "帝国の神龙(成长期)",
+		rightIcon = "Shoushi3",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["恶魔契约"] = { 
+		xls_id = "恶魔契约",
+	},
+	["鸣封之刃·永恒"] = { 
+		xls_id = "鸣封之刃·永恒",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["狂暴之角1"] = { 
+		xls_id = "狂暴之角1",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["生命幻想"] = { 
+		xls_id = "生命幻想",
+		rightIcon = "Toukui",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["时间之轮·聚变"] = { 
+		xls_id = "时间之轮·聚变",
+		rightIcon = "Fuhuo",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["苦罗痴心·戒"] = { 
+		xls_id = "苦罗痴心·戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["鬼画符(SSR)"] = { 
+		xls_id = "鬼画符(SSR)",
+		rightIcon = "Zhenbao4",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["杀戮刻印Lv.9"] = { 
+		xls_id = "杀戮刻印Lv.9",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["荒火手镯[惊梦]"] = { 
+		xls_id = "荒火手镯[惊梦]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["古龙的传承"] = { 
+		xls_id = "古龙的传承",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔血护手(力)"] = { 
+		xls_id = "魔血护手(力)",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["圣诞雪宝[时装]"] = { 
+		xls_id = "圣诞雪宝[时装]",
+		bg = "shengdan",
+	},
+	["GM的老舅[切割]"] = { 
+		xls_id = "GM的老舅[切割]",
+	},
+	["削铁如泥Lv1"] = { 
+		xls_id = "削铁如泥Lv1",
+		rightIcon = "ChengHao",
+	},
+	["红眼面具"] = { 
+		xls_id = "红眼面具",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["惊世霹雳环"] = { 
+		xls_id = "惊世霹雳环",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["至阴"] = { 
+		xls_id = "至阴",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["魔晶戒指"] = { 
+		xls_id = "魔晶戒指",
+		rightIcon = "Shoushi2",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["龙·之心+1"] = { 
+		xls_id = "龙·之心+1",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["青天战幻戒"] = { 
+		xls_id = "青天战幻戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣战手镯[时装]"] = { 
+		xls_id = "圣战手镯[时装]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["〝断情メ歌〞(女)"] = { 
+		xls_id = "〝断情メ歌〞(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["三生仙灵藤"] = { 
+		xls_id = "三生仙灵藤",
+		bg = "XuanTianZhiCheng",
+	},
+	["氪金党"] = { 
+		xls_id = "氪金党",
+		rightIcon = "ChengHao",
+	},
+	["凤凰の飞"] = { 
+		xls_id = "凤凰の飞",
+		rightIcon = "Jiezhi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["■龙之叹息■"] = { 
+		xls_id = "■龙之叹息■",
+		rightIcon = "Fuhuo",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["轮回经"] = { 
+		xls_id = "轮回经",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["乾坤八卦盘"] = { 
+		xls_id = "乾坤八卦盘",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["征服者之力"] = { 
+		xls_id = "征服者之力",
 		rightIcon = "Zhenbao3",
-	},
-	["讨伐者之力"] = {
+		leftIcon = "xiyouzhuanshu",
 		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao4",
 	},
-	["月影之碑"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao7",
-	},
-	["月影之界"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao8",
-	},
-	["重生十字架"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao6",
-	},
-	["强力护腕[洪荒]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["强力戒指[洪荒]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["龙神戒指[屠戮]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["龙神手镯[屠戮]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["哥布林头盔[愤怒]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["哥布林吊坠[愤怒]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["炽热腰带[狂暴]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["炽热战靴[狂暴]"] = {
-		bg = "jiedalu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxiezi",
-	},
-	["血魔护臂MAX"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["无尽愤怒"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["死亡一指"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["【暗影】咒印之铠"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["≮神拳≯"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Shouzhuo",
-	},
-	["噩梦之首★★"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Douli",
-	},
-	["一剑开天门"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["◆影杀阵◆"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["祸斗之獠"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["追殺者"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["·聖裁降臨SSS·"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Guanghuan",
-	},
-	["死亡ゅ封印"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["-燃霜之握-"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["冰河之心"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["魔焰·炽无尽"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Jiezhi",
-	},
-	["死亡假面"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["燃魂吊坠"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["噬伤之力"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["黑月·之泪"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Fuhuo",
-	},
-	["混沌之影"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["·破碎裂痕·"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["死亡射线"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["千山破"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["真·霸主战甲SSS"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Yifu",
-	},
-	["≮万物之力≯"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Xianglian",
-	},
-	["古核武·变异基因体"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["古核武·生化基因体"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
-	},
-	["罪恶审判×"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["悲鸣之泣"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["深渊的亵渎☆☆"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["赤焰结晶"] = {
-		bg = "TaiYangShengCheng",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["名刀⊙观世正宗"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Wuqi",
-	},
-	["封龙劍メ驱逐之刃"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Wuqi",
-	},
-	["安晓的右眼"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Toukui",
-	},
-	["安晓的左眼"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Toukui",
-	},
-	["异空：千年之光"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yifu",
-	},
-	["蚀月镜"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["红眼面具"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["狂怒护手"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["狂意之怒"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["魔渊面具"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["「无情」"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["咆哮之意"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["抉择"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["啸之戒指"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["天殇之痕"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["巨龙之印"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["时间锁"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["轮回沙漏"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["失落空间"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["法师拳套"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["半兽人之心"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["天启星魂"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
-	},
-	["恶之握"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["戰場之靴"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
-	},
-	["禁言"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["无面恐惧"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["灵魂洗礼"] = {
-		bg = "poxiaozhijing",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["命运的轮转"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Shouzhuo",
-	},
-	["起源·无尽幻境"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Xiezi",
-	},
-	["厄运代言人"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Xianglian",
-	},
-	["时间之轮·聚变"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Fuhuo",
-	},
-	["龙之力·不灭光剑!"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Wuqi",
-	},
-	["黄昏落幕ぁ"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Yifu",
-	},
-	["破魔斗笠"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["破魔斗笠+10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Douli",
-	},
-	["恢复光环"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["恢复光环+10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Guanghuan",
-	},
-	["龙·之心"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["龙·之心+10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fuhuo",
-	},
-	["神·守护"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["神·守护+10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Mabi",
-	},
-	["圣灵壁垒"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["圣灵壁垒+10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Dunpai",
-	},
-	["毁灭·魔化天使[永恆]"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Dunpai",
-	},
-	["毁灭·魔化天使[傳奇]"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Dunpai",
-	},
-	["毁灭·魔化天使[無盡]"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Dunpai",
-	},
-	["毁灭·魔化天使[吞噬]"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Dunpai",
-	},
-	["杀戮刻印Lv.1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.11"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.12"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.13"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.14"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["杀戮刻印Lv.15"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shalukeyin",
-	},
-	["疾风刻印Lv.1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["疾风刻印Lv.10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Jifengkeyin",
-	},
-	["冰霜☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao1",
-	},
-	["炎袭☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao2",
-	},
-	["风息☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi3",
-	},
-	["雷罚☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao4",
-	},
-	["星火法器[刺痛]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao5",
-	},
-	["星辉法器[刺痛]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao6",
-	},
-	["星辰法器[刺痛]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao7",
-	},
-	["星火法器[重伤]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao8",
-	},
-	["星辉法器[重伤]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao9",
-	},
-	["星辰法器[重伤]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
+	["星辰神器[轮盘]"] = { 
+		xls_id = "星辰神器[轮盘]",
 		rightIcon = "Zhenbao10",
-	},
-	["噬魂☆"] = {
-		bg = "putong",
 		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao1",
-	},
-	["天谴☆"] = {
 		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao2",
 	},
-	["地煞☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi3",
-	},
-	["御剑☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao4",
-	},
-	["星火仙器[会心]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao5",
-	},
-	["星辉仙器[会心]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao6",
-	},
-	["星辰仙器[会心]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao7",
-	},
-	["星火仙器[命格]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao8",
-	},
-	["星辉仙器[命格]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao9",
-	},
-	["星辰仙器[命格]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao10",
-	},
-	["罗刹☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao1",
-	},
-	["残生☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao2",
-	},
-	["暴怒☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi3",
-	},
-	["傲命☆"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao4",
-	},
-	["星火神器[契约]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao5",
-	},
-	["星辉神器[契约]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao6",
-	},
-	["星辰神器[契约]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao7",
-	},
-	["星火神器[轮盘]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao8",
-	},
-	["星辉神器[轮盘]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao9",
-	},
-	["星辰神器[轮盘]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Zhenbao10",
-	},
-	["龙族雕石[未觉醒]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Diaowen",
-	},
-	["龙族雕石[一阶觉醒]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Diaowen",
-	},
-	["龙族雕石[二阶觉醒]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Diaowen",
-	},
-	["龙族雕石[三阶觉醒]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Diaowen",
-	},
-	["龙族雕石[四阶觉醒]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Diaowen",
-	},
-	["龙族雕石[五阶觉醒]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Diaowen",
-	},
-	["初心手镯"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi1",
-	},
-	["魔晶戒指"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi2",
-	},
-	["大佛舍利"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi3",
-	},
-	["月光钻石"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi4",
-	},
-	["不死之花"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi5",
-	},
-	["妖魔玉佩"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi6",
-	},
-	["魔罗之卵"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi1",
-	},
-	["魔罗指环"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi2",
-	},
-	["恶魔之角"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi3",
-	},
-	["恶魔牙骨"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi4",
-	},
-	["魔王神油"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi5",
-	},
-	["魔王水晶"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi6",
-	},
-	["雄伯(太古结界)"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi1",
-	},
-	["伯奇(太古结界)"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi2",
-	},
-	["疆良(太古结界)"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi3",
-	},
-	["穷奇(太古结界)"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi4",
-	},
-	["祖明(太古结界)"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi5",
-	},
-	["虚耗(太古结界)"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shoushi6",
-	},
-	["幻·火莲魔童·哪吒"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["「绝代风华」"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["「绝代风华」(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["メ月光メ眷侣メ"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["メ月光メ眷侣メ(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["〝断情メ歌〞"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["〝断情メ歌〞(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["【锦衣卫】"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["【锦衣卫】(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["のの夏日ろ浪花のの"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["のの夏日ろ浪花のの(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["★妖影暗刺★"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["★妖影暗刺★(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["[SSSSS·聖]黄金斗士"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["[SSSSS·聖]黄金斗士(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["≮天界ヾ守护≯"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["≮天界ヾ守护≯(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["狩魂の血镰使"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["狩魂の血镰使(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["〓楼兰⊙君主〓"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["〓楼兰⊙君主〓(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["踏雪№傲寒霜"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["踏雪№傲寒霜(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["红颜天怒メ"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["红颜天怒メ(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["炽天使№路西法"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["大天使№米凯尔(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["§镇海之王§"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["§镇海之王§(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["⊙赤凰·修罗⊙"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["⊙赤凰·修罗⊙(女)"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Shizhuangjianjia",
-	},
-	["灵气枯竭的木匣"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["鸿蒙太初镜"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["噬魔两仪轮"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["三才玄靈扇"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["四象天方盘"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["五行炼魔壺"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["六合天罡珠"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["七宝玲珑塔"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["乾坤八卦盘"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["九宫龙皇钟"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["十方天帝印"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["神威破魔令"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["至尊仙王盾"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["超凡圣灵石"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["出尘穿云梭"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["凌绝天音铃"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["惊世霹雳环"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["御空翔云翎"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["混天八卦炉"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["雏凤呼风盏"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["潜龙阴阳石"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Fabao",
-	},
-	["骷髅头盔[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["蓝翡翠项链[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["死神手套[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["骷髅戒指[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["铁腰带[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["鹿皮靴[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangxiezi",
-	},
-	["黑铁头盔[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["绿色项链[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["骑士手镯[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["力量戒指[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["青铜腰带[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["紫绸靴[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangxiezi",
-	},
-	["圣战头盔[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["圣战项链[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["圣战手镯[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["圣战戒指[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["钢铁腰带[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["避魂靴[时装]"] = {
-		bg = "putong",
-		leftIcon = "PuTong-3",
-		rightIcon = "Shizhuangxiezi",
-	},
-	["老村长的怀表"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["守夜人之徽"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
-	},
-	["斗转星移[残]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+1"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+2"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+3"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+4"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+5"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+6"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+7"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+8"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+9"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["斗转星移[精]+10"] = {
-		bg = "teshu",
-		leftIcon = "teshu",
-		rightIcon = "Chuansong",
-	},
-	["驭风者·离殇"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Wuqi",
-	},
-	["【聖】·天空之翼"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
+	["咏叹沉沦[男]"] = { 
+		xls_id = "咏叹沉沦[男]",
 		rightIcon = "Yifu",
-	},
-	["边界山谷的运转核心"] = {
-		bg = "chuanshiyiwu",
 		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["疾风刻印Lv.1"] = { 
+		xls_id = "疾风刻印Lv.1",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["百年古棺"] = { 
+		xls_id = "百年古棺",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["【EX级】埃兰宝典"] = { 
+		xls_id = "【EX级】埃兰宝典",
+		rightIcon = "Zhenbao1",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["削铁如泥Lv4"] = { 
+		xls_id = "削铁如泥Lv4",
+		rightIcon = "ChengHao",
+	},
+	["钢铁之躯Lv5"] = { 
+		xls_id = "钢铁之躯Lv5",
+		rightIcon = "ChengHao",
+	},
+	["メ月光メ眷侣メ"] = { 
+		xls_id = "メ月光メ眷侣メ",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["掌控奥义"] = { 
+		xls_id = "掌控奥义",
 		rightIcon = "Yuwaiqiwu",
-	},
-	["亡灵骑士的面具"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["亡灵吊坠"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["拥抱黑暗吧"] = {
-		bg = "chuanshiyiwu",
 		leftIcon = "chuanshiyiwu",
-		rightIcon = "Xianglian",
-	},
-	["元素之心"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["酆都的运转核心"] = {
 		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Yuwaiqiwu",
 	},
-	["黑暗之触"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Jiezhi",
-	},
-	["【镇压】血色结界"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Toukui",
-	},
-	["活着！"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Xiezi",
-	},
-	["八八八八"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["鬼灵面容"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["万妖指环"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["黑暗之信念"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["熊猫面具"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["天龙人之戒"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["白骨之刺"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao5",
-	},
-	["“破晓之眼”"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Toukui",
-	},
-	["桓龙：另一个时空"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
+	["大元素使之手"] = { 
+		xls_id = "大元素使之手",
 		rightIcon = "Shouzhuo",
-	},
-	["哈法西斯之心"] = {
-		bg = "fenghuang",
 		leftIcon = "shenshengshishi",
-		rightIcon = "Chuansong",
-	},
-	["「穿梭」时间轮转"] = {
-		bg = "chuanshiyiwu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Chuansong",
-	},
-	["信念支柱"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao5",
-	},
-	["星瀚之力"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao6",
-	},
-	["蓝色恶魔之眼"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao7",
-	},
-	["【EX级】哀霜之触"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Zhenbao1",
-	},
-	["【EX级】超能战盔"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Zhenbao1",
-	},
-	["【EX级】圣之语"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Zhenbao1",
-	},
-	["【EX级】冰火之羽"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Zhenbao1",
-	},
-	["【EX级】埃兰宝典"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Zhenbao1",
-	},
-	["致命一击Lv1"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv2"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv3"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv4"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv5"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv6"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv7"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv8"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv9"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv10"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv11"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv12"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv13"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv14"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv15"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv16"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv17"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv18"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv19"] = {
-		rightIcon = "ChengHao",
-	},
-	["致命一击Lv20"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv1"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv2"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv3"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv4"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv5"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv6"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv7"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv8"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv9"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv10"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv11"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv12"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv13"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv14"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv15"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv16"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv17"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv18"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv19"] = {
-		rightIcon = "ChengHao",
-	},
-	["伤害增幅Lv20"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv1"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv2"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv3"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv4"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv5"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv6"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv7"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv8"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv9"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv10"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv11"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv12"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv13"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv14"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv15"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv16"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv17"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv18"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv19"] = {
-		rightIcon = "ChengHao",
-	},
-	["钢铁之躯Lv20"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv1"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv2"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv3"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv4"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv5"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv6"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv7"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv8"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv9"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv10"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv11"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv12"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv13"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv14"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv15"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv16"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv17"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv18"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv19"] = {
-		rightIcon = "ChengHao",
-	},
-	["削铁如泥Lv20"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv1"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv2"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv3"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv4"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv5"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv6"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv7"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv8"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv9"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv10"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv11"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv12"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv13"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv14"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv15"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv16"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv17"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv18"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv19"] = {
-		rightIcon = "ChengHao",
-	},
-	["血牛达人Lv20"] = {
-		rightIcon = "ChengHao",
-	},
-	["牛马特权"] = {
-		rightIcon = "ChengHao",
-	},
-	["神魔·大成"] = {
-		rightIcon = "ChengHao",
-	},
-	["神魔·完美"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv1"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv2"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv3"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv4"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv5"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv6"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv7"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv8"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv9"] = {
-		rightIcon = "ChengHao",
-	},
-	["边关守护者lv10"] = {
-		rightIcon = "ChengHao",
-	},
-	["武林新丁"] = {
-		rightIcon = "ChengHao",
-	},
-	["江湖小虾"] = {
-		rightIcon = "ChengHao",
-	},
-	["后起之秀"] = {
-		rightIcon = "ChengHao",
-	},
-	["武林高手"] = {
-		rightIcon = "ChengHao",
-	},
-	["风尘奇侠"] = {
-		rightIcon = "ChengHao",
-	},
-	["江湖侠隐"] = {
-		rightIcon = "ChengHao",
-	},
-	["无双隐士"] = {
-		rightIcon = "ChengHao",
-	},
-	["世外高人"] = {
-		rightIcon = "ChengHao",
-	},
-	["江湖侠客"] = {
-		rightIcon = "ChengHao",
-	},
-	["无敌圣者"] = {
-		rightIcon = "ChengHao",
-	},
-	["先天高手"] = {
-		rightIcon = "ChengHao",
-	},
-	["一代天骄"] = {
-		rightIcon = "ChengHao",
-	},
-	["武林霸主"] = {
-		rightIcon = "ChengHao",
-	},
-	["武林神话"] = {
-		rightIcon = "ChengHao",
-	},
-	["独孤求败"] = {
-		rightIcon = "ChengHao",
-	},
-	["帝释无双"] = {
-		rightIcon = "ChengHao",
-	},
-	["陆地神仙"] = {
-		rightIcon = "ChengHao",
-	},
-	["无敌贤者"] = {
-		rightIcon = "ChengHao",
-	},
-	["双星天师"] = {
-		rightIcon = "ChengHao",
-	},
-	["三界贤君"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒一重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒二重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒三重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒四重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒五重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒六重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒七重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒八重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["觉醒九重天"] = {
-		rightIcon = "ChengHao",
-	},
-	["哈法西斯挑战者Lv1"] = {
-		rightIcon = "ChengHao",
-	},
-	["哈法西斯挑战者Lv2"] = {
-		rightIcon = "ChengHao",
-	},
-	["哈法西斯挑战者Lv3"] = {
-		rightIcon = "ChengHao",
-	},
-	["哈法西斯挑战者Lv4"] = {
-		rightIcon = "ChengHao",
-	},
-	["哈法西斯挑战者Lv5"] = {
-		rightIcon = "ChengHao",
-	},
-	["沙城捐献"] = {
-		rightIcon = "ChengHao",
-	},
-	["第一富豪"] = {
-		rightIcon = "ChengHao",
-	},
-	["小资党"] = {
-		rightIcon = "ChengHao",
-	},
-	["氪金党"] = {
-		rightIcon = "ChengHao",
-	},
-	["土豪玩家"] = {
-		rightIcon = "ChengHao",
-	},
-	["神豪玩家"] = {
-		rightIcon = "ChengHao",
-	},
-	["氪金大佬"] = {
-		rightIcon = "ChengHao",
-	},
-	["全满大佬"] = {
-		rightIcon = "ChengHao",
-	},
-	["爸爸！"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮双星≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮两仪≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮三才≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮四象≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮五行≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮六合≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮七星≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮八卦≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮九宫≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮十方≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮神威≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮至尊≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮超凡≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮出尘≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮凌绝≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮惊世≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮御空≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮混天≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮凤雏≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["≮潜龙≯"] = {
-		rightIcon = "ChengHao",
-	},
-	["低阶禁物使"] = {
-		rightIcon = "ChengHao",
-	},
-	["高阶禁物使"] = {
-		rightIcon = "ChengHao",
-	},
-	["高危禁物使"] = {
-		rightIcon = "ChengHao",
-	},
-	["超高危禁物使"] = {
-		rightIcon = "ChengHao",
-	},
-	["狂暴之力"] = {
-		rightIcon = "ChengHao",
-	},
-	["我不是酒神"] = {
-		rightIcon = "ChengHao",
-	},
-	["地藏王的试炼"] = {
-		rightIcon = "ChengHao",
-	},
-	["一气化三清"] = {
-		rightIcon = "ChengHao",
-	},
-	["仙人境界"] = {
-		rightIcon = "ChengHao",
-	},
-	["时空游侠"] = {
-		rightIcon = "ChengHao",
-	},
-	["时空旅人"] = {
-		rightIcon = "ChengHao",
-	},
-	["时空穿梭者"] = {
-		rightIcon = "ChengHao",
-	},
-	["摸鱼达人"] = {
-		rightIcon = "ChengHao",
-	},
-	["乱斗之王"] = {
-		rightIcon = "ChengHao",
-	},
-	["神明代理人"] = {
-		rightIcon = "ChengHao",
-	},
-	["神墟：凡尘神域"] = {
-		rightIcon = "ChengHao",
-	},
-	["神墟：唯一正解"] = {
-		rightIcon = "ChengHao",
-	},
-	["神墟：斗战神墟"] = {
-		rightIcon = "ChengHao",
-	},
-	["禁墟：黑王斩滅"] = {
-		rightIcon = "ChengHao",
-	},
-	["禁墟：不朽"] = {
-		rightIcon = "ChengHao",
-	},
-	["禁墟：无相"] = {
-		rightIcon = "ChengHao",
-	},
-	["禁墟：无缘纱"] = {
-		rightIcon = "ChengHao",
-	},
-	["官方指挥"] = {
-		rightIcon = "ChengHao",
-	},
-	["邪恶秘籍"] = {
-		rightIcon = "ChengHao",
-	},
-	["初出茅庐"] = {
-		rightIcon = "ChengHao",
-	},
-	["天纵会员"] = {
-		rightIcon = "ChengHao",
-	},
-	["天纵豪侠"] = {
-		rightIcon = "ChengHao",
-	},
-	["天纵神子"] = {
-		rightIcon = "ChengHao",
-	},
-	["求婚戒指"] = {
-		rightIcon = "Jiezhi",
-	},
-	["沙城之主"] = {
-		rightIcon = "ChengHao",
-	},
-	["胜利之师"] = {
-		rightIcon = "ChengHao",
-	},
-	["◆沙城之主◆"] = {
-		rightIcon = "Jiezhi",
-	},
-	["◆胜利之师◆"] = {
-		rightIcon = "Jiezhi",
-	},
-	["魔化的眼罩"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Zhenbao5",
-	},
-	["梦魇头冠"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["彩蝶吊坠"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["魔兽之爪"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["白骨之镰"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["终结者"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["收割者"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["[傳奇]防护者"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Dunpai",
-	},
-	["[無盡]死神之盾"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Dunpai",
-	},
-	["[吞噬]骨火之灵"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Dunpai",
-	},
-	["子时旧魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["丑时魄魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["寅时绕魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["卯时天魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["辰时泉魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["巳时寂魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["午时离魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["未时灵魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["申时鸣魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["酉时万魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["戌时幡魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["亥时言魂灯"] = {
-		rightIcon = "ChengHao",
-	},
-	["冥魂引渡人"] = {
-		rightIcon = "ChengHao",
-	},
-	["初窥天机"] = {
-		rightIcon = "ChengHao",
-	},
-	["通灵神眼"] = {
-		rightIcon = "ChengHao",
-	},
-	["天机尊者"] = {
-		rightIcon = "ChengHao",
-	},
-	["命运掌控"] = {
-		rightIcon = "ChengHao",
-	},
-	["玄秘宗师"] = {
-		rightIcon = "ChengHao",
-	},
-	["【EX级】低语"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shalukeyin",
-	},
-	["聚宝盆[财神]"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["百年古棺"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["千年古棺"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["万年古棺"] = {
-		bg = "xiyouzhuanshu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["十万年古棺"] = {
 		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Beibaoshenqi",
 	},
-	["树妖统领·木之虫巢"] = {
-		bg = "hundunlingbao",
-		leftIcon = "hundunlingbao",
-		rightIcon = "Shoushi2",
+	["妖泣"] = { 
+		xls_id = "妖泣",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
 	},
-	["天元之奕·冰霜凝视"] = {
-		bg = "hundunlingbao",
-		leftIcon = "hundunlingbao",
+	["狂兽之护"] = { 
+		xls_id = "狂兽之护",
 		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
 	},
-	["血饮雷霆·束缚之力"] = {
-		bg = "hundunlingbao",
-		leftIcon = "hundunlingbao",
-		rightIcon = "Shoushi1",
+	["幽·踏青天"] = { 
+		xls_id = "幽·踏青天",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
 	},
-	["鬼魅之宗·七煞灭魂"] = {
-		bg = "hundunlingbao",
-		leftIcon = "hundunlingbao",
-		rightIcon = "Shoushi3",
+	["龙·之心+6"] = { 
+		xls_id = "龙·之心+6",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["魔王领域·无异刀锋"] = {
-		bg = "hundunlingbao",
-		leftIcon = "hundunlingbao",
-		rightIcon = "Xianglian",
+	["一夜暴富"] = { 
+		xls_id = "一夜暴富",
+		bg = "XuanTianZhiCheng",
 	},
-	["焱月神晖·光明永存"] = {
-		bg = "hundunlingbao",
-		leftIcon = "hundunlingbao",
+	["天纵豪侠"] = { 
+		xls_id = "天纵豪侠",
+		rightIcon = "ChengHao",
+	},
+	["龙·之心+8"] = { 
+		xls_id = "龙·之心+8",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["谣将印信"] = { 
+		xls_id = "谣将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["世外高人"] = { 
+		xls_id = "世外高人",
+		rightIcon = "ChengHao",
+	},
+	["无双隐士"] = { 
+		xls_id = "无双隐士",
+		rightIcon = "ChengHao",
+	},
+	["孤影流觞"] = { 
+		xls_id = "孤影流觞",
+		rightIcon = "Shoushi6",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["致命一击Lv15"] = { 
+		xls_id = "致命一击Lv15",
+		rightIcon = "ChengHao",
+	},
+	["龙·之心+5"] = { 
+		xls_id = "龙·之心+5",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["无序的凝视"] = { 
+		xls_id = "无序的凝视",
+		rightIcon = "Jiezhi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["亡灵庇护"] = { 
+		xls_id = "亡灵庇护",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["哈法西斯挑战者Lv3"] = { 
+		xls_id = "哈法西斯挑战者Lv3",
+		rightIcon = "ChengHao",
+	},
+	["伤害增幅Lv14"] = { 
+		xls_id = "伤害增幅Lv14",
+		rightIcon = "ChengHao",
+	},
+	["夜幽之玉"] = { 
+		xls_id = "夜幽之玉",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["双星之刃[魂]"] = { 
+		xls_id = "双星之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["寒冬之冠(神圣)"] = { 
+		xls_id = "寒冬之冠(神圣)",
+		rightIcon = "Toukui",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["无言恐惧"] = { 
+		xls_id = "无言恐惧",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["破魔斗笠"] = { 
+		xls_id = "破魔斗笠",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["无尽愤怒"] = { 
+		xls_id = "无尽愤怒",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["巳时寂魂灯"] = { 
+		xls_id = "巳时寂魂灯",
+		rightIcon = "ChengHao",
+	},
+	["降龍·靴"] = { 
+		xls_id = "降龍·靴",
 		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["天妖现世·荡魔逆仙"] = {
-		bg = "hundunlingbao",
-		leftIcon = "hundunlingbao",
+	["月影之界"] = { 
+		xls_id = "月影之界",
+		rightIcon = "Zhenbao8",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["荒古·链"] = { 
+		xls_id = "荒古·链",
 		rightIcon = "Xianglian",
-	},
-	["元素裂隙权杖"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["灵魂牢笼"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["新月宝珠"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["[風魂]黃沙之靈"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["妖月内胆"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["[龍器]祖龍號角"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["锁魂咒"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["降魔杵"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["锁魂幡"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["碧波三花曈"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["六道轮回盘"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["贪婪之心"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["[龍器]灭世骸骨"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["霜冻守护の心"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["芭蕉扇"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["琥珀净瓶"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["麒麟臂"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["麒麟心"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["潮影钩矛"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["夜明珠"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["牛马主宰印"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["牛马工牌"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["老G画的饼"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["领导甩的锅"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["同事划的水"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["自己摸的鱼"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["策划挖的坑"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["技术埋的雷"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["飓风之灵"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["死亡如风[称号]"] = {
+		leftIcon = "PuTong-3",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["致命一击Lv18"] = { 
+		xls_id = "致命一击Lv18",
 		rightIcon = "ChengHao",
 	},
-	["阴阳合一[称号]"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	["觉醒二重天"] = { 
+		xls_id = "觉醒二重天",
 		rightIcon = "ChengHao",
 	},
-	["天选之人[资格]"] = {
+	["冥河之邀"] = { 
+		xls_id = "冥河之邀",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["牛马福利红包"] = { 
+		xls_id = "牛马福利红包",
+	},
+	["杀戮刻印Lv.2"] = { 
+		xls_id = "杀戮刻印Lv.2",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["我不是酒神[称号]"] = { 
+		xls_id = "我不是酒神[称号]",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["夜风·不败剑意"] = { 
+		xls_id = "夜风·不败剑意",
+		rightIcon = "Wuqi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["≮万物之力≯"] = { 
+		xls_id = "≮万物之力≯",
+		rightIcon = "Xianglian",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["火焰之魂环"] = { 
+		xls_id = "火焰之魂环",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["胜利之师"] = { 
+		xls_id = "胜利之师",
 		rightIcon = "ChengHao",
 	},
-	["牛马新星[称号]"] = {
+	["天使圣戒"] = { 
+		xls_id = "天使圣戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["光辉之怒·鸩"] = { 
+		xls_id = "光辉之怒·鸩",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["出尘穿云梭"] = { 
+		xls_id = "出尘穿云梭",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["芭蕉扇"] = { 
+		xls_id = "芭蕉扇",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["地苦胆"] = { 
+		xls_id = "地苦胆",
+		bg = "XuanTianZhiCheng",
+	},
+	["护体神盾"] = { 
+		xls_id = "护体神盾",
+		bg = "XuanTianZhiCheng",
+	},
+	["星辰法器[刺痛]"] = { 
+		xls_id = "星辰法器[刺痛]",
+		rightIcon = "Zhenbao7",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["焱月神晖·光明永存"] = { 
+		xls_id = "焱月神晖·光明永存",
+		rightIcon = "Xiezi",
+		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
+	},
+	["【传承】神威战靴"] = { 
+		xls_id = "【传承】神威战靴",
+		rightIcon = "Xiezi",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["帝国の神龙(成熟期)"] = { 
+		xls_id = "帝国の神龙(成熟期)",
+		rightIcon = "Shoushi3",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["[風魂]黃沙之靈"] = { 
+		xls_id = "[風魂]黃沙之靈",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["伤害增幅Lv18"] = { 
+		xls_id = "伤害增幅Lv18",
 		rightIcon = "ChengHao",
 	},
-	["玄天征服者[称号]"] = {
+	["造化晶石"] = { 
+		xls_id = "造化晶石",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["颠倒罪人之戒"] = { 
+		xls_id = "颠倒罪人之戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["黄金银河护手"] = { 
+		xls_id = "黄金银河护手",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["格萨拉克·地渊之声"] = { 
+		xls_id = "格萨拉克·地渊之声",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["四象轮转魂"] = { 
+		xls_id = "四象轮转魂",
+		bg = "XuanTianZhiCheng",
+	},
+	["炼金术士之杖"] = { 
+		xls_id = "炼金术士之杖",
+		bg = "XuanTianZhiCheng",
+	},
+	["凌风七色刃"] = { 
+		xls_id = "凌风七色刃",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["初窥天机"] = { 
+		xls_id = "初窥天机",
 		rightIcon = "ChengHao",
 	},
-	["天元统领[称号]"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	["驭风者·离殇"] = { 
+		xls_id = "驭风者·离殇",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["风之高歌"] = { 
+		xls_id = "风之高歌",
+		rightIcon = "Zhenbao2",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["讨伐者之力"] = { 
+		xls_id = "讨伐者之力",
+		rightIcon = "Zhenbao4",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["死亡ゅ封印"] = { 
+		xls_id = "死亡ゅ封印",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["致命一击Lv1"] = { 
+		xls_id = "致命一击Lv1",
 		rightIcon = "ChengHao",
 	},
-	["龙之霸主[称号]"] = {
+	["苍月圣魂盔"] = { 
+		xls_id = "苍月圣魂盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["狂意之怒"] = { 
+		xls_id = "狂意之怒",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["メ月光メ眷侣メ(女)"] = { 
+		xls_id = "メ月光メ眷侣メ(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["嗜血-1"] = { 
+		xls_id = "嗜血-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["含有神圣气息的龙鳞"] = { 
+		xls_id = "含有神圣气息的龙鳞",
+		bg = "XuanTianZhiCheng",
+	},
+	["至尊仙王盾"] = { 
+		xls_id = "至尊仙王盾",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["黄金幽灵盔"] = { 
+		xls_id = "黄金幽灵盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["◆妖皇◆腕"] = { 
+		xls_id = "◆妖皇◆腕",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["幽冥之环"] = { 
+		xls_id = "幽冥之环",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["勿忘我"] = { 
+		xls_id = "勿忘我",
+		rightIcon = "Zhenbao8",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["十都恺甲[魂]"] = { 
+		xls_id = "十都恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["月影之碑"] = { 
+		xls_id = "月影之碑",
+		rightIcon = "Zhenbao7",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["疾风刻印Lv.10"] = { 
+		xls_id = "疾风刻印Lv.10",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["七星指环[魂]"] = { 
+		xls_id = "七星指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["爸爸！"] = { 
+		xls_id = "爸爸！",
 		rightIcon = "ChengHao",
 	},
-	["轮回劫[称号]"] = {
+	["守护大天使"] = { 
+		xls_id = "守护大天使",
 		bg = "XuanTianZhiCheng",
+	},
+	["红玫瑰[奇缘]"] = { 
+		xls_id = "红玫瑰[奇缘]",
+		rightIcon = "Zhenbao1",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["泰坦之劲-3"] = { 
+		xls_id = "泰坦之劲-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["三百六十五个祝福"] = { 
+		xls_id = "三百六十五个祝福",
+		bg = "shengdan",
+	},
+	["往生之手"] = { 
+		xls_id = "往生之手",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["诡丝"] = { 
+		xls_id = "诡丝",
+		bg = "XuanTianZhiCheng",
+	},
+	["暂未激活奇遇？"] = { 
+		xls_id = "暂未激活奇遇？",
+		bg = "XuanTianZhiCheng",
+	},
+	["降龍·镯"] = { 
+		xls_id = "降龍·镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣·暴风"] = { 
+		xls_id = "圣·暴风",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣罗痴情·链"] = { 
+		xls_id = "圣罗痴情·链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["狩魂[时装]"] = { 
+		xls_id = "狩魂[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["半兽人之心"] = { 
+		xls_id = "半兽人之心",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["圣灵壁垒+7"] = { 
+		xls_id = "圣灵壁垒+7",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["红莲战靴[白羽]"] = { 
+		xls_id = "红莲战靴[白羽]",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["龙之子"] = { 
+		xls_id = "龙之子",
+		bg = "XuanTianZhiCheng",
+	},
+	["【淡然】"] = { 
+		xls_id = "【淡然】",
+		rightIcon = "Xiezi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["深蓝传说"] = { 
+		xls_id = "深蓝传说",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["牛马实习生[称号]"] = { 
+		xls_id = "牛马实习生[称号]",
+		rightIcon = "ChengHao",
 		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["克苏恩之眼"] = { 
+		xls_id = "克苏恩之眼",
+		rightIcon = "Xianglian",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["十都项链[魂]"] = { 
+		xls_id = "十都项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["凌风战兽盔"] = { 
+		xls_id = "凌风战兽盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["独步天下[称号]"] = { 
+		xls_id = "独步天下[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "wuwan",
+	},
+	["福星转世"] = { 
+		xls_id = "福星转世",
+	},
+	["赤焰结晶"] = { 
+		xls_id = "赤焰结晶",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["无敌贤者"] = { 
+		xls_id = "无敌贤者",
 		rightIcon = "ChengHao",
 	},
-	["恶境征伐者[称号]"] = {
+	["双星指环[魂]"] = { 
+		xls_id = "双星指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["狗策划的手机[经验]"] = { 
+		xls_id = "狗策划的手机[经验]",
+	},
+	["蓝翡翠项链[时装]"] = { 
+		xls_id = "蓝翡翠项链[时装]",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["祸斗之獠"] = { 
+		xls_id = "祸斗之獠",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["仙器·残火(精)"] = { 
+		xls_id = "仙器·残火(精)",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["星火神器[轮盘]"] = { 
+		xls_id = "星火神器[轮盘]",
+		rightIcon = "Zhenbao8",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["七魄·伏矢"] = { 
+		xls_id = "七魄·伏矢",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["雷霆过载-3"] = { 
+		xls_id = "雷霆过载-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["无序◎奥秘"] = { 
+		xls_id = "无序◎奥秘",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["圣·战甲"] = { 
+		xls_id = "圣·战甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["琳琅满目-3"] = { 
+		xls_id = "琳琅满目-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["≤光明不朽≥"] = { 
+		xls_id = "≤光明不朽≥",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["雄伯(太古结界)"] = { 
+		xls_id = "雄伯(太古结界)",
+		rightIcon = "Shoushi1",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["咆哮之意"] = { 
+		xls_id = "咆哮之意",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["哈法西斯之心"] = { 
+		xls_id = "哈法西斯之心",
+		rightIcon = "Chuansong",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["伤害增幅Lv19"] = { 
+		xls_id = "伤害增幅Lv19",
 		rightIcon = "ChengHao",
 	},
-	["圣光守护者[称号]"] = {
+	["御风·之力"] = { 
+		xls_id = "御风·之力",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["辰星战刃"] = { 
+		xls_id = "辰星战刃",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
 		bg = "XuanTianZhiCheng",
+	},
+	["四玄项链[魂]"] = { 
+		xls_id = "四玄项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["精打细算"] = { 
+		xls_id = "精打细算",
+		bg = "XuanTianZhiCheng",
+	},
+	["天地本源"] = { 
+		xls_id = "天地本源",
+	},
+	["殘魂必殺刃"] = { 
+		xls_id = "殘魂必殺刃",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["七星之刃[魂]"] = { 
+		xls_id = "七星之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["啸之戒指"] = { 
+		xls_id = "啸之戒指",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["灵符红包(中)"] = { 
+		xls_id = "灵符红包(中)",
+		bg = "XuanTianZhiCheng",
+	},
+	["麒麟臂"] = { 
+		xls_id = "麒麟臂",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["玄天征服者[称号]"] = { 
+		xls_id = "玄天征服者[称号]",
+		rightIcon = "ChengHao",
 		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["四玄之刃[魂]"] = { 
+		xls_id = "四玄之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["卓尔不群"] = { 
+		xls_id = "卓尔不群",
+		bg = "XuanTianZhiCheng",
+	},
+	["暴怒☆"] = { 
+		xls_id = "暴怒☆",
+		rightIcon = "Shoushi3",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["恶魔杀手"] = { 
+		xls_id = "恶魔杀手",
+		bg = "XuanTianZhiCheng",
+	},
+	["阳"] = { 
+		xls_id = "阳",
+		bg = "XuanTianZhiCheng",
+	},
+	["天使腰带"] = { 
+		xls_id = "天使腰带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv4"] = { 
+		xls_id = "血牛达人Lv4",
 		rightIcon = "ChengHao",
 	},
-	["破晓英雄[称号]"] = {
+	["2000W经验卷"] = { 
+		xls_id = "2000W经验卷",
 		bg = "XuanTianZhiCheng",
+	},
+	["六合头盔[魂]"] = { 
+		xls_id = "六合头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["不灭之魂[称号卷]"] = { 
+		xls_id = "不灭之魂[称号卷]",
+		rightIcon = "ChengHao",
 		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["苦修者的秘籍"] = { 
+		xls_id = "苦修者的秘籍",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["天纵会员"] = { 
+		xls_id = "天纵会员",
 		rightIcon = "ChengHao",
 	},
-	["打工皇帝[称号]"] = {
+	["疾风刻印Lv.5"] = { 
+		xls_id = "疾风刻印Lv.5",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["熊猫面具"] = { 
+		xls_id = "熊猫面具",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["天恕"] = { 
+		xls_id = "天恕",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["圣·皇天带"] = { 
+		xls_id = "圣·皇天带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["▲▲火雲真經▲▲"] = { 
+		xls_id = "▲▲火雲真經▲▲",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["罗非鱼"] = { 
+		xls_id = "罗非鱼",
+		bg = "shengdan",
+	},
+	["技术埋的雷"] = { 
+		xls_id = "技术埋的雷",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["尘封的暗黑吊坠"] = { 
+		xls_id = "尘封的暗黑吊坠",
+		bg = "XuanTianZhiCheng",
+	},
+	["走火入魔"] = { 
+		xls_id = "走火入魔",
+	},
+	["恢复光环+8"] = { 
+		xls_id = "恢复光环+8",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["毁灭·魔化天使[無盡]"] = { 
+		xls_id = "毁灭·魔化天使[無盡]",
+		rightIcon = "Dunpai",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["龙魂之力"] = { 
+		xls_id = "龙魂之力",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["恢复光环+4"] = { 
+		xls_id = "恢复光环+4",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["◆胜利之师◆"] = { 
+		xls_id = "◆胜利之师◆",
+		rightIcon = "Jiezhi",
+	},
+	["青天战幻镯"] = { 
+		xls_id = "青天战幻镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["紫水晶矿"] = { 
+		xls_id = "紫水晶矿",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔族之靴「传承」"] = { 
+		xls_id = "魔族之靴「传承」",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["恢复光环+7"] = { 
+		xls_id = "恢复光环+7",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["吸血蚊虫"] = { 
+		xls_id = "吸血蚊虫",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["恢复光环+9"] = { 
+		xls_id = "恢复光环+9",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["流光幻彩衣[男]"] = { 
+		xls_id = "流光幻彩衣[男]",
+		rightIcon = "Yifu",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["远行的召唤"] = { 
+		xls_id = "远行的召唤",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["血牛达人Lv16"] = { 
+		xls_id = "血牛达人Lv16",
 		rightIcon = "ChengHao",
 	},
-	["怪物猎人[称号]"] = {
+	["光·蛇[腾焰]"] = { 
+		xls_id = "光·蛇[腾焰]",
+		rightIcon = "Wuqi",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["转命珠"] = { 
+		xls_id = "转命珠",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["命运掌控"] = { 
+		xls_id = "命运掌控",
 		rightIcon = "ChengHao",
 	},
-	["牛马实习生[称号]"] = {
+	["[SSSSS·聖]黄金斗士"] = { 
+		xls_id = "[SSSSS·聖]黄金斗士",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["黄金腰带"] = { 
+		xls_id = "黄金腰带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
+	},
+	["六合手镯[魂]"] = { 
+		xls_id = "六合手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["江湖小虾"] = { 
+		xls_id = "江湖小虾",
 		rightIcon = "ChengHao",
 	},
-	["魔法盾[技能]"] = {
+	["混乱制造者"] = { 
+		xls_id = "混乱制造者",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["天启项链[魂]"] = { 
+		xls_id = "天启项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["旅者之誓"] = { 
+		xls_id = "旅者之誓",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["遗尘·戒"] = { 
+		xls_id = "遗尘·戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
 		bg = "XuanTianZhiCheng",
+	},
+	["伤害增幅Lv11"] = { 
+		xls_id = "伤害增幅Lv11",
+		rightIcon = "ChengHao",
+	},
+	["冥海圣刃"] = { 
+		xls_id = "冥海圣刃",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣灵壁垒+1"] = { 
+		xls_id = "圣灵壁垒+1",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["地藏王的藏宝图"] = { 
+		xls_id = "地藏王的藏宝图",
+	},
+	["圣灵壁垒+3"] = { 
+		xls_id = "圣灵壁垒+3",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["圣灵壁垒+6"] = { 
+		xls_id = "圣灵壁垒+6",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["悲鸣之泣"] = { 
+		xls_id = "悲鸣之泣",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["圣灵壁垒+10"] = { 
+		xls_id = "圣灵壁垒+10",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["100W经验卷"] = { 
+		xls_id = "100W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["200W经验卷"] = { 
+		xls_id = "200W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["牛马特权"] = { 
+		xls_id = "牛马特权",
+		rightIcon = "ChengHao",
+	},
+	["胜利旗帜"] = { 
+		xls_id = "胜利旗帜",
+	},
+	["雷罚☆"] = { 
+		xls_id = "雷罚☆",
+		rightIcon = "Zhenbao4",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["神魂碎片"] = { 
+		xls_id = "神魂碎片",
+		rightIcon = "Cailiao",
 		leftIcon = "QiTa",
+		bg = "hundunlingbao",
+	},
+	["三魂指环[魂]"] = { 
+		xls_id = "三魂指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["生死簿"] = { 
+		xls_id = "生死簿",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["圣物之袋"] = { 
+		xls_id = "圣物之袋",
+		bg = "XuanTianZhiCheng",
+	},
+	["双星头盔[魂]"] = { 
+		xls_id = "双星头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["雷霆过载-2"] = { 
+		xls_id = "雷霆过载-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["毁灭·魔化天使[傳奇]"] = { 
+		xls_id = "毁灭·魔化天使[傳奇]",
+		rightIcon = "Dunpai",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["500W经验卷"] = { 
+		xls_id = "500W经验卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["╋残空╋"] = { 
+		xls_id = "╋残空╋",
+		rightIcon = "Jiezhi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["—冥炎—"] = { 
+		xls_id = "—冥炎—",
+		rightIcon = "Zhenbao6",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["杀戮刻印Lv.3"] = { 
+		xls_id = "杀戮刻印Lv.3",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["伤害增幅Lv17"] = { 
+		xls_id = "伤害增幅Lv17",
+		rightIcon = "ChengHao",
+	},
+	["5元宝"] = { 
+		xls_id = "5元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["冥海圣武盔"] = { 
+		xls_id = "冥海圣武盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·暴风"] = { 
+		xls_id = "神·暴风",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["边关守护者lv4"] = { 
+		xls_id = "边关守护者lv4",
+		rightIcon = "ChengHao",
+	},
+	["封印护符"] = { 
+		xls_id = "封印护符",
+		bg = "XuanTianZhiCheng",
+	},
+	["九冥赤炎"] = { 
+		xls_id = "九冥赤炎",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["安菲翁の魂魄"] = { 
+		xls_id = "安菲翁の魂魄",
+		bg = "XuanTianZhiCheng",
+	},
+	["风魔王冠"] = { 
+		xls_id = "风魔王冠",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["疾风刻印Lv.4"] = { 
+		xls_id = "疾风刻印Lv.4",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["源火禁锢"] = { 
+		xls_id = "源火禁锢",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["流光淬火剣[天殇]"] = { 
+		xls_id = "流光淬火剣[天殇]",
+		rightIcon = "Wuqi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["生命的意义"] = { 
+		xls_id = "生命的意义",
+		bg = "XuanTianZhiCheng",
+	},
+	["苍月圣魂带"] = { 
+		xls_id = "苍月圣魂带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["恢复光环+2"] = { 
+		xls_id = "恢复光环+2",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["天劫？？"] = { 
+		xls_id = "天劫？？",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔戒·骷髅王(SR)"] = { 
+		xls_id = "魔戒·骷髅王(SR)",
+		rightIcon = "Zhenbao1",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["【EX级】哀霜之触"] = { 
+		xls_id = "【EX级】哀霜之触",
+		rightIcon = "Zhenbao1",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["哈法西斯挑战者Lv4"] = { 
+		xls_id = "哈法西斯挑战者Lv4",
+		rightIcon = "ChengHao",
+	},
+	["狂王披风"] = { 
+		xls_id = "狂王披风",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["回天玉"] = { 
+		xls_id = "回天玉",
+		bg = "XuanTianZhiCheng",
+	},
+	["法师拳套"] = { 
+		xls_id = "法师拳套",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["禁墟：无缘纱"] = { 
+		xls_id = "禁墟：无缘纱",
+		rightIcon = "ChengHao",
+	},
+	["苍月圣魂靴"] = { 
+		xls_id = "苍月圣魂靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·守护+5"] = { 
+		xls_id = "神·守护+5",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["强力护腕[洪荒]"] = { 
+		xls_id = "强力护腕[洪荒]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["黄金宝箱"] = { 
+		xls_id = "黄金宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["星辉法器[重伤]"] = { 
+		xls_id = "星辉法器[重伤]",
+		rightIcon = "Zhenbao9",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["星火仙器[会心]"] = { 
+		xls_id = "星火仙器[会心]",
+		rightIcon = "Zhenbao5",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["致命一击Lv12"] = { 
+		xls_id = "致命一击Lv12",
+		rightIcon = "ChengHao",
+	},
+	["神墟：凡尘神域"] = { 
+		xls_id = "神墟：凡尘神域",
+		rightIcon = "ChengHao",
+	},
+	["≮凤雏≯"] = { 
+		xls_id = "≮凤雏≯",
+		rightIcon = "ChengHao",
+	},
+	["群星之怒★★★"] = { 
+		xls_id = "群星之怒★★★",
+		rightIcon = "Wuqi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["六合天罡珠"] = { 
+		xls_id = "六合天罡珠",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["荒古·靴"] = { 
+		xls_id = "荒古·靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["钢铁之躯Lv20"] = { 
+		xls_id = "钢铁之躯Lv20",
+		rightIcon = "ChengHao",
+	},
+	["金茎露"] = { 
+		xls_id = "金茎露",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙族雕石[二阶觉醒]"] = { 
+		xls_id = "龙族雕石[二阶觉醒]",
+		rightIcon = "Diaowen",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["殘魂神链"] = { 
+		xls_id = "殘魂神链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["泰坦之劲-1"] = { 
+		xls_id = "泰坦之劲-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["边关守护者lv5"] = { 
+		xls_id = "边关守护者lv5",
+		rightIcon = "ChengHao",
+	},
+	["牛马主宰印"] = { 
+		xls_id = "牛马主宰印",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["金罗痴梦·链"] = { 
+		xls_id = "金罗痴梦·链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["随机传送石"] = { 
+		xls_id = "随机传送石",
+	},
+	["边关守护者lv6"] = { 
+		xls_id = "边关守护者lv6",
+		rightIcon = "ChengHao",
+	},
+	["屠龙者之刃"] = { 
+		xls_id = "屠龙者之刃",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["六道轮回盘"] = { 
+		xls_id = "六道轮回盘",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["蓝灵枪仙[时装]"] = { 
+		xls_id = "蓝灵枪仙[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["边界山谷的秘密"] = { 
+		xls_id = "边界山谷的秘密",
+		bg = "XuanTianZhiCheng",
+	},
+	["≮双星≯"] = { 
+		xls_id = "≮双星≯",
+		rightIcon = "ChengHao",
+	},
+	["鬼焰寒甲(精)"] = { 
+		xls_id = "鬼焰寒甲(精)",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["天机"] = { 
+		xls_id = "天机",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["魔罗指环"] = { 
+		xls_id = "魔罗指环",
+		rightIcon = "Shoushi2",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["流光剣[综合之力]"] = { 
+		xls_id = "流光剣[综合之力]",
+		rightIcon = "Wuqi",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["淬火石"] = { 
+		xls_id = "淬火石",
+	},
+	["血牛达人Lv11"] = { 
+		xls_id = "血牛达人Lv11",
+		rightIcon = "ChengHao",
+	},
+	["野火之握"] = { 
+		xls_id = "野火之握",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["苦罗痴心·带"] = { 
+		xls_id = "苦罗痴心·带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["神学院"] = { 
+		xls_id = "神学院",
+		bg = "XuanTianZhiCheng",
+	},
+	["伯奇(太古结界)"] = { 
+		xls_id = "伯奇(太古结界)",
+		rightIcon = "Shoushi2",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["精灵の翔"] = { 
+		xls_id = "精灵の翔",
+		rightIcon = "Toukui",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["祖明(太古结界)"] = { 
+		xls_id = "祖明(太古结界)",
+		rightIcon = "Shoushi5",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["虚耗(太古结界)"] = { 
+		xls_id = "虚耗(太古结界)",
+		rightIcon = "Shoushi6",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["破魔斗笠+1"] = { 
+		xls_id = "破魔斗笠+1",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["圣·飞仙链"] = { 
+		xls_id = "圣·飞仙链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔法盾"] = { 
+		xls_id = "魔法盾",
+	},
+	["七星生灵草"] = { 
+		xls_id = "七星生灵草",
+		bg = "XuanTianZhiCheng",
+	},
+	["夜幽面具★★★"] = { 
+		xls_id = "夜幽面具★★★",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["吟龍圣链"] = { 
+		xls_id = "吟龍圣链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["女儿红"] = { 
+		xls_id = "女儿红",
+		bg = "XuanTianZhiCheng",
+	},
+	["异界神石"] = { 
+		xls_id = "异界神石",
+		bg = "XuanTianZhiCheng",
+	},
+	["转运之尘"] = { 
+		xls_id = "转运之尘",
+		bg = "XuanTianZhiCheng",
+	},
+	["暮潮"] = { 
+		xls_id = "暮潮",
+		rightIcon = "Shoushi2",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["天界的恩赐"] = { 
+		xls_id = "天界的恩赐",
+	},
+	["古核武·生化基因体"] = { 
+		xls_id = "古核武·生化基因体",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["成长学"] = { 
+		xls_id = "成长学",
+	},
+	["杀戮刻印Lv.6"] = { 
+		xls_id = "杀戮刻印Lv.6",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["深渊之行"] = { 
+		xls_id = "深渊之行",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["冥海圣武戒"] = { 
+		xls_id = "冥海圣武戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣·毁苍生"] = { 
+		xls_id = "圣·毁苍生",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["新区战神"] = { 
+		xls_id = "新区战神",
+		bg = "XuanTianZhiCheng",
+	},
+	["夜帝[时装]"] = { 
+		xls_id = "夜帝[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["辰星战镯"] = { 
+		xls_id = "辰星战镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["漩涡"] = { 
+		xls_id = "漩涡",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["〓楼兰⊙君主〓"] = { 
+		xls_id = "〓楼兰⊙君主〓",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["锁魂幡"] = { 
+		xls_id = "锁魂幡",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["◆沙城之主◆"] = { 
+		xls_id = "◆沙城之主◆",
+		rightIcon = "Jiezhi",
+	},
+	["幽暗的古神之像"] = { 
+		xls_id = "幽暗的古神之像",
+		bg = "XuanTianZhiCheng",
+	},
+	["低阶禁物使"] = { 
+		xls_id = "低阶禁物使",
+		rightIcon = "ChengHao",
+	},
+	["龙骨刀"] = { 
+		xls_id = "龙骨刀",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["风之低语"] = { 
+		xls_id = "风之低语",
+		rightIcon = "Zhenbao1",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["大天使№米凯尔(女)"] = { 
+		xls_id = "大天使№米凯尔(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["§镇海之王§(女)"] = { 
+		xls_id = "§镇海之王§(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["审判之刃"] = { 
+		xls_id = "审判之刃",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["双星手镯[魂]"] = { 
+		xls_id = "双星手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["冥海圣武靴"] = { 
+		xls_id = "冥海圣武靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["鸿蒙太初镜"] = { 
+		xls_id = "鸿蒙太初镜",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["PK点"] = { 
+		xls_id = "PK点",
+	},
+	["五行炼魔壺"] = { 
+		xls_id = "五行炼魔壺",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["死神代言人"] = { 
+		xls_id = "死神代言人",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["白银宝箱"] = { 
+		xls_id = "白银宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["轮回劫[称号]"] = { 
+		xls_id = "轮回劫[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["吟龍圣盔"] = { 
+		xls_id = "吟龍圣盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["噬魔两仪轮"] = { 
+		xls_id = "噬魔两仪轮",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["破魔斗笠+3"] = { 
+		xls_id = "破魔斗笠+3",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["五级星石"] = { 
+		xls_id = "五级星石",
+	},
+	["龙族雕石[未觉醒]"] = { 
+		xls_id = "龙族雕石[未觉醒]",
+		rightIcon = "Diaowen",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["天使羽衣"] = { 
+		xls_id = "天使羽衣",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["光辉之刃"] = { 
+		xls_id = "光辉之刃",
+		bg = "XuanTianZhiCheng",
+	},
+	["噬生凝视"] = { 
+		xls_id = "噬生凝视",
+		rightIcon = "Zhenbao5",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["左右互搏"] = { 
+		xls_id = "左右互搏",
+		bg = "XuanTianZhiCheng",
+	},
+	["遗尘·带"] = { 
+		xls_id = "遗尘·带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["影幕之指"] = { 
+		xls_id = "影幕之指",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["鹿皮靴[时装]"] = { 
+		xls_id = "鹿皮靴[时装]",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["魔牙吊坠[蛮荒]"] = { 
+		xls_id = "魔牙吊坠[蛮荒]",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["【神灭】"] = { 
+		xls_id = "【神灭】",
+		rightIcon = "Yaodai",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["伤害增幅Lv7"] = { 
+		xls_id = "伤害增幅Lv7",
+		rightIcon = "ChengHao",
+	},
+	["老村长的怀表"] = { 
+		xls_id = "老村长的怀表",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["圣战戒指[时装]"] = { 
+		xls_id = "圣战戒指[时装]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["九曜手镯[魂]"] = { 
+		xls_id = "九曜手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["圣诞幸运星"] = { 
+		xls_id = "圣诞幸运星",
+		bg = "shengdan",
+	},
+	["杀戮刻印Lv.4"] = { 
+		xls_id = "杀戮刻印Lv.4",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["钢铁腰带[时装]"] = { 
+		xls_id = "钢铁腰带[时装]",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["暴走甜心[时装]"] = { 
+		xls_id = "暴走甜心[时装]",
+		bg = "shengdan",
+	},
+	["圣战头盔[时装]"] = { 
+		xls_id = "圣战头盔[时装]",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["天胡开局"] = { 
+		xls_id = "天胡开局",
+		bg = "XuanTianZhiCheng",
+	},
+	["属性还原卷"] = { 
+		xls_id = "属性还原卷",
+	},
+	["初出茅庐称号卷"] = { 
+		xls_id = "初出茅庐称号卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["牛马公测红包"] = { 
+		xls_id = "牛马公测红包",
+	},
+	["后天造化箓"] = { 
+		xls_id = "后天造化箓",
+		rightIcon = "Cailiao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["斗转星移[精]"] = { 
+		xls_id = "斗转星移[精]",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["黑暗之触"] = { 
+		xls_id = "黑暗之触",
+		rightIcon = "Jiezhi",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["毁灭·魔化天使[吞噬]"] = { 
+		xls_id = "毁灭·魔化天使[吞噬]",
+		rightIcon = "Dunpai",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["◆黑洞◆"] = { 
+		xls_id = "◆黑洞◆",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["御剑☆"] = { 
+		xls_id = "御剑☆",
+		rightIcon = "Zhenbao4",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["钢铁之躯Lv15"] = { 
+		xls_id = "钢铁之躯Lv15",
+		rightIcon = "ChengHao",
+	},
+	["轮回"] = { 
+		xls_id = "轮回",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["寒霜之握"] = { 
+		xls_id = "寒霜之握",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["【EX级】超能战盔"] = { 
+		xls_id = "【EX级】超能战盔",
+		rightIcon = "Zhenbao1",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["月光手环"] = { 
+		xls_id = "月光手环",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["斗转星移[精]+9"] = { 
+		xls_id = "斗转星移[精]+9",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["魔刃·噬魂(S)"] = { 
+		xls_id = "魔刃·噬魂(S)",
+		rightIcon = "Zhenbao2",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["巨龙之印"] = { 
+		xls_id = "巨龙之印",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["边界山谷的运转核心"] = { 
+		xls_id = "边界山谷的运转核心",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["星火仙器[命格]"] = { 
+		xls_id = "星火仙器[命格]",
+		rightIcon = "Zhenbao8",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["亡灵骑士的面具"] = { 
+		xls_id = "亡灵骑士的面具",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["神器格扩展卷"] = { 
+		xls_id = "神器格扩展卷",
+		bg = "XuanTianZhiCheng",
+	},
+	["一团杂乱的纸"] = { 
+		xls_id = "一团杂乱的纸",
+		bg = "XuanTianZhiCheng",
+	},
+	["天崩地裂斩"] = { 
+		xls_id = "天崩地裂斩",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["恢复光环+6"] = { 
+		xls_id = "恢复光环+6",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["灭世·带"] = { 
+		xls_id = "灭世·带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["力量戒指[时装]"] = { 
+		xls_id = "力量戒指[时装]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["流光淬火剣[戮兽]"] = { 
+		xls_id = "流光淬火剣[戮兽]",
+		rightIcon = "Wuqi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["暗月挽歌"] = { 
+		xls_id = "暗月挽歌",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["超级祝福油"] = { 
+		xls_id = "超级祝福油",
+	},
+	["降星者"] = { 
+		xls_id = "降星者",
+		rightIcon = "Shoushi5",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["圣光守护者[称号]"] = { 
+		xls_id = "圣光守护者[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["黑暗之信念"] = { 
+		xls_id = "黑暗之信念",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["血魔护臂MAX"] = { 
+		xls_id = "血魔护臂MAX",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["≮三才≯"] = { 
+		xls_id = "≮三才≯",
+		rightIcon = "ChengHao",
+	},
+	["天神指环"] = { 
+		xls_id = "天神指环",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["△△玄天令△△"] = { 
+		xls_id = "△△玄天令△△",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["蓝色恶魔之眼"] = { 
+		xls_id = "蓝色恶魔之眼",
+		rightIcon = "Zhenbao7",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["午时离魂灯"] = { 
+		xls_id = "午时离魂灯",
+		rightIcon = "ChengHao",
+	},
+	["神魔·完美[称号]"] = { 
+		xls_id = "神魔·完美[称号]",
+		bg = "XuanTianZhiCheng",
+	},
+	["斗转星移[精]+7"] = { 
+		xls_id = "斗转星移[精]+7",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["新月之冠"] = { 
+		xls_id = "新月之冠",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["天使如意链"] = { 
+		xls_id = "天使如意链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["削铁如泥Lv14"] = { 
+		xls_id = "削铁如泥Lv14",
+		rightIcon = "ChengHao",
+	},
+	["灵气枯竭的木匣"] = { 
+		xls_id = "灵气枯竭的木匣",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["神墟：斗战神墟"] = { 
+		xls_id = "神墟：斗战神墟",
+		rightIcon = "ChengHao",
+	},
+	["致命一击Lv6"] = { 
+		xls_id = "致命一击Lv6",
+		rightIcon = "ChengHao",
+	},
+	["龙之宝藏-2"] = { 
+		xls_id = "龙之宝藏-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["永恒凛冬"] = { 
+		xls_id = "永恒凛冬",
+		rightIcon = "Shoushi4",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["天纵神子"] = { 
+		xls_id = "天纵神子",
+		rightIcon = "ChengHao",
+	},
+	["疾风刻印Lv.9"] = { 
+		xls_id = "疾风刻印Lv.9",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["钢铁之躯Lv19"] = { 
+		xls_id = "钢铁之躯Lv19",
+		rightIcon = "ChengHao",
+	},
+	["伤害增幅Lv5"] = { 
+		xls_id = "伤害增幅Lv5",
+		rightIcon = "ChengHao",
+	},
+	["复苏之风-1"] = { 
+		xls_id = "复苏之风-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["桓龙：另一个时空"] = { 
+		xls_id = "桓龙：另一个时空",
+		rightIcon = "Shouzhuo",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["魔戒·骷髅王(S)"] = { 
+		xls_id = "魔戒·骷髅王(S)",
+		rightIcon = "Zhenbao1",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["暂未激活仙术？"] = { 
+		xls_id = "暂未激活仙术？",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙之宝藏-1"] = { 
+		xls_id = "龙之宝藏-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv11"] = { 
+		xls_id = "致命一击Lv11",
+		rightIcon = "ChengHao",
+	},
+	["八荒头盔[魂]"] = { 
+		xls_id = "八荒头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["一剑开天门"] = { 
+		xls_id = "一剑开天门",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["神秘专属盲盒"] = { 
+		xls_id = "神秘专属盲盒",
+	},
+	["伤害增幅Lv20"] = { 
+		xls_id = "伤害增幅Lv20",
+		rightIcon = "ChengHao",
+	},
+	["幽冥残魂"] = { 
+		xls_id = "幽冥残魂",
+		bg = "XuanTianZhiCheng",
+	},
+	["贪婪之心"] = { 
+		xls_id = "贪婪之心",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["信念支柱"] = { 
+		xls_id = "信念支柱",
+		rightIcon = "Zhenbao5",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["给你马一拳"] = { 
+		xls_id = "给你马一拳",
+		rightIcon = "Zhenbao10",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["魔牙护手[蛮荒]"] = { 
+		xls_id = "魔牙护手[蛮荒]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["致命一击Lv8"] = { 
+		xls_id = "致命一击Lv8",
+		rightIcon = "ChengHao",
+	},
+	["光明坠落"] = { 
+		xls_id = "光明坠落",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["灵魂面具"] = { 
+		xls_id = "灵魂面具",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["△△雷道天卷△△"] = { 
+		xls_id = "△△雷道天卷△△",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["泡点"] = { 
+		xls_id = "泡点",
+	},
+	["古月战狂镯"] = { 
+		xls_id = "古月战狂镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["要死咯！"] = { 
+		xls_id = "要死咯！",
+		bg = "XuanTianZhiCheng",
+	},
+	["★妖影暗刺★"] = { 
+		xls_id = "★妖影暗刺★",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["「绝代风华」"] = { 
+		xls_id = "「绝代风华」",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["斗转星移[精]+5"] = { 
+		xls_id = "斗转星移[精]+5",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["500元宝"] = { 
+		xls_id = "500元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["红名清洗卷"] = { 
+		xls_id = "红名清洗卷",
+	},
+	["断头台"] = { 
+		xls_id = "断头台",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["200元宝"] = { 
+		xls_id = "200元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["100元宝"] = { 
+		xls_id = "100元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["竹叶青"] = { 
+		xls_id = "竹叶青",
+		bg = "XuanTianZhiCheng",
+	},
+	["阴煞血幡"] = { 
+		xls_id = "阴煞血幡",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["给我震"] = { 
+		xls_id = "给我震",
+	},
+	["穿梭时空的秘密"] = { 
+		xls_id = "穿梭时空的秘密",
+		bg = "XuanTianZhiCheng",
+	},
+	["疾风刻印Lv.8"] = { 
+		xls_id = "疾风刻印Lv.8",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["帝国の神龙(幼年期)"] = { 
+		xls_id = "帝国の神龙(幼年期)",
+		rightIcon = "Shoushi3",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["致命一击Lv16"] = { 
+		xls_id = "致命一击Lv16",
+		rightIcon = "ChengHao",
+	},
+	["血牛达人Lv19"] = { 
+		xls_id = "血牛达人Lv19",
+		rightIcon = "ChengHao",
+	},
+	["钢铁之躯Lv17"] = { 
+		xls_id = "钢铁之躯Lv17",
+		rightIcon = "ChengHao",
+	},
+	["血牛达人Lv2"] = { 
+		xls_id = "血牛达人Lv2",
+		rightIcon = "ChengHao",
+	},
+	["龙族雕石[一阶觉醒]"] = { 
+		xls_id = "龙族雕石[一阶觉醒]",
+		rightIcon = "Diaowen",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["鬼魅之踪"] = { 
+		xls_id = "鬼魅之踪",
+		rightIcon = "Xiezi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["一代天骄"] = { 
+		xls_id = "一代天骄",
+		rightIcon = "ChengHao",
+	},
+	["勾魂夺魄"] = { 
+		xls_id = "勾魂夺魄",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["白玉心"] = { 
+		xls_id = "白玉心",
+		rightIcon = "Zhenbao5",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["削铁如泥Lv18"] = { 
+		xls_id = "削铁如泥Lv18",
+		rightIcon = "ChengHao",
+	},
+	["宿命"] = { 
+		xls_id = "宿命",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["修仙值"] = { 
+		xls_id = "修仙值",
+	},
+	["削铁如泥Lv10"] = { 
+		xls_id = "削铁如泥Lv10",
+		rightIcon = "ChengHao",
+	},
+	["神·守护+4"] = { 
+		xls_id = "神·守护+4",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["贤者腰带[伏魔]"] = { 
+		xls_id = "贤者腰带[伏魔]",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["彩蝶吊坠"] = { 
+		xls_id = "彩蝶吊坠",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["削铁如泥Lv15"] = { 
+		xls_id = "削铁如泥Lv15",
+		rightIcon = "ChengHao",
+	},
+	["勋章之心"] = { 
+		xls_id = "勋章之心",
+		bg = "XuanTianZhiCheng",
+	},
+	["武林霸主"] = { 
+		xls_id = "武林霸主",
+		rightIcon = "ChengHao",
+	},
+	["苍月圣魂镯"] = { 
+		xls_id = "苍月圣魂镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["怒不可遏"] = { 
+		xls_id = "怒不可遏",
+		bg = "XuanTianZhiCheng",
+	},
+	["电·刀[感知]"] = { 
+		xls_id = "电·刀[感知]",
+		rightIcon = "Wuqi",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["降龍·链"] = { 
+		xls_id = "降龍·链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["凌风战虎戒"] = { 
+		xls_id = "凌风战虎戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["石斑鱼"] = { 
+		xls_id = "石斑鱼",
+		bg = "shengdan",
+	},
+	["边关守护者lv10"] = { 
+		xls_id = "边关守护者lv10",
+		rightIcon = "ChengHao",
+	},
+	["佛牌"] = { 
+		xls_id = "佛牌",
+		bg = "XuanTianZhiCheng",
+	},
+	["杀戮刻印Lv.5"] = { 
+		xls_id = "杀戮刻印Lv.5",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["五岳手镯[魂]"] = { 
+		xls_id = "五岳手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["望穿眼"] = { 
+		xls_id = "望穿眼",
+		rightIcon = "Shoushi3",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["星火神器[契约]"] = { 
+		xls_id = "星火神器[契约]",
+		rightIcon = "Zhenbao5",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["备用触发6"] = { 
+		xls_id = "备用触发6",
+	},
+	["八荒复苏珠"] = { 
+		xls_id = "八荒复苏珠",
+		bg = "XuanTianZhiCheng",
+	},
+	["闪耀·漆黑之影"] = { 
+		xls_id = "闪耀·漆黑之影",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["血牛达人Lv10"] = { 
+		xls_id = "血牛达人Lv10",
+		rightIcon = "ChengHao",
+	},
+	["≮九宫≯"] = { 
+		xls_id = "≮九宫≯",
+		rightIcon = "ChengHao",
+	},
+	["帝国の神龙(完全体)"] = { 
+		xls_id = "帝国の神龙(完全体)",
+		rightIcon = "Shoushi3",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["刺·束缚之隐"] = { 
+		xls_id = "刺·束缚之隐",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["七星头盔[魂]"] = { 
+		xls_id = "七星头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["恶魔牙骨"] = { 
+		xls_id = "恶魔牙骨",
+		rightIcon = "Shoushi4",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["好事成双-1"] = { 
+		xls_id = "好事成双-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["红颜天怒メ(女)"] = { 
+		xls_id = "红颜天怒メ(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["归墟万物"] = { 
+		xls_id = "归墟万物",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["星辰法器[重伤]"] = { 
+		xls_id = "星辰法器[重伤]",
+		rightIcon = "Zhenbao10",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["圣罗痴情·戒"] = { 
+		xls_id = "圣罗痴情·戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["血牛达人Lv18"] = { 
+		xls_id = "血牛达人Lv18",
+		rightIcon = "ChengHao",
+	},
+	["天启手镯[魂]"] = { 
+		xls_id = "天启手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["离火"] = { 
+		xls_id = "离火",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["神魔·大成"] = { 
+		xls_id = "神魔·大成",
+		rightIcon = "ChengHao",
+	},
+	["玄阴〃吊坠"] = { 
+		xls_id = "玄阴〃吊坠",
+		rightIcon = "Xianglian",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["神威破魔令"] = { 
+		xls_id = "神威破魔令",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["福星-2"] = { 
+		xls_id = "福星-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["小妖精魄"] = { 
+		xls_id = "小妖精魄",
+		bg = "XuanTianZhiCheng",
+	},
+	["流光锦绣衣[男]"] = { 
+		xls_id = "流光锦绣衣[男]",
+		rightIcon = "Yifu",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["神·守护+1"] = { 
+		xls_id = "神·守护+1",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["圣灵壁垒+8"] = { 
+		xls_id = "圣灵壁垒+8",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["魔牙之戒[蛮荒]"] = { 
+		xls_id = "魔牙之戒[蛮荒]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["净土科技之刃"] = { 
+		xls_id = "净土科技之刃",
+		bg = "XuanTianZhiCheng",
+	},
+	["边关守护者lv7"] = { 
+		xls_id = "边关守护者lv7",
+		rightIcon = "ChengHao",
+	},
+	["边关守护者lv8"] = { 
+		xls_id = "边关守护者lv8",
+		rightIcon = "ChengHao",
+	},
+	["地煞☆"] = { 
+		xls_id = "地煞☆",
+		rightIcon = "Shoushi3",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["怪物猎人[称号]"] = { 
+		xls_id = "怪物猎人[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["‖「谣影神靴」‖"] = { 
+		xls_id = "‖「谣影神靴」‖",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["武之法则"] = { 
+		xls_id = "武之法则",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["江湖侠隐"] = { 
+		xls_id = "江湖侠隐",
+		rightIcon = "ChengHao",
+	},
+	["武林神话"] = { 
+		xls_id = "武林神话",
+		rightIcon = "ChengHao",
+	},
+	["至尊宝箱"] = { 
+		xls_id = "至尊宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["青天战幻链"] = { 
+		xls_id = "青天战幻链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["法宝核心"] = { 
+		xls_id = "法宝核心",
+	},
+	["被封印的剑灵"] = { 
+		xls_id = "被封印的剑灵",
+		bg = "XuanTianZhiCheng",
+	},
+	["幻灵水晶"] = { 
+		xls_id = "幻灵水晶",
+		bg = "XuanTianZhiCheng",
+	},
+	["帝释无双"] = { 
+		xls_id = "帝释无双",
+		rightIcon = "ChengHao",
+	},
+	["灭世·链"] = { 
+		xls_id = "灭世·链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["全能选手"] = { 
+		xls_id = "全能选手",
+		bg = "XuanTianZhiCheng",
+	},
+	["黄金靴子"] = { 
+		xls_id = "黄金靴子",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["辰星战戒"] = { 
+		xls_id = "辰星战戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["猪脑过载"] = { 
+		xls_id = "猪脑过载",
+		bg = "XuanTianZhiCheng",
+	},
+	["花到上头"] = { 
+		xls_id = "花到上头",
+		bg = "XuanTianZhiCheng",
+	},
+	["神王の拳III"] = { 
+		xls_id = "神王の拳III",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["降龍·带"] = { 
+		xls_id = "降龍·带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["古月彻地斩"] = { 
+		xls_id = "古月彻地斩",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["大富翁礼包"] = { 
+		xls_id = "大富翁礼包",
+		bg = "shengdan",
+	},
+	["红莲护手[白羽]"] = { 
+		xls_id = "红莲护手[白羽]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["觉醒三重天"] = { 
+		xls_id = "觉醒三重天",
+		rightIcon = "ChengHao",
+	},
+	["王之面纱"] = { 
+		xls_id = "王之面纱",
+		bg = "XuanTianZhiCheng",
+	},
+	["觉醒五重天"] = { 
+		xls_id = "觉醒五重天",
+		rightIcon = "ChengHao",
+	},
+	["贤者战靴[伏魔]"] = { 
+		xls_id = "贤者战靴[伏魔]",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["魔曲『戒』"] = { 
+		xls_id = "魔曲『戒』",
+		rightIcon = "Jiezhi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["大天使的神威"] = { 
+		xls_id = "大天使的神威",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["深蓝之恋"] = { 
+		xls_id = "深蓝之恋",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["邪恶秘籍[技能]"] = { 
+		xls_id = "邪恶秘籍[技能]",
 		rightIcon = "jineng",
-	},
-	["半月弯刀[技能]"] = {
+		leftIcon = "QiTa",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "jineng",
 	},
-	["绑定金币"] = {
+	["≮天界ヾ守护≯"] = { 
+		xls_id = "≮天界ヾ守护≯",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["青铜腰带[时装]"] = { 
+		xls_id = "青铜腰带[时装]",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["成双成对"] = { 
+		xls_id = "成双成对",
+	},
+	["星神之坠"] = { 
+		xls_id = "星神之坠",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["如来神掌[切怪神级]"] = { 
+		xls_id = "如来神掌[切怪神级]",
+	},
+	["天启之刃[魂]"] = { 
+		xls_id = "天启之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["狗策划的手机[切割]"] = { 
+		xls_id = "狗策划的手机[切割]",
+	},
+	["诅咒之冠"] = { 
+		xls_id = "诅咒之冠",
 		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "HuoBi",
 	},
-	["元宝"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "HuoBi",
+	["八八八八"] = { 
+		xls_id = "八八八八",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
 	},
-	["冠名大哥[称号]"] = {
-		bg = "guanming",
-		leftIcon = "QiTa",
+	["土豪玩家"] = { 
+		xls_id = "土豪玩家",
 		rightIcon = "ChengHao",
 	},
-	["龙行天下[时装]"] = {
-		bg = "guanming",
-		leftIcon = "QiTa",
-		rightIcon = "Shizhuangjianjia",
+	["震天护手"] = { 
+		xls_id = "震天护手",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["幻境通行证"] = {
+	["时空旅人"] = { 
+		xls_id = "时空旅人",
+		rightIcon = "ChengHao",
+	},
+	["元素之心"] = { 
+		xls_id = "元素之心",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["夜魂之殇"] = { 
+		xls_id = "夜魂之殇",
+		rightIcon = "Shouzhuo",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["魔化的眼罩"] = { 
+		xls_id = "魔化的眼罩",
+		rightIcon = "Zhenbao5",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["氪金大佬"] = { 
+		xls_id = "氪金大佬",
+		rightIcon = "ChengHao",
+	},
+	["妖魔玉佩"] = { 
+		xls_id = "妖魔玉佩",
+		rightIcon = "Shoushi6",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["≮两仪≯"] = { 
+		xls_id = "≮两仪≯",
+		rightIcon = "ChengHao",
+	},
+	["恶之握"] = { 
+		xls_id = "恶之握",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["削铁如泥Lv9"] = { 
+		xls_id = "削铁如泥Lv9",
+		rightIcon = "ChengHao",
+	},
+	["魔族腰带「传承」"] = { 
+		xls_id = "魔族腰带「传承」",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["≮四象≯"] = { 
+		xls_id = "≮四象≯",
+		rightIcon = "ChengHao",
+	},
+	["≮六合≯"] = { 
+		xls_id = "≮六合≯",
+		rightIcon = "ChengHao",
+	},
+	["苍月圣狂斩"] = { 
+		xls_id = "苍月圣狂斩",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["明昼吊坠"] = { 
+		xls_id = "明昼吊坠",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["削铁如泥Lv16"] = { 
+		xls_id = "削铁如泥Lv16",
+		rightIcon = "ChengHao",
+	},
+	["合区超人"] = { 
+		xls_id = "合区超人",
+		bg = "XuanTianZhiCheng",
+	},
+	["≮十方≯"] = { 
+		xls_id = "≮十方≯",
+		rightIcon = "ChengHao",
+	},
+	["筹码"] = { 
+		xls_id = "筹码",
+		bg = "XuanTianZhiCheng",
+	},
+	["≮神威≯"] = { 
+		xls_id = "≮神威≯",
+		rightIcon = "ChengHao",
+	},
+	["死亡笔记(下)"] = { 
+		xls_id = "死亡笔记(下)",
+		rightIcon = "Zhenbao2",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["≮超凡≯"] = { 
+		xls_id = "≮超凡≯",
+		rightIcon = "ChengHao",
+	},
+	["铁布衫-2"] = { 
+		xls_id = "铁布衫-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["十都头盔[魂]"] = { 
+		xls_id = "十都头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["天元统领[称号]"] = { 
+		xls_id = "天元统领[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["飓风之灵"] = { 
+		xls_id = "飓风之灵",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["元神丹"] = { 
+		xls_id = "元神丹",
+		bg = "XuanTianZhiCheng",
+	},
+	["≮御空≯"] = { 
+		xls_id = "≮御空≯",
+		rightIcon = "ChengHao",
+	},
+	["≮潜龙≯"] = { 
+		xls_id = "≮潜龙≯",
+		rightIcon = "ChengHao",
+	},
+	["禁言"] = { 
+		xls_id = "禁言",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["死亡之环"] = { 
+		xls_id = "死亡之环",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["高阶禁物使"] = { 
+		xls_id = "高阶禁物使",
+		rightIcon = "ChengHao",
+	},
+	["月亮井"] = { 
+		xls_id = "月亮井",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["企鹅村[时装]"] = { 
+		xls_id = "企鹅村[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["GM的百宝箱"] = { 
+		xls_id = "GM的百宝箱",
+		bg = "XuanTianZhiCheng",
+	},
+	["仙人境界"] = { 
+		xls_id = "仙人境界",
+		rightIcon = "ChengHao",
+	},
+	["五岳头盔[魂]"] = { 
+		xls_id = "五岳头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["小资党"] = { 
+		xls_id = "小资党",
+		rightIcon = "ChengHao",
+	},
+	["时空穿梭者"] = { 
+		xls_id = "时空穿梭者",
+		rightIcon = "ChengHao",
+	},
+	["傀儡の隐"] = { 
+		xls_id = "傀儡の隐",
+		rightIcon = "Jiezhi",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["天启头盔[魂]"] = { 
+		xls_id = "天启头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["乱斗之王"] = { 
+		xls_id = "乱斗之王",
+		rightIcon = "ChengHao",
+	},
+	["发财咯！"] = { 
+		xls_id = "发财咯！",
+		bg = "XuanTianZhiCheng",
+	},
+	["≮五行≯"] = { 
+		xls_id = "≮五行≯",
+		rightIcon = "ChengHao",
+	},
+	["暗影之缚"] = { 
+		xls_id = "暗影之缚",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["神魂宝箱(小)"] = { 
+		xls_id = "神魂宝箱(小)",
+		rightIcon = "Cailiao",
+		leftIcon = "QiTa",
+		bg = "hundunlingbao",
+	},
+	["神明代理人"] = { 
+		xls_id = "神明代理人",
+		rightIcon = "ChengHao",
+	},
+	["逐日剑法"] = { 
+		xls_id = "逐日剑法",
+		bg = "XuanTianZhiCheng",
+	},
+	["辰星战链"] = { 
+		xls_id = "辰星战链",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["【EX级】圣之语"] = { 
+		xls_id = "【EX级】圣之语",
+		rightIcon = "Zhenbao1",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["星辉的祷告乀"] = { 
+		xls_id = "星辉的祷告乀",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["八荒指环[魂]"] = { 
+		xls_id = "八荒指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["血杀"] = { 
+		xls_id = "血杀",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["火将印信"] = { 
+		xls_id = "火将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["流光·庇护[男]"] = { 
+		xls_id = "流光·庇护[男]",
+		rightIcon = "Yifu",
+		leftIcon = "teshushenqi",
+		bg = "teshushenqi",
+	},
+	["时空穿梭者卷轴"] = { 
+		xls_id = "时空穿梭者卷轴",
+	},
+	["官方指挥"] = { 
+		xls_id = "官方指挥",
+		rightIcon = "ChengHao",
+	},
+	["≮七星≯"] = { 
+		xls_id = "≮七星≯",
+		rightIcon = "ChengHao",
+	},
+	["哭丧棒"] = { 
+		xls_id = "哭丧棒",
+		rightIcon = "Zhenbao5",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["秋露白"] = { 
+		xls_id = "秋露白",
+		bg = "XuanTianZhiCheng",
+	},
+	["炽热双刃"] = { 
+		xls_id = "炽热双刃",
+	},
+	["七魄·臭肺"] = { 
+		xls_id = "七魄·臭肺",
+		bg = "XuanTianZhiCheng",
+	},
+	["神豪玩家"] = { 
+		xls_id = "神豪玩家",
+		rightIcon = "ChengHao",
+	},
+	["巨龙的祝福[切割]"] = { 
+		xls_id = "巨龙的祝福[切割]",
+	},
+	["圣战项链[时装]"] = { 
+		xls_id = "圣战项链[时装]",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["罪恶审判×"] = { 
+		xls_id = "罪恶审判×",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["边关守护者lv1"] = { 
+		xls_id = "边关守护者lv1",
+		rightIcon = "ChengHao",
+	},
+	["≮出尘≯"] = { 
+		xls_id = "≮出尘≯",
+		rightIcon = "ChengHao",
+	},
+	["无序的邪力"] = { 
+		xls_id = "无序的邪力",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["GM的老舅[爆率]"] = { 
+		xls_id = "GM的老舅[爆率]",
+	},
+	["梦境耳语"] = { 
+		xls_id = "梦境耳语",
+		bg = "XuanTianZhiCheng",
+	},
+	["七星项链[魂]"] = { 
+		xls_id = "七星项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["·聖裁降臨SSS·"] = { 
+		xls_id = "·聖裁降臨SSS·",
+		rightIcon = "Guanghuan",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["小飞鞋"] = { 
+		xls_id = "小飞鞋",
+	},
+	["丑时魄魂灯"] = { 
+		xls_id = "丑时魄魂灯",
+		rightIcon = "ChengHao",
+	},
+	["未穿戴"] = { 
+		xls_id = "未穿戴",
+		bg = "XuanTianZhiCheng",
+	},
+	["大哥罩我"] = { 
+		xls_id = "大哥罩我",
+		bg = "XuanTianZhiCheng",
+	},
+	["希拉娜之矛"] = { 
+		xls_id = "希拉娜之矛",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv5"] = { 
+		xls_id = "致命一击Lv5",
+		rightIcon = "ChengHao",
+	},
+	["福星-1"] = { 
+		xls_id = "福星-1",
+		bg = "XuanTianZhiCheng",
+	},
+	["时光的沙漏"] = { 
+		xls_id = "时光的沙漏",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["外来人"] = { 
+		xls_id = "外来人",
+		bg = "XuanTianZhiCheng",
+	},
+	["悲鸣之焰"] = { 
+		xls_id = "悲鸣之焰",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["酉时万魂灯"] = { 
+		xls_id = "酉时万魂灯",
+		rightIcon = "ChengHao",
+	},
+	["九曜指环[魂]"] = { 
+		xls_id = "九曜指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["冥魂引渡人"] = { 
+		xls_id = "冥魂引渡人",
+		rightIcon = "ChengHao",
+	},
+	["觉醒六重天"] = { 
+		xls_id = "觉醒六重天",
+		rightIcon = "ChengHao",
+	},
+	["收割者"] = { 
+		xls_id = "收割者",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["⊙赤凰·修罗⊙(女)"] = { 
+		xls_id = "⊙赤凰·修罗⊙(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["剑灵之谜"] = { 
+		xls_id = "剑灵之谜",
+		bg = "XuanTianZhiCheng",
+	},
+	["暗夜潜行者"] = { 
+		xls_id = "暗夜潜行者",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["真视秘籍"] = { 
+		xls_id = "真视秘籍",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·守护+3"] = { 
+		xls_id = "神·守护+3",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["千年古棺"] = { 
+		xls_id = "千年古棺",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["十万年古棺"] = { 
+		xls_id = "十万年古棺",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["黑暗的真理[精]"] = { 
+		xls_id = "黑暗的真理[精]",
+		rightIcon = "Shoushi3",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["七魄·雀阴"] = { 
+		xls_id = "七魄·雀阴",
+		bg = "XuanTianZhiCheng",
+	},
+	["『乾坤腰』"] = { 
+		xls_id = "『乾坤腰』",
+		rightIcon = "Yaodai",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["黄金叶"] = { 
+		xls_id = "黄金叶",
+		bg = "XuanTianZhiCheng",
+	},
+	["死神降临"] = { 
+		xls_id = "死神降临",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["勾魂索"] = { 
+		xls_id = "勾魂索",
+		rightIcon = "Zhenbao6",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["摧枯拉朽"] = { 
+		xls_id = "摧枯拉朽",
+		bg = "XuanTianZhiCheng",
+	},
+	["审判之魂"] = { 
+		xls_id = "审判之魂",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["琥珀净瓶"] = { 
+		xls_id = "琥珀净瓶",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["三文鱼"] = { 
+		xls_id = "三文鱼",
+		bg = "shengdan",
+	},
+	["新月宝珠"] = { 
+		xls_id = "新月宝珠",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["哥布林吊坠[愤怒]"] = { 
+		xls_id = "哥布林吊坠[愤怒]",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["[龍器]祖龍號角"] = { 
+		xls_id = "[龍器]祖龍號角",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["未央"] = { 
+		xls_id = "未央",
+		bg = "XuanTianZhiCheng",
+	},
+	["锁魂咒"] = { 
+		xls_id = "锁魂咒",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["无主的宝箱"] = { 
+		xls_id = "无主的宝箱",
+	},
+	["疾风刻印Lv.7"] = { 
+		xls_id = "疾风刻印Lv.7",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["灵石"] = { 
+		xls_id = "灵石",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔刃·噬魂(SR)"] = { 
+		xls_id = "魔刃·噬魂(SR)",
+		rightIcon = "Zhenbao2",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["冥魂引渡人[称号]"] = { 
+		xls_id = "冥魂引渡人[称号]",
+		bg = "XuanTianZhiCheng",
+	},
+	["老G画的饼"] = { 
+		xls_id = "老G画的饼",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["残魂凶灵[时装]"] = { 
+		xls_id = "残魂凶灵[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["帝国の神龙(究极体)"] = { 
+		xls_id = "帝国の神龙(究极体)",
+		rightIcon = "Shoushi3",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["麒麟心"] = { 
+		xls_id = "麒麟心",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["修炼指环[秘纹]"] = { 
+		xls_id = "修炼指环[秘纹]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["金币红包(大)"] = { 
+		xls_id = "金币红包(大)",
+		bg = "XuanTianZhiCheng",
+	},
+	["开天斩"] = { 
+		xls_id = "开天斩",
+		bg = "XuanTianZhiCheng",
+	},
+	["星瀚之力"] = { 
+		xls_id = "星瀚之力",
+		rightIcon = "Zhenbao6",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["云履"] = { 
+		xls_id = "云履",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["1000元宝"] = { 
+		xls_id = "1000元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["潮影钩矛"] = { 
+		xls_id = "潮影钩矛",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["神谕之盔"] = { 
+		xls_id = "神谕之盔",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["死亡如风[称号]"] = { 
+		xls_id = "死亡如风[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["牛马新星[称号]"] = { 
+		xls_id = "牛马新星[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["罗盘玫瑰"] = { 
+		xls_id = "罗盘玫瑰",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["修炼手镯[秘纹]"] = { 
+		xls_id = "修炼手镯[秘纹]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["奋进时装盒"] = { 
+		xls_id = "奋进时装盒",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙之霸主[称号]"] = { 
+		xls_id = "龙之霸主[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["禁墟：不朽"] = { 
+		xls_id = "禁墟：不朽",
+		rightIcon = "ChengHao",
+	},
+	["西海岸的秘密"] = { 
+		xls_id = "西海岸的秘密",
+		bg = "XuanTianZhiCheng",
+	},
+	["魔兽之爪"] = { 
+		xls_id = "魔兽之爪",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["神王の拳IV"] = { 
+		xls_id = "神王の拳IV",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["黑暗的谏言[精]"] = { 
+		xls_id = "黑暗的谏言[精]",
+		rightIcon = "Zhenbao4",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["擒龙手[技能]"] = { 
+		xls_id = "擒龙手[技能]",
+		rightIcon = "Cailiao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["炽热腰带[狂暴]"] = { 
+		xls_id = "炽热腰带[狂暴]",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["闪电结界"] = { 
+		xls_id = "闪电结界",
+		rightIcon = "Zhenbao8",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["地下城门票111"] = { 
+		xls_id = "地下城门票111",
+	},
+	["幻境通行证"] = { 
+		xls_id = "幻境通行证",
+		rightIcon = "Cailiao",
+		leftIcon = "QiTa",
 		bg = "huanjing",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
 	},
-	["吾為天帝·镇杀世間一切敌[时装]"] = {
-		bg = "wuwan",
+	["灵符红包(小)"] = { 
+		xls_id = "灵符红包(小)",
+		bg = "XuanTianZhiCheng",
+	},
+	["怨念挂珠"] = { 
+		xls_id = "怨念挂珠",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["天启恺甲[魂]"] = { 
+		xls_id = "天启恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["超凡圣灵石"] = { 
+		xls_id = "超凡圣灵石",
+		rightIcon = "Fabao",
 		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["血牛达人Lv13"] = { 
+		xls_id = "血牛达人Lv13",
+		rightIcon = "ChengHao",
+	},
+	["天煞符"] = { 
+		xls_id = "天煞符",
+		rightIcon = "Mabi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["神龙之心"] = { 
+		xls_id = "神龙之心",
+		bg = "XuanTianZhiCheng",
+	},
+	["蕴含魔力的白骨"] = { 
+		xls_id = "蕴含魔力的白骨",
+		bg = "XuanTianZhiCheng",
+	},
+	["摸鱼达人"] = { 
+		xls_id = "摸鱼达人",
+		rightIcon = "ChengHao",
+	},
+	["红颜天怒メ"] = { 
+		xls_id = "红颜天怒メ",
 		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["独步天下[称号]"] = {
-		bg = "wuwan",
-		leftIcon = "QiTa",
-		rightIcon = "ChengHao",
+	["RMB点"] = { 
+		xls_id = "RMB点",
 	},
-	["天启之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["天启恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["天启指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["天启手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["天启头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["天启项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["双星之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["双星恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["双星指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["双星手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["双星头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["双星项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["三魂之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["三魂恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["三魂指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["三魂手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["三魂头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["三魂项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["四玄之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["四玄恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["四玄指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["四玄手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["四玄头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["四玄项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["五岳之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["五岳恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["五岳指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["五岳手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["五岳头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["五岳项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["六合之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["六合恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["六合指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["六合手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["六合头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["六合项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["七星之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["七星恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["七星指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["七星手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["七星头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["七星项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["八荒之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["八荒恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["八荒指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["八荒手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["八荒头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["八荒项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["九曜之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["九曜恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["九曜指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["九曜手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["九曜头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["九曜项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["十都之刃[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangwuqi",
-	},
-	["十都恺甲[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungyifu",
-	},
-	["十都指环[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangjiezhi",
-	},
-	["十都手镯[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangshouzhuo",
-	},
-	["十都头盔[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhuangtoukui",
-	},
-	["十都项链[魂]"] = {
-		bg = "Hunzhuang",
-		leftIcon = "hunzhuang",
-		rightIcon = "hunzhaungxianglian",
-	},
-	["战神之巅[称号]"] = {
-		bg = "hundunlingbao",
-		leftIcon = "QiTa",
-		rightIcon = "ChengHao",
-	},
-	["苍穹霸主[称号]"] = {
-		bg = "hundunlingbao",
-		leftIcon = "QiTa",
-		rightIcon = "ChengHao",
-	},
-	["修罗破军[称号]"] = {
-		bg = "hundunlingbao",
-		leftIcon = "QiTa",
-		rightIcon = "ChengHao",
-	},
-	["腐化メ恐惧"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["腐化メ奸诈"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["腐化メ残暴"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["腐化メ虚伪"] = {
-		bg = "beibaoshenqi",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
-	},
-	["神魂碎片"] = {
-		bg = "hundunlingbao",
-		leftIcon = "QiTa",
+	["神魂宝箱(大)"] = { 
+		xls_id = "神魂宝箱(大)",
 		rightIcon = "Cailiao",
-	},
-	["神魂结晶"] = {
+		leftIcon = "QiTa",
 		bg = "hundunlingbao",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
 	},
-	["神魂宝箱(小)"] = {
-		bg = "hundunlingbao",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
-	},
-	["神魂宝箱(中)"] = {
-		bg = "hundunlingbao",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
-	},
-	["神魂宝箱(大)"] = {
-		bg = "hundunlingbao",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
-	},
-	["擒龙手[技能]"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
-	},
-	["后天造化箓"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
-	},
-	["精魄碎片"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "Cailiao",
-	},
-	["群星之怒★★★"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Wuqi",
-	},
-	["夜风·不败剑意"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Wuqi",
-	},
-	["星辉的祷告乀"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yifu",
-	},
-	["御天机"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Yifu",
-	},
-	["哨兵之首"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["无序战盔"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Toukui",
-	},
-	["生灵·屠杀"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["星神之坠"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xianglian",
-	},
-	["幕轮"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
+	["灭世·手"] = { 
+		xls_id = "灭世·手",
 		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
 	},
-	["狂魔·永夜"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
+	["酆都的运转核心"] = { 
+		xls_id = "酆都的运转核心",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
 	},
-	["贪婪之噬"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shouzhuo",
+	["亥时言魂灯"] = { 
+		xls_id = "亥时言魂灯",
+		rightIcon = "ChengHao",
 	},
-	["影幕之指"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
+	["杀戮刻印Lv.12"] = { 
+		xls_id = "杀戮刻印Lv.12",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
 	},
-	["★★星魂永燃★★"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["无序的邪力"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Jiezhi",
-	},
-	["无序的凝视"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Jiezhi",
-	},
-	["刺·束缚之隐"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
+	["抉择"] = { 
+		xls_id = "抉择",
 		rightIcon = "Xiezi",
-	},
-	["无序◎奥秘"] = {
-		bg = "xinyueshenyu",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Xiezi",
+		bg = "poxiaozhijing",
 	},
-	["『神耀』"] = {
-		bg = "xinyueshenyu",
+	["守夜人之徽"] = { 
+		xls_id = "守夜人之徽",
+		rightIcon = "Shouzhuo",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
+		bg = "xiyouzhuanshu",
 	},
-	["悟道神带"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Yaodai",
+	["天界的降罚"] = { 
+		xls_id = "天界的降罚",
 	},
-	["原初■混乱■"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Yaodai",
-	},
-	["〝回魂〞"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["心有琉璃"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Fuhuo",
-	},
-	["無上生霊″魂灭生"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Fuhuo",
-	},
-	["『畸变』"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["光辉之怒·鸩"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Mabi",
-	},
-	["星辉·猎杀狩命"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Mabi",
-	},
-	["◆黑洞◆"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["万法面具"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Douli",
-	},
-	["·天魔之冠·破天·"] = {
-		bg = "fenghuang",
-		leftIcon = "shenshengshishi",
-		rightIcon = "Douli",
-	},
-	["血奴印记"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["混乱制造者"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Guanghuan",
-	},
-	["新月头盔[月灵]"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["新月项链[月灵]"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["醉月手镯[魂灭]"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["醉月戒指[魂灭]"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["风月腰带[魂生]"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["风月鞋子[魂生]"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "xiyouzhuanshu",
+	["紫绸靴[时装]"] = { 
+		xls_id = "紫绸靴[时装]",
 		rightIcon = "Shizhuangxiezi",
+		leftIcon = "PuTong-3",
+		bg = "putong",
 	},
-	["新月领域△核心"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["卐卐正道鏡卐卐"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangtoukui",
-	},
-	["卐卐提魂锁卐卐"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangxianglian",
-	},
-	["△△雷道天卷△△"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["△△玄天令△△"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["▲▲火雲真經▲▲"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangshouzhuo",
-	},
-	["▲▲水鏡太極▲▲"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangjiezhi",
-	},
-	["‖「谣影神靴」‖"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangxiezi",
-	},
-	["‖「太清流珠」‖"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "Shizhuangyaodai",
-	},
-	["ζ聖●法相天地ζ"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "ShizhuangFaXiang",
-	},
-	["ζ法相天地ζ"] = {
-		bg = "chaoshenqi",
-		leftIcon = "chaoshenqi",
-		rightIcon = "ShizhuangFaXiang",
-	},
-	["神之■庇护"] = {
-		bg = "xinyueshenyu",
-		leftIcon = "chuanshiyiwu",
-		rightIcon = "Zhenbao9",
-	},
-	["正将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["提将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["反将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["脱将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["风将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["火将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["除将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["谣将印信"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["血色残刃"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["破天印记"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["星图残卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["月亮井"] = {
-		bg = "beibaoshenqi",
+	["[吞噬]骨火之灵"] = { 
+		xls_id = "[吞噬]骨火之灵",
+		rightIcon = "Dunpai",
 		leftIcon = "xiyouzhuanshu",
-		rightIcon = "Beibaoshenqi",
+		bg = "xiyouzhuanshu",
 	},
-	["黑刀·夜"] = {
-		bg = "beibaoshenqi",
+	["四玄手镯[魂]"] = { 
+		xls_id = "四玄手镯[魂]",
+		rightIcon = "hunzhuangshouzhuo",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["圣灵壁垒"] = { 
+		xls_id = "圣灵壁垒",
+		rightIcon = "Dunpai",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["破魔斗笠+6"] = { 
+		xls_id = "破魔斗笠+6",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["水晶之恋"] = { 
+		xls_id = "水晶之恋",
+		rightIcon = "Fuhuo",
 		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["绑定灵符"] = { 
+		xls_id = "绑定灵符",
+		rightIcon = "HuoBi",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["四玄头盔[魂]"] = { 
+		xls_id = "四玄头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["疾風·镯"] = { 
+		xls_id = "疾風·镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["风尘奇侠"] = { 
+		xls_id = "风尘奇侠",
+		rightIcon = "ChengHao",
+	},
+	["霜冻守护の心"] = { 
+		xls_id = "霜冻守护の心",
 		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
 	},
-	["月夜战神的认可[称号卷]"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "ChengHao",
-	},
-	["天下共主[称号卷]"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "ChengHao",
-	},
-	["不灭之魂[称号卷]"] = {
-		bg = "XuanTianZhiCheng",
-		leftIcon = "QiTa",
-		rightIcon = "ChengHao",
-	},
-	["不灭之魂宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["天下共主宝箱"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["火炎焱燚[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["暗影之行[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["幽鬼[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["蓝灵枪仙[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["企鹅村[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["赤金罗刹[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["银翼[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["瑶瑶[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["残魂凶灵[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["血杀之誓[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["恶鬼战神[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["敬天圣骑[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["炽热之魂[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["夜帝[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["剑仙[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["狩魂[时装]"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["神器格扩展卷"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["奋进时装盒"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七魄·尸狗"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七魄·伏矢"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七魄·雀阴"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七魄·吞贼"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七魄·非毒"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七魄·除秽"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["七魄·臭肺"] = {
-		bg = "XuanTianZhiCheng",
-	},
-	["圣诞花环"] = {
-		bg = "shengdan",
-	},
-	["步步高升[足迹]"] = {
-		bg = "shengdan",
-	},
-	["圣诞时光[光环]"] = {
-		bg = "shengdan",
-	},
-	["圣诞雪宝[时装]"] = {
-		bg = "shengdan",
-	},
-	["暴走甜心[时装]"] = {
-		bg = "shengdan",
-	},
-	["牛马手办一对"] = {
-		bg = "shengdan",
-	},
-	["手办兑换卷"] = {
-		bg = "shengdan",
-	},
-	["圣诞先生[时装]"] = {
-		bg = "shengdan",
-	},
-	["圣诞小姐[时装]"] = {
-		bg = "shengdan",
-	},
-	["罗非鱼"] = {
-		bg = "shengdan",
-	},
-	["沙丁鱼"] = {
-		bg = "shengdan",
-	},
-	["三文鱼"] = {
-		bg = "shengdan",
-	},
-	["石斑鱼"] = {
-		bg = "shengdan",
-	},
-	["圣诞老人的靴子"] = {
-		bg = "shengdan",
-	},
-	["麋鹿金铃铛"] = {
-		bg = "shengdan",
-	},
-	["圣诞幸运星"] = {
-		bg = "shengdan",
-	},
-	["圣诞饼干"] = {
-		bg = "shengdan",
-	},
-	["圣诞老人徽章"] = {
-		bg = "shengdan",
-	},
-	["三百六十五个祝福"] = {
-		bg = "shengdan",
-	},
-	["大富翁礼包"] = {
-		bg = "shengdan",
-	},
-	["太古龍神·镇魂神武"] = {
-		bg = "hundunlingbao",
+	["天妖现世·荡魔逆仙"] = { 
+		xls_id = "天妖现世·荡魔逆仙",
+		rightIcon = "Xianglian",
 		leftIcon = "hundunlingbao",
+		bg = "hundunlingbao",
+	},
+	["圣诞老人的靴子"] = { 
+		xls_id = "圣诞老人的靴子",
+		bg = "shengdan",
+	},
+	["坐标记录石"] = { 
+		xls_id = "坐标记录石",
+	},
+	["七星恺甲[魂]"] = { 
+		xls_id = "七星恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["天空的引路人"] = { 
+		xls_id = "天空的引路人",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["断空之痕"] = { 
+		xls_id = "断空之痕",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["聚宝盆[封印]"] = { 
+		xls_id = "聚宝盆[封印]",
+		bg = "XuanTianZhiCheng",
+	},
+	["致命一击Lv3"] = { 
+		xls_id = "致命一击Lv3",
+		rightIcon = "ChengHao",
+	},
+	["九曜之刃[魂]"] = { 
+		xls_id = "九曜之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["红莲战戒[白羽]"] = { 
+		xls_id = "红莲战戒[白羽]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["后起之秀"] = { 
+		xls_id = "后起之秀",
+		rightIcon = "ChengHao",
+	},
+	["麋鹿金铃铛"] = { 
+		xls_id = "麋鹿金铃铛",
+		bg = "shengdan",
+	},
+	["青天战幻盔"] = { 
+		xls_id = "青天战幻盔",
+		rightIcon = "Toukui",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["超级护身符"] = { 
+		xls_id = "超级护身符",
+		bg = "XuanTianZhiCheng",
+	},
+	["神魂结晶"] = { 
+		xls_id = "神魂结晶",
+		rightIcon = "Cailiao",
+		leftIcon = "QiTa",
+		bg = "hundunlingbao",
+	},
+	["九曜头盔[魂]"] = { 
+		xls_id = "九曜头盔[魂]",
+		rightIcon = "hunzhuangtoukui",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["十都之刃[魂]"] = { 
+		xls_id = "十都之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["风将印信"] = { 
+		xls_id = "风将印信",
+		bg = "XuanTianZhiCheng",
+	},
+	["转运金丹"] = { 
+		xls_id = "转运金丹",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙蛋?"] = { 
+		xls_id = "龙蛋?",
+		bg = "XuanTianZhiCheng",
+	},
+	["苍穹霸主[称号]"] = { 
+		xls_id = "苍穹霸主[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "hundunlingbao",
+	},
+	["地藏王的试炼"] = { 
+		xls_id = "地藏王的试炼",
+		rightIcon = "ChengHao",
+	},
+	["【锦衣卫】(女)"] = { 
+		xls_id = "【锦衣卫】(女)",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["美女出浴[血量]"] = { 
+		xls_id = "美女出浴[血量]",
+	},
+	["原初■混乱■"] = { 
+		xls_id = "原初■混乱■",
+		rightIcon = "Yaodai",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["腐化メ残暴"] = { 
+		xls_id = "腐化メ残暴",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["绿宝石矿"] = { 
+		xls_id = "绿宝石矿",
+		bg = "XuanTianZhiCheng",
+	},
+	["天魔心脏★★★"] = { 
+		xls_id = "天魔心脏★★★",
+		rightIcon = "Jiezhi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["雄浑『链』"] = { 
+		xls_id = "雄浑『链』",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["钢铁之躯Lv6"] = { 
+		xls_id = "钢铁之躯Lv6",
+		rightIcon = "ChengHao",
+	},
+	["圣诞饼干"] = { 
+		xls_id = "圣诞饼干",
+		bg = "shengdan",
+	},
+	["一念花尘"] = { 
+		xls_id = "一念花尘",
+		bg = "XuanTianZhiCheng",
+	},
+	["超级加倍"] = { 
+		xls_id = "超级加倍",
+		bg = "XuanTianZhiCheng",
+	},
+	["生灵·屠杀"] = { 
+		xls_id = "生灵·屠杀",
+		rightIcon = "Xianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["灵魂洗礼"] = { 
+		xls_id = "灵魂洗礼",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["黑刀·夜"] = { 
+		xls_id = "黑刀·夜",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["狂魔·永夜"] = { 
+		xls_id = "狂魔·永夜",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["游戏点"] = { 
+		xls_id = "游戏点",
+	},
+	["恢复光环+5"] = { 
+		xls_id = "恢复光环+5",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["血牛达人Lv12"] = { 
+		xls_id = "血牛达人Lv12",
+		rightIcon = "ChengHao",
+	},
+	["灵魂枷锁"] = { 
+		xls_id = "灵魂枷锁",
+		rightIcon = "Douli",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["贪婪之噬"] = { 
+		xls_id = "贪婪之噬",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["天之剑·碎月"] = { 
+		xls_id = "天之剑·碎月",
+		rightIcon = "Wuqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["骷髅头盔[时装]"] = { 
+		xls_id = "骷髅头盔[时装]",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["神·毁灭镯"] = { 
+		xls_id = "神·毁灭镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["太虚≤链≥"] = { 
+		xls_id = "太虚≤链≥",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["·破碎裂痕·"] = { 
+		xls_id = "·破碎裂痕·",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["悟道神带"] = { 
+		xls_id = "悟道神带",
+		rightIcon = "Yaodai",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["吟龍圣镯"] = { 
+		xls_id = "吟龍圣镯",
+		rightIcon = "Shouzhuo",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["“破晓之眼”"] = { 
+		xls_id = "“破晓之眼”",
+		rightIcon = "Toukui",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["星辉神器[契约]"] = { 
+		xls_id = "星辉神器[契约]",
+		rightIcon = "Zhenbao6",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["酆都的秘密"] = { 
+		xls_id = "酆都的秘密",
+		bg = "XuanTianZhiCheng",
+	},
+	["斗转星移[精]+6"] = { 
+		xls_id = "斗转星移[精]+6",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["声望"] = { 
+		xls_id = "声望",
+	},
+	["高级神器盲盒"] = { 
+		xls_id = "高级神器盲盒",
+	},
+	["诅咒的宝箱"] = { 
+		xls_id = "诅咒的宝箱",
+	},
+	["时装碎片"] = { 
+		xls_id = "时装碎片",
+		bg = "XuanTianZhiCheng",
+	},
+	["新月头盔[月灵]"] = { 
+		xls_id = "新月头盔[月灵]",
+		rightIcon = "Shizhuangtoukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["钢铁之躯Lv13"] = { 
+		xls_id = "钢铁之躯Lv13",
+		rightIcon = "ChengHao",
+	},
+	["瑶瑶[时装]"] = { 
+		xls_id = "瑶瑶[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["古龙之翼的秘密1"] = { 
+		xls_id = "古龙之翼的秘密1",
+		bg = "XuanTianZhiCheng",
+	},
+	["月光印记"] = { 
+		xls_id = "月光印记",
+		rightIcon = "Mabi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["炽热战靴[狂暴]"] = { 
+		xls_id = "炽热战靴[狂暴]",
+		rightIcon = "Shizhuangxiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["魔族指环"] = { 
+		xls_id = "魔族指环",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["琳琅满目-2"] = { 
+		xls_id = "琳琅满目-2",
+		bg = "XuanTianZhiCheng",
+	},
+	["‖「太清流珠」‖"] = { 
+		xls_id = "‖「太清流珠」‖",
+		rightIcon = "Shizhuangyaodai",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["炽天使№路西法"] = { 
+		xls_id = "炽天使№路西法",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["被封印的剑灵(SSSR)"] = { 
+		xls_id = "被封印的剑灵(SSSR)",
+		rightIcon = "Yuwaiqiwu",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["「镜·芒」"] = { 
+		xls_id = "「镜·芒」",
 		rightIcon = "Zhenbao8",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["杀戮刻印Lv.1"] = { 
+		xls_id = "杀戮刻印Lv.1",
+		rightIcon = "Shalukeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["真视之眼"] = { 
+		xls_id = "真视之眼",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·主宰仙带"] = { 
+		xls_id = "神·主宰仙带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["九曜项链[魂]"] = { 
+		xls_id = "九曜项链[魂]",
+		rightIcon = "hunzhaungxianglian",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["贤者戒指[伏魔]"] = { 
+		xls_id = "贤者戒指[伏魔]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["力量护臂(精)"] = { 
+		xls_id = "力量护臂(精)",
+		rightIcon = "Shouzhuo",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["削铁如泥Lv7"] = { 
+		xls_id = "削铁如泥Lv7",
+		rightIcon = "ChengHao",
+	},
+	["【传承】秩序腰带"] = { 
+		xls_id = "【传承】秩序腰带",
+		rightIcon = "Yaodai",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["五岳之刃[魂]"] = { 
+		xls_id = "五岳之刃[魂]",
+		rightIcon = "hunzhuangwuqi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["十界返生丹"] = { 
+		xls_id = "十界返生丹",
+		bg = "XuanTianZhiCheng",
+	},
+	["穷奇(太古结界)"] = { 
+		xls_id = "穷奇(太古结界)",
+		rightIcon = "Shoushi4",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["100万元宝"] = { 
+		xls_id = "100万元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["追殺者"] = { 
+		xls_id = "追殺者",
+		rightIcon = "Xiezi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["妖月内胆"] = { 
+		xls_id = "妖月内胆",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["震天铃铛"] = { 
+		xls_id = "震天铃铛",
+		rightIcon = "Xianglian",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["伤害增幅Lv13"] = { 
+		xls_id = "伤害增幅Lv13",
+		rightIcon = "ChengHao",
+	},
+	["旧人归"] = { 
+		xls_id = "旧人归",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["火龙之心"] = { 
+		xls_id = "火龙之心",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣诞花环"] = { 
+		xls_id = "圣诞花环",
+		bg = "shengdan",
+	},
+	["神魂宝箱(中)"] = { 
+		xls_id = "神魂宝箱(中)",
+		rightIcon = "Cailiao",
+		leftIcon = "QiTa",
+		bg = "hundunlingbao",
+	},
+	["异空：千年之光"] = { 
+		xls_id = "异空：千年之光",
+		rightIcon = "Yifu",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["五岳指环[魂]"] = { 
+		xls_id = "五岳指环[魂]",
+		rightIcon = "hunzhuangjiezhi",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["觉醒一重天"] = { 
+		xls_id = "觉醒一重天",
+		rightIcon = "ChengHao",
+	},
+	["≤吸血蝙蝠≥"] = { 
+		xls_id = "≤吸血蝙蝠≥",
+		rightIcon = "Xianglian",
+		leftIcon = "ShenQi",
+		bg = "gaojishenqi",
+	},
+	["一缕神念"] = { 
+		xls_id = "一缕神念",
+		rightIcon = "Shoushi1",
+		leftIcon = "chaoshenqi",
+		bg = "chaoshenqi",
+	},
+	["起源·无尽幻境"] = { 
+		xls_id = "起源·无尽幻境",
+		rightIcon = "Xiezi",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["超高危禁物使"] = { 
+		xls_id = "超高危禁物使",
+		rightIcon = "ChengHao",
+	},
+	["天下霸唱"] = { 
+		xls_id = "天下霸唱",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "qita",
+	},
+	["狂暴之力"] = { 
+		xls_id = "狂暴之力",
+		rightIcon = "ChengHao",
+	},
+	["聚宝盆[财神]"] = { 
+		xls_id = "聚宝盆[财神]",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["斗转星移[精]+8"] = { 
+		xls_id = "斗转星移[精]+8",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["炽热之魂[时装]"] = { 
+		xls_id = "炽热之魂[时装]",
+		bg = "XuanTianZhiCheng",
+	},
+	["神·守护+6"] = { 
+		xls_id = "神·守护+6",
+		rightIcon = "Mabi",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["钢铁之躯Lv18"] = { 
+		xls_id = "钢铁之躯Lv18",
+		rightIcon = "ChengHao",
+	},
+	["魔戒·骷髅王(SSSR)"] = { 
+		xls_id = "魔戒·骷髅王(SSSR)",
+		rightIcon = "Zhenbao1",
+		leftIcon = "longzhihunqi",
+		bg = "longzhihunqi",
+	},
+	["破魔斗笠+2"] = { 
+		xls_id = "破魔斗笠+2",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["黑色收纳盒"] = { 
+		xls_id = "黑色收纳盒",
+		bg = "XuanTianZhiCheng",
+	},
+	["蚀月镜"] = { 
+		xls_id = "蚀月镜",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["破天印记"] = { 
+		xls_id = "破天印记",
+		bg = "XuanTianZhiCheng",
+	},
+	["玉水晶"] = { 
+		xls_id = "玉水晶",
+		bg = "XuanTianZhiCheng",
+	},
+	["圣诞时光[光环]"] = { 
+		xls_id = "圣诞时光[光环]",
+		bg = "shengdan",
+	},
+	["上忍之隐"] = { 
+		xls_id = "上忍之隐",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["钢铁之躯Lv12"] = { 
+		xls_id = "钢铁之躯Lv12",
+		rightIcon = "ChengHao",
+	},
+	["六合恺甲[魂]"] = { 
+		xls_id = "六合恺甲[魂]",
+		rightIcon = "hunzhaungyifu",
+		leftIcon = "hunzhuang",
+		bg = "Hunzhuang",
+	},
+	["钢铁之躯Lv9"] = { 
+		xls_id = "钢铁之躯Lv9",
+		rightIcon = "ChengHao",
+	},
+	["安晓的右眼"] = { 
+		xls_id = "安晓的右眼",
+		rightIcon = "Toukui",
+		leftIcon = "chuanshiyiwu",
+		bg = "chuanshiyiwu",
+	},
+	["贤者手镯[伏魔]"] = { 
+		xls_id = "贤者手镯[伏魔]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xiyouzhuanshu",
+	},
+	["伤害增幅Lv10"] = { 
+		xls_id = "伤害增幅Lv10",
+		rightIcon = "ChengHao",
+	},
+	["怒焰护腕[秘纹]"] = { 
+		xls_id = "怒焰护腕[秘纹]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["魔渊面具"] = { 
+		xls_id = "魔渊面具",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["新月项链[月灵]"] = { 
+		xls_id = "新月项链[月灵]",
+		rightIcon = "Shizhuangxianglian",
+		leftIcon = "xiyouzhuanshu",
+		bg = "xinyueshenyu",
+	},
+	["龙神学院"] = { 
+		xls_id = "龙神学院",
+		bg = "XuanTianZhiCheng",
+	},
+	["狂怒护手"] = { 
+		xls_id = "狂怒护手",
+		rightIcon = "Shouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "poxiaozhijing",
+	},
+	["金条"] = { 
+		xls_id = "金条",
+		bg = "XuanTianZhiCheng",
+	},
+	["5000元宝"] = { 
+		xls_id = "5000元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["2000元宝"] = { 
+		xls_id = "2000元宝",
+		bg = "XuanTianZhiCheng",
+	},
+	["青天怒斩"] = { 
+		xls_id = "青天怒斩",
+		rightIcon = "Wuqi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["灭世·靴"] = { 
+		xls_id = "灭世·靴",
+		rightIcon = "Xiezi",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["远古之龙魂魄1"] = { 
+		xls_id = "远古之龙魂魄1",
+		rightIcon = "Fuhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["元素裂隙权杖"] = { 
+		xls_id = "元素裂隙权杖",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["前进之路"] = { 
+		xls_id = "前进之路",
+		bg = "XuanTianZhiCheng",
+	},
+	["腐化メ奸诈"] = { 
+		xls_id = "腐化メ奸诈",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["第一富豪"] = { 
+		xls_id = "第一富豪",
+		rightIcon = "ChengHao",
+	},
+	["金币红包(小)"] = { 
+		xls_id = "金币红包(小)",
+		bg = "XuanTianZhiCheng",
+	},
+	["三界贤君"] = { 
+		xls_id = "三界贤君",
+		rightIcon = "ChengHao",
+	},
+	["幸运果实"] = { 
+		xls_id = "幸运果实",
+		bg = "XuanTianZhiCheng",
+	},
+	["怪兽面具"] = { 
+		xls_id = "怪兽面具",
+		rightIcon = "Douli",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["≮混天≯"] = { 
+		xls_id = "≮混天≯",
+		rightIcon = "ChengHao",
+	},
+	["钢铁之躯Lv16"] = { 
+		xls_id = "钢铁之躯Lv16",
+		rightIcon = "ChengHao",
+	},
+	["火魔瓶"] = { 
+		xls_id = "火魔瓶",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙·之心+4"] = { 
+		xls_id = "龙·之心+4",
+		rightIcon = "Fuhuo",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["忍者面具"] = { 
+		xls_id = "忍者面具",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["噩梦之首★★"] = { 
+		xls_id = "噩梦之首★★",
+		rightIcon = "Douli",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["灵魂牢笼"] = { 
+		xls_id = "灵魂牢笼",
+		rightIcon = "Beibaoshenqi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "beibaoshenqi",
+	},
+	["泰坦的誓言"] = { 
+		xls_id = "泰坦的誓言",
+		bg = "XuanTianZhiCheng",
+	},
+	["孤勇者"] = { 
+		xls_id = "孤勇者",
+	},
+	["震天腰带"] = { 
+		xls_id = "震天腰带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["龙行天下[时装]"] = { 
+		xls_id = "龙行天下[时装]",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "QiTa",
+		bg = "guanming",
+	},
+	["累计充值"] = { 
+		xls_id = "累计充值",
+	},
+	["血牛达人Lv6"] = { 
+		xls_id = "血牛达人Lv6",
+		rightIcon = "ChengHao",
+	},
+	["神秘古董箱"] = { 
+		xls_id = "神秘古董箱",
+	},
+	["龙神手镯[屠戮]"] = { 
+		xls_id = "龙神手镯[屠戮]",
+		rightIcon = "Shizhuangshouzhuo",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["≮轻·语≯"] = { 
+		xls_id = "≮轻·语≯",
+		rightIcon = "Zhenbao7",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["短兵利刃"] = { 
+		xls_id = "短兵利刃",
+		bg = "XuanTianZhiCheng",
+	},
+	["死亡之戒"] = { 
+		xls_id = "死亡之戒",
+		rightIcon = "Jiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["钢铁之躯Lv10"] = { 
+		xls_id = "钢铁之躯Lv10",
+		rightIcon = "ChengHao",
+	},
+	["恢复光环+1"] = { 
+		xls_id = "恢复光环+1",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["恢复光环+10"] = { 
+		xls_id = "恢复光环+10",
+		rightIcon = "Guanghuan",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["破魔斗笠+5"] = { 
+		xls_id = "破魔斗笠+5",
+		rightIcon = "Douli",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["狩魂の血镰使"] = { 
+		xls_id = "狩魂の血镰使",
+		rightIcon = "Shizhuangjianjia",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["沙丁鱼"] = { 
+		xls_id = "沙丁鱼",
+		bg = "shengdan",
+	},
+	["古月战狂甲"] = { 
+		xls_id = "古月战狂甲",
+		rightIcon = "Yifu",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["守夜人之魄[幽冥]"] = { 
+		xls_id = "守夜人之魄[幽冥]",
+		rightIcon = "Zhenbao2",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["骷髅戒指[时装]"] = { 
+		xls_id = "骷髅戒指[时装]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["血色之影"] = { 
+		xls_id = "血色之影",
+		rightIcon = "Guanghuan",
+		leftIcon = "xiyouzhuanshu",
+		bg = "baihusandalu",
+	},
+	["疾风刻印Lv.6"] = { 
+		xls_id = "疾风刻印Lv.6",
+		rightIcon = "Jifengkeyin",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["黑月·之泪"] = { 
+		xls_id = "黑月·之泪",
+		rightIcon = "Fuhuo",
+		leftIcon = "shenshengshishi",
+		bg = "fenghuang",
+	},
+	["龙神戒指[屠戮]"] = { 
+		xls_id = "龙神戒指[屠戮]",
+		rightIcon = "Shizhuangjiezhi",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["疆良(太古结界)"] = { 
+		xls_id = "疆良(太古结界)",
+		rightIcon = "Shoushi3",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["削铁如泥Lv12"] = { 
+		xls_id = "削铁如泥Lv12",
+		rightIcon = "ChengHao",
+	},
+	["阴阳合一[称号]"] = { 
+		xls_id = "阴阳合一[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "XuanTianZhiCheng",
+	},
+	["傲命☆"] = { 
+		xls_id = "傲命☆",
+		rightIcon = "Zhenbao4",
+		leftIcon = "PuTong-3",
+		bg = "putong",
+	},
+	["寅时绕魂灯"] = { 
+		xls_id = "寅时绕魂灯",
+		rightIcon = "ChengHao",
+	},
+	["三才玄靈扇"] = { 
+		xls_id = "三才玄靈扇",
+		rightIcon = "Fabao",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["天机尊者"] = { 
+		xls_id = "天机尊者",
+		rightIcon = "ChengHao",
+	},
+	["千山破"] = { 
+		xls_id = "千山破",
+		rightIcon = "Toukui",
+		leftIcon = "xiyouzhuanshu",
+		bg = "TaiYangShengCheng",
+	},
+	["斗转星移[残]"] = { 
+		xls_id = "斗转星移[残]",
+		rightIcon = "Chuansong",
+		leftIcon = "teshu",
+		bg = "teshu",
+	},
+	["撕裂者面具"] = { 
+		xls_id = "撕裂者面具",
+		rightIcon = "Douli",
+		leftIcon = "xiyouzhuanshu",
+		bg = "jiedalu",
+	},
+	["赤金点"] = { 
+		xls_id = "赤金点",
+	},
+	["暗·影之翼"] = { 
+		xls_id = "暗·影之翼",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["毁灭の腰带"] = { 
+		xls_id = "毁灭の腰带",
+		rightIcon = "Yaodai",
+		leftIcon = "PuTong-3",
+		bg = "XuanTianZhiCheng",
+	},
+	["钢铁之躯Lv3"] = { 
+		xls_id = "钢铁之躯Lv3",
+		rightIcon = "ChengHao",
+	},
+	["战神之巅[称号]"] = { 
+		xls_id = "战神之巅[称号]",
+		rightIcon = "ChengHao",
+		leftIcon = "QiTa",
+		bg = "hundunlingbao",
+	},
+	["仙器·神翼(精)"] = { 
+		xls_id = "仙器·神翼(精)",
+		rightIcon = "Yifu",
+		leftIcon = "xiyouzhuanshu",
+		bg = "shenshengshishi",
+	},
+	["伤害增幅Lv1"] = { 
+		xls_id = "伤害增幅Lv1",
+		rightIcon = "ChengHao",
 	},
 }
 return config
